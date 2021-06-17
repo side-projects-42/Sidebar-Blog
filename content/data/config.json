@@ -7,7 +7,7 @@
         "title": "Stackbit Fresh",
         "tagline": "This is my iframe playground",
         "profile_img": "/images/favicon.ico",
-        "profile_img_alt": "Author avatar",
+        "profile_img_alt": "logo",
         "background": "dark",
         "has_nav": true,
         "nav_links": [
