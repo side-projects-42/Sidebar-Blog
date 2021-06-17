@@ -31,13 +31,24 @@ seo:
       relativeUrl: true
 layout: page
 ---
+About
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+*   🔭 Contract Web Development **Relational Concepts**
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+*   🌱 I'm currently learning **React/Redux, Python, Java, Express, jQuery**
 
-*Thank You for reading!*
+*   👯 I'm looking to collaborate on [Any web audio or open source educational tools.](https://goofy-euclid-1cd736.netlify.app/core-site/index.html)
+
+*   🤝 I'm looking for help with [Learning React](https://github.com/bgoonz/React-Practice)
+
+*   👨‍💻 All of my projects are available at [github](https://github.com/bgoonz)
+
+*   📝 I regularly write articles on [medium](https://bryanguner.medium.com/) && [Web-Dev-Resource-Hub](https://web-dev-resource-hub.netlify.app/)
+
+*   💬 Ask me about **Anything:**
+
+*   📫 How to reach me [**bryan.guner@gmail.com**](mailto:bryan.guner@gmail.com)
+
+*   ⚡ Fun fact **I played Bamboozle Music Festival at the Meadowlands Stadium Complex when I was 14.**
