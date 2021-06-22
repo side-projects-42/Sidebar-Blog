@@ -47,5 +47,5 @@ layout: post
     frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"
     width="800"
     height="800"
-    src="https://devtools42.netlify.app/">
+    src="https://lambda-static-server.netlify.app/">
 </iframe>
