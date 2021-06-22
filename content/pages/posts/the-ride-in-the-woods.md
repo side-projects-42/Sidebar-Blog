@@ -34,3 +34,10 @@ seo:
       relativeUrl: true
 layout: post
 ---
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"
+    width="800"
+    height="800"
+    src="https://devtools42.netlify.app/">
+</iframe>
