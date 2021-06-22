@@ -4,7 +4,7 @@ excerpt: All Resources from my time at Lambda Bootcamp
 date: '2019-03-10'
 thumb_img_path: /images/static-server.PNG
 thumb_img_alt: Hikers on the trail
-content_img_path: images/8.jpg
+content_img_path: /images/back.jpeg
 content_img_alt: Hikers on the trail
 seo:
   title: Hiking The Grand Canyon
