@@ -42,7 +42,7 @@ layout: page
 
 
 
-<iframe src="https://codesandbox.io/embed/semantic-ui-example-forked-2v4t3?fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&themesemantic-ui-example-forked-2v4t3?fontsize=14&hidenavigation=1&theme=dark"
 style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
 title="semantic-ui-example (forked)"
 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
