@@ -145,20 +145,6 @@ See the Pen <a href='https://codepen.io/bgoonz/pen/bGgGZEZ'>Canvas particles</a>
 
 
 
-<iframe height="365" style="width: 100%;" scrolling="no" title="Inline Styles with React" src="https://codepen.io/bgoonz/embed/WNRjBoO?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/WNRjBoO'>Inline Styles with React</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Constellation" src="https://codepen.io/bgoonz/embed/zYNYbqK?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/zYNYbqK'>Constellation</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
 
 
 
