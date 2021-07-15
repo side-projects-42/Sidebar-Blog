@@ -312,37 +312,6 @@ sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-ori
 
 
 
-<iframe src="https://codesandbox.io/embed/cold-firefly-si5u1?fontsize=14&hidenavigation=1&theme=dark"
-style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-title="cold-firefly-si5u1"
-allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
-
-
-
-
-
-<iframe src="https://codesandbox.io/embed/determined-star-57xlk?fontsize=14&hidenavigation=1&theme=dark"
-style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-title="determined-star-57xlk"
-allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="CSS Grid: Excel Spreadsheet" src="https://codepen.io/bgoonz/embed/abJYgGX?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/abJYgGX'>CSS Grid: Excel Spreadsheet</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
 
 
 
