@@ -164,25 +164,6 @@ See the Pen <a href='https://codepen.io/bgoonz/pen/zYNYbqK'>Constellation</a> by
 
 
 
-<iframe height="365" style="width: 100%;" scrolling="no" title="100 000 particles" src="https://codepen.io/bgoonz/embed/PoWoLNy?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/PoWoLNy'>100 000 particles</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="bgoonz" data-slug-hash="DmnlJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple Responsive Form">
-<span>See the Pen <a href="https://codepen.io/chriscoyier/pen/DmnlJ">
-Simple Responsive Form</a> by Bryan Guner  (<a href="https://codepen.io/chriscoyier">@bgoonz</a>)
-on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
 <iframe height="365" style="width: 100%;" scrolling="no" title="Particle tornado" src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
 (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
