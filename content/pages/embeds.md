@@ -183,48 +183,6 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Don't Overthink It Grids" src="https://codepen.io/bgoonz/embed/RwKVmGN?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/RwKVmGN'>Don't Overthink It Grids</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Smooth Page Scrolling in jQuery" src="https://codepen.io/bgoonz/embed/KKamLNy?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/KKamLNy'>Smooth Page Scrolling in jQuery</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Demo Flexbox 3" src="https://codepen.io/bgoonz/embed/ZELKNBo?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/ZELKNBo'>Demo Flexbox 3</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Scroll Drawing" src="https://codepen.io/bgoonz/embed/abpWrBP?height=265&theme-id=light&
-
-
-
-
-
 <iframe height="365" style="width: 100%;" scrolling="no" title="Particle tornado" src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
 (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
