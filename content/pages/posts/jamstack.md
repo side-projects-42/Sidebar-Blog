@@ -1,17 +1,10 @@
 ---
 title: I 💖Jamstack
-
-JAMstack websites don’t use the microservices architecture, but they go for the micro frontends architecture. Each static page with HTML and JavaScript is a micro frontend. And they can use any REST API, including the one built on the microservices architecture.
 subtitle: >-
   Interior design is “the art or process of designing the interior, often
   including the exterior, of a room or building”.
 excerpt: >-
-  Interior design is “the art or process of designing the interior, often
-  including the exterior, of a room or building”. An interior designer is
-  someone who coordinates and manages such projects. Interior design is a
-  multifaceted profession that includes conceptual development, communicating
-  with the stakeholders of a project and the management and execution of the
-  design.
+  JAMstack websites don’t use the microservices architecture, but they go for the micro frontends architecture. Each static page with HTML and JavaScript is a micro frontend. And they can use any REST API, including the one built on the microservices architecture.
 date: '2017-03-26'
 thumb_img_path: images/1.jpg
 thumb_img_alt: A wooden table and white chairs
