@@ -347,52 +347,6 @@ See the Pen <a href='https://codepen.io/bgoonz/pen/abJYgGX'>CSS Grid: Excel Spre
 
 
 
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="3D Drag out menu with guitar" src="https://codepen.io/bgoonz/embed/QWpmXxq?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/QWpmXxq'>3D Drag out menu with guitar</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Navigation bar with circle flexible highlight POC" src="https://codepen.io/bgoonz/embed/eYvMwKL?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/eYvMwKL'>Navigation bar with circle flexible highlight POC</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="gsuiOscilloscope" src="https://codepen.io/bgoonz/embed/eYvrgpe?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/eYvrgpe'>gsuiOscilloscope</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-<iframe height="510" style="width: 100%;" scrolling="no" title="random quote(React.js)" src="https://codepen.io/bgoonz/embed/ZEeoyKv?height=510&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/ZEeoyKv'>random quote(React.js)</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-
 <iframe height="365" style="width: 100%;" scrolling="no" title="Particle tornado" src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
 (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
