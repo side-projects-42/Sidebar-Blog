@@ -1,7 +1,7 @@
 ---
 title: Static Assets Server
 excerpt: All Resources I Stumble On
-date: '2019-03-10'
+date: '2021-07-15'
 thumb_img_path: /images/static-server.PNG
 thumb_img_alt: Hikers on the trail
 content_img_path: /images/back.jpeg
