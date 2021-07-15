@@ -43,7 +43,7 @@ layout: page
   See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
   (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-          <!-------------------------------------------------------------------------------------->
+          
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="A Simple Fade Effect on Scroll" src="https://codepen.io/bgoonz/embed/OJWzbRa?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/OJWzbRa'>A Simple Fade Effect on Scroll</a> by Bryan C Guner
@@ -51,7 +51,7 @@ layout: page
 </iframe>
     
     
-          <!-------------------------------------------------------------------------------------->
+          
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Controlled Text Example" src="https://codepen.io/bgoonz/embed/oNZYbjZ?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/oNZYbjZ'>Controlled Text Example</a> by Bryan C Guner
@@ -60,7 +60,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="bgoonz" data-slug-hash="yLgLGBM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Dodecahedrons">
@@ -72,7 +72,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="MatrixCode" src="https://codepen.io/bgoonz/embed/KKaKbQX?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/KKaKbQX'>MatrixCode</a> by Bryan C Guner
@@ -83,7 +83,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="TroisJS InstancedMesh Test" src="https://codepen.io/bgoonz/embed/oNBNJMK?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -93,7 +93,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="What's behind ?" src="https://codepen.io/bgoonz/embed/mdRdaQV?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -113,7 +113,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Canvas Sparkly Circle Loader" src="https://codepen.io/bgoonz/embed/ExZxMPN?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/ExZxMPN'>Canvas Sparkly Circle Loader</a> by Bryan C Guner
@@ -123,7 +123,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Canvas particles" src="https://codepen.io/bgoonz/embed/bGgGZEZ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/bGgGZEZ'>Canvas particles</a> by Bryan C Guner
@@ -132,7 +132,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -142,7 +142,7 @@ layout: page
 </iframe>
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="Constellation" src="https://codepen.io/bgoonz/embed/zYNYbqK?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -152,7 +152,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="100 000 particles" src="https://codepen.io/bgoonz/embed/PoWoLNy?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -163,7 +163,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="bgoonz" data-slug-hash="DmnlJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Simple Responsive Form">
@@ -175,7 +175,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Don't Overthink It Grids" src="https://codepen.io/bgoonz/embed/RwKVmGN?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/RwKVmGN'>Don't Overthink It Grids</a> by Bryan C Guner
@@ -185,7 +185,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -196,7 +196,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -206,7 +206,7 @@ layout: page
 </iframe>
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -216,7 +216,7 @@ layout: page
 </iframe>
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -227,7 +227,7 @@ layout: page
 </iframe>
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="The Cursors!" src="https://codepen.io/bgoonz/embed/VwPbOPZ?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/VwPbOPZ'>The Cursors!</a> by Bryan C Guner
@@ -237,7 +237,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="Animating with Top/Left" src="https://codepen.io/bgoonz/embed/RwKVmKP?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -247,7 +247,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Simple jQuery Slideshow" src="https://codepen.io/bgoonz/embed/OJWmYWR?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/OJWmYWR'>Simple jQuery Slideshow</a> by Bryan C Guner
@@ -259,7 +259,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="Simple Responsive Form" src="https://codepen.io/bgoonz/embed/WNRjBRO?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -269,7 +269,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="Controlled Select Example" src="https://codepen.io/bgoonz/embed/BaWQjoP?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -280,7 +280,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe src="https://codesandbox.io/embed/semantic-ui-example-forked-2v4t3?fontsize=14&hidenavigation=1&theme=dark"
@@ -292,14 +292,14 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe width="100%" height="300" src="//jsfiddle.net/bgoonz/uyz1tpsc/3/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -312,7 +312,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe src="https://codesandbox.io/embed/determined-star-57xlk?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -324,7 +324,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     <iframe height="265" style="width: 100%;" scrolling="no" title="CSS Grid: Excel Spreadsheet" src="https://codepen.io/bgoonz/embed/abJYgGX?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -334,7 +334,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     
     
@@ -342,7 +342,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="3D Drag out menu with guitar" src="https://codepen.io/bgoonz/embed/QWpmXxq?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/QWpmXxq'>3D Drag out menu with guitar</a> by Bryan C Guner
@@ -352,7 +352,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="Navigation bar with circle flexible highlight POC" src="https://codepen.io/bgoonz/embed/eYvMwKL?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/eYvMwKL'>Navigation bar with circle flexible highlight POC</a> by Bryan C Guner
@@ -362,7 +362,7 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="265" style="width: 100%;" scrolling="no" title="gsuiOscilloscope" src="https://codepen.io/bgoonz/embed/eYvrgpe?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/eYvrgpe'>gsuiOscilloscope</a> by Bryan C Guner
@@ -370,7 +370,7 @@ layout: page
 </iframe>
     
     
-      <!-------------------------------------------------------------------------------------->
+      
 
     <iframe height="510" style="width: 100%;" scrolling="no" title="random quote(React.js)" src="https://codepen.io/bgoonz/embed/ZEeoyKv?height=510&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bgoonz/pen/ZEeoyKv'>random quote(React.js)</a> by Bryan C Guner
@@ -380,10 +380,10 @@ layout: page
     
     
     
-      <!-------------------------------------------------------------------------------------->
-
-
       
+
+
+
 <iframe height="265" style="width: 100%;" scrolling="no" title="Particle tornado" src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
 (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
