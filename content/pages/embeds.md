@@ -124,23 +124,6 @@ See the Pen <a href='https://codepen.io/bgoonz/pen/BapavbW'>VectorSwarm</a> by B
 
 
 
-<iframe height="365" style="width: 100%;" scrolling="no" title="Canvas Sparkly Circle Loader" src="https://codepen.io/bgoonz/embed/ExZxMPN?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/ExZxMPN'>Canvas Sparkly Circle Loader</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Canvas particles" src="https://codepen.io/bgoonz/embed/bGgGZEZ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/bGgGZEZ'>Canvas particles</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
 
 
 
