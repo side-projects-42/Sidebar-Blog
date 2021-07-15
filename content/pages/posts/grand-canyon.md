@@ -3,9 +3,9 @@ title: Static Assets Server
 excerpt: All Resources I Stumble On
 date: '2021-07-15'
 thumb_img_path: /images/static-server.PNG
-thumb_img_alt: Hikers on the trail
+thumb_img_alt: Static Assets
 content_img_path: /images/back.jpeg
-content_img_alt: Hikers on the trail
+content_img_alt: Static Assets
 seo:
   title: Hiking The Grand Canyon
   description: >-
