@@ -219,75 +219,7 @@ See the Pen <a href='https://codepen.io/bgoonz/pen/ZELKNBo'>Demo Flexbox 3</a> b
 
 
 
-<iframe height="365" style="width: 100%;" scrolling="no" title="Scroll Drawing" src="https://codepen.io/bgoonz/embed/abpWrBP?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/abpWrBP'>Scroll Drawing</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Light Javascript Table Filter" src="https://codepen.io/bgoonz/embed/qBRmGqw?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/qBRmGqw'>Light Javascript Table Filter</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="The Cursors!" src="https://codepen.io/bgoonz/embed/VwPbOPZ?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/VwPbOPZ'>The Cursors!</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Animating with Top/Left" src="https://codepen.io/bgoonz/embed/RwKVmKP?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/RwKVmKP'>Animating with Top/Left</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Simple jQuery Slideshow" src="https://codepen.io/bgoonz/embed/OJWmYWR?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/OJWmYWR'>Simple jQuery Slideshow</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Simple Responsive Form" src="https://codepen.io/bgoonz/embed/WNRjBRO?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/WNRjBRO'>Simple Responsive Form</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-
-
-
-
-
-<iframe height="365" style="width: 100%;" scrolling="no" title="Controlled Select Example" src="https://codepen.io/bgoonz/embed/BaWQjoP?height=265&theme-id=light&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-See the Pen <a href='https://codepen.io/bgoonz/pen/BaWQjoP'>Controlled Select Example</a> by Bryan C Guner
-(<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.
-
-
-
-
+<iframe height="365" style="width: 100%;" scrolling="no" title="Scroll Drawing" src="https://codepen.io/bgoonz/embed/abpWrBP?height=265&theme-id=light&
 
 
 
