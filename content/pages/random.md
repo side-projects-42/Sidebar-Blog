@@ -31,7 +31,8 @@ seo:
       relativeUrl: true
 layout: page
 ---
-About
+
+# About
 
 
 <h1 align="center">Hi 👋, I'm Bryan</h1>
