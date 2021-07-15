@@ -1,5 +1,5 @@
 ---
-title: Goals Tracker
+title: My Gists
 date: '2019-03-24'
 thumb_img_path: /images/goals.png
 thumb_img_alt: Fushimi Inari Shrine in Kyoto
