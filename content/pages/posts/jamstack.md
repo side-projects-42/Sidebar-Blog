@@ -1,5 +1,5 @@
 ---
-title: How To Choose An Interior Designer
+title: I 💖Jamstack
 
 JAMstack websites don’t use the microservices architecture, but they go for the micro frontends architecture. Each static page with HTML and JavaScript is a micro frontend. And they can use any REST API, including the one built on the microservices architecture.
 subtitle: >-
@@ -16,14 +16,14 @@ date: '2017-03-26'
 thumb_img_path: images/1.jpg
 thumb_img_alt: A wooden table and white chairs
 seo:
-  title: How To Choose An Interior Designer
+  title: I 💖Jamstack
   description: Interior design is “the art or process of designing the interior
   extra:
     - name: 'og:type'
       value: article
       keyName: property
     - name: 'og:title'
-      value: How To Choose An Interior Designer
+      value: I 💖Jamstack
       keyName: property
     - name: 'og:description'
       value: Interior design is “the art or process of designing the interior
@@ -35,7 +35,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: How To Choose An Interior Designer
+      value: I 💖Jamstack
     - name: 'twitter:description'
       value: Interior design is “the art or process of designing the interior
     - name: 'twitter:image'
