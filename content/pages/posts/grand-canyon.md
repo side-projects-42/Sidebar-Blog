@@ -7,7 +7,7 @@ thumb_img_alt: Static Assets
 content_img_path: /images/back.jpeg
 content_img_alt: Static Assets
 seo:
-  title: Hiking The Grand Canyon
+  title: Static Assets Server
   description: >-
     The Grand Canyon is a steep-sided canyon carved by the Colorado River in
     Arizona
@@ -16,7 +16,7 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Hiking The Grand Canyon
+      value: Static Assets Server
       keyName: property
     - name: 'og:description'
       value: >-
@@ -30,7 +30,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Hiking The Grand Canyon
+      value: Static Assets Server
     - name: 'twitter:description'
       value: >-
         The Grand Canyon is a steep-sided canyon carved by the Colorado River in
