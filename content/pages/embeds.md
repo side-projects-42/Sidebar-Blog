@@ -39,6 +39,20 @@ layout: page
 
 # Embeds
 
+
+
+
+<iframe src="https://codesandbox.io/embed/semantic-ui-example-forked-2v4t3?fontsize=14&hidenavigation=1&theme=dark"
+style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+title="semantic-ui-example (forked)"
+allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+
+
+
+
 <iframe height="265" style="width: 100%;" scrolling="no" title="Particle tornado" src="https://codepen.io/bgoonz/embed/VwPwRvr?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 See the Pen <a href='https://codepen.io/bgoonz/pen/VwPwRvr'>Particle tornado</a> by Bryan C Guner
 (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
