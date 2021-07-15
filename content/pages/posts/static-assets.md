@@ -40,7 +40,7 @@ seo:
       relativeUrl: true
 layout: post
 ---
-\<iframe id="inlineFrameExample"
+<iframe id="inlineFrameExample"
     title="Inline Frame Example"
     frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"
     width="800"
