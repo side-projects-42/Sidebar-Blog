@@ -1,5 +1,5 @@
 ---
-title: Lambda Static Assets Server
+title: Static Assets Server
 excerpt: All Resources from my time at Lambda Bootcamp
 date: '2019-03-10'
 thumb_img_path: /images/static-server.PNG
