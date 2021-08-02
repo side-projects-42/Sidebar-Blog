@@ -50,7 +50,7 @@ layout: post
 
 <iframe 
 
-http://links-shortcut-site.vercel.app/>
+>
 
 
 <iframe src="https://bgoonz-games.netlify.app/" height="900px" width="100%"> </iframe>
