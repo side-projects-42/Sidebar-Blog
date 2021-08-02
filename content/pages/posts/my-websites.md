@@ -7,7 +7,7 @@ excerpt: >-
   aside.
 date: '2021-08-02'
 thumb_img_path: images/6.jpg
-thumb_img_alt: Hikers on the trail
+thumb_img_alt: code
 content_img_path: /images/react.jpg
 content_img_alt: Hikers on the trail
 seo:
