@@ -42,7 +42,7 @@ seo:
     - name: 'twitter:image'
       value: images/6.jpg
       relativeUrl: true
-layout: post
+layout: page
 ---
 
 ### List of my websites
