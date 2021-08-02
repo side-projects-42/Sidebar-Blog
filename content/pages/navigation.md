@@ -1,6 +1,6 @@
 ---
 title: My Websites
-subtitle: lorem-ipsum
+subtitle: Here's a searchable list of some of my websites
 img_alt: lorem-ipsum
 seo:
   title: ''
