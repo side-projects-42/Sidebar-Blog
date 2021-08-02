@@ -44,13 +44,9 @@ seo:
       relativeUrl: true
 layout: post
 ---
+
 [gist backup](https://en.wikipedia.org/wiki/Hiking)
 
 
 
-<iframe 
-
->
-
-
-<iframe src="https://bgoonz-games.netlify.app/" height="900px" width="100%"> </iframe>
+<iframe src="http://links-shortcut-site.vercel.app/" height="900px" width="100%"> </iframe>
