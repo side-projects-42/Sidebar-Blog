@@ -20,4 +20,4 @@ layout: page
 ### Frequented Websites:
 
 
-| <iframe src="https://random-static-html-deploys.netlify.app/my-websites" height="900px" width="100%"> </iframe>
+| <iframe src="https://links-shortcut-site.vercel.app/1-col.html" height="900px" width="100%"> </iframe>
