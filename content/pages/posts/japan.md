@@ -1,9 +1,9 @@
 ---
-title: My Gists
+title: Goals Tracker
 date: '2019-03-24'
 thumb_img_path: /images/goals.png
 thumb_img_alt: Fushimi Inari Shrine in Kyoto
-content_img_path: /images/kind-whale.gif
+content_img_path: /images/9.jpg
 content_img_alt: Fushimi Inari Shrine in Kyoto
 seo:
   title: A Weekend in Japan
@@ -46,5 +46,5 @@ layout: post
     frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"
     width="800"
     height="800"
-    src="https://bgoonzgist.netlify.app/">
+    src="https://splendid-onion-b0ec3.netlify.app/">
 </iframe>
