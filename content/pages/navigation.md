@@ -10,10 +10,10 @@ seo:
   type: stackbit_page_meta
 layout: page
 ---
-## Lorem ipsum
+##  List of my websites
 
 
-### List of my websites
+
 
 [gist backup](https://en.wikipedia.org/wiki/Hiking)
 
