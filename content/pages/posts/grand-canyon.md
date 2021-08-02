@@ -1,13 +1,13 @@
 ---
-title: Static Assets Server
-excerpt: All Resources I Stumble On
-date: '2021-07-15'
+title: Lambda Static Assets Server
+excerpt: All Resources from my time at Lambda Bootcamp
+date: '2019-03-10'
 thumb_img_path: /images/static-server.PNG
-thumb_img_alt: Static Assets
+thumb_img_alt: Hikers on the trail
 content_img_path: /images/back.jpeg
-content_img_alt: Static Assets
+content_img_alt: Hikers on the trail
 seo:
-  title: Static Assets Server
+  title: Hiking The Grand Canyon
   description: >-
     The Grand Canyon is a steep-sided canyon carved by the Colorado River in
     Arizona
@@ -16,7 +16,7 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Static Assets Server
+      value: Hiking The Grand Canyon
       keyName: property
     - name: 'og:description'
       value: >-
@@ -30,7 +30,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Static Assets Server
+      value: Hiking The Grand Canyon
     - name: 'twitter:description'
       value: >-
         The Grand Canyon is a steep-sided canyon carved by the Colorado River in
@@ -40,10 +40,12 @@ seo:
       relativeUrl: true
 layout: post
 ---
+
+
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
     frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"
     width="800"
     height="800"
-    src="https://resourcerepo2.netlify.app/">
+    src="https://lambda-static-server.netlify.app/">
 </iframe>
