@@ -28,11 +28,6 @@
                 "style": "link"
             },
             {
-                "label": "Random Embeds",
-                "url": "/random",
-                "style": "link"
-            },
-            {
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "link"
