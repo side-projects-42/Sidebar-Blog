@@ -35,4 +35,5 @@ seo:
       value: images/1.jpg
       relativeUrl: true
 layout: page
+img_path: /images/caring-chestnut.jpg
 ---
