@@ -5,7 +5,7 @@ subtitle: >-
   The Embeds is also a great reference for suggested typographic treatment
   and styles for your content.
 seo:
-  title:  Embeds
+  title:  Websites
   description: A reference for suggested typographic treatment and styles for your content
   extra:
     - name: 'og:type'
