@@ -42,7 +42,7 @@
                 "type": "action"
             },
             {
-                "label": "lorem-ipsum",
+                "label": "Blog Backups",
                 "url": "#",
                 "style": "link",
                 "icon_class": "dev",
