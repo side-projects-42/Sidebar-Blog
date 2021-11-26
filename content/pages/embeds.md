@@ -1,9 +1,6 @@
 ---
 title: Embeds
-subtitle: >-
-  The Embeds provides you with a blueprint of default post and page styles. The
-  Embeds is also a great reference for suggested typographic treatment and
-  styles for your content.
+subtitle: Embeded Content
 seo:
   title: Embeds
   description: A reference for suggested typographic treatment and styles for your content
