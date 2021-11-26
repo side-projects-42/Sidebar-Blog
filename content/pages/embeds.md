@@ -205,19 +205,7 @@ img_path: /images/caring-chestnut.jpg
         player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- <br>
-<h1> Border Builder </h1>
-<br>
-
-<iframe  src="https://random-static-html-deploys.netlify.app/web-speech-api-master/speak-easy-synthesis/index.html" height="800px" style="width: 100%; scrolling="yes" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" title="YouTube video
-        player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-<br>
-
-<br> -->
+<h1> ARCHIVES </h1>
 
 <br>
 
