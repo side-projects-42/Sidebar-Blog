@@ -16269,4 +16269,1649 @@ Create files for the following components in your `./src/components` directory:
 
 -   <span id="1c8e">`Red`</span>
 -   <span id="a8dd">`Blue`</span>
--   <span
+-   <span id="6ca3">`Green`</span>
+-   <span id="8e44">`Indigo`</span>
+-   <span id="f8f2">`Orange`</span>
+-   <span id="0f47">`Violet`</span>
+-   <span id="8a89">`Yellow`</span>
+
+Your `Red` and `Blue` components will look something like this:
+
+    import React from 'react';
+    import { Route, Link, NavLink } from 'react-router-dom';
+
+    const Color = () => (
+      <div>
+        <h2 className="color">Color</h2>
+        {/* Links here */}
+
+        {/* Routes here */}
+      </div>
+    );
+
+    export default Color;
+
+Your `Green`, `Indigo`, `Orange`, `Violet`, and `Yellow` components will look something like this:
+
+    import React from 'react';
+
+    const Color = () => (
+      <div>
+        <h3 className="color">Color</h3>
+      </div>
+    );
+
+    export default Color;
+
+Now start your server and verify you can see the “Rainbow Router!” header from your `Rainbow` component. Currently there is no functionality. Let's fix that!
+
+### Phase 1: Routes
+
+As a reminder, wrapping the `Rainbow` component in `<BrowserRouter>` tags makes the router available to all descendent React Router components. Now open the `Rainbow.js` file. You're going to render some of your color components from here. Ultimately you want your routes to look like this.
+
+URLComponents`/Rainbow/redRainbow -> Red/red/orangeRainbow -> Red -> Orange/red/yellowRainbow -> Red -> Yellow/greenRainbow -> Green/blueRainbow -> Blue/blue/indigoRainbow -> Blue -> Indigo/violetRainbow -> Violet`
+
+This means that the `Red`, `Green`, `Blue`, and `Violet` components need to render in the `Rainbow` component, but only when you are at the corresponding URL. You'll do this with `Route` components. Begin by importing the `Red`, `Green`, `Blue`, and `Violet` components into your `Rainbow.js` file. Then add the necessary `Route` components inside the `div` with `id="rainbow"` in the `Rainbow` component. For example to render the `Red` component with the `/red` path, you would use the following `Route` component:
+
+    <Route path="/red" component={Red} />
+
+Test that your code works! Manually type in each URL you just created, and you should see the color component pop up. Remember, these are React Routes, so the paths you created will come after the `/`. For example, your default rainbow route will look like `http://localhost:3000/` while your red route will look like `http://localhost:3000/red`<a href="http://localhost:3000/red." class="markup--anchor markup--p-anchor">.</a>
+
+You want to nest the `Orange` and `Yellow` components inside the `Red` component, and the `Indigo` component inside the `Blue` component. Remember to import your components to use them in a `Route` tag. You'll have to go add the corresponding `Route` tags to the `Red.js` and `Blue.js` files. Make sure to use the correct nested paths, such as `"/red/orange"` for the orange `Route`.
+
+### Phase 2: Links
+
+Manually navigating to our newly created routes is tiresome, so let’s add functionality to take care of this process for us. React Router provides the `Link` and `NavLink` components for this purpose.
+
+Add `Link`s to the paths `/red`, `/green`, `/blue`, and `/violet` in the `Rainbow` component. For example, your red link should look like
+
+    <Link to="/red">Red</NavLink>
+
+When you are at `blue` you want to be able to get to `/blue/indigo`, and then back to `/blue`. Add the corresponding `Link`s to the `Blue` component like this:
+
+    <Link to='/blue' >Blue only</Link>
+    <Link to='/blue/indigo' >Add indigo</Link>
+
+Similarly, add `Link`s to `/red`, `/red/orange` and `/red/yellow` to the `Red` component. Test all your links. Navigation is so much easier now!
+
+### Phase 3: NavLinks
+
+It would be nice if our links gave us some indication of which route you were at. Fortunately, React Router has a special component for that very purpose: `NavLink`. NavLinks get an extra CSS class when their `to` prop matches the current URL. By default this class is called `active`.
+
+Go ahead and switch all your `Link`s to `NavLink`s. If you open the app you won't see any change yet. That's because you haven't added any special styling to the `active` class. Go ahead and open the `index.css` file. Create an `.active` class and add the line `font-weight: 700`. Now your active links will be bold. Isn't that nice!
+
+The only problem is that now the `Blue only` link is active even when the path is `/blue/indigo`. That doesn't make a lot of sense. Let's add the `exact` flag to that link so it will only be active when its `to` exactly matches the current path. Now it should look like:
+
+    <NavLink exact to="/blue">
+      Blue only
+    </NavLink>
+
+Do the same for the `Red only` link. Everything should be working now.
+
+### Phase 4 — Changing NavLink’s Active Class
+
+You’ve already set up `NavLink` to bold the link text using the `.active` class in `src/index.css`. But what if you wanted this class to be something else? For instance, what if you want your main color links (Red, Green, Blue, Violet) to be styled differently when active than your sub-route links (Red Only, Add Orange, Add Yellow, etc.).
+
+You can set the class that React Router sets to an active `NavLink` by adding the `activeClassName` prop.
+
+For instance, when we are at a route matching the below `NavLink`'s `to` prop, the component will have a class of `.parent-active` applied:
+
+    <NavLink to="/blue" activeClassName="parent-active" >
+      Blue
+    </NavLink>
+
+This allows much more flexibility to style an active `NavLink`!
+
+Using the example above, add an `activeClassName` prop to each of your `NavLink`s in `src/components/Rainbow.js`. Now, add some CSS styling for that class in your `src/index.css` to distinguish your main and your sub-route links.
+
+Compare your work to the solution and make sure the behavior is the same. Time to celebrate! ✨ 🌈 ✨
+
+You can also learn more about using the React Router at <a href="https://reacttraining.com/react-router/web/guides/quick-start" class="markup--anchor markup--p-anchor">reacttraining.com</a>!
+
+------------------------------------------------------------------------
+
+### Exploring React Builds Project
+
+In this project, you’ll use Create React App to create a simple React application. You’ll experiment with some of the features that Create React App provides and deploy a production build of your application to a standalone Express application.
+
+### Phase 0: Setup
+
+Begin by using the <a href="https://github.com/facebook/create-react-app" class="markup--anchor markup--p-anchor">create-react-app</a> package to create a React application:
+
+    npx create-react-app exploring-react-builds --template @appacademy/simple
+
+> *Remember that using the* `create-react-app` *command initializes your project as a Git repository. If you use the* `ls -a` *to view the hidden files in your project, you'll see the *`.git` *file.*
+
+Update the `App` component:
+
+-   <span id="9186">Wrap the `<h1>` element with a `<div>` element; and</span>
+-   <span id="5e97">Change the `<h1>` element content to something like "Exploring React Builds".</span>
+
+<!-- -->
+
+    // ./src/App.js
+
+    import React from 'react';
+
+    function App() {
+      return (
+        <div>
+          <h1>Exploring React Builds</h1>
+        </div>
+      );
+    }
+
+    export default App;
+
+### Phase 1: Using CSS modules
+
+You’ve already seen an example of using the `import` keyword to import a stylesheet into a module so that it'll be included in your application build. That's the technique being used to include the global `index.css` stylesheet:
+
+    // ./src/index.js
+
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import './index.css';
+    import App from './App';
+
+    ReactDOM.render(
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+
+You can also leverage <a href="https://github.com/css-modules/css-modules" class="markup--anchor markup--p-anchor">CSS modules</a> in your Create React App projects. CSS Modules scope stylesheet class names so that they are unique to a specific React component. This allows you to create class names without having to worry if they might collide with class names used in another component.
+
+Add a new `css-modules` folder to the `src` folder. Within that folder, add the following files:
+
+-   <span id="2912">`HeadingA.js`</span>
+-   <span id="3aa3">`HeadingA.module.css`</span>
+-   <span id="2ea3">`HeadingB.js`</span>
+-   <span id="ca2b">`HeadingB.module.css`</span>
+
+Then update the contents of each file to the following:
+
+    // ./src/css-modules/HeadingA.js
+
+    import React from 'react';
+    import styles from './HeadingA.module.css';
+
+    function HeadingA() {
+      return (
+        <h1 className={styles.heading}>Heading A</h1>
+      );
+    }
+
+    export default HeadingA;
+
+    /* ./src/css-modules/HeadingA.module.css */
+
+    .heading {
+      color: green;
+    }
+
+    // ./src/css-modules/HeadingB.js
+
+    import React from 'react';
+    import styles from './HeadingB.module.css';
+
+    function HeadingB() {
+      return (
+        <h1 className={styles.heading}>Heading B</h1>
+      );
+    }
+
+    export default HeadingB;
+
+    /* ./src/css-modules/HeadingB.module.css */
+
+    .heading {
+      color: red;
+    }
+
+Notice how the `.heading` CSS class name is being used within each component to set the color of the `<h1>` element. For the `HeadingA` component, the color is `green`, and for the `HeadingB` component, the color is `red`. Using the file naming convention `[name].module.css` let's Create React App know that we want these stylesheets to be processed as CSS Modules. Using CSS Modules allows the `.heading` class name to be reused across components without any issue.
+
+To see this feature in action, update your `App` component to render both of your new components:
+
+    import React from 'react';
+    import HeadingA from './css-modules/HeadingA';
+    import HeadingB from './css-modules/HeadingB';
+
+    function App() {
+      return (
+        <div>
+          <h1>Exploring React Builds</h1>
+          <HeadingA />
+          <HeadingB />
+        </div>
+      );
+    }
+
+    export default App;
+
+Then run your application (`npm start`) to see "Heading A" and "Heading B" displayed respectively in green and red. If you use the browser's developer tools to inspect "Heading A", you'll see that the `.heading` class name has been modified so that it's unique to the `HeadingA` component:
+
+CSS Modules is an example of how a front-end build process can be used to modify code to enable a feature that’s not natively supported by browsers.
+
+### Phase 2: Using an image in a component
+
+Create React App configures webpack with support for loading images (as well as CSS, fonts, and other file types). What this means, for you as the developer, is that you can add an image file to your project, import it directly into a module, and render it in a React component.
+
+Download any image of off the Web or <a href="https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/react-redux/topics/react-builds/assets/react-builds-cat.png" class="markup--anchor markup--p-anchor">click here</a> to download the below image.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*233dNJ6vfgAmEVCD" class="graf-image" /></figure>Then within the `src` folder add a new folder named `image`. Within that folder add a new component file named `Image.js`. Also add your downloaded image file to the `image` folder (so it's a sibling to the `Image.js` file).
+
+Update the contents of the `Image.js` file to this:
+
+    // ./src/image/Image.js
+
+    import React from 'react';
+    import cat from './react-builds-cat.png';
+
+    console.log(cat); // /static/media/react-builds-cat.45f7f4d2.png
+
+    function Image() {
+      // Import result is the URL of your image.
+      return <img src={cat} alt="images/images/Cat" />;
+    }
+
+    export default Image;
+
+You can import an image into a component using the `import` keyword. This tells webpack to include the image in the build. Notice that when you import an image into a module, you'll get a path to the image's location within the build. You can use this path to set the `src` attribute on an `<img>` element.
+
+> *Be sure to update the image* `import` *statement to the correct file name if you're using your own image!*
+
+Now update the `App` component to import and render the `Image` component:
+
+    // ./src/App.js
+
+    import React from 'react';
+    import HeadingA from './css-modules/HeadingA';
+    import HeadingB from './css-modules/HeadingB';
+    import Image from './image/Image';
+
+    function App() {
+      return (
+        <div>
+          <h1>Exploring React Builds</h1>
+          <HeadingA />
+          <HeadingB />
+          <Image />
+        </div>
+      );
+    }
+
+    export default App;
+
+If you run your application (`npm start`) you'll see your image displayed on the page! You can also open your browser's developer tools and view the "Sources" for the current page. If you can expand the `localhost:3000` &gt; `static` &gt; `media` node on the left, you can see the image file that webpack copied to your build.
+
+### Images in stylesheets
+
+You can also reference images in your CSS files too. Add a CSS file named `Image.css` to the `./src/image` folder and update its contents to this:
+
+    /* ./src/image/Image.css */
+
+    .cat {
+      background-image: url(./react-builds-cat.png);
+      width: 400px;
+      height: 400px;
+    }
+
+Then update the `Image` component to this:
+
+    // ./src/image/Image.js
+
+    import React from 'react';
+    import './Image.css';
+    import cat from './react-builds-cat.png';
+
+    console.log(cat); // /static/media/react-builds-cat.45f7f4d2.png
+
+    function Image() {
+      return (
+        <div>
+          {/* Import result is the URL of your image. */}
+          <img src={cat} alt="Cat" />
+          <div className='cat'></div>
+        </div>
+      );
+    }
+
+    export default Image;
+
+Now you’ll see the image displayed twice on the page!
+
+### Phase 3: Updating the supported browsers (and its affect on code transpilation)
+
+Earlier you learned about the `browerslist` setting in the `package.json` file and now adjusting these targets affect how your code will be transpiled:
+
+    {
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    }
+
+The `production` list specifies the browsers to target when creating a production build and the `development` list specifics the browsers to target when running the application using `npm start`. Currently, you're targeting relatively recent versions of the major browsers when creating a development build. Targeting older browser versions results in your code being transpiled to an older version of JavaScript.
+
+To experiment with this configuration option, let’s add a class component to the project. Add a new folder named `class-component` to the `src` folder. Within that folder, add a file named `ClassComponent.js` containing the following code:
+
+    // ./src/class-component/ClassComponent.js
+
+    import React from 'react';
+
+    class ClassComponent extends React.Component {
+      render() {
+        return (
+          <h1>Class Component</h1>
+        );
+      }
+    }
+
+    export default ClassComponent;
+
+Don’t forget to update your `App` component to render the new component:
+
+    // ./src/App.js
+
+    import React from 'react';
+    import HeadingA from './css-modules/HeadingA';
+    import HeadingB from './css-modules/HeadingB';
+    import Image from './image/Image';
+    import ClassComponent from './class-component/ClassComponent';
+
+    function App() {
+      return (
+        <div>
+          <h1>Exploring React Builds</h1>
+          <HeadingA />
+          <HeadingB />
+          <Image />
+          <ClassComponent />
+        </div>
+      );
+    }
+
+    export default App;
+
+Now run your application using `npm start`. Open your browser's developer tools and view the "Sources" for the current page. Expand the `localhost:3000` &gt; `static` &gt; `js` node on the left and select the `main.chunk.js` file. Press `CMD+F` on macOS or `CTRL+F` on Windows to search the file for "Class Component". Here's what the transpiled code looks like for the `ClassComponent` class:
+
+    class ClassComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+      render() {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 7,
+            columnNumber: 7
+          }
+        }, "Class Component");
+      }
+    }
+
+> *Have you wondered yet why you need to use the developer tools to view the bundles generated by Create React App? Remember that when you run* `npm start`*, Create React App builds your application using* `webpack-dev-server`*. To keep things as performant as possible, the bundles generated by* `webpack-dev-server` *are stored in memory instead of writing them to the file system.*
+
+The JSX in the component’s `render` method has been converted to JavaScript but the `ClassComponent` ES2015 class is left alone. This makes sense though as JSX isn't natively supported by any browser while ES2015 classes have been natively supported by browsers for awhile now.
+
+But what if you need to target a version of a browser that doesn’t support ES2015 classes? You can use the <a href="https://caniuse.com/#feat=es6-class" class="markup--anchor markup--p-anchor">“Can I use…”</a> website to see when browsers started supporting ES2105 (or ES6) classes. Starting with version 49, Chrome natively supported classes. But imagine that you need to support Chrome going back to version 30, a version of Chrome that doesn’t support classes.
+
+Change the `browserslist.development` property in the `package.json` file to this:
+
+    {
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "chrome >= 30",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    }
+
+The query `chrome >= 30` specifies that you want to target Chrome version 30 or newer.
+
+> *The* <a href="https://browserl.ist/" class="markup--anchor markup--blockquote-anchor"><em>browserl.ist</em></a> *website can be used to see the browsers supported by your configured* `browserslist`*.*
+
+Stop your application if it’s currently running. Delete the `./node_modules/.cache` folder and run `npm start` again. Then view the `main.chunk.js` bundle again in the developer tools:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*TKBUkpbL5aSm5PTQ" class="graf-image" /></figure>Now your ES2015 class component is being converted to a constructor function! Here’s the transpiled code for reference:
+
+    var ClassComponent = /*#__PURE__*/function (_React$Component) {
+      Object(_Users_jameschurchill_Documents_GitHub_Modular_Curriculum_content_react_redux_topics_react_builds_projects_exploring_react_builds_solution_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(ClassComponent, _React$Component);
+
+      var _super = Object(_Users_jameschurchill_Documents_GitHub_Modular_Curriculum_content_react_redux_topics_react_builds_projects_exploring_react_builds_solution_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(ClassComponent);
+
+      function ClassComponent() {
+        Object(_Users_jameschurchill_Documents_GitHub_Modular_Curriculum_content_react_redux_topics_react_builds_projects_exploring_react_builds_solution_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ClassComponent);
+
+        return _super.apply(this, arguments);
+      }
+
+      Object(_Users_jameschurchill_Documents_GitHub_Modular_Curriculum_content_react_redux_topics_react_builds_projects_exploring_react_builds_solution_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ClassComponent, [{
+        key: "render",
+        value: function render() {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h1", {
+            __self: this,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 7,
+              columnNumber: 7
+            }
+          }, "Class Component");
+        }
+      }]);
+
+      return ClassComponent;
+    }(react__WEBPACK_IMPORTED_MODULE_4___default.a.Component);
+
+Luckily it’s very rare that you’ll need to read the code in your generated bundles. webpack, by default, is configured to generate sourcemaps. Sourcemaps are a mapping of the code in a generated file, like a bundle file, to the original source code. This gives you access to your original source code in the browser’s developer tools:
+
+You can even set a breakpoint in your source within the developer tools to stop execution on a specific line of code!
+
+### Phase 4: Adding environment variables
+
+Earlier you learned that Create React App supports defining environment variables in an `.env` file. This gives you a convenient way to avoid hard coding values that vary across environments.
+
+Let’s experiment with this feature so that you can see how the Create React App build process embeds environment variables into your HTML, CSS, and JavaScript bundles.
+
+Add an `.env` file to the root of your Create React App project. Define an environment variable named `REACT_APP_TITLE`:
+
+    REACT_APP_TITLE=Exploring React Builds
+
+Remember that environment variables need to be prefixed with `REACT_APP_` for Create React App to process them. After defining your environment variable, you can refer to it within JSX using an expression and `process.env`:
+
+    // ./src/App.js
+
+    import React from 'react';
+    import HeadingA from './css-modules/HeadingA';
+    import HeadingB from './css-modules/HeadingB';
+    import Image from './image/Image';
+    import ClassComponent from './class-component/ClassComponent';
+
+    function App() {
+      return (
+        <div>
+          <h1>{process.env.REACT_APP_TITLE}</h1>
+          <HeadingA />
+          <HeadingB />
+          <Image />
+          <ClassComponent />
+        </div>
+      );
+    }
+
+    export default App;
+
+Environment variables can also be referred to in regular JavaScript code:
+
+    console.log(process.env.REACT_APP_TITLE);
+
+You can also reference environment variables in your `./public/index.html` file like this:
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <title>%REACT_APP_TITLE%</title>
+      </head>
+      <body>
+        <div id="root"></div>
+      </body>
+    </html>
+
+Run your application again using `npm start`. Open your browser's developer tools and view the "Sources" for the current page. Expand the `localhost:3000` node on the left and select `(index)`. Notice that the text `%REACT_APP_TITLE%` within the `<title>` element has been converted to the text literal `Exploring React Builds`:
+
+If you expand the `localhost:3000` &gt; `static` &gt; `js` node on the left and select the `main.chunk.js` file, you can see how the `App` component's JSX has been converted to JavaScript:
+
+Here’s a closer look at the relevant `React.createElement` method call:
+
+    /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 7
+        }
+      }, "Exploring React Builds")
+
+Again, notice how the environment variable has been replaced with a text literal. This has important security implications for you to consider. Because environment variables are embedded into your HTML, CSS, and JavaScript bundles during the build process, it’s *very important* to not store any secrets, like API keys, in your environment variables. Remember, anyone can view your bundled code in the browser by inspecting your files!
+
+### Phase 5: Deploying a production build
+
+In the last phase of this project, let’s add routing to the React application, create a production build, and deploy the build to an Express application!
+
+### Adding routing
+
+To add React Router to the application, start by installing the `react-router-dom` npm package:
+
+    npm install react-router-dom@^5.0.0
+
+Then update the `App` component to this code:
+
+    // ./src/App.js
+
+    import React from 'react';
+    import {
+      BrowserRouter,
+      Switch,
+      Route,
+      Link
+    } from 'react-router-dom';
+    import HeadingA from './css-modules/HeadingA';
+    import HeadingB from './css-modules/HeadingB';
+    import Image from './image/Image';
+    import ClassComponent from './class-component/ClassComponent';
+
+    function App() {
+      return (
+        <BrowserRouter>
+          <div>
+            <h1>{process.env.REACT_APP_TITLE}</h1>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/image">Image</Link>
+                </li>
+                <li>
+                  <Link to="/class-component">Class Component</Link>
+                </li>
+              </ul>
+            </nav>
+            <Switch>
+              <Route path="/image">
+                <Image />
+              </Route>
+              <Route path="/class-component">
+                <ClassComponent />
+              </Route>
+              <Route path="/">
+                <HeadingA />
+                <HeadingB />
+              </Route>
+            </Switch>
+          </div>
+        </BrowserRouter>
+      );
+    }
+
+    export default App;
+
+Be sure to run and test your application to ensure that the defined routes work as expected:
+
+-   <span id="151a">`/` - Should display the `HeadingA` and `HeadingB` components;</span>
+-   <span id="1e2b">`/image` - Should display the `Image` component; and</span>
+-   <span id="7f3a">`/class-component` - Should display the `ClassComponent` component.</span>
+
+### Creating a production build
+
+To create a production build, run the command `npm run build` from the root of your project. The output in the terminal should look something like this:
+
+    > solution@0.1.0 build [absolute path to your project]
+    > react-scripts build
+
+    Creating an optimized production build...
+    Compiled successfully.
+
+    File sizes after gzip:
+
+      47.83 KB  build/static/js/2.722c16c4.chunk.js
+      773 B     build/static/js/runtime-main.b7d1e5ee.js
+      745 B     build/static/js/main.12299197.chunk.js
+      197 B     build/static/css/main.e9a0d1f8.chunk.css
+
+    The project was built assuming it is hosted at /.
+    You can control this with the homepage field in your package.json.
+
+    The build folder is ready to be deployed.
+    You may serve it with a static server:
+
+      npm install -g serve
+      serve -s build
+
+    Find out more about deployment here:
+
+      bit.ly/CRA-deploy
+
+Ignore the comments about using `serve` to deploy your application (i.e. `npm install -g serve` and `serve -s build`). In the next step, you'll create a simple Express application to server your React application.
+
+### Serving a React application using Express
+
+Create a new folder for your Express application outside of the Create React App project folder.
+
+> *For example, from the root of your project, use* `cd ..` *to go up a level and then create a new folder named* `express-server` *by running the command* `mkdir express-server`*. This makes the* `express-server` *folder a sibling to your Create React App project folder.*
+
+Browse into the `express-server` folder and initialize it to use npm (i.e. `npm init -y`). Then install Express by running the command `npm install express@^4.0.0`.
+
+App a file named `app.js` with the following contents:
+
+    // ./app.js
+
+    const express = require('express');
+    const path = require('path');
+
+    const app = express();
+
+    app.use(express.static(path.join(__dirname, 'public')));
+
+    app.get('*', function(req, res) {
+      res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    });
+
+    const port = 9000;
+
+    app.listen(port, () => console.log(`Listening on port ${port}...`));
+
+This simple Express application will:
+
+-   <span id="31ba">Attempt to match incoming requests to static files located in the `public` folder; and</span>
+-   <span id="16e6">If a matching static file isn’t found, then the `./public/index.html` file will be served for all other requests.</span>
+
+Now add a folder named `public` to the root of your Express project. Copy the files from the `build` folder in your Create React App project to the `public` folder in the Express application project. Then run your application using the command `node app.js`.
+
+Open a browser and browse to the URL `http://localhost:9000/`. You should see your React application served from your Express application! Be sure to click the navigation links to verify that all of your configured routes work as expected.
+
+Also, because you configured Express to serve the `./public/index.html` file for any request that doesn't match a static file, you can "deep link" to any of your React application's routes:
+
+-   <span id="58e7"><a href="http://localhost:9000/image" class="markup--anchor markup--li-anchor">http://localhost:9000/image</a></span>
+-   <span id="3fa9"><a href="http://localhost:9000/class-component" class="markup--anchor markup--li-anchor">http://localhost:9000/class-component</a></span>
+
+*More content at* <a href="http://plainenglish.io/" class="markup--anchor markup--p-anchor"><strong><em>plainenglish.io</em></strong></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [July 15, 2021](https://medium.com/p/1965dcde8d4f).
+
+<a href="https://medium.com/@bryanguner/react-in-depth-1965dcde8d4f" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+A Quick Guide to Big-O Notation, Memoization, Tabulation, and Sorting Algorithms by Example
+===========================================================================================
+
+Curating Complexity: A Guide to Big-O Notation
+
+------------------------------------------------------------------------
+
+### A Quick Guide to Big-O Notation, Memoization, Tabulation, and Sorting Algorithms by Example
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*yjlSk3T9c2_14in1.png" class="graf-image" /></figure>***Curating Complexity: A Guide to Big-O Notation***
+
+<a href="https://replit.com/@bgoonz/Medium-article-comp-complex" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://replit.com/@bgoonz/Medium-article-comp-complex"><strong>Medium-article-comp-complex</strong><br />
+<em>A Node.js repl by bgoonz</em>replit.com</a><a href="https://replit.com/@bgoonz/Medium-article-comp-complex" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+-   <span id="b70f">Why is looking at runtime not a reliable method of calculating time complexity?</span>
+-   <span id="2b21">Not all computers are made equal( some may be stronger and therefore boost our runtime speed )</span>
+-   <span id="1e1a">How many background processes ran concurrently with our program that was being tested?</span>
+-   <span id="1cad">We also need to ask if our code remains performant if we increase the size of the input.</span>
+-   <span id="3cb7">The real question we need to answering is: `How does our performance scale?`.</span>
+
+### big ‘O’ notation
+
+-   <span id="9b21">Big O Notation is a tool for describing the efficiency of algorithms with respect to the size of the input arguments.</span>
+-   <span id="c0e6">Since we use mathematical functions in Big-O, there are a few big picture ideas that we’ll want to keep in mind:</span>
+-   <span id="2e86">The function should be defined by the size of the input.</span>
+-   <span id="07b0">`Smaller` Big O is better (lower time complexity)</span>
+-   <span id="f1b0">Big O is used to describe the worst case scenario.</span>
+-   <span id="e11f">Big O is simplified to show only its most dominant mathematical term.</span>
+
+### Simplifying Math Terms
+
+-   <span id="64a4">We can use the following rules to simplify the our Big O functions:</span>
+-   <span id="a2c2">`Simplify Products` : If the function is a product of many terms, we drop the terms that don't depend on n.</span>
+-   <span id="b058">`Simplify Sums` : If the function is a sum of many terms, we drop the non-dominant terms.</span>
+-   <span id="eb32">`n` : size of the input</span>
+-   <span id="c042">`T(f)` : unsimplified math function</span>
+-   <span id="7b41">`O(f)` : simplified math function.</span>
+
+`Putting it all together`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*TT8uuv1x3nmGUw5rvtoZ8A.png" class="graf-image" /></figure>-   <span id="d18b">First we apply the product rule to drop all constants.</span>
+-   <span id="4335">Then we apply the sum rule to select the single most dominant term.</span>
+
+------------------------------------------------------------------------
+
+### Complexity Classes
+
+Common Complexity Classes
+
+#### There are 7 major classes in Time Complexity
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*6zKhmJoHkvDbrd8jfUDf3A.png" class="graf-image" /></figure>#### `O(1) Constant`
+
+> **The algorithm takes roughly the same number of steps for any input size.**
+
+#### `O(log(n)) Logarithmic`
+
+> **In most cases our hidden base of Logarithmic time is 2, log complexity algorithm’s will typically display ‘halving’ the size of the input (like binary search!)**
+
+#### `O(n) Linear`
+
+> **Linear algorithm’s will access each item of the input “once”.**
+
+### `O(nlog(n)) Log Linear Time`
+
+> **Combination of linear and logarithmic behavior, we will see features from both classes.**
+
+> Algorithm’s that are log-linear will use **both recursion AND iteration.**
+
+### `O(nc) Polynomial`
+
+> **C is a fixed constant.**
+
+### `O(c^n) Exponential`
+
+> **C is now the number of recursive calls made in each stack frame.**
+
+> **Algorithm’s with exponential time are VERY SLOW.**
+
+------------------------------------------------------------------------
+
+### Memoization
+
+-   <span id="b3b0">Memoization : a design pattern used to reduce the overall number of calculations that can occur in algorithms that use recursive strategies to solve.</span>
+-   <span id="2583">MZ stores the results of the sub-problems in some other data structure, so that we can avoid duplicate calculations and only ‘solve’ each problem once.</span>
+-   <span id="65c9">Two features that comprise memoization:</span>
+
+1.  <span id="b2d2">FUNCTION MUST BE RECURSIVE.</span>
+2.  <span id="91a3">Our additional Data Structure is usually an object (we refer to it as our memo… or sometimes cache!)</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*4U79jBMjU2wKE_tyYcD_3A.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/1*Qh42KZgcCxmVt6WrTasCVw.png" class="graf-image" /></figure>### Memoizing Factorial
+
+Our memo object is *mapping* out our arguments of factorial to it’s return value.
+
+-   <span id="854a">Keep in mind we didn’t improve the speed of our algorithm.</span>
+
+### Memoizing Fibonacci
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*2XaPj7UGKZYFjYhb" class="graf-image" /></figure>-   <span id="5be6">Our time complexity for Fibonacci goes from O(2^n) to O(n) after applying memoization.</span>
+
+### The Memoization Formula
+
+> *Rules:*
+
+1.  <span id="b3f0">*Write the unoptimized brute force recursion (make sure it works);*</span>
+2.  <span id="b36e">*Add memo object as an additional argument .*</span>
+3.  <span id="f81f">*Add a base case condition that returns the stored value if the function’s argument is in the memo.*</span>
+4.  <span id="1b0f">*Before returning the result of the recursive case, store it in the memo as a value and make the function’s argument it’s key.*</span>
+
+#### Things to remember
+
+1.  <span id="bc4a">*When solving DP problems with Memoization, it is helpful to draw out the visual tree first.*</span>
+2.  <span id="7bb1">*When you notice duplicate sub-tree’s that means we can memoize.*</span>
+
+------------------------------------------------------------------------
+
+### Tabulation
+
+#### Tabulation Strategy
+
+> Use When:
+
+-   <span id="f5b0">**The function is iterative and not recursive.**</span>
+-   <span id="015c">*The accompanying DS is usually an array.*</span>
+
+#### Steps for tabulation
+
+-   <span id="8918">*Create a table array based off the size of the input.*</span>
+-   <span id="b4e7">*Initialize some values in the table to ‘answer’ the trivially small subproblem.*</span>
+-   <span id="072e">*Iterate through the array and fill in the remaining entries.*</span>
+-   <span id="192e">*Your final answer is usually the last entry in the table.*</span>
+
+------------------------------------------------------------------------
+
+### Memo and Tab Demo with Fibonacci
+
+> *Normal Recursive Fibonacci*
+
+    function fibonacci(n) {
+      if (n <= 2) return 1;
+      return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+> *Memoization Fibonacci 1*
+
+> *Memoization Fibonacci 2*
+
+> *Tabulated Fibonacci*
+
+### Example of Linear Search
+
+-   <span id="84b2">*Worst Case Scenario: The term does not even exist in the array.*</span>
+-   <span id="30dc">*Meaning: If it doesn’t exist then our for loop would run until the end therefore making our time complexity O(n).*</span>
+
+------------------------------------------------------------------------
+
+### Sorting Algorithms
+
+### Bubble Sort
+
+`Time Complexity`: Quadratic O(n^2)
+
+-   <span id="ce1e">The inner for-loop contributes to O(n), however in a worst case scenario the while loop will need to run n times before bringing all n elements to their final resting spot.</span>
+
+`Space Complexity`: O(1)
+
+-   <span id="664f">Bubble Sort will always use the same amount of memory regardless of n.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Ck9aeGY-d5tbz7dT" class="graf-image" /></figure>-   <span id="4115">The first major sorting algorithm one learns in introductory programming courses.</span>
+-   <span id="ecd4">Gives an intro on how to convert unsorted data into sorted data.</span>
+
+> It’s almost never used in production code because:
+
+-   <span id="3cb1">*It’s not efficient*</span>
+-   <span id="4eac">*It’s not commonly used*</span>
+-   <span id="d730">*There is stigma attached to it*</span>
+-   <span id="8da7">`Bubbling Up`* : Term that infers that an item is in motion, moving in some direction, and has some final resting destination.*</span>
+-   <span id="8447">*Bubble sort, sorts an array of integers by bubbling the largest integer to the top.*</span>
+
+<!-- -->
+
+-   <span id="dcd2">*Worst Case & Best Case are always the same because it makes nested loops.*</span>
+-   <span id="9a6a">*Double for loops are polynomial time complexity or more specifically in this case Quadratic (Big O) of: O(n²)*</span>
+
+### Selection Sort
+
+`Time Complexity`: Quadratic O(n^2)
+
+-   <span id="646d">Our outer loop will contribute O(n) while the inner loop will contribute O(n / 2) on average. Because our loops are nested we will get O(n²);</span>
+
+`Space Complexity`: O(1)
+
+-   <span id="45ae">Selection Sort will always use the same amount of memory regardless of n.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*AByxtBjFrPVVYmyu" class="graf-image" /></figure>-   <span id="c618">Selection sort organizes the smallest elements to the start of the array.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*GeYNxlRcbt2cf0rY" class="graf-image" /></figure>Summary of how Selection Sort should work:
+
+1.  <span id="2277">*Set MIN to location 0*</span>
+2.  <span id="c76c">*Search the minimum element in the list.*</span>
+3.  <span id="79d3">*Swap with value at location Min*</span>
+4.  <span id="4ede">*Increment Min to point to next element.*</span>
+5.  <span id="a649">*Repeat until list is sorted.*</span>
+
+### Insertion Sort
+
+`Time Complexity`: Quadratic O(n^2)
+
+-   <span id="95ea">Our outer loop will contribute O(n) while the inner loop will contribute O(n / 2) on average. Because our loops are nested we will get O(n²);</span>
+
+`Space Complexity`: O(n)
+
+-   <span id="f6fa">Because we are creating a subArray for each element in the original input, our Space Comlexity becomes linear.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*gbNU6wrszGPrfAZG" class="graf-image" /></figure>### Merge Sort
+
+`Time Complexity`: Log Linear O(nlog(n))
+
+-   <span id="44b2">Since our array gets split in half every single time we contribute O(log(n)). The while loop contained in our helper merge function contributes O(n) therefore our time complexity is O(nlog(n)); `Space Complexity`: O(n)</span>
+-   <span id="9a83">We are linear O(n) time because we are creating subArrays.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*GeU8YwwCoK8GiSTD" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*IxqGb72XDVDeeiMl" class="graf-image" /></figure>### Example of Merge Sort
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*HMCR--9niDt5zY6M" class="graf-image" /></figure>-   <span id="48b4">**Merge sort is O(nlog(n)) time.**</span>
+-   <span id="c598">*We need a function for merging and a function for sorting.*</span>
+
+> Steps:
+
+1.  <span id="213f">*If there is only one element in the list, it is already sorted; return the array.*</span>
+2.  <span id="6214">*Otherwise, divide the list recursively into two halves until it can no longer be divided.*</span>
+3.  <span id="3cc8">*Merge the smallest lists into new list in a sorted order.*</span>
+
+### Quick Sort
+
+`Time Complexity`: Quadratic O(n^2)
+
+-   <span id="8e34">Even though the average time complexity O(nLog(n)), the worst case scenario is always quadratic.</span>
+
+`Space Complexity`: O(n)
+
+-   <span id="626b">Our space complexity is linear O(n) because of the partition arrays we create.</span>
+-   <span id="7e3a">QS is another Divide and Conquer strategy.</span>
+-   <span id="233d">Some key ideas to keep in mind:</span>
+-   <span id="1173">It is easy to sort elements of an array relative to a particular target value.</span>
+-   <span id="8634">An array of 0 or 1 elements is already trivially sorted.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*WLl_HpdBGXYx284T" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*-LyHJXGPTYsWLDZf" class="graf-image" /></figure>### Binary Search
+
+`Time Complexity`: Log Time O(log(n))
+
+`Space Complexity`: O(1)
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*-naVYGTXzE2Yoali" class="graf-image" /></figure>*Recursive Solution*
+
+> *Min Max Solution*
+
+-   <span id="6fb1">*Must be conducted on a sorted array.*</span>
+-   <span id="383b">*Binary search is logarithmic time, not exponential b/c n is cut down by two, not growing.*</span>
+-   <span id="c940">*Binary Search is part of Divide and Conquer.*</span>
+
+### Insertion Sort
+
+-   <span id="26b7">**Works by building a larger and larger sorted region at the left-most end of the array.**</span>
+
+> Steps:
+
+1.  <span id="8c1f">*If it is the first element, and it is already sorted; return 1.*</span>
+2.  <span id="1451">*Pick next element.*</span>
+3.  <span id="0f8b">*Compare with all elements in the sorted sub list*</span>
+4.  <span id="4d78">*Shift all the elements in the sorted sub list that is greater than the value to be sorted.*</span>
+5.  <span id="9131">*Insert the value*</span>
+6.  <span id="6c8a">*Repeat until list is sorted.*</span>
+
+### If you found this guide helpful feel free to checkout my GitHub/gists where I host similar content:
+
+<a href="https://gist.github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://gist.github.com/bgoonz"><strong>bgoonz’s gists</strong><br />
+<em>Instantly share code, notes, and snippets. Web Developer, Electrical Engineer JavaScript | CSS | Bootstrap | Python |…</em>gist.github.com</a><a href="https://gist.github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz — Overview</strong><br />
+<em>Web Developer, Electrical Engineer JavaScript | CSS | Bootstrap | Python | React | Node.js | Express | Sequelize…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Or Checkout my personal Resource Site:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*VCmj_H9AHs41oC9Yx1hZFQ.png" class="graf-image" /></figure>### Discover More:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [February 27, 2021](https://medium.com/p/803ff193c522).
+
+<a href="https://medium.com/@bryanguner/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+A Very Quick Guide To Calculating Big O Computational Complexity
+================================================================
+
+Big O: big picture, broad strokes, not details
+
+------------------------------------------------------------------------
+
+### A Very Quick Guide To Calculating Big O Computational Complexity
+
+**Big O**: big picture, broad strokes, not details
+
+For a more complete guide… checkout :
+
+<a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522"><strong>A Quick Guide to Big-O Notation, Memoization, Tabulation, and Sorting Algorithms by Example</strong><br />
+<em>Curating Complexity: A Guide to Big-O Notation</em>medium.com</a><a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*lte81mEvgEPYXodB.png" class="graf-image" /></figure>-   <span id="28b6">way we analyze how efficient algorithms are without getting too mired in details</span>
+-   <span id="4141">can model how much time any function will take given `n` inputs</span>
+-   <span id="9479">interested in order of magnitude of number of the exact figure</span>
+-   <span id="8fe1">O absorbs all fluff and n = biggest term</span>
+-   <span id="a9c8">Big O of `3x^2 +x + 1` = `O(n^2)`</span>
+
+### Time Complexity
+
+no loops or exit & return = O(1)
+
+0 nested loops = `O(n)`  
+1 nested loops = `O(n^2)`  
+2 nested loops = `O(n^3)`  
+3 nested loops = `O(n^4)`
+
+**recursive**: as you add more terms, increase in time as you add input diminishes  
+**recursion**: when you define something in terms of itself, a function that calls itself
+
+-   <span id="f455">used because of ability to maintain state at diffferent levels of recursion</span>
+-   <span id="f168">inherently carries large footprint</span>
+-   <span id="5510">every time function called, you add call to stack</span>
+
+**iterative**: use loops instead of recursion (preferred)  
+- favor readability over performance
+
+`O(n log(n))` & `O(log(n))`: dividing/halving
+
+-   <span id="4f7e">if code employs recursion/divide-and-conquer strategy</span>
+-   <span id="d1cc">what power do i need to power my base to get n</span>
+
+### Time Definitions
+
+-   <span id="9aad">**constant**: does not scale with input, will take same amount of time</span>
+-   <span id="3a19">for any input size n, constant time performs same number of operations every time</span>
+-   <span id="bf51">**logarithmic**: increases number of operations it performs as logarithmic function of input size n</span>
+-   <span id="93d5">function log n grows very slowly, so as n gets longer, number of operations the algorithm needs to perform doesn’t increase very much</span>
+-   <span id="a2cf">halving</span>
+-   <span id="46c0">**linear**: increases number of operations it performs as linear function of input size n</span>
+-   <span id="5f16">number of additional operations needed to perform grows in direct proportion to increase in input size n</span>
+-   <span id="ab93">**log-linear**: increases number of operations it performs as log-linear function of input size n</span>
+-   <span id="0459">looking over every element and doing work on each one</span>
+-   <span id="bd8a">**quadratic**: increases number of operations it performs as quadratic function of input size n</span>
+-   <span id="dc41">**exponential**: increases number of operations it performs as exponential function of input size n</span>
+-   <span id="71fc">number of nested loops increases as function of n</span>
+-   <span id="8253">**polynomial**: as size of input increases, runtime/space used will grow at a faster rate</span>
+-   <span id="8827">**factorial**: as size of input increases, runtime/space used will grow astronomically even with relatively small inputs</span>
+-   <span id="040c">**rate of growth**: how fast a function grows with input size</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*5t2u8n1uKhioIzZIXX2zbg.png" class="graf-image" /></figure>### Space Complexity
+
+-   <span id="403b">How does the space usage scale/change as input gets very large?</span>
+-   <span id="5f20">What auxiliary space does your algorithm use or is it in place (constant)?</span>
+-   <span id="b207">Runtime stack space counts as part of space complexity unless told otherwise.</span>
+
+### Sorting Algorithms
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*HhXmG2cNdg8y4ZCCQGTyuQ.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/1*ULeXxVCDkF73GwhsxyM_2g.png" class="graf-image" /></figure>### Data Structures
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*hkZWlUgFyOSaLD5Uskv0tQ.png" class="graf-image" /></figure>
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*COjzunj0-FsMJ0d7v7Z-6g.png" class="graf-image" /></figure>
+
+For similar content check out my GitHub:
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz - Overview</strong><br />
+<em>Web Developer, Electrical Engineer https://bryanguner.medium.com/ https://portfolio42.netlify.app/…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [May 19, 2021](https://medium.com/p/eb1557e85fa3).
+
+<a href="https://medium.com/@bryanguner/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+A list of all of my articles to link to future posts
+====================================================
+
+You should probably skip this one… seriously it’s just for internal use!
+
+------------------------------------------------------------------------
+
+### All Of My Medium Stories
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*yZ41P3YdMYMiyFPAPrzyGw.gif" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+### This is another backup of all of them!
+
+<a href="https://golden-lobe-519.notion.site/Medium-7b5b9bd642344d60afe3f03fe6431952" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://golden-lobe-519.notion.site/Medium-7b5b9bd642344d60afe3f03fe6431952"><strong>All OF MEDIUM ARTICLES</strong><br />
+<em>2021-02-27_A-Quick-Guide-to-Big-O-Notation--Memoization--Tabulation--and-Sorting-Algorithms-by-Example-803ff193c522…</em>golden-lobe-519.notion.site</a><a href="https://golden-lobe-519.notion.site/Medium-7b5b9bd642344d60afe3f03fe6431952" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+------------------------------------------------------------------------
+
+<a href="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12"><strong>Notes I Wish I Had When I Started Learning Python</strong><br />
+<em>Plus resources for learning data structures and algorithms in python at the bottom of this article!</em>medium.com</a><a href="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/awesome-list-of-github-repositories-f1c433e32b17" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/awesome-list-of-github-repositories-f1c433e32b17"><strong>Awesome List Of Github Repositories</strong><br />
+<em>Platforms</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/awesome-list-of-github-repositories-f1c433e32b17" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/my-personal-arsenal-of-convenience-scripts-3c7869fdae53" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/my-personal-arsenal-of-convenience-scripts-3c7869fdae53"><strong>My Personal Arsenal Of Convenience Scripts</strong><br />
+<em>At the bottom the following commands are listed as a markdown file and embed in this article as a github gist.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/my-personal-arsenal-of-convenience-scripts-3c7869fdae53" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/adding-css-to-your-html-3a17ba25ba82" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/adding-css-to-your-html-3a17ba25ba82"><strong>Adding CSS To Your HTML</strong><br />
+<em>For beginners … very picture heavy since CSS is such a visual discipline!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/adding-css-to-your-html-3a17ba25ba82" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/most-common-javascript-errors-311ea1356a3d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/most-common-javascript-errors-311ea1356a3d"><strong>Most Common Javascript Errors</strong><br />
+<em>Written in quiz format</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/most-common-javascript-errors-311ea1356a3d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/super-simple-intro-to-react-5c78e4207b7f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/super-simple-intro-to-react-5c78e4207b7f"><strong>Super Simple Intro To React</strong><br />
+<em>This is a basic introduction for those who feel overwhelmed by the vast microcosm that is the React ecosystem!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/super-simple-intro-to-react-5c78e4207b7f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/react-state-d8e0fc340714" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/react-state-d8e0fc340714"><strong>React State</strong><br />
+<em>Demystified</em>medium.com</a><a href="https://medium.com/codex/react-state-d8e0fc340714" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143"><strong>Awesome Web Development Youtube Video Archive</strong><br />
+<em>This is going to be a running list of youtube videos and channels that I discover as I learn web development. It will…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f"><strong>Python Problems &amp; Solutions For Beginners</strong><br />
+<em>Introduction to python taught through example problems. Solutions are included in embedded repl.it at the bottom of…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04"><strong>Fundamental Concepts In Javascript</strong><br />
+<em>This is the stuff that comes up on interviews…</em>medium.com</a><a href="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65"><strong>Bash Proficiency In Under 15 Minutes</strong><br />
+<em>Cheat sheet and in-depth explanations located below main article contents… The UNIX shell program interprets user…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b"><strong>Mini Review Of SQL For PostgreSQL W Node &amp; Express</strong><br />
+<em>What is a Query?</em>medium.com</a><a href="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86"><strong>All The Things You Can Embed In A Medium Article</strong><br />
+<em>I have this innate desire to make everything available all in one place and it’s usually an unnecessary waste of time……</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461"><strong>Front End Behavioral Interview</strong><br />
+<em>Web Developer Job Interview Questions</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a"><strong>The ExpressJS Way To Write APIs</strong><br />
+<em>This article will cover the basics of express from the perspective of a beginner without concerning its self with the…</em>medium.com</a><a href="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02"><strong>Heroku Deploy Guides &amp; Cheatsheet Compilation</strong><br />
+<em>Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala, Go and PHP…</em>medium.com</a><a href="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f"><strong>A Comprehensive Deep Dive into React</strong><br />
+<em>An in-depth look into the world of React.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380"><strong>Web Development Resource List #4</strong><br />
+<em>Update:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-d3077114aea7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-d3077114aea7"><strong>BASH CHEAT SHEET</strong><br />
+<em>My Bash Cheatsheet Index:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-d3077114aea7" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b"><strong>Heroku Cheat Sheet</strong><br />
+<em>a cheatsheet for using heroku-cli</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a"><strong>The ExpressJS Way To Write APIs</strong><br />
+<em>This article will cover the basics of express from the perspective of a beginner without concerning it’s self with the…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02"><strong>Heroku Deploy Guides &amp; Cheatsheet Compilation</strong><br />
+<em>Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala, Go and PHP…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f"><strong>A Comprehensive Deep Dive into React</strong><br />
+<em>An in-depth look into the world of React.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380"><strong>Web Development Resource List #4</strong><br />
+<em>Update:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-d3077114aea7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-d3077114aea7"><strong>BASH CHEAT SHEET</strong><br />
+<em>My Bash Cheatsheet Index:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-d3077114aea7" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b"><strong>Heroku Cheat Sheet</strong><br />
+<em>a cheatsheet for using heroku-cli</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96"><strong>Web Developer’s Technical Glossary</strong><br />
+<em>This will be a running list as I make updates!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110"><strong>PostgreSQL In 43 Commands Or Less</strong><br />
+<em>In database jargon, PostgreSQL uses a client/server model. A PostgreSQL session consists of the following cooperating…</em>medium.com</a><a href="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/why-jamstack-rocks-666114722f35" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/why-jamstack-rocks-666114722f35"><strong>Why Jamstack Rocks🤘😎🤙</strong><br />
+<em>JAMstack websites don’t use the microservices architecture, but they go for the micro frontends architecture. Each…</em>medium.com</a><a href="https://medium.com/geekculture/why-jamstack-rocks-666114722f35" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb"><strong>What Are Bash Aliases And Why Should You Be Using Them!</strong><br />
+<em>A Bash alias is a method of supplementing or overriding Bash commands with new ones. Bash aliases make it easy for…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682"><strong>Life Saving Bash Scripts Part 2</strong><br />
+<em>I am not saying they’re in any way special compared with other bash scripts… but when I consider that you can never…</em>medium.com</a><a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33"><strong>Job Boards and The Hunt</strong><br />
+<em>I can’t imagine the kind of masochism it would take to enjoy the act of posting and daily maintenance on a job…</em>medium.com</a><a href="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528"><strong>Absolutely Everything You Could Need To Know About How JavaScript Works.</strong><br />
+<em>Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607"><strong>Basic React Tutorial</strong><br />
+<em>Random Things to Remember</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287"><strong>Fundamental Concepts In React That Will Probably Come Up On An Interview</strong><br />
+<em>Incomplete Article</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4"><strong>The Penultimate Web Developer’s Cheat Sheet</strong><br />
+<em>I am literally just going to combine a fair number of my Cheat Sheets in no particular order.</em>medium.com</a><a href="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a"><strong>Bash Commands That Save Me Time and Frustration</strong><br />
+<em>Here’s a list of bash commands that stand between me and insanity.</em>medium.com</a><a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1"><strong>Quick Web Developers Website Checklist &amp; A List Of Tools For Improvement</strong><br />
+<em>A set of questions you should use before handing off your application to the client.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-md-cbaafb31765d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-md-cbaafb31765d"><strong>10 Essential React Interview Questions For Aspiring Frontend Developers</strong><br />
+<em>Comprehensive React Cheatsheet included at the bottom of this article!</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-md-cbaafb31765d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6"><strong>Long List Of Invaluable NodeJS Resources</strong><br />
+<em>Disclaimer: I know that I did not create this list all on my own… I can’t recall or track down the original list if you…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521"><strong>Open Ended Frontend Interview Questions You Should Answer Before Your Next Interview</strong><br />
+<em>Explain event delegation.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3"><strong>Data Structures… Under The Hood</strong><br />
+<em>Data Structures Reference</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261"><strong>Web Development Interview Resource List</strong><br />
+<em>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it…</em>medium.com</a><a href="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d"><strong>Beginners Guide To Python</strong><br />
+<em>My favorite language for maintainability is Python. It has simple, clean syntax, object encapsulation, good library…</em>medium.com</a><a href="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8"><strong>Data Structures &amp; Algorithms Resource List Part 1</strong><br />
+<em>Guess the author of the following quotes:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/memoization-86685d811182" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/memoization-86685d811182"><strong>What is Memoization?</strong><br />
+<em>And why this programming paradigm shouldn’t make you cringe.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/memoization-86685d811182" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53"><strong>CSS Interview Prep Quiz</strong><br />
+<em>Plus Css Cheat Sheet (82 questions total)</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be"><strong>Graph Data Structure Interview Questions At A Glance</strong><br />
+<em>Because they’re just about the most important data structure there is.</em>medium.com</a><a href="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/object-methods-4066ed24b214" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/object-methods-4066ed24b214"><strong>Object Methods</strong><br />
+<em>Iterating Through Objects</em>medium.com</a><a href="https://medium.com/geekculture/object-methods-4066ed24b214" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e"><strong>Github Repositories That Will Teach You How To Code For Free!</strong><br />
+<em>30-seconds/30-seconds-of-code</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520"><strong>Resources By Programming Language</strong><br />
+<em>Here’s a list of programming resources sorted by programming language.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104"><strong>Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.</strong><br />
+<em>“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with…</em>medium.com</a><a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879"><strong>These Are A Few Of My Favorite Things</strong><br />
+<em>A web development student’s declassified school survival guide.</em>medium.com</a><a href="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/objects-in-javascript-b212486dade6"><strong>Objects In JavaScript</strong><br />
+<em>The object is a data structure that stores other data, similar to how an array stores elements.</em>medium.com</a><a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827"><strong>Fundamental Javascript Concepts You Should Understand</strong><br />
+<em>Plain Old JS Object Lesson Concepts</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0"><strong>Mutability And Reference VS Privative Types in JavaScript</strong><br />
+<em>Mutability &amp;&amp; Primitive &amp;&amp; Reference Examples</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777"><strong>Array Callback Methods Implemented With For Loops</strong><br />
+<em>How to implement array callback methods in JavaScript</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186"><strong>Beginner’s Guide To React Part 2</strong><br />
+<em>As I learn to build web applications in React I will blog about it in this series in an attempt to capture the…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3"><strong>A Very Quick Guide To Calculating Big O Computational Complexity</strong><br />
+<em>Big O: big picture, broad strokes, not details</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad"><strong>Introduction to React for Complete Beginners</strong><br />
+<em>All of the code examples below will be included a second time at the bottom of this article as an embedded gist.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7"><strong>Scheduling: setTimeout and setInterval</strong><br />
+<em>We may decide to execute a function not right now, but at a later time. That’s called “scheduling a call”.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/css-animations-d196a20099a5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/css-animations-d196a20099a5"><strong>LocalStorage VS SessionStorage</strong><br />
+<em>Web storage objects localStorage and sessionStorage allow to save key/value pairs in the browser.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/css-animations-d196a20099a5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b"><strong>These Are The Bash Shell Commands That Stand Between Me And Insanity</strong><br />
+<em>I will not profess to be a bash shell wizard… but I have managed to scour some pretty helpful little scripts from Stack…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07"><strong>How To Implement Native(ES6) Data Structures Using Arrays &amp; Objects</strong><br />
+<em>Smart data structures and dumb code works better than the other way around -“Eric S. Raymond”</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/objects-in-javascript-cc578a781e1d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/objects-in-javascript-cc578a781e1d"><strong>Objects in Javascript</strong><br />
+<em>Codepen with examples for you to practice with below!</em>medium.com</a><a href="https://medium.com/codex/objects-in-javascript-cc578a781e1d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1"><strong>The Beginner’s Guide To JavaScript</strong><br />
+<em>Part 1</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb"><strong>Web Developer Resource List Part 4</strong><br />
+<em>A all encompassing list of tools and resources for web developers</em>medium.com</a><a href="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a"><strong>VSCode Extensions Specifically for JavaScript Development</strong><br />
+<em>VSCode Extensions that are indispensable in JavaScript development</em>medium.com</a><a href="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+<em>You should probably skip this one… seriously it’s just for internal use!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb"><strong>Fundamental Data Structures in JavaScript</strong><br />
+<em>A simple to follow guide to Lists Stacks and Queues, with animated gifs, diagrams, and code examples!</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a"><strong>Web Development Resources Part 3</strong><br />
+<em>I’m the psychological equivalent of a physical hoarder only instead of empty soda cans and dead racoons it’s lists of…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/web-development-interview-part-3-826ae81a9107" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/web-development-interview-part-3-826ae81a9107"><strong>Web Development Interview Part 3💻</strong><br />
+<em>This installment is going to be the least technically demanding thus far however these questions are a more realistic…</em>medium.com</a><a href="https://medium.com/codex/web-development-interview-part-3-826ae81a9107" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24"><strong>The Best Cloud-Based Code Playgrounds of 2021 (Part 1)</strong><br />
+<em>A plethora of front-end code playgrounds have appeared over the years. They offer a convenient way to experiment with…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443"><strong>Front End Interview Questions Part 2</strong><br />
+<em>These will focus more on vocabulary and concepts than the application driven approach in my last post!</em>medium.com</a><a href="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263"><strong>Web Developer Resource List Part 2</strong><br />
+<em>Because I compile these things compulsively anyway…</em>medium.com</a><a href="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/http-basics-8f02a96a834a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/http-basics-8f02a96a834a"><strong>HTTP Basics</strong><br />
+<em>“If you want to build a ship, don’t drum up the men and women to gather wood, divide the work, and give orders…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/http-basics-8f02a96a834a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35"><strong>JavaScript Frameworks &amp; Libraries</strong><br />
+<em>My Awesome JavaScript List Part 2</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74"><strong>My ‘awesome’ list of JavaScript resources</strong><br />
+<em>Everyone’s seen the ‘Awesome’ lists on GitHub… and they are indeed awesome… so today I am going to attempt to curate my…</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931"><strong>Everything You Need to Get Started With VSCode + Extensions &amp; Resources</strong><br />
+<em>Commands:</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f"><strong>My Favorite VSCode <em>Themes</em></strong><br />
+Themeslevelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333"><strong>Object Oriented Programming in JavaScript</strong><br />
+<em>Object-Oriented Programming</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1"><strong>JavaScript Rotate (Array) ProblemWalkthrough</strong><br />
+<em>Explanation for Rotate Right</em>medium.com</a><a href="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc"><strong>Super Simple Intro To HTML</strong><br />
+<em>What is HTML, CSS &amp; JS and why do we need all three?</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98"><strong>Everything You Need To Know About Relational Databases, SQL, PostgreSQL and Sequelize To Build…</strong><br />
+<em>For Front end developers who like myself struggle with making the jump to fullstack.</em>medium.com</a><a href="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107"><strong>Understanding Git (A Beginners Guide Containing Cheat Sheets &amp; Resources)</strong><br />
+<em>Basic Git Work Flow.</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db"><strong>The Complete JavaScript Reference Guide</strong><br />
+<em>You will want to bookmark this</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/modules-in-javascript-a55333e35978" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/modules-in-javascript-a55333e35978"><strong>Modules in Javascript</strong><br />
+<em>Differences between Node.js and browsers</em>medium.com</a><a href="https://medium.com/geekculture/modules-in-javascript-a55333e35978" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3"><strong>An Introduction to Markdown (Bonus Markdown Templates Included)</strong><br />
+<em>Basic Syntax Guide</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d"><strong>Web Dev Resources</strong><br />
+<em>Web Development</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/regular-expressions-4d8fb3eb146b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/regular-expressions-4d8fb3eb146b"><strong>Regular Expressions</strong><br />
+<em>description:</em>medium.com</a><a href="https://medium.com/codex/regular-expressions-4d8fb3eb146b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/writing-files-using-python-d46b4851366f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/writing-files-using-python-d46b4851366f"><strong>Writing Files Using Python</strong><br />
+<em>Basics of Writing Files in Python<br />
+The common methods to operate with files are open() to open a file,</em>medium.com</a><a href="https://medium.com/geekculture/writing-files-using-python-d46b4851366f" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab"><strong>A Collection of my most useful Gist Entries</strong><br />
+<em>This list is in no particular order!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a"><strong>Learn CSS So That Your Site Doesn’t Look Like Garbage</strong><br />
+<em>CSS Selectors</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089"><strong>PostgreSQL Setup For Windows &amp; WSL/Ubuntu</strong><br />
+<em>If you follow this guide to a tee… you will install PostgreSQL itself on your Windows installation. Then, you will…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37"><strong>Emmet Cheat Sheet</strong><br />
+<em>EMMET</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/git-tricks-57e8d0292285" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/git-tricks-57e8d0292285"><strong>Git-Tricks</strong><br />
+<em>Refs</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/git-tricks-57e8d0292285" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb"><strong>Python Study Guide for a JavaScript Programmer</strong><br />
+<em>A guide to commands in Python from what you know in JavaScript</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4"><strong><em>Fetch</em> Quick Sheet</strong><br />
+Fetchbryanguner.medium.com</a><a href="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca"><strong>Express Quick Sheet</strong><br />
+<em>Settings</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4"><strong>Fundamental Data Structures In JavaScript</strong><br />
+<em>Data structures in JavaScript</em>medium.com</a><a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986"><strong>Deploy React App To Heroku Using Postgres &amp; Express</strong><br />
+<em>Heroku is an web application that makes deploying applications easy for a beginner.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31"><strong>Postgresql Cheat Sheet</strong><br />
+<em>PostgreSQL commands</em>medium.com</a><a href="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522"><strong>A Quick Guide to Big-O Notation, Memoization, Tabulation, and Sorting Algorithms by Example</strong><br />
+<em>Curating Complexity: A Guide to Big-O Notation</em>medium.com</a><a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe"><strong>Basic Web Development Environment Setup</strong><br />
+<em>Windows Subsystem for Linux (WSL) and Ubuntu</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [March 22, 2021](https://medium.com/p/1f6f88ebdf5b).
+
+<a href="https://medium.com/@bryanguner/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Absolutely Everything You Could Need To Know About How JavaScript Works.
+========================================================================
+
+Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory on a very good day.
+
+------------------------------------------------------------------------
+
+### Absolutely Everything You Could Need To Know About How JavaScript Works.
+
+#### Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory on a very good day.
+
+#### But first a little bit of mildly shameful self promotion:
+
+> (self promotion ends after the line denoted by a bunch of pictures of my dog🐕 )
+
+> (Followed by a brief introduction to JavaScript for beginners)
+
+> (Finally the main content / resources / imbedded YouTube links)
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*huxNcspoDvOfqxvn.gif" class="graf-image" /></figure>### My Blog:
+
+### Discover More:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*_J5NcnQmHmPDBvZodMmyaA.png" class="graf-image" /></figure>***This is a work in progress and may be broken or hosted elsewhere at some time in the future.***
+
+Related posts:
+
+<a href="https://dev.to/bgoonz/js-modules-4c4d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bgoonz/js-modules-4c4d"><strong>JS Modules</strong><br />
+<em>A module is a reusable piece of code that encapsulates implementation details and exposes a public API so it can be…</em>dev.to</a><a href="https://dev.to/bgoonz/js-modules-4c4d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bgoonz/closures-in-javascript-1moc"><strong>Closures In JavaScript</strong><br />
+<em>Answer A closure is a function defined inside another function and has access to its lexical scope even when it is…</em>dev.to</a><a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db"><strong>The Complete JavaScript Reference Guide</strong><br />
+<em>You will want to bookmark this</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*2FC8D_rbP4cT3jukydhtkg.png" class="graf-image" /></figure>
+
+### The Beginner’s Guide To JavaScript
+
+> This is a quick intro for complete beginners … skip below for more advanced content and resources! (below the next photo montage of my dog)
+
+### Skip The Following **↓** To Get To Main Content!!
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*HCYn5Uz_jZ6uRjgp_NA5Yw.png" class="graf-image" /></figure>**If you wanna skip this section you’ll find the main content about 10% of the way down the page… it will look like this:**
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/0*iHxLNzz1MOZACC5u.png" class="graf-image" /></figure>### The Number Data Type
+
+The **number** data type in JS is used to represent any numerical  
+values, including integers and decimal numbers. **Basic Arithmetic Operators** are the symbols that perform particular operations.
+
+-   <span id="205d">**+** (addition)</span>
+-   <span id="1df4">**-** (subtraction)</span>
+-   <span id="f17b">**asterisk** (multiplication)</span>
+-   <span id="ed52">**/** (division)</span>
+-   <span id="d3a6">**%** (modulo)</span>
+
+JS evaluates more complex expressions using the general math order of  
+operations aka PEMDAS.
+
+-   <span id="4923">**PEMDAS** : Parentheses, Exponents, Multiplication, Division, Modulo, Addition, Subtraction.</span>
+-   <span id="e245">*To force a specific order of operation, use the group operator ( ) around a part of the expression.*</span>
+
+**Modulo** : Very useful operation to check divisibility of numbers,  
+check for even & odd, whether a number is prime, and much more!  
+*(Discrete Math concept, circular problems can be solved with modulo)*
+
+-   <span id="9608">Whenever you have a smaller number % a larger number, the answer will just be the initial small number.</span>
+-   <span id="3b00">`console.log(7 % 10); // => 7;`</span>
+
+### The String Data Type
+
+The **string** data type is a primitive data type that used to represent  
+textual data.
+
+-   <span id="792d">can be wrapped by either **single** or **double** quotation marks, *best to choose one and stick with it for consistency*.</span>
+-   <span id="4f91">If your string contains quotation marks inside, can layer single or double quotation marks to allow it to work.</span>
+
+<!-- -->
+
+    "That's a great string"; (valid)
+    'Shakespeare wrote, "To be or not to be"'; (valid)
+    'That's a bad string'; (invalid)
+
+-   <span id="a54b">Alt. way to add other quotes within strings is to use template literals.</span>
+
+### `This is a template literal`
+
+`${function} // use ${} to invoke functions within.`
+
+> **.length** : property that can be appended to data to return the length.
+
+> empty strings have a length of zero.
+
+> **indices** : indexes of data that begin at 0, can call upon index by using the bracket notation \[ \].
+
+    console.log("bootcamp"[0]); // => "b"
+    console.log("bootcamp"[10]); // => "undefined"
+    console.log("boots"[1 * 2]); // => "o"
+    console.log("boots"["boot".length - 1]); // => "t"
+
+-   <span id="bcc3">we can pass expressions through the brackets as well since JS always evaluates expressions first.</span>
+-   <span id="f60b">The index of the last character of a string is always one less than it’s length.</span>
+-   <span id="5329">**indexOf()** : method used to find the first index of a given character within a string.</span>
+-   <span id="6813">`console.log("bagel".indexOf("b")); // => 0 console.log("bagel".indexOf("z")); // => -1`</span>
+-   <span id="262e">**if the character inside the indexOf() search does not exist in the string, the output will be -1.**</span>
+-   <span id="0646">the indexOf() search will return the first instanced index of the the char in the string.</span>
+-   <span id="15e0">**concatenate** : word to describe joining strings together into a single string.</span>
+
+### The Boolean Data Type
+
+The **Boolean** data type is the simplest data type since there are only  
+two values: **true** and **false**.
+
+-   <span id="62d6">**Logical Operators** (Boolean Operators) are used to establish logic in our code.</span>
+-   <span id="bae2">**!** (not) : reverses a Boolean value.</span>
+
+`console.log(!true); // => false console.log(!!false); // => false`
+
+-   <span id="71d9">**&&** (and) **Truth Table**</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Y4qzqSB0C-9AmtXf.png" class="graf-image" /></figure>-   <span id="c706">**Logical Order of Operations** : JS will evaluate !, then &&, then ||.</span>
+-   <span id="1e21">**De Morgan’s Law** : Common mistake in Boolean logic is incorrectly distributing ! across parentheses.</span>
+-   <span id="2e3e">`!(A || B) === !A && !B; !(A && B) === !A || !B;`</span>
+-   <span id="350f">In summary, to correctly distribute ! across parentheses we must also flip the operation within.</span>
+
+### Comparison Operators
+
+All comparison operators will result in a Boolean output.
+
+**The relative comparators**
+
+-   <span id="0d1c">**&gt;** (greater than)</span>
+-   <span id="77dd">**&lt;** (less than)</span>
+-   <span id="2041">**&gt;=** (greater than or equal to)</span>
+-   <span id="55fd">**&lt;=** (less than or equal to)</span>
+-   <span id="1b7c">**===** (equal to)</span>
+-   <span id="09a6">**!==** (not equal to)</span>
+
+> Fun Fact: “a” &lt; “b” is considered valid JS Code because string  
+> comparisons are compared lexicographically (meaning dictionary order),  
+> so “a” is less than “b” because it appears earlier!
+
+> If there is ever a standstill comparison of two string  
+> lexicographically (i.e. app vs apple) the comparison will deem the  
+> shorter string lesser.
+
+**Difference between == and ===**
+
+-   <span id="3fec">**===** : Strict Equality, will only return true if the two comparisons are entirely the same.</span>
+-   <span id="224d">**==** : Loose Equality, will return true even if the values are of a different type, due to coercion. (Avoid using this)</span>
+
+### Variables
+
+Variables are used to store information to be referenced and manipulated  
+in a program.
+
+-   <span id="e084">We initialize a variable by using the **let** keyword and a **=** single equals sign (assignment operator).</span>
+-   <span id="92ec">`let bootcamp = "Lambda"; console.log(bootcamp); // "Lambda"`</span>
+-   <span id="f5af">JS variable names can contain any alphanumeric characters,  
+    underscores, or dollar signs (cannot being with a number).</span>
+-   <span id="5288">If you do not declare a value for a variable, undefined is  
+    automatically set.</span>
+-   <span id="5f49">`let bootcamp; console.log(bootcamp); // undefined`</span>
+-   <span id="ea4b">We can change the value of a previously declared variable (let, not  
+    const) by re-assigning it another value.</span>
+-   <span id="ef75">**let** is the updated version of **var**; there are some  
+    differences in terms of hoisting and global/block scope — will be  
+    covered later in the course (common interview question!)</span>
+
+**Assignment Shorthand**
+
+    let num = 0;num += 10; // same as num = num + 10num -= 2; // same as num = num - 2num /= 4; // same as num = num / 4num *= 7; // same as num = num * 7
+
+-   <span id="7ff5">In general, any nonsensical arithmetic will result in **NaN** ; usually operations that include undefined.</span>
+-   <span id="2798">**declaration** : process of simply introducing a variable name.</span>
+-   <span id="ad51">**initialization** : process of both declaring and assigning a variable on the same line.</span>
+
+### Functions
+
+A function is a procedure of code that will run when called. Functions  
+are used so that we do not have to rewrite code to do the same thing  
+over and over. (Think of them as ‘subprograms’)
+
+-   <span id="01bb">**Function Declaration** : Process when we first initially write our function.</span>
+-   <span id="963b">Includes three things:</span>
+-   <span id="32df">Name of the function.</span>
+-   <span id="7930">A list of *parameters* ()</span>
+-   <span id="145e">The code to execute {}</span>
+-   <span id="37c0">**Function Calls** : We can call upon our function whenever and wherever\* we want. (\*wherever is only after the initial declaration)</span>
+-   <span id="f3cc">JS evaluates code top down, left to right.</span>
+-   <span id="cf9c">When we execute a declared function later on in our program we refer to this as **invoking** our function.</span>
+-   <span id="4374">Every function in JS returns undefined unless otherwise specified.</span>
+-   <span id="3bb7">When we hit a **return** statement in a function we immediately exit the function and return to where we called the function.</span>
+-   <span id="0ce8">When naming functions in JS always use camelCase and name it something appropriate. &gt; Great code reads like English and almost explains itself. Think: Elegant, readable, and maintainable!</span>
+
+### Parameters and Arguments
+
+-   <span id="38d3">**Parameters** : Comma separated variables specified as part of a function’s declaration.</span>
+-   <span id="ecef">**Arguments** : Values passed to the function when it is invoked.</span>
+-   <span id="a836">*If the number of arguments passed during a function invocation is different than the number of parameters listed, it will still work.*</span>
+-   <span id="a53a">However, is there are not enough arguments provided for parameters our function will likely yield **Nan**.</span>
+
+------------------------------------------------------------------------
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*2FC8D_rbP4cT3jukydhtkg.png" class="graf-image" /></figure>
+
+> END OF INTRO FOR BEGINNERS (MAIN ARTICLE BELOW)
+
+### ↓↓**Absolutely Everything You Could Need To Know About JavaScript**↓↓
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*fOaTsnCJCYc3wD4x" class="graf-image" /></figure><a href="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation"><strong>leonardomso/33-js-concepts</strong><br />
+<em>This repository was created with the intention of helping developers master their concepts in JavaScript. It is not a…</em>github.com</a><a href="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack"><strong>Call stack - MDN Web Docs Glossary: Definitions of Web-related terms | MDN</strong><br />
+<em>A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec"><strong>Understanding Javascript Function Executions — Call Stack, Event Loop , Tasks &amp; more</strong><br />
+<em>Web developers or Front end engineers, as that’s what we like to be called, nowadays do everything right from acting as…</em>medium.com</a><a href="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4"><strong>Understanding the JavaScript call stack</strong><br />
+<em>The JavaScript engine (which is found in a hosting environment like the browser), is a single-threaded interpreter…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/"><strong>Javascript: What Is The Execution Context? What Is The Call Stack?</strong><br />
+<em>What is the Execution Context in Javascript? I bet you don't know the answer. What are the most basic components of a…</em>web.archive.org</a><a href="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*b31hiO4ynbDLRrXWEFF4aQ.png" class="graf-image" /></figure><a href="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0"><strong>Understanding Execution Context and Execution Stack in Javascript</strong><br />
+<em>Understanding execution context and stack to become a better Javascript developer.</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf"><strong>How JavaScript works: an overview of the engine, the runtime, and the call stack</strong><br />
+<em>As JavaScript is getting more and more popular, teams are leveraging its support on many levels in their stack …</em>blog.sessionstack.com</a><a href="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104"><strong>Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.</strong><br />
+<em>“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with…</em>medium.com</a><a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/"><strong>The Ultimate Guide to Hoisting, Scopes, and Closures in JavaScript - ui.dev</strong><br />
+<em>It may seem surprising, but in my opinion the most important and fundamental concept to understanding the JavaScript…</em>tylermcginnis.com</a><a href="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o"><strong>How JavaScript Works: An Overview of JavaScript Engine, Heap, and Call Stack</strong><br />
+<em>Hello everyone 👋, I hope you are doing great. So, today you are going to learn An Overview of JavaScript Engine, Heap…</em>dev.to</a><a href="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4"><strong>Fundamental Data Structures In JavaScript</strong><br />
+<em>Data structures in JavaScript</em>medium.com</a><a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+Here’s 
