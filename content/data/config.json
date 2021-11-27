@@ -43,7 +43,7 @@
             },
             {
                 "label": "Blog Backups",
-                "url": "blog-p",
+                "url": "articles",
                 "style": "link",
                 "icon_class": "dev",
                 "new_window": false,
