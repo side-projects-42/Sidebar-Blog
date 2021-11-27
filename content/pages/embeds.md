@@ -33,6 +33,7 @@ seo:
       relativeUrl: true
 layout: page
 img_path: /images/caring-chestnut.jpg
+img_alt: embeds
 ---
 
 
