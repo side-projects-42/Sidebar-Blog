@@ -19,7 +19,7 @@
             {
                 "label": "Codepens-Sandboxes",
                 "url": "https://bgoonz-blog.netlify.app/",
-                "style": "button",
+                "style": "link",
                 "new_window": true
             },
             {
