@@ -5223,4 +5223,702 @@ The find() method returns a value of the first element in the array that satisfi
 <a href="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml"><strong>Understanding JavaScript's requestAnimationFrame() method for smooth animations</strong><br />
 <em>Updated: Nov 1st, 2017 The modern web of today is filled with sights to behold on every page, where menus slide in and…</em>www.javascriptkit.com</a><a href="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
 
-<a href="https://www.amitmerchant.com/Handling-Time-Intervals-In-Javascript/" class="marku
+<a href="https://www.amitmerchant.com/Handling-Time-Intervals-In-Javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.amitmerchant.com/Handling-Time-Intervals-In-Javascript/"><strong>Handling time intervals in JavaScript</strong><br />
+<em>While working on an Electron app Pomolectron, I needed to handle different time intervals through setInterval()…</em>www.amitmerchant.com</a><a href="https://www.amitmerchant.com/Handling-Time-Intervals-In-Javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.softwaremag.com/javascript-engines/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.softwaremag.com/javascript-engines/"><strong>JavaScript Engines -</strong><br />
+<em>By Jen Looper Writing code for the Web sometimes feels a little magical in that developers write a sequence of…</em>www.softwaremag.com</a><a href="http://www.softwaremag.com/javascript-engines/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964"><strong>Understanding How the Chrome V8 Engine Translates JavaScript into Machine Code</strong><br />
+<em>Before diving deep into the core of Chrome’s V8, first, let’s get our fundamentals down. All of our systems consist of…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775"><strong>Understanding V8’s Bytecode</strong><br />
+<em>V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other applications use V8. This article…</em>medium.com</a><a href="https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.mediacurrent.com/blog/brief-history-googles-v8-javascript-engine/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.mediacurrent.com/blog/brief-history-googles-v8-javascript-engine/"><strong>A Brief History of Google's V8 JavaScript Engine</strong><br />
+<em>Javascript has a reputation in developer circles as a terrible language. It's classless, loosely typed, and plagued by…</em>www.mediacurrent.com</a><a href="https://www.mediacurrent.com/blog/brief-history-googles-v8-javascript-engine/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553"><strong>JavaScript essentials: why you should know how the engine works</strong><br />
+<em>This article is also available in Spanish.</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/javascript-essentials-why-you-should-know-how-the-engine-works-c2cc0d321553" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://mathiasbynens.be/notes/shapes-ics" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://mathiasbynens.be/notes/shapes-ics"><strong>JavaScript engine fundamentals: Shapes and Inline Caches</strong><br />
+<em>This article describes some key fundamentals that are common to all JavaScript engines - and not just V8, the engine…</em>mathiasbynens.be</a><a href="https://mathiasbynens.be/notes/shapes-ics" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://mathiasbynens.be/notes/prototypes" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://mathiasbynens.be/notes/prototypes"><strong>JavaScript engine fundamentals: optimizing prototypes</strong><br />
+<em>This article describes some key fundamentals that are common to all JavaScript engines - and not just V8, the engine…</em>mathiasbynens.be</a><a href="https://mathiasbynens.be/notes/prototypes" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://v8.dev/blog/elements-kinds" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://v8.dev/blog/elements-kinds"><strong>Elements kinds in V8</strong><br />
+<em>Note: If you prefer watching a presentation over reading articles, then enjoy the video below! JavaScript objects can…</em>v8.dev</a><a href="https://v8.dev/blog/elements-kinds" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/programming-with-js-bitwise-operations-393eb0745dc4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/programming-with-js-bitwise-operations-393eb0745dc4"><strong>Programming with JS: Bitwise Operations</strong><br />
+<em>In this series of articles we take a look at different Computer Science topics from the prism of JavaScript. We’ve…</em>hackernoon.com</a><a href="https://hackernoon.com/programming-with-js-bitwise-operations-393eb0745dc4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5"><strong>Using JavaScript’s Bitwise Operators in Real Life</strong><br />
+<em>Let’s pretend we’re machine code programmers!</em>codeburst.io</a><a href="https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.w3resource.com/javascript/operators/bitwise-operator.php" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.w3resource.com/javascript/operators/bitwise-operator.php"><strong>JavaScript Bitwise Operators - w3resource</strong><br />
+<em>Bitwise operators perform an operation on the bitwise (0,1) representation of their arguments, rather than as decimal…</em>www.w3resource.com</a><a href="https://www.w3resource.com/javascript/operators/bitwise-operator.php" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/bother7-blog/bitwise-operators-in-javascript-65c4c69be0d3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/bother7-blog/bitwise-operators-in-javascript-65c4c69be0d3"><strong>Bitwise Operators in Javascript</strong><br />
+<em>So far the two programming languages we have worked with are Ruby and Javascript. There are many differences between…</em>medium.com</a><a href="https://medium.com/bother7-blog/bitwise-operators-in-javascript-65c4c69be0d3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/techtrument/a-comprehensive-primer-on-binary-computation-and-bitwise-operators-in-javascript-81acf8341f04" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/techtrument/a-comprehensive-primer-on-binary-computation-and-bitwise-operators-in-javascript-81acf8341f04"><strong>A Comprehensive Primer on Binary Computation and Bitwise Operators in Javascript</strong><br />
+<em>Bitwise operators, though they take a few minutes to learn, are a fun way to make your code more space and…</em>medium.com</a><a href="https://medium.com/techtrument/a-comprehensive-primer-on-binary-computation-and-bitwise-operators-in-javascript-81acf8341f04" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.quora.com/How-can-I-understand-Bitwise-operation-in-JavaScript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.quora.com/How-can-I-understand-Bitwise-operation-in-JavaScript"><strong>How can I understand Bitwise operation in JavaScript?</strong><br />
+<em>Answer: Okay, I was going to just write that bitwise operations in JavaScript are the same as in every other language…</em>www.quora.com</a><a href="https://www.quora.com/How-can-I-understand-Bitwise-operation-in-JavaScript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://eloquentjavascript.net/14_dom.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://eloquentjavascript.net/14_dom.html"><strong>The Document Object Model :: Eloquent JavaScript</strong><br />
+<em>Too bad! Same old story! Once you've finished building your house you notice you've accidentally learned something that…</em>eloquentjavascript.net</a><a href="https://eloquentjavascript.net/14_dom.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://www.digitalocean.com/community/tutorials/introduction-to-the-dom" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.digitalocean.com/community/tutorials/introduction-to-the-dom"><strong>How To Understand and Modify the DOM in JavaScript | DigitalOcean</strong><br />
+<em>The Document Object Model, usually referred to as the DOM, is an essential part of making websites interactive. It is…</em>www.digitalocean.com</a><a href="https://www.digitalocean.com/community/tutorials/introduction-to-the-dom" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d"><strong>What’s the Document Object Model, and why you should know how to use it.</strong><br />
+<em>So, you’ve studied HTML, you’ve created your first tags, learned about CSS, made beautiful forms, amazing buttons…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.guru99.com/how-to-use-dom-and-events-in-javascript.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.guru99.com/how-to-use-dom-and-events-in-javascript.html"><strong>JavaScript DOM Tutorial with Example</strong><br />
+<em>Details JavaScript can access all the elements in a webpage making use of Document Object Model (DOM). In fact, the web…</em>www.guru99.com</a><a href="https://www.guru99.com/how-to-use-dom-and-events-in-javascript.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://css-tricks.com/dom/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://css-tricks.com/dom/"><strong>What is the DOM?</strong><br />
+<em>A reader recently wrote in asking me what the DOM was. They said they've heard it mentioned and alluded to, but aren't…</em>css-tricks.com</a><a href="https://css-tricks.com/dom/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://zellwk.com/blog/dom-traversals/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://zellwk.com/blog/dom-traversals/"><strong>Traversing the DOM with JavaScript</strong><br />
+<em>A good JavaScript developer needs to know how to traverse the DOM-it's the act of selecting an element from another…</em>zellwk.com</a><a href="https://zellwk.com/blog/dom-traversals/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/dom-nodes" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/dom-nodes"><strong>DOM tree</strong><br />
+<em>The backbone of an HTML document is tags. According to the Document Object Model (DOM), every HTML tag is an object…</em>javascript.info</a><a href="https://javascript.info/dom-nodes" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/how-to-traverse-the-dom-in-javascript-d6555c335b4e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/how-to-traverse-the-dom-in-javascript-d6555c335b4e"><strong>How to traverse the DOM in JavaScript</strong><br />
+<em>Learn how to navigate your way through the DOM tree.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/how-to-traverse-the-dom-in-javascript-d6555c335b4e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction"><strong>Render-tree Construction, Layout, and Paint | Web Fundamentals</strong><br />
+<em>The CSSOM and DOM trees are combined into a render tree, which is then used to compute the layout of each visible…</em>developers.google.com</a><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bitsofco.de/what-exactly-is-the-dom/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bitsofco.de/what-exactly-is-the-dom/"><strong>What, exactly, is the DOM?</strong><br />
+<em>The Document Object Model, or the "DOM", is an interface to web pages. It is essentially an API to the page, allowing…</em>bitsofco.de</a><a href="https://bitsofco.de/what-exactly-is-the-dom/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bouhm/a-vanilla-js-guide-on-mastering-the-dom-3l9b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bouhm/a-vanilla-js-guide-on-mastering-the-dom-3l9b"><strong>A Vanilla JS Guide On Mastering the DOM</strong><br />
+<em>Note: The contents of this post are intended to be introductory and does not include use of any libraries like jQuery…</em>dev.to</a><a href="https://dev.to/bouhm/a-vanilla-js-guide-on-mastering-the-dom-3l9b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript"><strong>How To Use Classes in JavaScript | DigitalOcean</strong><br />
+<em>JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called…</em>www.digitalocean.com</a><a href="https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677"><strong>Javascript Classes — Under The Hood</strong><br />
+<em>Javascript classes are nothing but a syntactic sugar over existing prototype based inheritance and constructor…</em>medium.com</a><a href="https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.javascriptjanuary.com/blog/es6-classes" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.javascriptjanuary.com/blog/es6-classes"><strong>ES6 Classes - JavaScript January</strong><br />
+<em>Object-Oriented Programming (OOP) can be a great way to organize your projects. Introduced with ES6, the javascript…</em>www.javascriptjanuary.com</a><a href="https://www.javascriptjanuary.com/blog/es6-classes" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes"><strong>Better JavaScript with ES6, Pt. II: A Deep Dive into Classes</strong><br />
+<em>Out with the Old, In with the new Let's be clear about one thing from the start: Under the hood, ES6 classes are not…</em>scotch.io</a><a href="https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/front-end-weekly/understand-the-factory-design-pattern-in-plain-javascript-20b348c832bd" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/front-end-weekly/understand-the-factory-design-pattern-in-plain-javascript-20b348c832bd"><strong>Understand the Factory Design Pattern in plain javascript</strong><br />
+<em>The simplest way to understand Factory Design Pattern</em>medium.com</a><a href="https://medium.com/front-end-weekly/understand-the-factory-design-pattern-in-plain-javascript-20b348c832bd" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://atendesigngroup.com/blog/factory-functions-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://atendesigngroup.com/blog/factory-functions-javascript"><strong>Factory Functions in JavaScript | Aten Design Group</strong><br />
+<em>As we move from an age of jQuery plugins and script drop-ins to a world of CommonJS and modular architectures it's…</em>atendesigngroup.com</a><a href="https://atendesigngroup.com/blog/factory-functions-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@SntsDev/the-factory-pattern-in-js-es6-78f0afad17e9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@SntsDev/the-factory-pattern-in-js-es6-78f0afad17e9"><strong>The Factory Pattern in JS ES6</strong><br />
+<em>I’m trying to get the most out of all the new things in ES6 (ES2015). And I’m writing a new library where I need a…</em>medium.com</a><a href="https://medium.com/@SntsDev/the-factory-pattern-in-js-es6-78f0afad17e9" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/class-vs-factory-function-exploring-the-way-forward-73258b6a8d15" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/class-vs-factory-function-exploring-the-way-forward-73258b6a8d15"><strong>Class vs Factory function: exploring the way forward</strong><br />
+<em>ECMAScript 2015 (aka ES6) comes with the class syntax, so now we have two competing patterns for creating objects. In…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/class-vs-factory-function-exploring-the-way-forward-73258b6a8d15" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a"><strong>How ES6 classes really work and how to build your own</strong><br />
+<em>The 6th edition of ECMAScript (or ES6 for short) revolutionized the language, adding many new features, including…</em>medium.com</a><a href="https://medium.com/@robertgrosse/how-es6-classes-really-work-and-how-to-build-your-own-fd6085eb326a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jordankasper.com/understanding-super-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jordankasper.com/understanding-super-in-javascript"><strong>Understanding `super` in JavaScript</strong><br />
+<em>With the adoption of ES6/2015 by nearly all browsers (with one notable exception), developers have access to the new…</em>jordankasper.com</a><a href="https://jordankasper.com/understanding-super-in-javascript" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://dev.to/lawrence_eagles/an-easy-guide-to-understanding-classes-in-javascript-3bcm" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/lawrence_eagles/an-easy-guide-to-understanding-classes-in-javascript-3bcm"><strong>An Easy Guide To Understanding Classes In JavaScript</strong><br />
+<em>1. An Introduction To Classes In JavaScript In the previous article in this series we looked at function constructors…</em>dev.to</a><a href="https://dev.to/lawrence_eagles/an-easy-guide-to-understanding-classes-in-javascript-3bcm" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"><strong>Function.prototype.call() - JavaScript | MDN</strong><br />
+<em>The value to use as this when calling . Note: In certain cases, may not be the actual value seen by the method. If the…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind"><strong>Function.prototype.bind() - JavaScript | MDN</strong><br />
+<em>The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"><strong>Function.prototype.apply() - JavaScript | MDN</strong><br />
+<em>The apply() method calls a function with a given this value, and arguments provided as an array (or an array-like…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/grokking-call-apply-and-bind-methods-in-javascript-392351a4be8b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/grokking-call-apply-and-bind-methods-in-javascript-392351a4be8b"><strong>Grokking call(), apply() and bind() methods in JavaScript</strong><br />
+<em>These are very important for every aspiring JavaScript Developer, these are used in almost every JavaScript Library or…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/grokking-call-apply-and-bind-methods-in-javascript-392351a4be8b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.codementor.io/niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.codementor.io/niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp"><strong>How-to: call() , apply() and bind() in JavaScript | Codementor</strong><br />
+<em>In this post, we will be discussing the difference between call(), apply(), and bind() methods of JavaScript functions…</em>www.codementor.io</a><a href="https://www.codementor.io/niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/"><strong>JavaScript's Apply, Call, and Bind Methods are Essential for JavaScript Professionals</strong><br />
+<em>Prerequisite: - Understand JavaScript's "this" With Ease, and Master It. - JavaScript Objects - Understand JavaScript…</em>javascriptissexy.com</a><a href="http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/"><strong>Understanding the "this" keyword, call, apply, and bind in JavaScript - ui.dev</strong><br />
+<em>Before diving into the specifics of the this keyword in JavaScript, it's important to take a step back and first look…</em>tylermcginnis.com</a><a href="https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb"><strong>Javascript: call(), apply() and bind()</strong><br />
+<em>“this” refresher</em>medium.com</a><a href="https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@ivansifrim/the-differences-between-call-apply-bind-276724bb825b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@ivansifrim/the-differences-between-call-apply-bind-276724bb825b"><strong>The difference between call / apply / bind</strong><br />
+<em>JavaScript is a dynamic language, and is flexible enough to let you do things like multiple inheritance. That’s when an…</em>medium.com</a><a href="https://medium.com/@ivansifrim/the-differences-between-call-apply-bind-276724bb825b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/ritik_dev_js/what-the-hack-is-call-apply-bind-in-javascript-11ce" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/ritik_dev_js/what-the-hack-is-call-apply-bind-in-javascript-11ce"><strong>What the hack is call, apply, bind in JavaScript</strong><br />
+<em>Before start looking into call, apply, bind you should understand - how does "this" keyword works in JavaScript. In…</em>dev.to</a><a href="https://dev.to/ritik_dev_js/what-the-hack-is-call-apply-bind-in-javascript-11ce" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/"><strong>Mastering 'this' in JavaScript: Callbacks and bind(), apply(), call() - The New Stack</strong><br />
+<em>In Part One of our tutorial on mastering the 'this' keyword in JavaScript, we looked at why the concept of 'this' can…</em>thenewstack.io</a><a href="https://thenewstack.io/mastering-javascript-callbacks-bind-apply-call/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/kbk0125/javascripts-apply-call-and-bind-explained-by-hosting-a-cookout-32jo" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/kbk0125/javascripts-apply-call-and-bind-explained-by-hosting-a-cookout-32jo"><strong>JavaScript's apply, call, and bind explained by hosting a cookout</strong><br />
+<em>If you have ever been in charge of operating the grill at a family event or party, then you can understand apply, call…</em>dev.to</a><a href="https://dev.to/kbk0125/javascripts-apply-call-and-bind-explained-by-hosting-a-cookout-32jo" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.eigenx.com/blog/https/mediumcom/eigen-x/how-and-when-to-use-bind-call-and-apply-in-javascript-77b6f42898fb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.eigenx.com/blog/https/mediumcom/eigen-x/how-and-when-to-use-bind-call-and-apply-in-javascript-77b6f42898fb"><strong>How AND When to use bind, call, and apply in Javascript - Eigen X</strong><br />
+<em>In order for you to fully understand bind, call, and apply you have to understand the Javascript concept of this …</em>www.eigenx.com</a><a href="https://www.eigenx.com/blog/https/mediumcom/eigen-x/how-and-when-to-use-bind-call-and-apply-in-javascript-77b6f42898fb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.hacksparrow.com/javascript-bind-vs-apply-and-call.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.hacksparrow.com/javascript-bind-vs-apply-and-call.html"><strong>JavaScript: bind() vs apply() and call()</strong><br />
+<em>var fruit = { name: 'Apple' }; and this function: function showDetails(size, price) { console.log(this.name + ' ' +…</em>www.hacksparrow.com</a><a href="https://www.hacksparrow.com/javascript-bind-vs-apply-and-call.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/ycmjason/let-me-explain-to-you-what-is-this-javascript-44ja" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/ycmjason/let-me-explain-to-you-what-is-this-javascript-44ja"><strong>Let me explain to you what is `this`. (Javascript)</strong><br />
+<em>Original post: https://www.ycmjason.com/blog/2018/06/15.html this article assumes 'use strict' in all context this…</em>dev.to</a><a href="https://dev.to/ycmjason/let-me-explain-to-you-what-is-this-javascript-44ja" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8"><strong>Understanding the “this” Keyword in JavaScript</strong><br />
+<em>How the value of “this” is assigned in different scenarios</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8"><strong>How to understand the keyword this and context in JavaScript</strong><br />
+<em>As mentioned in one of my earlier articles, mastering JavaScript fully can be a lengthy journey. You may have come…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/_hridaysharma/what-the-heck-is-this-in-javascript-37n1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/_hridaysharma/what-the-heck-is-this-in-javascript-37n1"><strong>What is "this" in Javascript ?</strong><br />
+<em>While learning JavaScript there are many roadblocks like closures, asynchronous programming, this keywords, etc. These…</em>dev.to</a><a href="https://dev.to/_hridaysharma/what-the-heck-is-this-in-javascript-37n1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/steelvoltage/this-and-bind-in-javascript-2pam" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/steelvoltage/this-and-bind-in-javascript-2pam"><strong>This and Bind In Javascript</strong><br />
+<em>If you're learning Javascript, you'll no doubt run into the this keyword early on. At first, it appears quite simple…</em>dev.to</a><a href="https://dev.to/steelvoltage/this-and-bind-in-javascript-2pam" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/canderson93/3-techniques-for-maintaining-your-sanity-using-this-in-javascript-3idf" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/canderson93/3-techniques-for-maintaining-your-sanity-using-this-in-javascript-3idf"><strong>3 Techniques for Maintaining Your Sanity Using "This" in JavaScript</strong><br />
+<em>Of JavaScript's many confusing aspects, the keyword this can be one of the most complicated -- Here's a joke about the…</em>dev.to</a><a href="https://dev.to/canderson93/3-techniques-for-maintaining-your-sanity-using-this-in-javascript-3idf" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/aakashsr/mastering-the-javascript-this-keyword-4pfa" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/aakashsr/mastering-the-javascript-this-keyword-4pfa"><strong>Mastering the JavaScript "this" Keyword</strong><br />
+<em>The this keyword is a very important concept in JavaScript, and also a particularly confusing one to both new…</em>dev.to</a><a href="https://dev.to/aakashsr/mastering-the-javascript-this-keyword-4pfa" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/sargalias/this-binding-in-javascript-4-new-binding-2p1n" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/sargalias/this-binding-in-javascript-4-new-binding-2p1n"><strong>This binding in JavaScript - 4. New binding</strong><br />
+<em>This post ( This binding in JavaScript - 4. New binding) was originally published on Sargalias. In this series we talk…</em>dev.to</a><a href="https://dev.to/sargalias/this-binding-in-javascript-4-new-binding-2p1n" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/thatgalnatalie/a-quick-intro-to-this-in-javascript-2mhp" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/thatgalnatalie/a-quick-intro-to-this-in-javascript-2mhp"><strong>A quick intro to 'this' in JavaScript</strong><br />
+<em>Probably one of the most confusing aspects of JavaScript is finding out what 'this' means. In this post, I will try to…</em>dev.to</a><a href="https://dev.to/thatgalnatalie/a-quick-intro-to-this-in-javascript-2mhp" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/cat__logic/explaining-javascript-this-to-my-cat-1kig" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/cat__logic/explaining-javascript-this-to-my-cat-1kig"><strong>Explaining JavaScript 'this' to my cat</strong><br />
+<em>My cat is not very good at JavaScript (also at many other things), so today I will try to explain this keyword to him…</em>dev.to</a><a href="https://dev.to/cat__logic/explaining-javascript-this-to-my-cat-1kig" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/developerkaren/a-conversation-with-the-this-keyword-in-javascript-3j6g" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/developerkaren/a-conversation-with-the-this-keyword-in-javascript-3j6g"><strong>A conversation with the 'this' keyword in Javascript</strong><br />
+<em>'This' is one of the most confusing concepts in Javascript. Here's the sad news. It is just as important to understand…</em>dev.to</a><a href="https://dev.to/developerkaren/a-conversation-with-the-this-keyword-in-javascript-3j6g" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jscurious.com/what-are-call-apply-and-bind-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jscurious.com/what-are-call-apply-and-bind-in-javascript/"><strong>What are call(), apply() and bind() in JavaScript - JS Curious</strong><br />
+<em>In JavaScript this refers to the owner object. If you want to attach some extra properties to a function, then you can…</em>jscurious.com</a><a href="https://jscurious.com/what-are-call-apply-and-bind-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/nerd-for-tech/understanding-this-binding-in-javascript-86687397c76d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/nerd-for-tech/understanding-this-binding-in-javascript-86687397c76d"><strong>Understanding “this” binding in Javascript</strong><br />
+<em>In order to understand “this” keyword clearly, we need to go through of how the execution context works at first. Every…</em>medium.com</a><a href="https://medium.com/nerd-for-tech/understanding-this-binding-in-javascript-86687397c76d" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e"><strong>JavaScript For Beginners: the ‘new’ operator</strong><br />
+<em>Preface</em>codeburst.io</a><a href="https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c"><strong>Let’s demystify JavaScript’s ‘new’ keyword</strong><br />
+<em>Over the weekend, I completed Will Sentance’s JavaScript: The Hard Parts. It might not sound like the most glorious way…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/constructor-new" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/constructor-new"><strong>Constructor, operator "new"</strong><br />
+<em>The regular {...} syntax allows to create one object. But often we need to create many similar objects, like multiple…</em>javascript.info</a><a href="https://javascript.info/constructor-new" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://css-tricks.com/understanding-javascript-constructors/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://css-tricks.com/understanding-javascript-constructors/"><strong>Understanding JavaScript Constructors</strong><br />
+<em>The following is a guest post by Faraz Kelhini. Some of this stuff is out of my comfort zone, so I asked Kyle Simpson…</em>css-tricks.com</a><a href="https://css-tricks.com/understanding-javascript-constructors/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://2ality.com/2017/08/type-right.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://2ality.com/2017/08/type-right.html"><strong>Beyond `typeof` and `instanceof`: simplifying dynamic type checks</strong><br />
+<em>This blog post describes a technique for making instanceof applicable to more values (on the right-hand side)…</em>2ality.com</a><a href="http://2ality.com/2017/08/type-right.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://appendto.com/2016/10/what-is-the-instanceof-operator-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://appendto.com/2016/10/what-is-the-instanceof-operator-in-javascript/"><strong>What Is the Instanceof Operator in JavaScript?</strong><br />
+<em>Learn more about What Is the Instanceof Operator in JavaScript? from DevelopIntelligence. Your trusted developer…</em>appendto.com</a><a href="https://appendto.com/2016/10/what-is-the-instanceof-operator-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascriptrefined.io/function-and-object-instances-of-each-other-1e1095d5faac" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascriptrefined.io/function-and-object-instances-of-each-other-1e1095d5faac"><strong>Function and Object, instances of each other</strong><br />
+<em>Explaining why Function is an instance of Object, and why Object is an instance of Function</em>javascriptrefined.io</a><a href="https://javascriptrefined.io/function-and-object-instances-of-each-other-1e1095d5faac" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"><strong>Inheritance and the prototype chain - JavaScript | MDN</strong><br />
+<em>JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it is dynamic…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b"><strong>Javascript : Prototype vs Class</strong><br />
+<em>Let’s see how classes in JS are not what you think they are.</em>medium.com</a><a href="https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-prototype-cb29d82b8809" class="markup--anchor markup--p-anchor">https://codeburst.io/javascript-prototype-cb29d82b8809</a>
+
+<a href="https://www.codementor.io/sandeepranjan2007/prototype-in-javascipt-knbve0lqo" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.codementor.io/sandeepranjan2007/prototype-in-javascipt-knbve0lqo"><strong>Prototype in Javascript | Codementor</strong><br />
+<em>By default every function has a property name as prototype which is EMPTY ( by default). We can add properties and…</em>www.codementor.io</a><a href="https://www.codementor.io/sandeepranjan2007/prototype-in-javascipt-knbve0lqo" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b"><strong>Prototypes in JavaScript</strong><br />
+<em>In this post, we will discuss what are prototypes in JavaScript, how they help JavaScript in achieving the concepts of…</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/prototype-in-js-busted-5547ec68872" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/prototype-in-js-busted-5547ec68872"><strong>Prototype in JavaScript: it’s quirky, but here’s how it works</strong><br />
+<em>The following four lines are enough to confuse most JavaScript developers:</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/prototype-in-js-busted-5547ec68872" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-javascript-prototype-and-inheritance-d55a9a23bde2" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-javascript-prototype-and-inheritance-d55a9a23bde2"><strong>Understanding JavaScript: Prototype and Inheritance</strong><br />
+<em>Due to the amazing quantity of libraries, tools and all kinds of things that make your development easier, a lot of…</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-javascript-prototype-and-inheritance-d55a9a23bde2" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/_hridaysharma/understanding-classes-es5-and-prototypal-inheritance-in-javascript-n8d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/_hridaysharma/understanding-classes-es5-and-prototypal-inheritance-in-javascript-n8d"><strong>Understanding Classes (ES5) and Prototypal Inheritance in JavaScript</strong><br />
+<em>In a nutshell the above snippet creates a Person class that can have multiple instances. By convention functional…</em>dev.to</a><a href="https://dev.to/_hridaysharma/understanding-classes-es5-and-prototypal-inheritance-in-javascript-n8d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/varundey/prototype-proto-and-prototypal-inheritance-in-javascript-2inl" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/varundey/prototype-proto-and-prototypal-inheritance-in-javascript-2inl"><strong>prototype, __proto__ and Prototypal inheritance in JavaScript</strong><br />
+<em>This post was originally published on my website If you have spent some time with JavaScript, chances are that you have…</em>dev.to</a><a href="https://dev.to/varundey/prototype-proto-and-prototypal-inheritance-in-javascript-2inl" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/prototype-inheritance" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/prototype-inheritance"><strong>Prototypal inheritance</strong><br />
+<em>In programming, we often want to take something and extend it. For instance, we have a user object with its properties…</em>javascript.info</a><a href="https://javascript.info/prototype-inheritance" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript"><strong>How To Work with Prototypes and Inheritance in JavaScript | DigitalOcean</strong><br />
+<em>JavaScript is a prototype-based language, meaning object properties and methods can be shared through generalized…</em>www.digitalocean.com</a><a href="https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e"><strong>Master JavaScript Prototypes &amp; <em>Inheritance</em></strong><br />
+Inheritancecodeburst.io</a><a href="https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/understanding-prototypal-inheritance-in-javascript-with-css-93b2fcda75e4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/understanding-prototypal-inheritance-in-javascript-with-css-93b2fcda75e4"><strong>JavaScript’s Prototypal Inheritance Explained Using CSS</strong><br />
+<em>Prototypal inheritance is arguably the least understood aspect of JavaScript. Well the good news is that if you…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/understanding-prototypal-inheritance-in-javascript-with-css-93b2fcda75e4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/demystifying-es6-classes-and-prototypal-inheritance" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/demystifying-es6-classes-and-prototypal-inheritance"><strong>Demystifying ES6 Classes And Prototypal Inheritance</strong><br />
+<em>In the early history of the JavaScript language, a cloud of animosity formed over the lack of a proper syntax for…</em>scotch.io</a><a href="https://scotch.io/tutorials/demystifying-es6-classes-and-prototypal-inheritance" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/danny/intro-to-prototypal-inheritance---js-9di" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/danny/intro-to-prototypal-inheritance---js-9di"><strong>Intro To Prototypal Inheritance - JS</strong><br />
+<em>In this article I will try to give an introduction to protypal inheritance. As an "optional" pre-requisite, you can…</em>dev.to</a><a href="https://dev.to/danny/intro-to-prototypal-inheritance---js-9di" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/varche/let-s-build-prototypal-inheritance-in-js-56mm" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/varche/let-s-build-prototypal-inheritance-in-js-56mm"><strong>Let's Build Prototypal Inheritance in JS</strong><br />
+<em>The idea for this post is pretty simple. I want to some extent build and with that, illustrate how prototypes work in…</em>dev.to</a><a href="https://dev.to/varche/let-s-build-prototypal-inheritance-in-js-56mm" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/attacomsian/objects-prototypes-and-classes-in-javascript-3i9b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/attacomsian/objects-prototypes-and-classes-in-javascript-3i9b"><strong>Objects, Prototypes and Classes in JavaScript</strong><br />
+<em>JavaScript is based on a simple object-oriented programming model with objects being a fundamental part of the…</em>dev.to</a><a href="https://dev.to/attacomsian/objects-prototypes-and-classes-in-javascript-3i9b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/ladybenko/the-magical-world-of-javascript-prototypes-1mhg" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/ladybenko/the-magical-world-of-javascript-prototypes-1mhg"><strong>The magical world of JavaScript prototypes</strong><br />
+<em>How many times have we heard "JavaScript is not an Object-Oriented language, it's Prototype-oriented"? It turns out…</em>dev.to</a><a href="https://dev.to/ladybenko/the-magical-world-of-javascript-prototypes-1mhg" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-javascript-4f31#chp-4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-javascript-4f31#chp-4"><strong>Understanding Prototypal Inheritance In JavaScript</strong><br />
+<em>What Is Object-oriented Programming (OOP) Classical vs Prototypal Inheritance The Prototype Object And The Prototype…</em>dev.to</a><a href="https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-javascript-4f31#chp-4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"><strong>Object.create() - JavaScript | MDN</strong><br />
+<em>The Object.create() method creates a new object, using an existing object as the prototype of the newly created object…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"><strong>Object.assign() - JavaScript | MDN</strong><br />
+<em>The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@happymishra66/object-create-in-javascript-fa8674df6ed2" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@happymishra66/object-create-in-javascript-fa8674df6ed2"><strong>Object.create in JavaScript</strong><br />
+<em>The Object.create method is one of the methods to create a new object in JavaScript.</em>medium.com</a><a href="https://medium.com/@happymishra66/object-create-in-javascript-fa8674df6ed2" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.htmlgoodies.com/beyond/javascript/object.create-the-new-way-to-create-objects-in-javascript.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.htmlgoodies.com/beyond/javascript/object.create-the-new-way-to-create-objects-in-javascript.html"><strong>Javascript Objects | A New Way to Create Objects | HTML Goodies</strong><br />
+<em>There are a lot of ways to create Objects in JavaScript, perhaps even more to integrate inheritance into them. Just…</em>www.htmlgoodies.com</a><a href="https://www.htmlgoodies.com/beyond/javascript/object.create-the-new-way-to-create-objects-in-javascript.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="http://adripofjavascript.com/blog/drips/basic-inheritance-with-object-create.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://adripofjavascript.com/blog/drips/basic-inheritance-with-object-create.html"><strong>Basic Inheritance with Object.create</strong><br />
+<em>A few issues back we looked at how to implement basic inheritance with constructors. In this issue, we'll look at how…</em>adripofjavascript.com</a><a href="http://adripofjavascript.com/blog/drips/basic-inheritance-with-object-create.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://www.geeksforgeeks.org/object-create-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.geeksforgeeks.org/object-create-javascript/"><strong>Object.create( ) In JavaScript - GeeksforGeeks</strong><br />
+<em>Object and Object Constructors in JavaScript? In the living world of object-oriented programming we already know the…</em>www.geeksforgeeks.org</a><a href="https://www.geeksforgeeks.org/object-create-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@jonathanvox01/understanding-the-difference-between-object-create-and-the-new-operator-b2a2f4749358" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@jonathanvox01/understanding-the-difference-between-object-create-and-the-new-operator-b2a2f4749358"><strong>Understanding the difference between Object.create() and the new operator.</strong><br />
+<em>Why is it important to know the difference?</em>medium.com</a><a href="https://medium.com/@jonathanvox01/understanding-the-difference-between-object-create-and-the-new-operator-b2a2f4749358" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/"><strong>JavaScript Object Creation: Patterns and Best Practices - SitePoint</strong><br />
+<em>Jeff Mott guides you through a step-by-step approach to JavaScript object creation - from object literals to factory…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://alligator.io/js/dealing-with-objects/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://alligator.io/js/dealing-with-objects/"><strong>Dealing With Objects in JavaScript With Object.assign, Object.keys and hasOwnProperty |…</strong><br />
+<em>This post is a sort of grab bag to help you explore a few very useful methods to help you manage your objects in…</em>alligator.io</a><a href="https://alligator.io/js/dealing-with-objects/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/bar-talk/copying-objects-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/bar-talk/copying-objects-in-javascript"><strong>Copying Objects in JavaScript | DigitalOcean</strong><br />
+<em>Objects are the fundamental blocks of JavaScript. An object is a collection of properties, and a property is an…</em>scotch.io</a><a href="https://scotch.io/bar-talk/copying-objects-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-object-assign-bc9696dcbb6e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-object-assign-bc9696dcbb6e"><strong>JavaScript: Object.assign()</strong><br />
+<em>Veja nesse artigo como utilizar o Object.assign() do ECMAScript 6</em>codeburst.io</a><a href="https://codeburst.io/javascript-object-assign-bc9696dcbb6e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://flaviocopes.com/how-to-clone-javascript-object/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://flaviocopes.com/how-to-clone-javascript-object/"><strong>How to deep clone a JavaScript object</strong><br />
+<em>Copying objects in JavaScript can be tricky. Some ways perform a shallow copy, which is the default behavior in most of…</em>flaviocopes.com</a><a href="https://flaviocopes.com/how-to-clone-javascript-object/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/vzing/object-create-when-and-why-to-use-20m9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/vzing/object-create-when-and-why-to-use-20m9"><strong>Object.create(): When and Why to Use</strong><br />
+<em>Object.create() is a method available on all JavaScript objects. It takes two arguments: the object you want to copy…</em>dev.to</a><a href="https://dev.to/vzing/object-create-when-and-why-to-use-20m9" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@bojangbusiness/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@bojangbusiness/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d"><strong>JavaScript Functional Programming — map, filter and reduce</strong><br />
+<em>Even if you don’t know what functional programming is you’ve probably been using map, filter and reduce just because…</em>medium.com</a><a href="https://medium.com/@bojangbusiness/javascript-functional-programming-map-filter-and-reduce-846ff9ba492d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@joomiguelcunha/learn-map-filter-and-reduce-in-javascript-ea59009593c4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@joomiguelcunha/learn-map-filter-and-reduce-in-javascript-ea59009593c4"><strong>Learn map, filter and reduce in Javascript</strong><br />
+<em>The perfect toolset for your venture in Functional Programming</em>medium.com</a><a href="https://medium.com/@joomiguelcunha/learn-map-filter-and-reduce-in-javascript-ea59009593c4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter"><strong>JavaScript's Map, Reduce, and Filter * Dan Martensen</strong><br />
+<em>As engineers we build and manipulate arrays holding numbers, strings, booleans and objects almost everyday. We use them…</em>danmartensen.svbtle.com</a><a href="https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://code.tutsplus.com/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://code.tutsplus.com/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209"><strong>How to Use Map, Filter, and Reduce in JavaScript</strong><br />
+<em>Functional programming has been making quite a splash in the development world these days. And for good reason…</em>code.tutsplus.com</a><a href="https://code.tutsplus.com/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-learn-to-chain-map-filter-and-reduce-acd2d0562cd4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-learn-to-chain-map-filter-and-reduce-acd2d0562cd4"><strong>JavaScript — Learn to Chain Map, Filter, and Reduce</strong><br />
+<em>Learn how to chain map, filter, and reduce in JavaScript</em>codeburst.io</a><a href="https://codeburst.io/javascript-learn-to-chain-map-filter-and-reduce-acd2d0562cd4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-map-filter-and-reduce-in-javascript-5df1c7eee464" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-map-filter-and-reduce-in-javascript-5df1c7eee464"><strong>Understanding map, filter and reduce in Javascript</strong><br />
+<em>When working on Javascript projects you inevitably come across situations where you have to do some data manipulation…</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-map-filter-and-reduce-in-javascript-5df1c7eee464" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/functional-programming-in-js-map-filter-reduce-pt-5-308a205fdd5f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/functional-programming-in-js-map-filter-reduce-pt-5-308a205fdd5f"><strong>Functional Programming in JS: map, filter, reduce (Pt. 5)</strong><br />
+<em>Note: This is part of the “Javascript and Functional Programming” series on learning functional programming techniques…</em>hackernoon.com</a><a href="https://hackernoon.com/functional-programming-in-js-map-filter-reduce-pt-5-308a205fdd5f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://wsvincent.com/functional-javascript-map-filter-reduce/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://wsvincent.com/functional-javascript-map-filter-reduce/"><strong>JavaScript: Map, Filter, Reduce</strong><br />
+<em>JavaScript's built-in map, filter, and reduce array methods are invaluable to a modern JavaScript developer. First…</em>wsvincent.com</a><a href="https://wsvincent.com/functional-javascript-map-filter-reduce/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/"><strong>JavaScript Arrow Functions: Fat and Concise Syntax in ES6</strong><br />
+<em>In this article, you'll learn all about JavaScript's arrow function syntax - including some of the gotchas you need to…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc"><strong>JavaScript: Arrow Functions for Beginners</strong><br />
+<em>Last week I published this post on the keyword this for beginners. One of the topics that wasn’t covered in that…</em>codeburst.io</a><a href="https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26"><strong>When (and why) you should use ES6 arrow functions — and when you shouldn’t</strong><br />
+<em>Arrow functions (also called “fat arrow functions”) are undoubtedly one of the more popular features of ES6. They…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946"><strong>JavaScript — Learn &amp; Understand Arrow Functions</strong><br />
+<em>A beginners guide to Arrow Functions in JavaScript</em>codeburst.io</a><a href="https://codeburst.io/javascript-learn-understand-arrow-functions-fe2083533946" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/podiihq/javascript-arrow-functions-27d4c3334b83" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/podiihq/javascript-arrow-functions-27d4c3334b83"><strong>(JavaScript )=&gt; Arrow functions</strong><br />
+<em>This post is meant to summarise some of the things someone new to JavaScript and arrow functions needs to know. I do…</em>medium.com</a><a href="https://medium.com/podiihq/javascript-arrow-functions-27d4c3334b83" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://andepaulj.medium.com/javascript-reduce-79aab078da23" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://andepaulj.medium.com/javascript-reduce-79aab078da23"><strong>Javascript.reduce()</strong><br />
+<em>The Mutli-Tool of JS</em>andepaulj.medium.com</a><a href="https://andepaulj.medium.com/javascript-reduce-79aab078da23" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://gofore.com/en/why-you-should-replace-foreach/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://gofore.com/en/why-you-should-replace-foreach/"><strong>Why you should replace forEach with map and filter in JavaScript - Gofore</strong><br />
+<em>TL;DR Prefer map and filter over forEach when you need to copy an array or part of it to a new one. One of the best…</em>gofore.com</a><a href="https://gofore.com/en/why-you-should-replace-foreach/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d"><strong>Simplify your JavaScript – Use .map(), .reduce(), and .filter()</strong><br />
+<em>If you haven’t heard of .map(), .reduce(), and .filter() in JavaScript, you might want to learn to use it!</em>medium.com</a><a href="https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.codeanalogies.com/2018/07/24/javascripts-reduce-method-explained-by-going-on-a-diet/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.codeanalogies.com/2018/07/24/javascripts-reduce-method-explained-by-going-on-a-diet/"><strong>JavaScript's Reduce Method Explained By Going On a Diet</strong><br />
+<em>The reduce method in JavaScript gives you a simple way to take an array of values and combine them into one value, or…</em>blog.codeanalogies.com</a><a href="https://blog.codeanalogies.com/2018/07/24/javascripts-reduce-method-explained-by-going-on-a-diet/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@amiratak88/difference-between-map-filter-and-reduce-in-javascript-822ff79d5160" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@amiratak88/difference-between-map-filter-and-reduce-in-javascript-822ff79d5160"><strong>Difference between map, filter and reduce in JavaScript</strong><br />
+<em>I’ve seen a lot of JS beginners struggle when using map, filter or reduce and don’t know the different use cases of…</em>medium.com</a><a href="https://medium.com/@amiratak88/difference-between-map-filter-and-reduce-in-javascript-822ff79d5160" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/map-filter-reduce-ebbed4be4201" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/map-filter-reduce-ebbed4be4201"><strong>Map⇄Filter⇄Reduce↻ | Hacker Noon</strong><br />
+<em>Share it on LinkedIn! Due to that reason we were introduced with these three higher order functions, namely 🗺️Map…</em>hackernoon.com</a><a href="https://hackernoon.com/map-filter-reduce-ebbed4be4201" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/finding-your-way-with-map-aecb8ca038f6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/finding-your-way-with-map-aecb8ca038f6"><strong>Finding Your Way With .Map()</strong><br />
+<em>At the end of the article is a CodePen that demonstrates the concepts presented here.</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/finding-your-way-with-map-aecb8ca038f6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/how-to-write-your-own-map-filter-and-reduce-functions-in-javascript-ab1e35679d26" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/how-to-write-your-own-map-filter-and-reduce-functions-in-javascript-ab1e35679d26"><strong>How to write your own map, filter and reduce functions in JavaScript</strong><br />
+<em>A sneak peek into functional programming and higher order functions in Javascript.</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/how-to-write-your-own-map-filter-and-reduce-functions-in-javascript-ab1e35679d26" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/"><strong>How to Manipulate Arrays in JavaScript</strong><br />
+<em>An important part of any programming language. Most times we need to do several operations on arrays, hence this…</em>www.freecodecamp.org</a><a href="https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/pickleat/map-filter-and-reduce-2efb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/pickleat/map-filter-and-reduce-2efb"><strong>.map(), .filter(), and .reduce()</strong><br />
+<em>Originally posted on my blog For the last several weeks I've been applying for jobs. Sadly, the startup I was working…</em>dev.to</a><a href="https://dev.to/pickleat/map-filter-and-reduce-2efb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jstutorial.medium.com/map-filter-and-reduce-animated-7fe391a35a47" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jstutorial.medium.com/map-filter-and-reduce-animated-7fe391a35a47"><strong>Map, Filter and Reduce – Animated</strong><br />
+<em>Map, filter and reduce have been around for a long time. They are often seen as part of Functional Programming style.</em>jstutorial.medium.com</a><a href="https://jstutorial.medium.com/map-filter-and-reduce-animated-7fe391a35a47" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/uptheirons78/map-filter-reduce-and-others-arrays-iterators-you-must-know-to-become-an-algorithms-wizard-4209" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/uptheirons78/map-filter-reduce-and-others-arrays-iterators-you-must-know-to-become-an-algorithms-wizard-4209"><strong>Map, Filter, Reduce and others Arrays Iterators You Must Know to Become an Algorithms Wizard</strong><br />
+<em>In this article we are going to take a close look at some arrays iterators like , , or others methods that use…</em>dev.to</a><a href="https://dev.to/uptheirons78/map-filter-reduce-and-others-arrays-iterators-you-must-know-to-become-an-algorithms-wizard-4209" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/how-to-javascripts-map-vs-filter-vs-reduce-80d87a5a0a24" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/how-to-javascripts-map-vs-filter-vs-reduce-80d87a5a0a24"><strong>How to Use JavaScript’s .map, .filter, and .reduce</strong><br />
+<em>How to use these three useful JavaScript functions</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/how-to-javascripts-map-vs-filter-vs-reduce-80d87a5a0a24" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://towardsdatascience.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://towardsdatascience.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7"><strong>Javascript performance test - for vs for each vs (map, reduce, filter, find).</strong><br />
+<em>We all know that for loop are faster than for each or javascript function since under the hood of javascript functions…</em>towardsdatascience.com</a><a href="https://towardsdatascience.com/javascript-performance-test-for-vs-for-each-vs-map-reduce-filter-find-32c1113f19d7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/using-map-filter-and-reduce-properly-50e07f80c8b2" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/using-map-filter-and-reduce-properly-50e07f80c8b2"><strong>Using .map(), .filter() and .reduce() properly 👩🏽‍💻</strong><br />
+<em>Map, reduce, and filter are all array methods in JavaScript. Each one will iterate over an array and perform a…</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/using-map-filter-and-reduce-properly-50e07f80c8b2" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c"><strong>Javascript and Functional Programming — Pt. 3: Pure Functions</strong><br />
+<em>Purity</em>hackernoon.com</a><a href="https://hackernoon.com/javascript-and-functional-programming-pt-3-pure-functions-d572bb52e21c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976"><strong>Master the JavaScript Interview: What is a Pure Function?</strong><br />
+<em>Pure functions are essential for a variety of purposes, including functional programming, reliable concurrency, and…</em>medium.com</a><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c"><strong>JavaScript: What Are Pure Functions And Why Use Them?</strong><br />
+<em>The first time I heard the term “Pure Function” I was confused. What was wrong with a regular function? Why does it…</em>medium.com</a><a href="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/"><strong>Pure functions in JavaScript</strong><br />
+<em>A pure function doesn't depend on and doesn't modify the states of variables out of its scope. Concretely, that means a…</em>www.nicoespeon.com</a><a href="http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/functional-programming-pure-functions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/functional-programming-pure-functions/"><strong>Functional Programming: Pure Functions - SitePoint</strong><br />
+<em>This is the second part of a two part series on functional programming in Ruby. Before we explored immutable values…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/functional-programming-pure-functions/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://appdividend.com/2017/04/10/pure-functions-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://appdividend.com/2017/04/10/pure-functions-in-javascript/"><strong>Pure Functions In Javascript</strong><br />
+<em>Pure functions in Javascript are kind of Functions where the return value is determined by its parameter passed at call…</em>appdividend.com</a><a href="https://appdividend.com/2017/04/10/pure-functions-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://alistapart.com/article/making-your-javascript-pure" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://alistapart.com/article/making-your-javascript-pure"><strong>Making your JavaScript Pure</strong><br />
+<em>Once your website or application goes past a small number of lines, it will inevitably contain bugs of some sort. This…</em>alistapart.com</a><a href="https://alistapart.com/article/making-your-javascript-pure" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa"><strong>Arrays, Objects and Mutations</strong><br />
+<em>Here are some thoughts on how to avoid mutations when working with arrays and objects in JavaScript by treating them as…</em>medium.com</a><a href="https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310"><strong>The State of Immutability</strong><br />
+<em>Immutability is a hot subject in modern JavaScript. The reason why this topic is so popular now is of course the…</em>medium.com</a><a href="https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/"><strong>How to deal with dirty side effects in your pure functional JavaScript</strong><br />
+<em>If you start learning about functional programming, it won't be long before you come across the idea of pure functions…</em>jrsinclair.com</a><a href="https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://davidwalsh.name/preventing-sideeffects-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://davidwalsh.name/preventing-sideeffects-javascript"><strong>Preventing Side Effects in JavaScript</strong><br />
+<em>JavaScript is very dynamic these days but I still see a lot of legacy code, whether it be for optimal backward…</em>davidwalsh.name</a><a href="https://davidwalsh.name/preventing-sideeffects-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/wielding-pure-functions-in-javascript-and-function-composition" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/wielding-pure-functions-in-javascript-and-function-composition"><strong>Wielding Pure Functions in JavaScript and Function Composition</strong><br />
+<em>Today, I'd like to share some thoughts on two fundamental concepts in functional programming: Pure functions and…</em>scotch.io</a><a href="https://scotch.io/tutorials/wielding-pure-functions-in-javascript-and-function-composition" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://wsvincent.com/javascript-pure-functions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://wsvincent.com/javascript-pure-functions/"><strong>JavaScript: Pure Functions</strong><br />
+<em>Pure functions are fundamental to functional programming, concurrency, writing testable code, and having deterministic…</em>wsvincent.com</a><a href="https://wsvincent.com/javascript-pure-functions/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/functional-programming-paradigms-in-modern-javascript-pure-functions-797d9abbee1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/functional-programming-paradigms-in-modern-javascript-pure-functions-797d9abbee1"><strong>Functional programming paradigms in modern JavaScript: Pure functions</strong><br />
+<em>JavaScript is one of the most popular programming languages out there. It runs in the browser, on desktop, on mobile…</em>hackernoon.com</a><a href="https://hackernoon.com/functional-programming-paradigms-in-modern-javascript-pure-functions-797d9abbee1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3"><strong>Understanding Javascript Mutation and Pure Functions</strong><br />
+<em>Boost your app performance by better understanding Mutation and Pure Functions in JS</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bluepnume.medium.com/functional-ish-javascript-205c05d0ed08" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bluepnume.medium.com/functional-ish-javascript-205c05d0ed08"><strong>Functional-ish JavaScript</strong><br />
+<em>Functional programming is a great discipline to learn and apply when writing JavaScript. Writing stateless, idempotent…</em>bluepnume.medium.com</a><a href="https://bluepnume.medium.com/functional-ish-javascript-205c05d0ed08" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"><strong>Introduction to events - Learn web development | MDN</strong><br />
+<em>Events are actions or occurrences that happen in the system you are programming, which the system tells you about so…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/bubbling-and-capturing" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/bubbling-and-capturing"><strong>Bubbling and capturing</strong><br />
+<em>Let's start with an example. This handler is assigned to , but also runs if you click any nested tag like or : Isn't it…</em>javascript.info</a><a href="https://javascript.info/bubbling-and-capturing" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.youtube.com/watch?v=Jh_Uzqzz_wM" class="markup--anchor markup--p-anchor">https://www.youtube.com/watch?v=Jh_Uzqzz_wM</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" class="markup--anchor markup--p-anchor">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures</a>  
+<a href="https://javascript.info/closure" class="markup--anchor markup--p-anchor">https://javascript.info/closure</a>
+
+<a href="https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8"><strong>I never understood JavaScript closures</strong><br />
+<em>Until someone explained it to me like this …</em>medium.com</a><a href="https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://javascriptissexy.com/understand-javascript-closures-with-ease/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://javascriptissexy.com/understand-javascript-closures-with-ease/"><strong>Understand JavaScript Closures With Ease</strong><br />
+<em>Closures allow JavaScript programmers to write better code. Creative, expressive, and concise. We frequently use…</em>javascriptissexy.com</a><a href="http://javascriptissexy.com/understand-javascript-closures-with-ease/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/understanding-javascript-closures-da6aab330302" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/understanding-javascript-closures-da6aab330302"><strong>Understanding JavaScript Closures</strong><br />
+<em>When you’re first learning JavaScript, terms like “closures” may make the language appear mystical and hard to…</em>codeburst.io</a><a href="https://codeburst.io/understanding-javascript-closures-da6aab330302" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/understand-closures-in-javascript-d07852fa51e7" class="markup--anchor markup--p-anchor">https://codeburst.io/understand-closures-in-javascript-d07852fa51e7</a>
+
+<a href="https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4"><strong>A simple guide to help you understand closures in JavaScript</strong><br />
+<em>Closures in JavaScript are one of those concepts that many struggle to get their heads around. In the following…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/understanding-javascript-closures-a-practical-approach" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/understanding-javascript-closures-a-practical-approach"><strong>Understanding JavaScript Closures: A Practical Approach</strong><br />
+<em>Learning a new language involves a series of steps, whereas its mastery is a product of patience, practice, mistakes…</em>scotch.io</a><a href="https://scotch.io/tutorials/understanding-javascript-closures-a-practical-approach" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-javascript-closures-4188edf5ea1b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-javascript-closures-4188edf5ea1b"><strong>Understanding JavaScript: Closures</strong><br />
+<em>Why learn JavaScript in depth?</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-javascript-closures-4188edf5ea1b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b"><strong>How to use JavaScript closures with confidence</strong><br />
+<em>Using closures will be a piece of (chocolate) cake</em>hackernoon.com</a><a href="https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://howchoo.com/g/mge2mji2mtq/javascript-closures-by-example" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://howchoo.com/g/mge2mji2mtq/javascript-closures-by-example"><strong>JavaScript Closures by Example</strong><br />
+<em>At some point you may have run into a problem when executing functions from within a for loop. The first time it…</em>howchoo.com</a><a href="https://howchoo.com/g/mge2mji2mtq/javascript-closures-by-example" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-closures-and-scope-3784c75b9290" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-closures-and-scope-3784c75b9290"><strong>JavaScript — Closures and Scope</strong><br />
+<em>Looking at JavaScript today, it can be scary as a beginner. People talk about watching out for all the little quirks or…</em>codeburst.io</a><a href="https://codeburst.io/javascript-closures-and-scope-3784c75b9290" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7"><strong>Discover the power of closures in JavaScript</strong><br />
+<em>Discover Functional JavaScript was named one of the best new Functional Programming books by BookAuthority! A closure…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00"><strong>Simplified JavaScript: Getting Started with Closures</strong><br />
+<em>Eric Elliot, in his Medium article Master the JavaScript Interview: What is a Closure?, explains that when he…</em>code.likeagirl.io</a><a href="https://code.likeagirl.io/simplified-javascript-getting-started-with-closures-f40f65317d00" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://reallifejs.com/the-meat/getting-closure/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://reallifejs.com/the-meat/getting-closure/"><strong>Javascript Closures 101 - Explaining how closures work</strong><br />
+<em>So, "closures", right? That's a fun one that tends to cause confusion all around. It's pretty much a given that at some…</em>reallifejs.com</a><a href="http://reallifejs.com/the-meat/getting-closure/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://dev.to/ritik_dev_js/what-the-hack-is-closure-currying-and-iife-in-javascript-32m9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/ritik_dev_js/what-the-hack-is-closure-currying-and-iife-in-javascript-32m9"><strong>Closure, Currying and IIFE in JavaScript</strong><br />
+<em>These are some of the concepts of JavaScript where everyone struggle in beginning. Lets try to simplify them bit by…</em>dev.to</a><a href="https://dev.to/ritik_dev_js/what-the-hack-is-closure-currying-and-iife-in-javascript-32m9" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda"><strong>Understanding Closures in JavaScript</strong><br />
+<em>Learn How Closures Really Work in JavaScript: hands-on guide</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/a-beginners-guide-to-closures-in-javascript-97d372284dda" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"><strong>A basic guide to Closures in JavaScript</strong><br />
+<em>The Closure is a collection of all variables in scope at the time of function creation. To use closure create a…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/steelvoltage/closures-using-memoization-3597" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/steelvoltage/closures-using-memoization-3597"><strong>Closures: Using Memoization</strong><br />
+<em>One of the core tenets of Functional Programming is that a function should return the same value if given the same…</em>dev.to</a><a href="https://dev.to/steelvoltage/closures-using-memoization-3597" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/a-brief-introduction-to-closures-and-lexical-scoping-in-javascript-8a5866496232" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/a-brief-introduction-to-closures-and-lexical-scoping-in-javascript-8a5866496232"><strong>A Brief Introduction to Closures and Lexical Scoping in JavaScript</strong><br />
+<em>“Writing in ECMAScript language without understanding closure is like writing Java without understanding classes”</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/a-brief-introduction-to-closures-and-lexical-scoping-in-javascript-8a5866496232" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/stereobooster/demystify-closures-5g42" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/stereobooster/demystify-closures-5g42"><strong>Demystify Closures</strong><br />
+<em>In the previous post we implemented functions, but not about closures. Let's fix this. Without closures following code…</em>dev.to</a><a href="https://dev.to/stereobooster/demystify-closures-5g42" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/boywithsilverwings/scopes-and-closures-javascript-concepts-4dfj" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/boywithsilverwings/scopes-and-closures-javascript-concepts-4dfj"><strong>Scope - JavaScript Concepts</strong><br />
+<em>This is part of a series where I try to explain through each of 33 JS Concepts. Originally written on my blog with…</em>dev.to</a><a href="https://dev.to/boywithsilverwings/scopes-and-closures-javascript-concepts-4dfj" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/mattpopovich/understanding-closures-in-javascript-3k0d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/mattpopovich/understanding-closures-in-javascript-3k0d"><strong>Understanding Closures in JavaScript</strong><br />
+<em>When you declare a function inside another function, a closure is the new environment created by combining the inner…</em>dev.to</a><a href="https://dev.to/mattpopovich/understanding-closures-in-javascript-3k0d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://whatthefuck.is/closure" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://whatthefuck.is/closure"><strong>What the fuck is a closure? ・ Dan's JavaScript Glossary</strong><br />
+<em>Closures are confusing because they are an "invisible" concept. When you use an object, a variable, or a function, you…</em>whatthefuck.is</a><a href="https://whatthefuck.is/closure" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://dev.to/brandonleboeuf/closure-in-javascript-49n7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/brandonleboeuf/closure-in-javascript-49n7"><strong>Closures in JavaScript can...</strong><br />
+<em>I gain more understanding of a topic when I get to talk/write about it... much to my wife's horror as she has zero…</em>dev.to</a><a href="https://dev.to/brandonleboeuf/closure-in-javascript-49n7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.youtube.com/watch?v=1JsJx1x35c0" class="markup--anchor markup--p-anchor">https://www.youtube.com/watch?v=1JsJx1x35c0</a>
+
+<a href="https://eloquentjavascript.net/05_higher_order.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://eloquentjavascript.net/05_higher_order.html"><strong>Higher-Order Functions :: Eloquent JavaScript</strong><br />
+<em>Tzu-li and Tzu-ssu were boasting about the size of their latest programs. 'Two-hundred thousand lines,' said Tzu-li…</em>eloquentjavascript.net</a><a href="https://eloquentjavascript.net/05_higher_order.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/higher-order-functions-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/higher-order-functions-javascript/"><strong>Higher-Order Functions in JavaScript - SitePoint</strong><br />
+<em>Continuing his look at functional programming in JavaScript, M. David Green examines higher-order functions and how…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/higher-order-functions-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/higher-order-functions-in-javascript-d9101f9cf528" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/higher-order-functions-in-javascript-d9101f9cf528"><strong>Higher Order Functions: Using Filter, Map and Reduce for More Maintainable Code</strong><br />
+<em>Higher order functions can help you to step up your JavaScript game by making your code more declarative. That is…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/higher-order-functions-in-javascript-d9101f9cf528" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a"><strong>First-class and Higher Order Functions: Effective Functional JavaScript</strong><br />
+<em>Functions: the killer JavaScript feature we never talk about.</em>hackernoon.com</a><a href="https://hackernoon.com/effective-functional-javascript-first-class-and-higher-order-functions-713fde8df50a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.lullabot.com/articles/higher-order-functions-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.lullabot.com/articles/higher-order-functions-in-javascript"><strong>Higher Order Functions in JavaScript</strong><br />
+<em>Higher-order functions can be intimidating at first, but they're not that hard to learn. A higher-order function is…</em>www.lullabot.com</a><a href="https://www.lullabot.com/articles/higher-order-functions-in-javascript" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="http://javascriptissexy.com/tag/higher-order-functions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://javascriptissexy.com/tag/higher-order-functions/"><strong>Higher-order Functions - JavaScript Is Sexy</strong><br />
+<em>In JavaScript, functions are first-class objects; that is, functions are of the type Object and they can be used in a…</em>javascriptissexy.com</a><a href="http://javascriptissexy.com/tag/higher-order-functions/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://derickbailey.com/2015/10/21/fun-with-higher-order-functions-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://derickbailey.com/2015/10/21/fun-with-higher-order-functions-in-javascript/"><strong>Fun With Higher Order Functions In JavaScript</strong><br />
+<em>JavaScript is often referred to as a language with functional programming capabilities because of it's "higher order…</em>derickbailey.com</a><a href="https://derickbailey.com/2015/10/21/fun-with-higher-order-functions-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/pedroapfilho/high-order-functions" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/pedroapfilho/high-order-functions"><strong>pedroapfilho/array-methods</strong><br />
+<em>Just a reminder on how to use array methods. Contribute to pedroapfilho/array-methods development by creating an…</em>github.com</a><a href="https://github.com/pedroapfilho/high-order-functions" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad"><strong>Understanding Higher-Order Functions in JavaScript</strong><br />
+<em>Learn What Higher-Order Functions are and how to use them in JavaScript</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/nuel_ikwuoma/higher-order-functions-a-pragmatic-approach-51fb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/nuel_ikwuoma/higher-order-functions-a-pragmatic-approach-51fb"><strong>Higher Order Functions - A pragmatic approach</strong><br />
+<em>Its a common saying that functions are the bread and butter of programming, and the basic unit for building reusable…</em>dev.to</a><a href="https://dev.to/nuel_ikwuoma/higher-order-functions-a-pragmatic-approach-51fb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/recursion-in-javascript-1608032c7a1f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/recursion-in-javascript-1608032c7a1f"><strong>Recursion in JavaScript</strong><br />
+<em>I’m just gonna get this out of the way right up front, because people get really angry otherwise:</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/recursion-in-javascript-1608032c7a1f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03"><strong>Understanding Recursion in JavaScript</strong><br />
+<em>One of the many things that JavaScript has going for it is the ability to recursively call functions. This feature is…</em>medium.com</a><a href="https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea"><strong>Learn and Understand Recursion in JavaScript</strong><br />
+<em>I’ll walk you through two popular JS recursion examples in 10 minutes so you can finally understand how recursion works…</em>codeburst.io</a><a href="https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/recursion-functional-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/recursion-functional-javascript/"><strong>Recursion in Functional JavaScript - SitePoint</strong><br />
+<em>M. David Green demonstrates the powerful, but dizzying concept of recursion by refactoring normal for and while loops…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/recursion-functional-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/programming-with-js-recursion-31371e2bf808" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/programming-with-js-recursion-31371e2bf808"><strong>Programming with JS: Recursion</strong><br />
+<em>Understanding data structures, algorithms and basic programming concepts is essential for one to become a better…</em>hackernoon.com</a><a href="https://hackernoon.com/programming-with-js-recursion-31371e2bf808" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/simov/anonymous-recursion-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/simov/anonymous-recursion-in-javascript"><strong>Anonymous Recursion in JavaScript</strong><br />
+<em>Yes, there is such thing, and I thought it would be an interesting example to share. It features: closures…</em>dev.to</a><a href="https://dev.to/simov/anonymous-recursion-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.jstips.co/en/javascript/recursion-iteration-and-tail-calls-in-js/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.jstips.co/en/javascript/recursion-iteration-and-tail-calls-in-js/"><strong>Recursion, iteration and tail calls in JS</strong><br />
+<em>If you've been on the business for some time, you have, most likely, come across the definition of recursion, for which…</em>www.jstips.co</a><a href="http://www.jstips.co/en/javascript/recursion-iteration-and-tail-calls-in-js/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@newmanbradm/intro-to-recursion-984a8bd50f4b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@newmanbradm/intro-to-recursion-984a8bd50f4b"><strong>Intro to Recursion</strong><br />
+<em>Recursion can be a difficult concept to wrap your head around, but its definition is rather simple: recursion is when a…</em>medium.com</a><a href="https://medium.com/@newmanbradm/intro-to-recursion-984a8bd50f4b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.datadriveninvestor.com/accio-recursion-your-new-favorite-javascript-spell-7e10d3125fb3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.datadriveninvestor.com/accio-recursion-your-new-favorite-javascript-spell-7e10d3125fb3"><strong>Accio Recursion!: Your New Favorite JavaScript Spell</strong><br />
+<em>The spell “Accio” allows a witch or wizard to summon something to them. Casting Accio is just like accessing a value in…</em>medium.datadriveninvestor.com</a><a href="https://medium.datadriveninvestor.com/accio-recursion-your-new-favorite-javascript-spell-7e10d3125fb3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/christinamcmahon/recursion-explained-with-examples-4k1m" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/christinamcmahon/recursion-explained-with-examples-4k1m"><strong>Recursion Explained (with Examples)</strong><br />
+<em>"To understand recursion, one must first understand recursion" - Unknown Recursion is a method of solving problems…</em>dev.to</a><a href="https://dev.to/christinamcmahon/recursion-explained-with-examples-4k1m" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator"><strong>Generator - JavaScript | MDN</strong><br />
+<em>This object cannot be instantiated directly. Instead, a Generator instance can be returned from a generator function…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hacks.mozilla.org/2015/06/es6-in-depth-collections/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hacks.mozilla.org/2015/06/es6-in-depth-collections/"><strong>ES6 In Depth: Collections - Mozilla Hacks - the Web developer blog</strong><br />
+<em>ES6 In Depth is a series on new features being added to the JavaScript programming language in the 6th Edition of the…</em>hacks.mozilla.org</a><a href="https://hacks.mozilla.org/2015/06/es6-in-depth-collections/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/"><strong>ES6 Collections: Using Map, Set, WeakMap, WeakSet - SitePoint</strong><br />
+<em>Most major programming languages have several types of data collections. Python has lists, tuples, and dictionaries…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://alligator.io/js/maps-introduction/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://alligator.io/js/maps-introduction/"><strong>Introduction to Maps in JavaScript | DigitalOcean</strong><br />
+<em>While this tutorial has content that we believe is of great benefit to our community, we have not yet tested or edited…</em>alligator.io</a><a href="https://alligator.io/js/maps-introduction/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/map-set-weakmap-weakset" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/map-set-weakmap-weakset"><strong>Map and Set</strong><br />
+<em>Till now, we've learned about the following complex data structures: Objects are used for storing keyed collections…</em>javascript.info</a><a href="https://javascript.info/map-set-weakmap-weakset" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/mildrenben/maps-in-es6---a-quick-guide-35pk" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/mildrenben/maps-in-es6---a-quick-guide-35pk"><strong>Maps in ES6 - A Quick Guide</strong><br />
+<em>Maps and Sets often get lumped together in articles. They're both new ES6 collection types with similar interfaces but…</em>dev.to</a><a href="https://dev.to/mildrenben/maps-in-es6---a-quick-guide-35pk" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a"><strong>ES6 — Set vs Array — What and when?</strong><br />
+<em>What is Set and what is Array?</em>medium.com</a><a href="https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373"><strong>ES6 — Map vs Object — What and when?</strong><br />
+<em>You may wonder — why Map vs Object but not Map vs Array, or Object vs Set? Well, you can also compare between any of…</em>medium.com</a><a href="https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.deadcoderising.com/es6-working-with-sets-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.deadcoderising.com/es6-working-with-sets-in-javascript/"><strong>ES6: Working with Sets in JavaScript</strong><br />
+<em>In this post we're continuing to look at features introduced in ES6. Amongst all the cool things happening in ES6, we…</em>www.deadcoderising.com</a><a href="http://www.deadcoderising.com/es6-working-with-sets-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b"><strong>Array vs Set vs Map vs Object — Real-time use cases in Javascript (ES6/ES7)</strong><br />
+<em>The internet is a great place to find information, but there is one teeny-tiny problem. You are on a boat in the middle…</em>codeburst.io</a><a href="https://codeburst.io/array-vs-set-vs-map-vs-object-real-time-use-cases-in-javascript-es6-47ee3295329b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/claireparker/how-to-create-an-array-of-unique-values-in-javascript-using-sets-5dg6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/claireparker/how-to-create-an-array-of-unique-values-in-javascript-using-sets-5dg6"><strong>How to create an array of unique values in JavaScript using Sets</strong><br />
+<em>Sorry for the verbose title - sometimes things can be explained better with a code example. Imagine you have a…</em>dev.to</a><a href="https://dev.to/claireparker/how-to-create-an-array-of-unique-values-in-javascript-using-sets-5dg6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e"><strong>What You Should Know About ES6 Maps</strong><br />
+<em>JavaScript ES6 introduces a new data structure, called maps. Maps are designed as an alternative to using Object…</em>hackernoon.com</a><a href="https://hackernoon.com/what-you-should-know-about-es6-maps-dc66af6b9a1e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://ponyfoo.com/articles/es6-maps-in-depth" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://ponyfoo.com/articles/es6-maps-in-depth"><strong>ES6 Maps in Depth</strong><br />
+<em>A very common abuse case of JavaScript objects is hash-maps, where we map string keys to arbitrary values.</em>ponyfoo.com</a><a href="https://ponyfoo.com/articles/es6-maps-in-depth" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e"><strong>What are JavaScript Generators and how to use them</strong><br />
+<em>In this article, we’re going to take a look at the generators that were introduced in ECMAScript 6. We’ll see what it…</em>codeburst.io</a><a href="https://codeburst.io/what-are-javascript-generators-and-how-to-use-them-c6f2713fd12e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"><strong>Understanding Generators in ES6 JavaScript with Examples</strong><br />
+<em>ES6 introduced a new way of working with functions and iterators in the form of Generators (or generator functions). A…</em>codeburst.io</a><a href="https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://davidwalsh.name/es6-generators" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://davidwalsh.name/es6-generators"><strong>The Basics Of ES6 Generators</strong><br />
+<em>One of the most exciting new features coming in JavaScript ES6 is a new breed of function, called a generator. The name…</em>davidwalsh.name</a><a href="https://davidwalsh.name/es6-generators" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/kallaugher/an-introduction-to-javascript-generators-1224" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/kallaugher/an-introduction-to-javascript-generators-1224"><strong>An Introduction to JavaScript Generators</strong><br />
+<em>One of the fundamentals of JavaScript is that it is single-threaded, meaning that two pieces of code cannot run at the…</em>dev.to</a><a href="https://dev.to/kallaugher/an-introduction-to-javascript-generators-1224" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><strong>Promise - JavaScript | MDN</strong><br />
+<em>The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/javascript-promises-for-dummies" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/javascript-promises-for-dummies"><strong>Understanding JavaScript Promises | DigitalOcean</strong><br />
+<em>Javascript Promises can be challenging to understand. Therefore, I would like to write down the way I understand…</em>scotch.io</a><a href="https://scotch.io/tutorials/javascript-promises-for-dummies" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1"><strong>Understanding Promises in JavaScript</strong><br />
+<em>An in-depth look at creating and handling Promises</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261"><strong>Master the JavaScript Interview: What is a Promise?</strong><br />
+<em>“Master the JavaScript Interview” is a series of posts designed to prepare candidates for common questions they are…</em>medium.com</a><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/overview-javascript-promises/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/overview-javascript-promises/"><strong>An Overview of JavaScript Promises - SitePoint</strong><br />
+<em>This article explores JavaScript's new Promises API, showing how you can leverage promises in your JavaScript…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/overview-javascript-promises/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/promises-in-javascript-explained-277b98850de" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/promises-in-javascript-explained-277b98850de"><strong>How to use Promises in JavaScript</strong><br />
+<em>Promises in JavaScript are a way to handle async calls. Before Promises were introduced in JavaScript ES6, async calls…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/promises-in-javascript-explained-277b98850de" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/how-to-implement-promises-in-javascript-1ce2680a7f51" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/how-to-implement-promises-in-javascript-1ce2680a7f51"><strong>Implementing Promises In JavaScript</strong><br />
+<em>The thing I love most about programming is the aha! moment when you start to fully understand a concept. Even though it…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/how-to-implement-promises-in-javascript-1ce2680a7f51" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-promises-explained-with-simple-real-life-analogies-dd6908092138" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-promises-explained-with-simple-real-life-analogies-dd6908092138"><strong>JavaScript: Promises explained with simple real life analogies</strong><br />
+<em>Talking about promises in layman terms</em>codeburst.io</a><a href="https://codeburst.io/javascript-promises-explained-with-simple-real-life-analogies-dd6908092138" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://exploringjs.com/es6/ch_promises.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://exploringjs.com/es6/ch_promises.html"><strong>25. Promises for asynchronous programming</strong><br />
+<em>This chapter is an introduction to asynchronous programming via Promises in general and the ECMAScript 6 Promise API in…</em>exploringjs.com</a><a href="http://exploringjs.com/es6/ch_promises.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.codeanalogies.com/2018/08/26/javascript-promises-explained-by-gambling-at-a-casino/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.codeanalogies.com/2018/08/26/javascript-promises-explained-by-gambling-at-a-casino/"><strong>JavaScript Promises Explained By Gambling At A Casino</strong><br />
+<em>We all love the asynchronous capabilities of JavaScript. In fact, we love them so much that sometimes, we overindulge…</em>blog.codeanalogies.com</a><a href="https://blog.codeanalogies.com/2018/08/26/javascript-promises-explained-by-gambling-at-a-casino/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/datafire-io/es6-promises-patterns-and-anti-patterns-bbb21a5d0918" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/datafire-io/es6-promises-patterns-and-anti-patterns-bbb21a5d0918"><strong>ES6 Promises: Patterns and Anti-Patterns</strong><br />
+<em>When I first got started with NodeJS a few years ago, I was mortified by what is now affectionately known as “callback…</em>medium.com</a><a href="https://medium.com/datafire-io/es6-promises-patterns-and-anti-patterns-bbb21a5d0918" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a"><strong>A Simple Guide to ES6 Promises</strong><br />
+<em>The woods are lovely, dark and deep. But I have promises to keep, and miles to go before I sleep. — Robert Frost</em>codeburst.io</a><a href="https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/the-es6-promises-87a979ab27e4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/the-es6-promises-87a979ab27e4"><strong>The ES6 Promises</strong><br />
+<em>A very helpful feature in ES6</em>codeburst.io</a><a href="https://codeburst.io/the-es6-promises-87a979ab27e4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://ponyfoo.com/articles/es6-promises-in-depth" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://ponyfoo.com/articles/es6-promises-in-depth"><strong>ES6 Promises in Depth</strong><br />
+<em>Promises are a very involved paradigm, so we'll take it slow. Here's a table of contents with the topics we'll cover in…</em>ponyfoo.com</a><a href="https://ponyfoo.com/articles/es6-promises-in-depth" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/playing-with-javascript-promises-a-comprehensive-approach-25ab752c78c3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/playing-with-javascript-promises-a-comprehensive-approach-25ab752c78c3"><strong>Javascript Promises: An In-Depth Approach</strong><br />
+<em>“Write down the syntax for promises on this sheet of paper”, is enough to give nightmares to a lot of junior and even…</em>codeburst.io</a><a href="https://codeburst.io/playing-with-javascript-promises-a-comprehensive-approach-25ab752c78c3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/how-to-write-a-javascript-promise-4ed8d44292b8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/how-to-write-a-javascript-promise-4ed8d44292b8"><strong>How to Write a JavaScript Promise</strong><br />
+<em>What is a promise?</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/how-to-write-a-javascript-promise-4ed8d44292b8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/swlh/a-coding-writers-guide-an-introduction-to-es6-promises-9ff9f9e88f6c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/swlh/a-coding-writers-guide-an-introduction-to-es6-promises-9ff9f9e88f6c"><strong>A Coding Writer’s Guide: An Introduction To ES6 Promises</strong><br />
+<em>Welcome back to the ‘A Coding Writer’s Guide’ series! If you have been keeping up with this series, you’d know that I…</em>medium.com</a><a href="https://medium.com/swlh/a-coding-writers-guide-an-introduction-to-es6-promises-9ff9f9e88f6c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/itnext/reverse-engineering-understand-promises-1jfc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/itnext/reverse-engineering-understand-promises-1jfc"><strong>Reverse engineering - Understanding Promises in JavaScript</strong><br />
+<em>We will reverse engineer Promises in JavaScript together with some 90s nostalgia. Tagged with showdev, tutorial…</em>dev.to</a><a href="https://dev.to/itnext/reverse-engineering-understand-promises-1jfc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/zellwk/converting-callbacks-to-promises-nhn" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/zellwk/converting-callbacks-to-promises-nhn"><strong>Converting callbacks to promises</strong><br />
+<em>It's easier to work with Promises (or Async/await) compared to callbacks. This is especially true when you work in…</em>dev.to</a><a href="https://dev.to/zellwk/converting-callbacks-to-promises-nhn" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa"><strong>JavaScript Promises: Zero To Hero Plus Cheat Sheet</strong><br />
+<em>It’s time, friend. Native JavaScript promises explained how I wish they were explained to me — plus a handy cheat…</em>medium.com</a><a href="https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/boywithsilverwings/promises-javascript-concepts-293c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/boywithsilverwings/promises-javascript-concepts-293c"><strong>Promises - JavaScript concepts</strong><br />
+<em>This is part of a series where I try to explain through each of 33 JS Concepts. This part corresponds to Promises…</em>dev.to</a><a href="https://dev.to/boywithsilverwings/promises-javascript-concepts-293c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/iggredible/javascript-promise-101-3idl" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/iggredible/javascript-promise-101-3idl"><strong>Javascript Promise 101</strong><br />
+<em>Knowing how Promise works in javascript will boost your development skill exponentially. Here I will share: I promise…</em>dev.to</a><a href="https://dev.to/iggredible/javascript-promise-101-3idl" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/sunnysingh/simplify-javascript-promises-4djb" class="markup--anchor markup--mixtapeE
