@@ -8,7 +8,7 @@
         "tagline": "This is my iframe playground",
         "profile_img": "/images/favicon.ico",
         "profile_img_alt": "logo",
-        "background": "dark",
+        "background": "light",
         "has_nav": true,
         "nav_links": [
             {
