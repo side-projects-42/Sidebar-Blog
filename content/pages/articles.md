@@ -4196,4 +4196,1031 @@ You should probably skip this one… seriously it’s just for internal use!
 <a href="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143"><strong>Awesome Web Development Youtube Video Archive</strong><br />
 <em>This is going to be a running list of youtube videos and channels that I discover as I learn web development. It will…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/awesome-web-development-youtube-video-archive-792a25839143" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
 
-<a href="https://levelup.gitconne
+<a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f"><strong>Python Problems &amp; Solutions For Beginners</strong><br />
+<em>Introduction to python taught through example problems. Solutions are included in embedded repl.it at the bottom of…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04"><strong>Fundamental Concepts In Javascript</strong><br />
+<em>This is the stuff that comes up on interviews…</em>medium.com</a><a href="https://medium.com/codex/fundamental-concepts-in-javascript-8e093a665b04" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65"><strong>Bash Proficiency In Under 15 Minutes</strong><br />
+<em>Cheat sheet and in-depth explanations located below main article contents… The UNIX shell program interprets user…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-proficiency-in-under-15-minutes-3ec9d4e2e65" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b"><strong>Mini Review Of SQL For PostgreSQL W Node &amp; Express</strong><br />
+<em>What is a Query?</em>medium.com</a><a href="https://medium.com/analytics-vidhya/mini-review-of-sql-for-postgresql-w-node-express-f34676f3802b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86"><strong>All The Things You Can Embed In A Medium Article</strong><br />
+<em>I have this innate desire to make everything available all in one place and it’s usually an unnecessary waste of time……</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461"><strong>Front End Behavioral Interview</strong><br />
+<em>Web Developer Job Interview Questions</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/front-end-behavioral-interview-bf5c079f7461" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a"><strong>The ExpressJS Way To Write APIs</strong><br />
+<em>This article will cover the basics of express from the perspective of a beginner without concerning its self with the…</em>medium.com</a><a href="https://medium.com/codex/prerequisites-to-writing-express-apis-75e3267b284a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02"><strong>Heroku Deploy Guides &amp; Cheatsheet Compilation</strong><br />
+<em>Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala, Go and PHP…</em>medium.com</a><a href="https://medium.com/analytics-vidhya/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f"><strong>A Comprehensive Deep Dive into React</strong><br />
+<em>An in-depth look into the world of React.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380"><strong>Web Development Resource List #4</strong><br />
+<em>Update:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-d3077114aea7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-d3077114aea7"><strong>BASH CHEAT SHEET</strong><br />
+<em>My Bash Cheatsheet Index:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-d3077114aea7" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b"><strong>Heroku Cheat Sheet</strong><br />
+<em>a cheatsheet for using heroku-cli</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a"><strong>The ExpressJS Way To Write APIs</strong><br />
+<em>This article will cover the basics of express from the perspective of a beginner without concerning it’s self with the…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/prerequisites-to-writing-express-apis-75e3267b284a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02"><strong>Heroku Deploy Guides &amp; Cheatsheet Compilation</strong><br />
+<em>Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala, Go and PHP…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-deploy-guides-cheatsheet-compilation-b2897b69ce02" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f"><strong>A Comprehensive Deep Dive into React</strong><br />
+<em>An in-depth look into the world of React.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-in-depth-1965dcde8d4f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380"><strong>Web Development Resource List #4</strong><br />
+<em>Update:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/take-a-look-at-the-big-picture-b69e0999a380" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/bash-d3077114aea7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/bash-d3077114aea7"><strong>BASH CHEAT SHEET</strong><br />
+<em>My Bash Cheatsheet Index:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/bash-d3077114aea7" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b"><strong>Heroku Cheat Sheet</strong><br />
+<em>a cheatsheet for using heroku-cli</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/heroku-cheat-sheet-6107ce6ba52b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96"><strong>Web Developer’s Technical Glossary</strong><br />
+<em>This will be a running list as I make updates!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/web-developers-technical-glossary-2066beae5e96" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110"><strong>PostgreSQL In 43 Commands Or Less</strong><br />
+<em>In database jargon, PostgreSQL uses a client/server model. A PostgreSQL session consists of the following cooperating…</em>medium.com</a><a href="https://medium.com/codex/postgresql-in-43-commands-or-less-19fba3e37110" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/why-jamstack-rocks-666114722f35" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/why-jamstack-rocks-666114722f35"><strong>Why Jamstack Rocks🤘😎🤙</strong><br />
+<em>JAMstack websites don’t use the microservices architecture, but they go for the micro frontends architecture. Each…</em>medium.com</a><a href="https://medium.com/geekculture/why-jamstack-rocks-666114722f35" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb"><strong>What Are Bash Aliases And Why Should You Be Using Them!</strong><br />
+<em>A Bash alias is a method of supplementing or overriding Bash commands with new ones. Bash aliases make it easy for…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682"><strong>Life Saving Bash Scripts Part 2</strong><br />
+<em>I am not saying they’re in any way special compared with other bash scripts… but when I consider that you can never…</em>medium.com</a><a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33"><strong>Job Boards and The Hunt</strong><br />
+<em>I can’t imagine the kind of masochism it would take to enjoy the act of posting and daily maintenance on a job…</em>medium.com</a><a href="https://medium.com/analytics-vidhya/job-boards-and-the-hunt-8cbfefefbb33" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528"><strong>Absolutely Everything You Could Need To Know About How JavaScript Works.</strong><br />
+<em>Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607"><strong>Basic React Tutorial</strong><br />
+<em>Random Things to Remember</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/react-tutorial-from-basics-647ba595e607" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287"><strong>Fundamental Concepts In React That Will Probably Come Up On An Interview</strong><br />
+<em>Incomplete Article</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/fundamental-concepts-in-react-that-will-probably-come-up-on-an-interview-5495b6421287" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4"><strong>The Penultimate Web Developer’s Cheat Sheet</strong><br />
+<em>I am literally just going to combine a fair number of my Cheat Sheets in no particular order.</em>medium.com</a><a href="https://medium.com/geekculture/the-penultimate-web-developers-cheat-sheet-a02a423139a4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a"><strong>Bash Commands That Save Me Time and Frustration</strong><br />
+<em>Here’s a list of bash commands that stand between me and insanity.</em>medium.com</a><a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1"><strong>Quick Web Developers Website Checklist &amp; A List Of Tools For Improvement</strong><br />
+<em>A set of questions you should use before handing off your application to the client.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/quick-web-developers-website-checklist-a-list-of-tools-for-improvement-9a52e11c8ee1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/react-md-cbaafb31765d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/react-md-cbaafb31765d"><strong>10 Essential React Interview Questions For Aspiring Frontend Developers</strong><br />
+<em>Comprehensive React Cheatsheet included at the bottom of this article!</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/react-md-cbaafb31765d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6"><strong>Long List Of Invaluable NodeJS Resources</strong><br />
+<em>Disclaimer: I know that I did not create this list all on my own… I can’t recall or track down the original list if you…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/long-list-of-invaluable-nodejs-resources-6a793ae1ce6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521"><strong>Open Ended Frontend Interview Questions You Should Answer Before Your Next Interview</strong><br />
+<em>Explain event delegation.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/open-ended-frontend-interview-questions-you-should-answer-before-your-next-interview-7c9722712521" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3"><strong>Data Structures… Under The Hood</strong><br />
+<em>Data Structures Reference</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/data-structures-under-the-hood-660256c2e4e3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261"><strong>Web Development Interview Resource List</strong><br />
+<em>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it…</em>medium.com</a><a href="https://medium.com/geekculture/web-development-interview-resource-list-88fce9876261" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d"><strong>Beginners Guide To Python</strong><br />
+<em>My favorite language for maintainability is Python. It has simple, clean syntax, object encapsulation, good library…</em>medium.com</a><a href="https://medium.com/geekculture/beginners-guide-to-python-e5a59b5bb64d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8"><strong>Data Structures &amp; Algorithms Resource List Part 1</strong><br />
+<em>Guess the author of the following quotes:</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/data-structures-algorithms-resource-list-part-1-8bad647a8ad8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/memoization-86685d811182" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/memoization-86685d811182"><strong>What is Memoization?</strong><br />
+<em>And why this programming paradigm shouldn’t make you cringe.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/memoization-86685d811182" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53"><strong>CSS Interview Prep Quiz</strong><br />
+<em>Plus Css Cheat Sheet (82 questions total)</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/css-interview-prep-quiz-6e3e4de7ca53" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be"><strong>Graph Data Structure Interview Questions At A Glance</strong><br />
+<em>Because they’re just about the most important data structure there is.</em>medium.com</a><a href="https://medium.com/geekculture/verbal-technical-interview-questions-about-graph-data-structures-fc6b1afbd8be" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/object-methods-4066ed24b214" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/object-methods-4066ed24b214"><strong>Object Methods</strong><br />
+<em>Iterating Through Objects</em>medium.com</a><a href="https://medium.com/geekculture/object-methods-4066ed24b214" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e"><strong>Github Repositories That Will Teach You How To Code For Free!</strong><br />
+<em>30-seconds/30-seconds-of-code</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/github-repositories-that-will-teach-you-how-to-code-for-free-ad0ecf59d89e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520"><strong>Resources By Programming Language</strong><br />
+<em>Here’s a list of programming resources sorted by programming language.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/resources-by-programming-language-399d9f9ef520" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104"><strong>Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.</strong><br />
+<em>“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with…</em>medium.com</a><a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879"><strong>These Are A Few Of My Favorite Things</strong><br />
+<em>A web development student’s declassified school survival guide.</em>medium.com</a><a href="https://medium.com/codex/these-are-a-few-of-my-favorite-things-82e8b6e61879" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/objects-in-javascript-b212486dade6"><strong>Objects In JavaScript</strong><br />
+<em>The object is a data structure that stores other data, similar to how an array stores elements.</em>medium.com</a><a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827"><strong>Fundamental Javascript Concepts You Should Understand</strong><br />
+<em>Plain Old JS Object Lesson Concepts</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0"><strong>Mutability And Reference VS Privative Types in JavaScript</strong><br />
+<em>Mutability &amp;&amp; Primitive &amp;&amp; Reference Examples</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/mutability-and-reference-vs-privative-types-in-javascript-5294422db4b0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777"><strong>Array Callback Methods Implemented With For Loops</strong><br />
+<em>How to implement array callback methods in JavaScript</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/array-callback-methods-implemented-with-for-loops-d08875df6777" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186"><strong>Beginner’s Guide To React Part 2</strong><br />
+<em>As I learn to build web applications in React I will blog about it in this series in an attempt to capture the…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/introductory-react-part-2-cda01615a186" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3"><strong>A Very Quick Guide To Calculating Big O Computational Complexity</strong><br />
+<em>Big O: big picture, broad strokes, not details</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-very-quick-guide-to-calculating-big-o-computational-complexity-eb1557e85fa3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad"><strong>Introduction to React for Complete Beginners</strong><br />
+<em>All of the code examples below will be included a second time at the bottom of this article as an embedded gist.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/introduction-to-react-for-complete-beginners-8021738aa1ad" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7"><strong>Scheduling: setTimeout and setInterval</strong><br />
+<em>We may decide to execute a function not right now, but at a later time. That’s called “scheduling a call”.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/scheduling-settimeout-and-setinterval-fcb2f40d16f7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/css-animations-d196a20099a5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/css-animations-d196a20099a5"><strong>LocalStorage VS SessionStorage</strong><br />
+<em>Web storage objects localStorage and sessionStorage allow to save key/value pairs in the browser.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/css-animations-d196a20099a5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b"><strong>These Are The Bash Shell Commands That Stand Between Me And Insanity</strong><br />
+<em>I will not profess to be a bash shell wizard… but I have managed to scour some pretty helpful little scripts from Stack…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/these-are-the-bash-shell-commands-that-stand-between-me-and-insanity-984865ba5d1b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07"><strong>How To Implement Native(ES6) Data Structures Using Arrays &amp; Objects</strong><br />
+<em>Smart data structures and dumb code works better than the other way around -“Eric S. Raymond”</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/how-to-implement-native-es6-data-structures-using-arrays-objects-ce953b9f6a07" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/objects-in-javascript-cc578a781e1d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/objects-in-javascript-cc578a781e1d"><strong>Objects in Javascript</strong><br />
+<em>Codepen with examples for you to practice with below!</em>medium.com</a><a href="https://medium.com/codex/objects-in-javascript-cc578a781e1d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1"><strong>The Beginner’s Guide To JavaScript</strong><br />
+<em>Part 1</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/absolute-beginners-guide-to-javascript-part-1-e222d166b6e1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb"><strong>Web Developer Resource List Part 4</strong><br />
+<em>A all encompassing list of tools and resources for web developers</em>medium.com</a><a href="https://medium.com/star-gazers/web-developer-resource-list-part-4-fd686892b9eb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a"><strong>VSCode Extensions Specifically for JavaScript Development</strong><br />
+<em>VSCode Extensions that are indispensable in JavaScript development</em>medium.com</a><a href="https://medium.com/codex/vscode-extensions-specifically-for-javascript-development-ea91305cbd4a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+<em>You should probably skip this one… seriously it’s just for internal use!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb"><strong>Fundamental Data Structures in JavaScript</strong><br />
+<em>A simple to follow guide to Lists Stacks and Queues, with animated gifs, diagrams, and code examples!</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/lists-stacks-and-queues-in-javascript-88466fae0fbb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a"><strong>Web Development Resources Part 3</strong><br />
+<em>I’m the psychological equivalent of a physical hoarder only instead of empty soda cans and dead racoons it’s lists of…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/web-development-resources-part-3-f862ceb2b82a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/web-development-interview-part-3-826ae81a9107" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/web-development-interview-part-3-826ae81a9107"><strong>Web Development Interview Part 3💻</strong><br />
+<em>This installment is going to be the least technically demanding thus far however these questions are a more realistic…</em>medium.com</a><a href="https://medium.com/codex/web-development-interview-part-3-826ae81a9107" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24"><strong>The Best Cloud-Based Code Playgrounds of 2021 (Part 1)</strong><br />
+<em>A plethora of front-end code playgrounds have appeared over the years. They offer a convenient way to experiment with…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/the-best-cloud-based-code-playgrounds-of-2021-part-1-cdae9448db24" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443"><strong>Front End Interview Questions Part 2</strong><br />
+<em>These will focus more on vocabulary and concepts than the application driven approach in my last post!</em>medium.com</a><a href="https://medium.com/codex/front-end-interview-questions-part-2-86ddc0e91443" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263"><strong>Web Developer Resource List Part 2</strong><br />
+<em>Because I compile these things compulsively anyway…</em>medium.com</a><a href="https://medium.com/star-gazers/web-developer-resource-list-part-2-9c5cb56ab263" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/http-basics-8f02a96a834a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/http-basics-8f02a96a834a"><strong>HTTP Basics</strong><br />
+<em>“If you want to build a ship, don’t drum up the men and women to gather wood, divide the work, and give orders…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/http-basics-8f02a96a834a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35"><strong>JavaScript Frameworks &amp; Libraries</strong><br />
+<em>My Awesome JavaScript List Part 2</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74"><strong>My ‘awesome’ list of JavaScript resources</strong><br />
+<em>Everyone’s seen the ‘Awesome’ lists on GitHub… and they are indeed awesome… so today I am going to attempt to curate my…</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/my-take-on-awesome-javascript-243255451e74" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931"><strong>Everything You Need to Get Started With VSCode + Extensions &amp; Resources</strong><br />
+<em>Commands:</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/everything-you-need-to-get-started-with-vscode-extensions-resources-b9f4c8d91931" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f"><strong>My Favorite VSCode <em>Themes</em></strong><br />
+Themeslevelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333"><strong>Object Oriented Programming in JavaScript</strong><br />
+<em>Object-Oriented Programming</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/object-oriented-programming-in-javascript-d45007d06333" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1"><strong>JavaScript Rotate (Array) ProblemWalkthrough</strong><br />
+<em>Explanation for Rotate Right</em>medium.com</a><a href="https://medium.com/codex/javascript-rotate-array-problemwalkthrough-31deb19ebba1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc"><strong>Super Simple Intro To HTML</strong><br />
+<em>What is HTML, CSS &amp; JS and why do we need all three?</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/super-simple-intro-to-html-651d695f9bc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98"><strong>Everything You Need To Know About Relational Databases, SQL, PostgreSQL and Sequelize To Build…</strong><br />
+<em>For Front end developers who like myself struggle with making the jump to fullstack.</em>medium.com</a><a href="https://medium.com/codex/everything-you-need-to-know-about-relational-databases-sql-postgresql-and-sequelize-to-build-8acb68284a98" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107"><strong>Understanding Git (A Beginners Guide Containing Cheat Sheets &amp; Resources)</strong><br />
+<em>Basic Git Work Flow.</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/understanding-git-a-beginners-guide-containing-cheat-sheets-resources-b50c9c01a107" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db"><strong>The Complete JavaScript Reference Guide</strong><br />
+<em>You will want to bookmark this</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/modules-in-javascript-a55333e35978" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/modules-in-javascript-a55333e35978"><strong>Modules in Javascript</strong><br />
+<em>Differences between Node.js and browsers</em>medium.com</a><a href="https://medium.com/geekculture/modules-in-javascript-a55333e35978" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3"><strong>An Introduction to Markdown (Bonus Markdown Templates Included)</strong><br />
+<em>Basic Syntax Guide</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d"><strong>Web Dev Resources</strong><br />
+<em>Web Development</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/web-dev-resources-ec1975773d7d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/regular-expressions-4d8fb3eb146b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/regular-expressions-4d8fb3eb146b"><strong>Regular Expressions</strong><br />
+<em>description:</em>medium.com</a><a href="https://medium.com/codex/regular-expressions-4d8fb3eb146b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/writing-files-using-python-d46b4851366f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/writing-files-using-python-d46b4851366f"><strong>Writing Files Using Python</strong><br />
+<em>Basics of Writing Files in Python<br />
+The common methods to operate with files are open() to open a file,</em>medium.com</a><a href="https://medium.com/geekculture/writing-files-using-python-d46b4851366f" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab"><strong>A Collection of my most useful Gist Entries</strong><br />
+<em>This list is in no particular order!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a"><strong>Learn CSS So That Your Site Doesn’t Look Like Garbage</strong><br />
+<em>CSS Selectors</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/learn-css-so-that-your-site-doesnt-look-like-garbage-938871b4521a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089"><strong>PostgreSQL Setup For Windows &amp; WSL/Ubuntu</strong><br />
+<em>If you follow this guide to a tee… you will install PostgreSQL itself on your Windows installation. Then, you will…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/postgresql-setup-for-windows-wsl-ubuntu-801672ab7089" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37"><strong>Emmet Cheat Sheet</strong><br />
+<em>EMMET</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/emmet-cheat-sheet-24758e628d37" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/git-tricks-57e8d0292285" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/git-tricks-57e8d0292285"><strong>Git-Tricks</strong><br />
+<em>Refs</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/git-tricks-57e8d0292285" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb"><strong>Python Study Guide for a JavaScript Programmer</strong><br />
+<em>A guide to commands in Python from what you know in JavaScript</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4"><strong><em>Fetch</em> Quick Sheet</strong><br />
+Fetchbryanguner.medium.com</a><a href="https://bryanguner.medium.com/fetch-quick-sheet-8872650742b4" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca"><strong>Express Quick Sheet</strong><br />
+<em>Settings</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/express-quick-sheet-8f93762c59ca" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4"><strong>Fundamental Data Structures In JavaScript</strong><br />
+<em>Data structures in JavaScript</em>medium.com</a><a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986"><strong>Deploy React App To Heroku Using Postgres &amp; Express</strong><br />
+<em>Heroku is an web application that makes deploying applications easy for a beginner.</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/deploy-react-app-to-heroku-using-postgres-express-70b7ea807986" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31"><strong>Postgresql Cheat Sheet</strong><br />
+<em>PostgreSQL commands</em>medium.com</a><a href="https://medium.com/codex/postgresql-cheat-sheet-718b813d3e31" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522"><strong>A Quick Guide to Big-O Notation, Memoization, Tabulation, and Sorting Algorithms by Example</strong><br />
+<em>Curating Complexity: A Guide to Big-O Notation</em>medium.com</a><a href="https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe"><strong>Basic Web Development Environment Setup</strong><br />
+<em>Windows Subsystem for Linux (WSL) and Ubuntu</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [March 22, 2021](https://medium.com/p/1f6f88ebdf5b).
+
+<a href="https://medium.com/@bryanguner/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Absolutely Everything You Could Need To Know About How JavaScript Works.
+========================================================================
+
+Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory on a very good day.
+
+------------------------------------------------------------------------
+
+### Absolutely Everything You Could Need To Know About How JavaScript Works.
+
+#### Seriously… this list is utterly exhaustive it covers more core concepts than I can hold the names of in working memory on a very good day.
+
+#### But first a little bit of mildly shameful self promotion:
+
+> (self promotion ends after the line denoted by a bunch of pictures of my dog🐕 )
+
+> (Followed by a brief introduction to JavaScript for beginners)
+
+> (Finally the main content / resources / imbedded YouTube links)
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*huxNcspoDvOfqxvn.gif" class="graf-image" /></figure>### My Blog:
+
+### Discover More:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*_J5NcnQmHmPDBvZodMmyaA.png" class="graf-image" /></figure>***This is a work in progress and may be broken or hosted elsewhere at some time in the future.***
+
+Related posts:
+
+<a href="https://dev.to/bgoonz/js-modules-4c4d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bgoonz/js-modules-4c4d"><strong>JS Modules</strong><br />
+<em>A module is a reusable piece of code that encapsulates implementation details and exposes a public API so it can be…</em>dev.to</a><a href="https://dev.to/bgoonz/js-modules-4c4d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bgoonz/closures-in-javascript-1moc"><strong>Closures In JavaScript</strong><br />
+<em>Answer A closure is a function defined inside another function and has access to its lexical scope even when it is…</em>dev.to</a><a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db"><strong>The Complete JavaScript Reference Guide</strong><br />
+<em>You will want to bookmark this</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/complete-javascript-reference-guide-64306cd6b0db" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*2FC8D_rbP4cT3jukydhtkg.png" class="graf-image" /></figure>
+
+### The Beginner’s Guide To JavaScript
+
+> This is a quick intro for complete beginners … skip below for more advanced content and resources! (below the next photo montage of my dog)
+
+### Skip The Following **↓** To Get To Main Content!!
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*HCYn5Uz_jZ6uRjgp_NA5Yw.png" class="graf-image" /></figure>**If you wanna skip this section you’ll find the main content about 10% of the way down the page… it will look like this:**
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/0*iHxLNzz1MOZACC5u.png" class="graf-image" /></figure>### The Number Data Type
+
+The **number** data type in JS is used to represent any numerical  
+values, including integers and decimal numbers. **Basic Arithmetic Operators** are the symbols that perform particular operations.
+
+-   <span id="205d">**+** (addition)</span>
+-   <span id="1df4">**-** (subtraction)</span>
+-   <span id="f17b">**asterisk** (multiplication)</span>
+-   <span id="ed52">**/** (division)</span>
+-   <span id="d3a6">**%** (modulo)</span>
+
+JS evaluates more complex expressions using the general math order of  
+operations aka PEMDAS.
+
+-   <span id="4923">**PEMDAS** : Parentheses, Exponents, Multiplication, Division, Modulo, Addition, Subtraction.</span>
+-   <span id="e245">*To force a specific order of operation, use the group operator ( ) around a part of the expression.*</span>
+
+**Modulo** : Very useful operation to check divisibility of numbers,  
+check for even & odd, whether a number is prime, and much more!  
+*(Discrete Math concept, circular problems can be solved with modulo)*
+
+-   <span id="9608">Whenever you have a smaller number % a larger number, the answer will just be the initial small number.</span>
+-   <span id="3b00">`console.log(7 % 10); // => 7;`</span>
+
+### The String Data Type
+
+The **string** data type is a primitive data type that used to represent  
+textual data.
+
+-   <span id="792d">can be wrapped by either **single** or **double** quotation marks, *best to choose one and stick with it for consistency*.</span>
+-   <span id="4f91">If your string contains quotation marks inside, can layer single or double quotation marks to allow it to work.</span>
+
+<!-- -->
+
+    "That's a great string"; (valid)
+    'Shakespeare wrote, "To be or not to be"'; (valid)
+    'That's a bad string'; (invalid)
+
+-   <span id="a54b">Alt. way to add other quotes within strings is to use template literals.</span>
+
+### `This is a template literal`
+
+`${function} // use ${} to invoke functions within.`
+
+> **.length** : property that can be appended to data to return the length.
+
+> empty strings have a length of zero.
+
+> **indices** : indexes of data that begin at 0, can call upon index by using the bracket notation \[ \].
+
+    console.log("bootcamp"[0]); // => "b"
+    console.log("bootcamp"[10]); // => "undefined"
+    console.log("boots"[1 * 2]); // => "o"
+    console.log("boots"["boot".length - 1]); // => "t"
+
+-   <span id="bcc3">we can pass expressions through the brackets as well since JS always evaluates expressions first.</span>
+-   <span id="f60b">The index of the last character of a string is always one less than it’s length.</span>
+-   <span id="5329">**indexOf()** : method used to find the first index of a given character within a string.</span>
+-   <span id="6813">`console.log("bagel".indexOf("b")); // => 0 console.log("bagel".indexOf("z")); // => -1`</span>
+-   <span id="262e">**if the character inside the indexOf() search does not exist in the string, the output will be -1.**</span>
+-   <span id="0646">the indexOf() search will return the first instanced index of the the char in the string.</span>
+-   <span id="15e0">**concatenate** : word to describe joining strings together into a single string.</span>
+
+### The Boolean Data Type
+
+The **Boolean** data type is the simplest data type since there are only  
+two values: **true** and **false**.
+
+-   <span id="62d6">**Logical Operators** (Boolean Operators) are used to establish logic in our code.</span>
+-   <span id="bae2">**!** (not) : reverses a Boolean value.</span>
+
+`console.log(!true); // => false console.log(!!false); // => false`
+
+-   <span id="71d9">**&&** (and) **Truth Table**</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Y4qzqSB0C-9AmtXf.png" class="graf-image" /></figure>-   <span id="c706">**Logical Order of Operations** : JS will evaluate !, then &&, then ||.</span>
+-   <span id="1e21">**De Morgan’s Law** : Common mistake in Boolean logic is incorrectly distributing ! across parentheses.</span>
+-   <span id="2e3e">`!(A || B) === !A && !B; !(A && B) === !A || !B;`</span>
+-   <span id="350f">In summary, to correctly distribute ! across parentheses we must also flip the operation within.</span>
+
+### Comparison Operators
+
+All comparison operators will result in a Boolean output.
+
+**The relative comparators**
+
+-   <span id="0d1c">**&gt;** (greater than)</span>
+-   <span id="77dd">**&lt;** (less than)</span>
+-   <span id="2041">**&gt;=** (greater than or equal to)</span>
+-   <span id="55fd">**&lt;=** (less than or equal to)</span>
+-   <span id="1b7c">**===** (equal to)</span>
+-   <span id="09a6">**!==** (not equal to)</span>
+
+> Fun Fact: “a” &lt; “b” is considered valid JS Code because string  
+> comparisons are compared lexicographically (meaning dictionary order),  
+> so “a” is less than “b” because it appears earlier!
+
+> If there is ever a standstill comparison of two string  
+> lexicographically (i.e. app vs apple) the comparison will deem the  
+> shorter string lesser.
+
+**Difference between == and ===**
+
+-   <span id="3fec">**===** : Strict Equality, will only return true if the two comparisons are entirely the same.</span>
+-   <span id="224d">**==** : Loose Equality, will return true even if the values are of a different type, due to coercion. (Avoid using this)</span>
+
+### Variables
+
+Variables are used to store information to be referenced and manipulated  
+in a program.
+
+-   <span id="e084">We initialize a variable by using the **let** keyword and a **=** single equals sign (assignment operator).</span>
+-   <span id="92ec">`let bootcamp = "Lambda"; console.log(bootcamp); // "Lambda"`</span>
+-   <span id="f5af">JS variable names can contain any alphanumeric characters,  
+    underscores, or dollar signs (cannot being with a number).</span>
+-   <span id="5288">If you do not declare a value for a variable, undefined is  
+    automatically set.</span>
+-   <span id="5f49">`let bootcamp; console.log(bootcamp); // undefined`</span>
+-   <span id="ea4b">We can change the value of a previously declared variable (let, not  
+    const) by re-assigning it another value.</span>
+-   <span id="ef75">**let** is the updated version of **var**; there are some  
+    differences in terms of hoisting and global/block scope — will be  
+    covered later in the course (common interview question!)</span>
+
+**Assignment Shorthand**
+
+    let num = 0;num += 10; // same as num = num + 10num -= 2; // same as num = num - 2num /= 4; // same as num = num / 4num *= 7; // same as num = num * 7
+
+-   <span id="7ff5">In general, any nonsensical arithmetic will result in **NaN** ; usually operations that include undefined.</span>
+-   <span id="2798">**declaration** : process of simply introducing a variable name.</span>
+-   <span id="ad51">**initialization** : process of both declaring and assigning a variable on the same line.</span>
+
+### Functions
+
+A function is a procedure of code that will run when called. Functions  
+are used so that we do not have to rewrite code to do the same thing  
+over and over. (Think of them as ‘subprograms’)
+
+-   <span id="01bb">**Function Declaration** : Process when we first initially write our function.</span>
+-   <span id="963b">Includes three things:</span>
+-   <span id="32df">Name of the function.</span>
+-   <span id="7930">A list of *parameters* ()</span>
+-   <span id="145e">The code to execute {}</span>
+-   <span id="37c0">**Function Calls** : We can call upon our function whenever and wherever\* we want. (\*wherever is only after the initial declaration)</span>
+-   <span id="f3cc">JS evaluates code top down, left to right.</span>
+-   <span id="cf9c">When we execute a declared function later on in our program we refer to this as **invoking** our function.</span>
+-   <span id="4374">Every function in JS returns undefined unless otherwise specified.</span>
+-   <span id="3bb7">When we hit a **return** statement in a function we immediately exit the function and return to where we called the function.</span>
+-   <span id="0ce8">When naming functions in JS always use camelCase and name it something appropriate. &gt; Great code reads like English and almost explains itself. Think: Elegant, readable, and maintainable!</span>
+
+### Parameters and Arguments
+
+-   <span id="38d3">**Parameters** : Comma separated variables specified as part of a function’s declaration.</span>
+-   <span id="ecef">**Arguments** : Values passed to the function when it is invoked.</span>
+-   <span id="a836">*If the number of arguments passed during a function invocation is different than the number of parameters listed, it will still work.*</span>
+-   <span id="a53a">However, is there are not enough arguments provided for parameters our function will likely yield **Nan**.</span>
+
+------------------------------------------------------------------------
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*2FC8D_rbP4cT3jukydhtkg.png" class="graf-image" /></figure>
+
+> END OF INTRO FOR BEGINNERS (MAIN ARTICLE BELOW)
+
+### ↓↓**Absolutely Everything You Could Need To Know About JavaScript**↓↓
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*fOaTsnCJCYc3wD4x" class="graf-image" /></figure><a href="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation"><strong>leonardomso/33-js-concepts</strong><br />
+<em>This repository was created with the intention of helping developers master their concepts in JavaScript. It is not a…</em>github.com</a><a href="https://github.com/leonardomso/33-js-concepts#20-pure-functions-side-effects-and-state-mutation" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack"><strong>Call stack - MDN Web Docs Glossary: Definitions of Web-related terms | MDN</strong><br />
+<em>A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec"><strong>Understanding Javascript Function Executions — Call Stack, Event Loop , Tasks &amp; more</strong><br />
+<em>Web developers or Front end engineers, as that’s what we like to be called, nowadays do everything right from acting as…</em>medium.com</a><a href="https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4"><strong>Understanding the JavaScript call stack</strong><br />
+<em>The JavaScript engine (which is found in a hosting environment like the browser), is a single-threaded interpreter…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/"><strong>Javascript: What Is The Execution Context? What Is The Call Stack?</strong><br />
+<em>What is the Execution Context in Javascript? I bet you don't know the answer. What are the most basic components of a…</em>web.archive.org</a><a href="https://web.archive.org/web/20180701233338/https://www.valentinog.com/blog/js-execution-context-call-stack/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*b31hiO4ynbDLRrXWEFF4aQ.png" class="graf-image" /></figure><a href="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0"><strong>Understanding Execution Context and Execution Stack in Javascript</strong><br />
+<em>Understanding execution context and stack to become a better Javascript developer.</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf"><strong>How JavaScript works: an overview of the engine, the runtime, and the call stack</strong><br />
+<em>As JavaScript is getting more and more popular, teams are leveraging its support on many levels in their stack …</em>blog.sessionstack.com</a><a href="https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104"><strong>Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.</strong><br />
+<em>“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with…</em>medium.com</a><a href="https://medium.com/codex/scope-closures-context-in-javascript-f126f1523104" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/"><strong>The Ultimate Guide to Hoisting, Scopes, and Closures in JavaScript - ui.dev</strong><br />
+<em>It may seem surprising, but in my opinion the most important and fundamental concept to understanding the JavaScript…</em>tylermcginnis.com</a><a href="https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o"><strong>How JavaScript Works: An Overview of JavaScript Engine, Heap, and Call Stack</strong><br />
+<em>Hello everyone 👋, I hope you are doing great. So, today you are going to learn An Overview of JavaScript Engine, Heap…</em>dev.to</a><a href="https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4"><strong>Fundamental Data Structures In JavaScript</strong><br />
+<em>Data structures in JavaScript</em>medium.com</a><a href="https://medium.com/codex/fundamental-data-structures-in-javascript-8f9f709c15b4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+Here’s a live code editor where you can mess with any of the examples…
+
+<span class="graf-dropCap">H</span>ere’s a live code editor where you can mess with any of the examples…
+
+#### Coding practice
+
+-   <span id="824c"><a href="https://leetcode.com/" class="markup--anchor markup--li-anchor">LeetCode</a></span>
+-   <span id="a528"><a href="https://www.interviewbit.com/" class="markup--anchor markup--li-anchor">InterviewBit</a></span>
+-   <span id="fa41"><a href="https://codility.com/" class="markup--anchor markup--li-anchor">Codility</a></span>
+-   <span id="6c61"><a href="https://www.hackerrank.com/" class="markup--anchor markup--li-anchor">HackerRank</a></span>
+-   <span id="dff6"><a href="https://projecteuler.net/" class="markup--anchor markup--li-anchor">Project Euler</a></span>
+-   <span id="b2dd"><a href="https://spoj.com/" class="markup--anchor markup--li-anchor">Spoj</a></span>
+-   <span id="c8e8"><a href="https://code.google.com/codejam/contests.html" class="markup--anchor markup--li-anchor">Google Code Jam practice problems</a></span>
+-   <span id="e8bb"><a href="https://www.hackerearth.com/" class="markup--anchor markup--li-anchor">HackerEarth</a></span>
+-   <span id="e803"><a href="https://www.topcoder.com/" class="markup--anchor markup--li-anchor">Top Coder</a></span>
+-   <span id="294e"><a href="https://www.codechef.com/" class="markup--anchor markup--li-anchor">CodeChef</a></span>
+-   <span id="9c05"><a href="https://www.codewars.com/" class="markup--anchor markup--li-anchor">Codewars</a></span>
+-   <span id="356e"><a href="https://codesignal.com/" class="markup--anchor markup--li-anchor">CodeSignal</a></span>
+-   <span id="2d20"><a href="http://codekata.com/" class="markup--anchor markup--li-anchor">CodeKata</a></span>
+-   <span id="d3bf"><a href="https://www.firecode.io/" class="markup--anchor markup--li-anchor">Firecode</a></span>
+
+### Dependent on data
+
+> *Something that data structure and algorithms have in common when talking about time complexity is that they are both dealing with data. When you deal with data you become dependent on them and as a result the time complexity is also dependent of the data that you received. To solve this problem we talk about 3 different time complexity.*
+
+-   <span id="bc8d">**The best-case complexity: when the data looks the best**</span>
+-   <span id="8b06">**The worst-case complexity: when the data looks the worst**</span>
+-   <span id="881c">**The average-case complexity: when the data looks average**</span>
+
+### Big O notation
+
+The complexity is usually expressed with the Big O notation. The wikipedia page about this subject is pretty complex but you can find here a good summary of the different complexity for the most famous data structures and sorting algorithms.
+
+### The Array data structure
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Qk3UYgeqXamRrFLR.gif" class="graf-image" /></figure>### Definition
+
+An Array data structure, or simply an Array, is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. The simplest type of data structure is a linear array, also called one-dimensional array. From Wikipedia
+
+Arrays are among the oldest and most important data structures and are used by every program. They are also used to implement many other data structures.
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values"><strong>JavaScript data types and data structures - JavaScript | MDN</strong><br />
+<em>Programming languages all have built-in data structures, but these often differ from one language to another. This…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://2ality.com/2012/04/number-encoding.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://2ality.com/2012/04/number-encoding.html"><strong>How numbers are encoded in JavaScript</strong><br />
+<em>Edit description</em>2ality.com</a><a href="http://2ality.com/2012/04/number-encoding.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6"><strong>Here is what you need to know about JavaScript’s Number type</strong><br />
+<em>Why 0.1+0.2 IS NOT equal to 0.3 and 9007199254740992 IS equal to 9007199254740993</em>medium.com</a><a href="https://medium.com/angular-in-depth/javascripts-number-type-8d59199db1b6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/"><strong>What Every JavaScript Developer Should Know About Floating Point Numbers</strong><br />
+<em>After I gave my talk on JavaScript (really, I was there trying to shamelessly plug my book - Underhanded JavaScript and…</em>blog.chewxy.com</a><a href="https://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/"><strong>The Secret Life of JavaScript Primitives</strong><br />
+<em>You may not know it but, in JavaScript, whenever you interact with string, number or boolean primitives you enter a…</em>javascriptweblog.wordpress.com</a><a href="https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### <a href="https://javascript.info/primitives-methods#a-primitive-as-an-object" class="markup--anchor markup--h3-anchor">A primitive as an object</a>
+
+Here’s the paradox faced by the creator of JavaScript:
+
+-   <span id="95d1">There are many things one would want to do with a primitive like a string or a number. It would be great to access them using methods.</span>
+-   <span id="10fe">Primitives must be as fast and lightweight as possible.</span>
+
+The solution looks a little bit awkward, but here it is:
+
+1.  <span id="4506">Primitives are still primitive. A single value, as desired.</span>
+2.  <span id="7880">The language allows access to methods and properties of strings, numbers, booleans and symbols.</span>
+3.  <span id="be72">In order for that to work, a special “object wrapper” that provides the extra functionality is created, and then is destroyed.</span>
+
+The “object wrappers” are different for each primitive type and are called: `String`, `Number`, `Boolean` and `Symbol`. Thus, they provide different sets of methods.
+
+For instance, there exists a string method <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase" class="markup--anchor markup--p-anchor">str.toUpperCase()</a> that returns a capitalized `str`.
+
+Here’s how it works:
+
+    let str = "Hello";
+
+    alert( str.toUpperCase() ); // HELLO
+
+Simple, right? Here’s what actually happens in `str.toUpperCase()`:
+
+1.  <span id="5a30">The string `str` is a primitive. So in the moment of accessing its property, a special object is created that knows the value of the string, and has useful methods, like `toUpperCase()`.</span>
+2.  <span id="7659">That method runs and returns a new string (shown by `alert`).</span>
+3.  <span id="8c3f">The special object is destroyed, leaving the primitive `str` alone.</span>
+
+So primitives can provide methods, but they still remain lightweight.
+
+The JavaScript engine highly optimizes this process. It may even skip the creation of the extra object at all. But it must still adhere to the specification and behave as if it creates one.
+
+<a href="https://flow.org/en/docs/types/primitives/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://flow.org/en/docs/types/primitives/"><strong>Primitive Types | Flow</strong><br />
+<em>JavaScript has a number of different primitive types ( MDN): The primitive types appear in the language as either…</em>flow.org</a><a href="https://flow.org/en/docs/types/primitives/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/d4nyll/not-everything-in-javascript-is-an-object" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/d4nyll/not-everything-in-javascript-is-an-object"><strong>(Not) Everything in JavaScript is an Object</strong><br />
+<em>This was originally published on The Brewing Press For those who just wants the answers, feel free to jump to the…</em>dev.to</a><a href="https://dev.to/d4nyll/not-everything-in-javascript-is-an-object" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/codex/objects-in-javascript-b212486dade6"><strong>Objects In JavaScript</strong><br />
+<em>The object is a data structure that stores other data, similar to how an array stores elements.</em>medium.com</a><a href="https://medium.com/codex/objects-in-javascript-b212486dade6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.bitsrc.io/diving-deeper-in-javascripts-objects-318b1e13dc12" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/diving-deeper-in-javascripts-objects-318b1e13dc12"><strong>Diving Deeper in JavaScripts Objects</strong><br />
+<em>A Closer Look at JavaScript Object Descriptors</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/diving-deeper-in-javascripts-objects-318b1e13dc12" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c"><strong>The differences between Object.freeze() vs Const in JavaScript</strong><br />
+<em>ES6 has brought several new features and methods into JavaScript since its release. These features have better improved…</em>medium.com</a><a href="https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0"><strong>Explaining Value vs. Reference in Javascript</strong><br />
+<em>A simple look at computer memory explains what’s happening</em>codeburst.io</a><a href="https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### DOES IT MUTATE:
+
+<a href="https://doesitmutate.xyz/" class="markup--anchor markup--p-anchor">LINK….</a>
+
+### <a href="https://doesitmutate.xyz/concat" class="markup--anchor markup--h3-anchor">.concat</a>
+
+no mutation
+
+### Description
+
+The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+
+    Array.prototype.concat ( [ item1 [ , item2 [ , … ] ] ] )
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"><strong>Array.prototype.concat() - JavaScript | MDN</strong><br />
+<em>The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example
+
+    var array1 = ['a', 'b', 'c'];
+    var array2 = ['d', 'e', 'f'];
+
+    console.log(array1.concat(array2));
+    // expected output: Array ["a", "b", "c", "d", "e", "f"]
+
+#### <a href="https://doesitmutate.xyz/copywithin" class="markup--anchor markup--h4-anchor">.copyWithin()</a>
+
+**mutates**
+
+### Description
+
+The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.
+
+    arr.copyWithin(target)
+    arr.copyWithin(target, start)
+    arr.copyWithin(target, start, end)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin"><strong>Array.prototype.copyWithin() - JavaScript | MDN</strong><br />
+<em>The copyWithin() method shallow copies part of an array to another location in the same array and returns it without…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+### Example
+
+    var array1 = ['a', 'b', 'c', 'd', 'e'];
+
+    // copy to index 0 the element at index 3
+    console.log(array1.copyWithin(0, 3, 4));
+    // expected output: Array ["d", "b", "c", "d", "e"]
+
+    // copy to index 1 all elements from index 3 to the end
+    console.log(array1.copyWithin(1, 3));
+    // expected output: Array ["d", "d", "e", "d", "e"]
+
+### <a href="https://doesitmutate.xyz/entries" class="markup--anchor markup--h3-anchor">.entries()</a>
+
+#### no mutation
+
+### Description
+
+The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.
+
+    a.entries()
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries"><strong>Array.prototype.entries() - JavaScript | MDN</strong><br />
+<em>The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example
+
+    var array1 = ['a', 'b', 'c'];
+
+    var iterator1 = array1.entries();
+
+    console.log(iterator1.next().value);
+    // expected output: Array [0, "a"]
+
+    console.log(iterator1.next().value);
+    // expected output: Array [1, "b"]
+
+### <a href="https://doesitmutate.xyz/every" class="markup--anchor markup--h3-anchor">.every</a>
+
+#### no mutation
+
+### Description
+
+The every() method tests whether all elements in the array pass the test implemented by the provided function.
+
+    Array.prototype.every ( callbackfn [ , thisArg ] )
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"><strong>Array.prototype.every() - JavaScript | MDN</strong><br />
+<em>The every() method tests whether all elements in the array pass the test implemented by the provided function. It…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example
+
+    function isBelowThreshold(currentValue) {
+      return currentValue < 40;
+    }
+
+    var array1 = [1, 30, 39, 29, 10, 13];
+
+    console.log(array1.every(isBelowThreshold));
+    // expected output: true
+
+### <a href="https://doesitmutate.xyz/fill" class="markup--anchor markup--h3-anchor">.fill()</a>
+
+#### mutates
+
+### Description
+
+The fill() method fills all the elements of an array from a start index to an end index with a static value.
+
+    arr.fill(value)
+    arr.fill(value, start)
+    arr.fill(value, start, end)
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"><strong>Array.prototype.fill() - JavaScript | MDN</strong><br />
+<em>The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example :
+
+    var array1 = [1, 2, 3, 4];
+
+    // fill with 0 from position 2 until position 4
+    console.log(array1.fill(0, 2, 4));
+    // expected output: [1, 2, 0, 0]
+
+    // fill with 5 from position 1
+    console.log(array1.fill(5, 1));
+    // expected output: [1, 5, 5, 5]
+
+    console.log(array1.fill(6));
+    // expected output: [6, 6, 6, 6]
+
+### <a href="https://doesitmutate.xyz/filter" class="markup--anchor markup--h3-anchor">.filter</a>
+
+#### no mutation
+
+### Description
+
+The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+
+    Array.prototype.filter ( callbackfn [ , thisArg ] )
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"><strong>Array.prototype.filter() - JavaScript | MDN</strong><br />
+<em>The method creates a new array with all elements that pass the test implemented by the provided function. Function is a…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example
+
+    var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+    const result = words.filter(word => word.length > 6);
+
+    console.log(result);
+    // expected output: Array ["exuberant", "destruction", "present"]
+
+### <a href="https://doesitmutate.xyz/find" class="markup--anchor markup--h3-anchor">.find()</a>
+
+no mutation
+
+### Description
+
+The find() method returns a value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
+
+    arr.find(callback[, thisArg])
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"><strong>Array.prototype.find() - JavaScript | MDN</strong><br />
+<em>The find() method returns the value of the first element in the provided array that satisfies the provided testing…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Example
+
+    var array1 = [5, 12, 8, 130, 44];
+
+    var found = array1.find(function(element) {
+      return element > 10;
+    });
+
+    console.log(found);
+    // expected output: 12
+
+<a href="https://medium.com/@_benaston/lesson-1b-javascript-fundamentals-380f601ba851" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@_benaston/lesson-1b-javascript-fundamentals-380f601ba851"><strong>Value types, reference types and scope in JavaScript</strong><br />
+<em>There are only two things fundamental to JavaScript: objects and functions.</em>medium.com</a><a href="https://medium.com/@_benaston/lesson-1b-javascript-fundamentals-380f601ba851" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18"><strong>Back to roots: JavaScript Value vs Reference</strong><br />
+<em>Let’s look at the concept of Value vs Reference. Every JavaScript developer should know this topic as it’s often the…</em>medium.com</a><a href="https://medium.com/dailyjs/back-to-roots-javascript-value-vs-reference-8fb69d587a18" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293"><strong>Grasp “By Value” and “By Reference” in JavaScript</strong><br />
+<em>And learn why it’s crucial to know the difference</em>hackernoon.com</a><a href="https://hackernoon.com/grasp-by-value-and-by-reference-in-javascript-7ed75efa1293" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0"><strong>JavaScript Reference and Copy Variables | Hacker Noon</strong><br />
+<em>Each programming language has its own peculiarities (and JavaScript has a lot), and today I'm going to talk about…</em>hackernoon.com</a><a href="https://hackernoon.com/javascript-reference-and-copy-variables-b0103074fdf0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/"><strong>JavaScript Primitive vs. Reference Values</strong><br />
+<em>Summary: in this tutorial, you will learn the differences between primitive and reference values. In JavaScript, a…</em>www.javascripttutorial.net</a><a href="http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value"><strong>JavaScript by reference vs. by value</strong><br />
+<em>I'm looking for some good comprehensive reading material on when JavaScript passes something by value and when by…</em>stackoverflow.com</a><a href="https://stackoverflow.com/questions/6605640/javascript-by-reference-vs-by-value" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f"><strong>JavaScript Interview Prep: Primitive vs. Reference Types</strong><br />
+<em>original article In a JavaScript interview, they might ask if you understand the difference between primitive and…</em>dev.to</a><a href="https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23"><strong>What you need to know about Javascript's Implicit Coercion</strong><br />
+<em>Javascript's implicit coercion simply refers to Javascript attempting to coerce an unexpected value type to the…</em>dev.to</a><a href="https://dev.to/promhize/what-you-need-to-know-about-javascripts-implicit-coercion-e23" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839"><strong>JavaScript type coercion explained</strong><br />
+<em>Know your engines</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/js-type-coercion-explained-27ba3d9a2839" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/javascript-coercion-explained-545c895213d3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/javascript-coercion-explained-545c895213d3"><strong>Javascript Coercion Explained</strong><br />
+<em>Along with some practical examples</em>hackernoon.com</a><a href="https://hackernoon.com/javascript-coercion-explained-545c895213d3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://stackoverflow.com/questions/19915688/what-exactly-is-type-coercion-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://stackoverflow.com/questions/19915688/what-exactly-is-type-coercion-in-javascript"><strong>What exactly is Type Coercion in Javascript?</strong><br />
+<em>Let's start with a short intro to type systems which I think will help you understand the general idea of type…</em>stackoverflow.com</a><a href="https://stackoverflow.com/questions/19915688/what-exactly-is-type-coercion-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://thedevs.network/blog/type-coercion-in-javascript-and-why-everyone-gets-it-wrong" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://thedevs.network/blog/type-coercion-in-javascript-and-why-everyone-gets-it-wrong"><strong>https://thedevs.network/</strong><br />
+<em>Weak dynamic typing is arguably one of those things everybody likes to pick at about JavaScript. For an elegant dynamic…</em>thedevs.network</a><a href="https://thedevs.network/blog/type-coercion-in-javascript-and-why-everyone-gets-it-wrong" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/getify/You-Dont-Know-JS/tree/1st-ed" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/getify/You-Dont-Know-JS/tree/1st-ed"><strong>getify/You-Dont-Know-JS</strong><br />
+<em>A book series on JavaScript. @YDKJS on twitter. Contribute to getify/You-Dont-Know-JS development by creating an…</em>github.com</a><a href="https://github.com/getify/You-Dont-Know-JS/tree/1st-ed" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a"><strong>JavaScript — Double Equals vs. Triple Equals</strong><br />
+<em>Learn equality in JavaScript in 3 minutes</em>codeburst.io</a><a href="https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bytearcher.com/articles/equality-comparison-operator-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bytearcher.com/articles/equality-comparison-operator-javascript/"><strong>Should I use === or == equality comparison operator in JavaScript?</strong><br />
+<em>You know there are two different equality comparison operators in JavaScript: the === and == operators, or the triple…</em>bytearcher.com</a><a href="https://bytearcher.com/articles/equality-comparison-operator-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.codementor.io/javascript/tutorial/double-equals-and-coercion-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.codementor.io/javascript/tutorial/double-equals-and-coercion-in-javascript"><strong>== vs === JavaScript: Double Equals and Coercion | Codementor</strong><br />
+<em>The == (double equals or loose equality) operator is an interesting operator. Many avoid it because they don't know how…</em>www.codementor.io</a><a href="https://www.codementor.io/javascript/tutorial/double-equals-and-coercion-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.impressivewebs.com/why-use-triple-equals-javascipt/"><strong>Why Use the Triple-Equals Operator in JavaScript? - Impressive Webs</strong><br />
+<em>"Determining whether two variables are equivalent is one of the most important operations in programming." That's…</em>www.impressivewebs.com</a><a href="https://www.impressivewebs.com/why-use-triple-equals-javascipt/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.oreilly.com/learning/what-is-the-difference-between-and-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.oreilly.com/learning/what-is-the-difference-between-and-in-javascript"><strong>What is the difference between == and === in JavaScript?</strong><br />
+<em>On the surface == and === appear to be functionally the same, so why bother typing an extra character? In this video…</em>www.oreilly.com</a><a href="https://www.oreilly.com/learning/what-is-the-difference-between-and-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://stackoverflow.com/questions/3787901/why-javascripts-typeof-always-return-object" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://stackoverflow.com/questions/3787901/why-javascripts-typeof-always-return-object"><strong>Why javascript's typeof always return "object"?</strong><br />
+<em>To add in with the others, typeof returns both objects and primitives. There are 5 primitive types in javascript…</em>stackoverflow.com</a><a href="https://stackoverflow.com/questions/3787901/why-javascripts-typeof-always-return-object" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://tobyho.com/2011/01/28/checking-types-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://tobyho.com/2011/01/28/checking-types-in-javascript/"><strong>Checking Types in Javascript</strong><br />
+<em>Have you ever wondered: what is the correct way to check if a Javascript variable is an Array? Do a Google search and…</em>tobyho.com</a><a href="http://tobyho.com/2011/01/28/checking-types-in-javascript/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://webbjocke.com/javascript-check-data-types/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://webbjocke.com/javascript-check-data-types/"><strong>How to better check data types in javascript - Webbjocke</strong><br />
+<em>To check what data type something has in javascript is not always the easiest. The language itself provides an operator…</em>webbjocke.com</a><a href="https://webbjocke.com/javascript-check-data-types/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://tomeraberba.ch/html/post/checking-for-the-absence-of-a-value-in-javascript.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://tomeraberba.ch/html/post/checking-for-the-absence-of-a-value-in-javascript.html"><strong>Tomer Aberbach | Checking for the Absence of a Value in JavaScript</strong><br />
+<em>When I first started learning JavaScript I was confused by the seemingly endless ways developers check for the absence…</em>tomeraberba.ch</a><a href="https://tomeraberba.ch/html/post/checking-for-the-absence-of-a-value-in-javascript.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures"><strong>getify/You-Dont-Know-JS</strong><br />
+<em>A book series on JavaScript. @YDKJS on twitter. Contribute to getify/You-Dont-Know-JS development by creating an…</em>github.com</a><a href="https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99"><strong>JavaScript Functions — Understanding The Basics</strong><br />
+<em>Explore Functions in JavaScript — declaration, expressions, invocation, and more.</em>codeburst.io</a><a href="https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/"><strong>ES6: var, let and const - The battle between function scope and block scope</strong><br />
+<em>In the pre-ES6 era, there was only one way of declaring variables in JavaScript - being the usage of var. var has…</em>www.deadcoderising.com</a><a href="http://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html"><strong>Emulating Block Scope in JavaScript</strong><br />
+<em>While there are many issues that trip up developers coming from other languages, variable scoping may be number one…</em>adripofjavascript.com</a><a href="http://adripofjavascript.com/blog/drips/emulating-block-scope-in-javascript.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe"><strong>The Difference Between Function and Block Scope in JavaScript</strong><br />
+<em>Back to the basics with the var, let and const variables</em>josephcardillo.medium.com</a><a href="https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7"><strong>Function scopes and block scopes in JavaScript</strong><br />
+<em>Is the following line a valid line of JavaScript code?</em>edgecoders.com</a><a href="https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://ryanmorr.com/understanding-scope-and-context-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://ryanmorr.com/understanding-scope-and-context-in-javascript/"><strong>Understanding Scope and Context in JavaScript</strong><br />
+<em>Understanding Scope and Context in JavaScript August 16, 2013 JavaScript JavaScript's implementation of scope and…</em>ryanmorr.com</a><a href="http://ryanmorr.com/understanding-scope-and-context-in-javascript/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://css-tricks.com/javascript-scope-closures/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://css-tricks.com/javascript-scope-closures/"><strong>JavaScript Scope and Closures</strong><br />
+<em>Scopes and closures are important in JavaScript. But, they were confusing for me when I first started. Here's an…</em>css-tricks.com</a><a href="https://css-tricks.com/javascript-scope-closures/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.telerik.com/topics/web-development/understanding-scope-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.telerik.com/topics/web-development/understanding-scope-in-javascript/"><strong>Understanding Scope in JavaScript - Telerik Blogs</strong><br />
+<em>Scope is an important, yet ambiguous concept in JavaScript. Used correctly, it allows you to leverage good design…</em>developer.telerik.com</a><a href="https://developer.telerik.com/topics/web-development/understanding-scope-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://speakingjs.com/es5/ch16.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://speakingjs.com/es5/ch16.html"><strong>Chapter 16. Variables: Scopes, Environments, and Closures</strong><br />
+<em>Chapter 16. Variables: Scopes, Environments, and Closures This chapter first explains how to use variables and then…</em>speakingjs.com</a><a href="http://speakingjs.com/es5/ch16.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/understanding-scope-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/understanding-scope-in-javascript"><strong>Understanding Scope in JavaScript</strong><br />
+<em>JavaScript has a feature called Scope. Though the concept of scope is not that easy to understand for many new…</em>scotch.io</a><a href="https://scotch.io/tutorials/understanding-scope-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0"><strong>When to use a function declaration vs. a function expression</strong><br />
+<em>The differences between them and when to use one or the other.</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/when-to-use-a-function-declarations-vs-a-function-expression-70f15152a0a0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/alexandrafren/a-javascript-fundamentals-cheat-sheet-scope-context-and-this-28ai" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/alexandrafren/a-javascript-fundamentals-cheat-sheet-scope-context-and-this-28ai"><strong>A JavaScript Fundamentals Cheat Sheet: Scope, Context, and "this"</strong><br />
+<em>Scope Scope refers to where a variable can be accessed within a program. Some variables can be accessed from anywhere…</em>dev.to</a><a href="https://dev.to/alexandrafren/a-javascript-fundamentals-cheat-sheet-scope-context-and-this-28ai" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/function-expressions-vs-declarations/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/function-expressions-vs-declarations/"><strong>Quick Tip: Function Expressions vs Function Declarations - SitePoint</strong><br />
+<em>This article was peer reviewed by Jeff Mott. Thanks to all of SitePoint's peer reviewers for making SitePoint content…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/function-expressions-vs-declarations/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38"><strong>JavaScript Function — Declaration vs Expression</strong><br />
+<em>Functions are considered as First Class citizen in JavaScript and it is really important to be clear with the concept…</em>medium.com</a><a href="https://medium.com/@raviroshan.talk/javascript-function-declaration-vs-expression-f5873b8c7b38" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052"><strong>Function Declarations vs. Function Expressions</strong><br />
+<em>What is Function Statement/Declarations in JavaScript?</em>medium.com</a><a href="https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/"><strong>Function Declarations vs. Function Expressions</strong><br />
+<em>Lets start with a short quiz. What is alerted in each case?: Question 1: Question 2: Question 3: Question 4: If you…</em>javascriptweblog.wordpress.com</a><a href="https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://vvkchandra.medium.com/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://vvkchandra.medium.com/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6"><strong>Essential JavaScript: Mastering Immediately-invoked Function Expressions</strong><br />
+<em>Understanding functions inside out and then learning how to exploit them to write modern, clean JavaScript code is a…</em>vvkchandra.medium.com</a><a href="https://vvkchandra.medium.com/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://hashnode.com/post/do-es6-modules-make-the-case-of-iifes-obsolete-civ96wet80scqgc538un20es0" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hashnode.com/post/do-es6-modules-make-the-case-of-iifes-obsolete-civ96wet80scqgc538un20es0"><strong>Do ES6 Modules make the case of IIFEs obsolete? - Hashnode</strong><br />
+<em>IIFE was one of the most used patterns in the ES5 standard, as functions were the only way to declare a scoped block of…</em>hashnode.com</a><a href="https://hashnode.com/post/do-es6-modules-make-the-case-of-iifes-obsolete-civ96wet80scqgc538un20es0" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/"><strong>A 10 minute primer to JavaScript modules, module formats, module loaders and module bundlers</strong><br />
+<em>Modern JavaScript development can be overwhelming. When working on a project, you may wonder why all the modern…</em>www.jvandemo.com</a><a href="https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://exploringjs.com/es6/ch_modules.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://exploringjs.com/es6/ch_modules.html"><strong>16. Modules</strong><br />
+<em>Edit description</em>exploringjs.com</a><a href="http://exploringjs.com/es6/ch_modules.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/"><strong>ES modules: A cartoon deep-dive - Mozilla Hacks - the Web developer blog</strong><br />
+<em>ES modules bring an official, standardized module system to JavaScript. With the release of Firefox 60 in May, all…</em>hacks.mozilla.org</a><a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/understanding-es6-modules/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/understanding-es6-modules/"><strong>Understanding ES6 Modules - SitePoint</strong><br />
+<em>Almost every language has a concept of modules - a way to include functionality declared in one file within another…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/understanding-es6-modules/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.cloud66.com/an-overview-of-es6-modules-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.cloud66.com/an-overview-of-es6-modules-in-javascript/"><strong>An overview of ES6 Modules in JavaScript</strong><br />
+<em>Introduction Until recently if you wanted to take full advantage of modules in JavaScript you needed to make use of…</em>blog.cloud66.com</a><a href="https://blog.cloud66.com/an-overview-of-es6-modules-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://ponyfoo.com/articles/es6-modules-in-depth" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://ponyfoo.com/articles/es6-modules-in-depth"><strong>ES6 Modules in Depth</strong><br />
+<em>Welcome back to ES6 - "Oh, good. It's not another article about Unicode" - in Depth series. If you've never been around…</em>ponyfoo.com</a><a href="https://ponyfoo.com/articles/es6-modules-in-depth" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/dailyjs/es6-modules-node-js-and-the-michael-jackson-solution-828dc244b8b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/dailyjs/es6-modules-node-js-and-the-michael-jackson-solution-828dc244b8b"><strong>ES6 modules, Node.js and the Michael Jackson Solution</strong><br />
+<em>JavaScript’s never had a standard way to import and export functionality from a source file to another. Well, it has…</em>medium.com</a><a href="https://medium.com/dailyjs/es6-modules-node-js-and-the-michael-jackson-solution-828dc244b8b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc"><strong>JavaScript Modules: A Beginner’s Guide</strong><br />
+<em>If you’re a newcomer to JavaScript, jargon like “module bundlers vs. module loaders,” “Webpack vs. Browserify” and “AMD…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developers.google.com/web/fundamentals/primers/modules" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developers.google.com/web/fundamentals/primers/modules"><strong>JavaScript modules</strong><br />
+<em>This article explains how to use JavaScript modules, how to deploy them responsibly, and how the Chrome team is working…</em>developers.google.com</a><a href="https://developers.google.com/web/fundamentals/primers/modules" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bhagatparwinder/iife-immediately-invoked-function-expressions-49c5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bhagatparwinder/iife-immediately-invoked-function-expressions-49c5"><strong>IIFE: Immediately Invoked Function Expressions</strong><br />
+<em>IIFE is a function that is declared and invoked at the same time. You create them by using anonymous functions and…</em>dev.to</a><a href="https://dev.to/bhagatparwinder/iife-immediately-invoked-function-expressions-49c5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"><strong>JavaScript Event Loop Explained</strong><br />
+<em>“How is JavaScript asynchronous and single-threaded ?” The short answer is that JavaScript language is single-threaded…</em>medium.com</a><a href="https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/"><strong>The JavaScript Event Loop: Explained</strong><br />
+<em>With JavaScript approaching near-ubiquity as the scripting language of the web browser, it benefits you to have a basic…</em>blog.carbonfive.com</a><a href="https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40"><strong>Understanding JS: The Event Loop</strong><br />
+<em>Due to the amazing quantity of libraries, tools and all kinds of things that make your development easier, a lot of…</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.zeolearn.com/magazine/understanding-the-javascript-event-loop" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.zeolearn.com/magazine/understanding-the-javascript-event-loop"><strong>Understanding the JavaScript event loop</strong><br />
+<em>If you are someone who has heard about the terms event loop, callback queue, concurrency model and call stack but…</em>www.zeolearn.com</a><a href="https://www.zeolearn.com/magazine/understanding-the-javascript-event-loop" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://code.likeagirl.io/what-the-heck-is-event-loop-1e414fccef49" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://code.likeagirl.io/what-the-heck-is-event-loop-1e414fccef49"><strong>Event loop in javascript</strong><br />
+<em>If you love javascript you’ve need to learn this. One of the deeper aspects of JavaScript is it’s Event Loop. Its…</em>code.likeagirl.io</a><a href="https://code.likeagirl.io/what-the-heck-is-event-loop-1e414fccef49" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://flaviocopes.com/javascript-event-loop/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://flaviocopes.com/javascript-event-loop/"><strong>The JavaScript Event Loop</strong><br />
+<em>The Event Loop is one of the most important aspects to understand about JavaScript. I've programmed for years with…</em>flaviocopes.com</a><a href="https://flaviocopes.com/javascript-event-loop/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5"><strong>How JavaScript works: Event loop and the rise of Async programming + 5 ways to better coding with…</strong><br />
+<em>Welcome to post # 4 of the series dedicated to exploring JavaScript and its building components. In the process of…</em>blog.sessionstack.com</a><a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/"><strong>Tasks, microtasks, queues and schedules</strong><br />
+<em>Edit description</em>jakearchibald.com</a><a href="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/presto412/visualising-the-javascript-event-loop-with-a-pizza-restaurant-analogy-47a8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/presto412/visualising-the-javascript-event-loop-with-a-pizza-restaurant-analogy-47a8"><strong>Visualising the JavaScript Event Loop with a Pizza Restaurant analogy</strong><br />
+<em>Consider a pizza restaurant. There are two types of orders that we currently have from a single customer - one is an…</em>dev.to</a><a href="https://dev.to/presto412/visualising-the-javascript-event-loop-with-a-pizza-restaurant-analogy-47a8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"><strong>✨♻️ JavaScript Visualized: Event Loop</strong><br />
+<em>Oh boi the event loop. It's one of those things that every JavaScript developer has to deal with in one way or another…</em>dev.to</a><a href="https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/settimeout-setinterval" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/settimeout-setinterval"><strong>Scheduling: setTimeout and setInterval</strong><br />
+<em>Edit description</em>javascript.info</a><a href="https://javascript.info/settimeout-setinterval" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/akanksha_9560/why-not-to-use-setinterval--2na9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/akanksha_9560/why-not-to-use-setinterval--2na9"><strong>Why not to use setInterval</strong><br />
+<em>Recently, I came across a requirement where I had to call a function repeatedly after specific time interval, like…</em>dev.to</a><a href="https://dev.to/akanksha_9560/why-not-to-use-setinterval--2na9" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://develoger.com/settimeout-vs-setinterval-cff85142555b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://develoger.com/settimeout-vs-setinterval-cff85142555b"><strong>setTimeout VS setInterval</strong><br />
+<em>Intro</em>develoger.com</a><a href="https://develoger.com/settimeout-vs-setinterval-cff85142555b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://css-tricks.com/using-requestanimationframe/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://css-tricks.com/using-requestanimationframe/"><strong>Using requestAnimationFrame</strong><br />
+<em>There used to be just one way to do a timed loop in JavaScript: setInterval(). If you needed to repeat something pretty…</em>css-tricks.com</a><a href="https://css-tricks.com/using-requestanimationframe/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml"><strong>Understanding JavaScript's requestAnimationFrame() method for smooth animations</strong><br />
+<em>Updated: Nov 1st, 2017 The modern web of today is filled with sights to behold on every page, where menus slide in and…</em>www.javascriptkit.com</a><a href="http://www.javascriptkit.com/javatutors/requestanimationframe.shtml" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.amitmerchant.com/Handling-Time-Intervals-In-Javascript/" class="marku
