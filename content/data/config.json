@@ -25,7 +25,7 @@
             {
                 "label": "Embedded Examples",
                 "url": "/embeds",
-                "style": "link"
+                "style": "button"
             },
             {
                 "label": "Contact",
