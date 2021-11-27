@@ -30,7 +30,7 @@
             {
                 "label": "Contact",
                 "url": "/contact/",
-                "style": "button"
+                "style": "link"
             },
             {
                 "label": "Navigation",
