@@ -5921,4 +5921,1351 @@ Inheritancecodeburst.io</a><a href="https://codeburst.io/master-javascript-proto
 <a href="https://dev.to/iggredible/javascript-promise-101-3idl" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/iggredible/javascript-promise-101-3idl"><strong>Javascript Promise 101</strong><br />
 <em>Knowing how Promise works in javascript will boost your development skill exponentially. Here I will share: I promise…</em>dev.to</a><a href="https://dev.to/iggredible/javascript-promise-101-3idl" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
 
-<a href="https://dev.to/sunnysingh/simplify-javascript-promises-4djb" class="markup--anchor markup--mixtapeE
+<a href="https://dev.to/sunnysingh/simplify-javascript-promises-4djb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/sunnysingh/simplify-javascript-promises-4djb"><strong>Simplify JavaScript Promises</strong><br />
+<em>I love promises. Not from people, but from JavaScript. Tweet Quote I love promises. Not from people, but from…</em>dev.to</a><a href="https://dev.to/sunnysingh/simplify-javascript-promises-4djb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/madhash/the-low-down-on-promises-af4a96bbb95f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/madhash/the-low-down-on-promises-af4a96bbb95f"><strong>The Lowdown on Promises</strong><br />
+<em>A quick and concise guide on how Promises work in JavaScript</em>medium.com</a><a href="https://medium.com/madhash/the-low-down-on-promises-af4a96bbb95f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke"><strong>⭐️🎀 JavaScript Visualized: Promises &amp; Async/Await</strong><br />
+<em>Ever had to deal with JS code that just... didn't run the way you expected it to? Maybe it seemed like functions got…</em>dev.to</a><a href="https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/peterklingelhofer/promises-in-javascript-3h5k" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/peterklingelhofer/promises-in-javascript-3h5k"><strong>Promises in JavaScript</strong><br />
+<em>Callbacks are functions that run after something happens or something completes. If you have to make an asynchronous…</em>dev.to</a><a href="https://dev.to/peterklingelhofer/promises-in-javascript-3h5k" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/somedood/best-practices-for-es6-promises-36da" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/somedood/best-practices-for-es6-promises-36da"><strong>Best Practices for ES6 Promises</strong><br />
+<em>ES6 promises are great! Yet... they are still quite painful to deal with. In this article, I share the best practices I…</em>dev.to</a><a href="https://dev.to/somedood/best-practices-for-es6-promises-36da" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/async-await" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/async-await"><strong>Async/await</strong><br />
+<em>There's a special syntax to work with promises in a more comfortable fashion, called "async/await". It's surprisingly…</em>javascript.info</a><a href="https://javascript.info/async-await" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://eloquentjavascript.net/11_async.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://eloquentjavascript.net/11_async.html"><strong>Asynchronous Programming :: Eloquent JavaScript</strong><br />
+<em>Who can wait quietly while the mud settles?Who can remain still until the moment of action? Laozi, Tao Te Ching The…</em>eloquentjavascript.net</a><a href="https://eloquentjavascript.net/11_async.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://exploringjs.com/es6/ch_async.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://exploringjs.com/es6/ch_async.html"><strong>24. Asynchronous programming (background)</strong><br />
+<em>This chapter explains foundations of asynchronous programming in JavaScript. It provides background knowledge for the…</em>exploringjs.com</a><a href="http://exploringjs.com/es6/ch_async.html" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/understanding-async-await-in-javascript-1d81bb079b2c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/understanding-async-await-in-javascript-1d81bb079b2c"><strong>Understanding async-await in JavaScript</strong><br />
+<em>Rules of thumb and examples for when and how to use async and await</em>hackernoon.com</a><a href="https://hackernoon.com/understanding-async-await-in-javascript-1d81bb079b2c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://alligator.io/js/async-functions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://alligator.io/js/async-functions/"><strong>Exploring Async/Await Functions in JavaScript | DigitalOcean</strong><br />
+<em>Promises give us an easier way to deal with asynchrony in our code in a sequential manner. Considering that our brains…</em>alligator.io</a><a href="https://alligator.io/js/async-functions/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/tutorials/asynchronous-javascript-using-async-await" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/tutorials/asynchronous-javascript-using-async-await"><strong>Asynchronous Javascript using Async - Await</strong><br />
+<em>Async/await is a relatively new way to write asynchronous code in Javascript. Before we used callbacks and promises…</em>scotch.io</a><a href="https://scotch.io/tutorials/asynchronous-javascript-using-async-await" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://flaviocopes.com/javascript-async-await/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://flaviocopes.com/javascript-async-await/"><strong>Modern Asynchronous JavaScript with Async and Await</strong><br />
+<em>JavaScript evolved in a very short time from callbacks to promises (ES2015), and since ES2017 asynchronous JavaScript…</em>flaviocopes.com</a><a href="https://flaviocopes.com/javascript-async-await/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial"><strong>Asynchronous JavaScript: From Callback Hell to Async and Await</strong><br />
+<em>One of the keys to writing a successful web application is being able to make dozens of AJAX calls per page. This is a…</em>www.toptal.com</a><a href="https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@_bengarrison/javascript-es8-introducing-async-await-functions-7a471ec7de8a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@_bengarrison/javascript-es8-introducing-async-await-functions-7a471ec7de8a"><strong>Javascript — ES8 Introducing `async/await` Functions</strong><br />
+<em>To gain some perspective on why folks are so excited about the ES8 async/await functions, you have to be familiar with…</em>medium.com</a><a href="https://medium.com/@_bengarrison/javascript-es8-introducing-async-await-functions-7a471ec7de8a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c"><strong>How to escape async/await hell</strong><br />
+<em>async/await freed us from callback hell, but people have started abusing it — leading to the birth of async/await hell.</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://ponyfoo.com/articles/understanding-javascript-async-await" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://ponyfoo.com/articles/understanding-javascript-async-await"><strong>Understanding JavaScript's async await</strong><br />
+<em>Let's suppose we had code like the following. Here I'm wrapping an HTTP request in a Promise. The promise fulfills with…</em>ponyfoo.com</a><a href="https://ponyfoo.com/articles/understanding-javascript-async-await" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://techbrij.com/javascript-async-await-parallel-sequence" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://techbrij.com/javascript-async-await-parallel-sequence"><strong>JavaScript Async/Await: Serial, Parallel and Complex Flow - TechBrij</strong><br />
+<em>If you have experience on ASP.NET MVC then probably you are familiar with async/await keywords in C#. The same thing is…</em>techbrij.com</a><a href="https://techbrij.com/javascript-async-await-parallel-sequence" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://blog.pusher.com/promises-async-await/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.pusher.com/promises-async-await/"><strong>From JavaScript Promises to Async/Await: why bother?</strong><br />
+<em>In this tutorial, we will cover why we need async/await when we could achieve the same fit with JavaScript Promises, to…</em>blog.pusher.com</a><a href="https://blog.pusher.com/promises-async-await/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/flow-control-callbacks-promises-async-await/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/flow-control-callbacks-promises-async-await/"><strong>Flow Control in Modern JS: Callbacks to Promises to Async/Await - SitePoint</strong><br />
+<em>JavaScript is regularly claimed to be asynchronous. What does that mean? How does it affect development? How has the…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/flow-control-callbacks-promises-async-await/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dzone.com/articles/javascript-promises-and-why-asyncawait-wins-the-ba" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dzone.com/articles/javascript-promises-and-why-asyncawait-wins-the-ba"><strong>JavaScript: Promises and Why Async/Await Wins the Battle - DZone Performance</strong><br />
+<em>Calling the validatePassword() function: The code snippet below shows a full end to end check for validating a password…</em>dzone.com</a><a href="https://dzone.com/articles/javascript-promises-and-why-asyncawait-wins-the-ba" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/improve-your-asynchronous-javascript-code-with-async-and-await-c02fc3813eda" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/improve-your-asynchronous-javascript-code-with-async-and-await-c02fc3813eda"><strong>How to Improve Your Asynchronous JavaScript Code With Async and Await</strong><br />
+<em>If you’ve had the chance to observe modern JavaScript code, there are high chances that you’ve seen the async and await…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/improve-your-asynchronous-javascript-code-with-async-and-await-c02fc3813eda" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@micksheridan.24/making-fetches-easy-with-async-await-8a1246efa1f6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@micksheridan.24/making-fetches-easy-with-async-await-8a1246efa1f6"><strong>Making Fetches Easy With Async Await</strong><br />
+<em>Asynchronous requests are the source of many common and frustrating bugs in otherwise clean code. Because most of…</em>medium.com</a><a href="https://medium.com/@micksheridan.24/making-fetches-easy-with-async-await-8a1246efa1f6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9"><strong>7 Reasons Why JavaScript Async/Await Is Better Than Plain Promises (Tutorial)</strong><br />
+<em>Async/await was introduced in NodeJS 7.6 and is currently supported in all modern browsers. I believe it has been the…</em>dev.to</a><a href="https://dev.to/gafi/7-reasons-to-always-use-async-await-over-plain-promises-tutorial-4ej9" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/jscrambler/asynchronous-operations-in-javascript-2p6b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/jscrambler/asynchronous-operations-in-javascript-2p6b"><strong>Asynchronous Operations in JavaScript</strong><br />
+<em>JavaScript comes from a legacy of peril with asynchronous operations. It began with callbacks to make Ajax calls for…</em>dev.to</a><a href="https://dev.to/jscrambler/asynchronous-operations-in-javascript-2p6b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/joeyhub/async-await-a-slight-design-flaw-2h2j" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/joeyhub/async-await-a-slight-design-flaw-2h2j"><strong>Async/await: A slight design flaw.</strong><br />
+<em>My experience with async/await is that it's amazing for simple cases and fulfils expectations. If your use cases are…</em>dev.to</a><a href="https://dev.to/joeyhub/async-await-a-slight-design-flaw-2h2j" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/should-i-use-promises-or-async-await-126ab5c98789" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/should-i-use-promises-or-async-await-126ab5c98789"><strong>JavaScript: Promises or async-await</strong><br />
+<em>A set of rules for when to use which</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/should-i-use-promises-or-async-await-126ab5c98789" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/zhiyuanamos/async-await-from-zero-to-hero-a22" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/zhiyuanamos/async-await-from-zero-to-hero-a22"><strong>Async / Await: From Zero to Hero</strong><br />
+<em>I had absolutely no idea what async / await was and learning it was hard as: There's 27 minutes worth of text to read…</em>dev.to</a><a href="https://dev.to/zhiyuanamos/async-await-from-zero-to-hero-a22" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c"><strong>Data Structures in JavaScript</strong><br />
+<em>For Frontend Software Engineers</em>medium.com</a><a href="https://medium.com/siliconwat/data-structures-in-javascript-1b9aed0ea17c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb"><strong>Algorithms and Data Structures in JavaScript</strong><br />
+<em>Algorithms and data structures implemented in JavaScript with explanations and links to further readings and YouTube…</em>itnext.io</a><a href="https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays"><strong>Data Structures: Objects and Arrays</strong><br />
+<em>Ever seen some data in square brackets and curly brackets in JavaScript? These are Arrays and Objects respectively. //…</em>scotch.io</a><a href="https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/"><strong>Data structures in JavaScript</strong><br />
+<em>The #data-structures series is a collection of posts about reimplemented data structures in JavaScript. If you are not…</em>blog.benoitvallon.com</a><a href="http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d"><strong>Playing with data structures in Javascript — Stack</strong><br />
+<em>Javascript is evolving each day. With the rapid growth of frameworks and platforms like React, Angular, Vue, NodeJS…</em>blog.cloudboost.io</a><a href="https://blog.cloudboost.io/playing-with-data-structures-in-javascript-stack-a55ebe50f29d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9"><strong>The Little Guide of Queue in JavaScript</strong><br />
+<em>A queue is a simple data structure that allows elements to be inserted from one end, called the rear (also called…</em>hackernoon.com</a><a href="https://hackernoon.com/the-little-guide-of-queue-in-javascript-4f67e79260d9" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/barretlee/algorithms" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/barretlee/algorithms"><strong>barretlee/algorithms</strong><br />
+<em>Detail &amp; Discusion (讨论和细节) All algorithms writing with JavaScript in book ' Algorithms Fourth Edition'. Run…</em>github.com</a><a href="https://github.com/barretlee/algorithms" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/nzakas/computer-science-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/nzakas/computer-science-in-javascript"><strong>humanwhocodes/computer-science-in-javascript</strong><br />
+<em>Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript. …</em>github.com</a><a href="https://github.com/nzakas/computer-science-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/jamiebuilds/itsy-bitsy-data-structures" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/jamiebuilds/itsy-bitsy-data-structures"><strong>jamiebuilds/itsy-bitsy-data-structures</strong><br />
+<em>Welcome to Itsy Bitsy Data Structures! In here are super simplified examples of many of the common data structures…</em>github.com</a><a href="https://github.com/jamiebuilds/itsy-bitsy-data-structures" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/miku86/series/3259" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/miku86/series/3259"><strong>About DEV - DEV Community</strong><br />
+<em>DEV is a community of software developers getting together to help one another out. The software industry relies on…</em>dev.to</a><a href="https://dev.to/miku86/series/3259" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/data-structures-understanding-graphs-82509d35e6b5" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/data-structures-understanding-graphs-82509d35e6b5"><strong>Data Structures: Understanding Graphs</strong><br />
+<em>What is a graph? Graphs are used to represents relationships and hierarchies and are composed of nodes and edges.</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/data-structures-understanding-graphs-82509d35e6b5" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-2n61" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-2n61"><strong>Data Structures Two Ways: Linked List (Pt 1)</strong><br />
+<em>I work primarily with JavaScript, but the place I work is using Java on the backend. Always being fascinated with…</em>dev.to</a><a href="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-2n61" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-pt2-2i60" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-pt2-2i60"><strong>Data Structures Two Ways: Linked List (Pt2)</strong><br />
+<em>If you are new- well hello! check out part one if you like to start at the beginning or just jump straight in Right on…</em>dev.to</a><a href="https://dev.to/freddieduffield/data-structures-two-ways-linked-list-pt2-2i60" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/amejiarosario/graph-data-structures-for-beginners-5edn" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/amejiarosario/graph-data-structures-for-beginners-5edn"><strong>Graph Data Structures Explained in JavaScript</strong><br />
+<em>In this post, we are going to explore non-linear data structures like graphs. Also, we'll cover the central concepts…</em>dev.to</a><a href="https://dev.to/amejiarosario/graph-data-structures-for-beginners-5edn" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b"><strong>Big O Notation in Javascript</strong><br />
+<em>Get ready for your tech job interview</em>medium.com</a><a href="https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b"><strong>Time Complexity/Big O Notation</strong><br />
+<em>Scaling Algorithms Instead of Applications</em>medium.com</a><a href="https://medium.com/javascript-scene/time-complexity-big-o-notation-1a4310c3ee4b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051"><strong>Big O in JavaScript</strong><br />
+<em>Like many new developers before me, Big O went straight over my head the first time I heard about it. It was a topic…</em>medium.com</a><a href="https://medium.com/@gmedina229/big-o-in-javascript-36ff67766051" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.bradoncode.com/blog/2012/04/big-o-algorithm-examples-in-javascript.html" class="markup--anchor markup--p-anchor">http://www.bradoncode.com/blog/2012/04/big-o-algorithm-examples-in-javascript.html</a>
+
+<a href="https://www.jenniferbland.com/time-complexity-analysis-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.jenniferbland.com/time-complexity-analysis-in-javascript/"><strong>Time Complexity Analysis in JavaScript</strong><br />
+<em>An algorithm is a self-contained step-by-step set of instructions to solve a problem. It takes time for these steps to…</em>www.jenniferbland.com</a><a href="https://www.jenniferbland.com/time-complexity-analysis-in-javascript/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c"><strong>Algorithms in plain English: time complexity and Big-O notation</strong><br />
+<em>Every good developer has time on their mind. They want to give their users more of it, so they can do all those things…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o"><strong>An Introduction to Big O Notation</strong><br />
+<em>Big O notation is a big topic, and its universal importance stems from the fact that it describes the efficiency of…</em>dev.to</a><a href="https://dev.to/lofiandcode/an-introduction-to-big-o-notation-210o" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/Crizstian/data-structure-and-algorithms-with-ES6" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/Crizstian/data-structure-and-algorithms-with-ES6"><strong>Crizstian/data-structure-and-algorithms-with-ES6</strong><br />
+<em>Num Type Exercises Description 10.- Graph Data Structure 2 A graph consists of a set of vertices and a set of edges. A…</em>github.com</a><a href="https://github.com/Crizstian/data-structure-and-algorithms-with-ES6" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/trekhleb/javascript-algorithms" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/trekhleb/javascript-algorithms"><strong>trekhleb/javascript-algorithms</strong><br />
+<em>This repository contains JavaScript based examples of many popular algorithms and data structures. Each algorithm and…</em>github.com</a><a href="https://github.com/trekhleb/javascript-algorithms" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://www.thatjsdude.com/interview/js1.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://www.thatjsdude.com/interview/js1.html"><strong>JS: Algorithm</strong><br />
+<em>More Questions CSS Interview Questions , HTML Interview Questions if you are little more comfortable or claim to be…</em>www.thatjsdude.com</a><a href="http://www.thatjsdude.com/interview/js1.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038"><strong>Algorithms in JavaScript</strong><br />
+<em>40 Problems, Solutions, and Explanations</em>medium.com</a><a href="https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/javascript-objects-square-brackets-and-algorithms-e9a2916dc158" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/javascript-objects-square-brackets-and-algorithms-e9a2916dc158"><strong>JavaScript Objects, Square Brackets and Algorithms</strong><br />
+<em>One of the most powerful aspects of JavaScript is being able to dynamically refer to properties of objects. In this…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/javascript-objects-square-brackets-and-algorithms-e9a2916dc158" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/felipernb/algorithms.js" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/felipernb/algorithms.js"><strong>felipernb/algorithms.js</strong><br />
+<em>Classic algorithms and data structures implemented in JavaScript, you know... FOR SCIENCE.</em>github.com</a><a href="https://github.com/felipernb/algorithms.js" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/yangshun/lago" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/yangshun/lago"><strong>yangshun/lago</strong><br />
+<em>📕 Data Structures and Algorithms library in TypeScript - yangshun/lago</em>github.com</a><a href="https://github.com/yangshun/lago" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/idosela/algorithms-in-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/idosela/algorithms-in-javascript"><strong>idosela/algorithms-in-javascript</strong><br />
+<em>Collection of computer science algorithms and data structures written in JavaScript. Run the sort performence test…</em>github.com</a><a href="https://github.com/idosela/algorithms-in-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/trekhleb/algorithms-and-data-structures-in-javascript-49i3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/trekhleb/algorithms-and-data-structures-in-javascript-49i3"><strong>Algorithms and Data Structures in JavaScript</strong><br />
+<em>Hello Readers! I've recently launched JavaScript Algorithms and Data Structures repository on GitHub with a collection…</em>dev.to</a><a href="https://dev.to/trekhleb/algorithms-and-data-structures-in-javascript-49i3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance"><strong>Inheritance in JavaScript - Learn web development | MDN</strong><br />
+<em>This article has covered the remainder of the core OOJS theory and syntax that we think you should know now. At this…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/class-inheritance" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/class-inheritance"><strong>Class inheritance</strong><br />
+<em>Class inheritance is a way for one class to extend another class. So we can create new functionality on top of the…</em>javascript.info</a><a href="https://javascript.info/class-inheritance" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f"><strong>Inheritance in JavaScript</strong><br />
+<em>Detailed walk thorough of inheritance in JavaScript</em>medium.com</a><a href="https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/simple-inheritance-javascript/" class="markup--anchor markup--p-anchor">https://www.sitepoint.com/simple-inheritance-javascript/</a>
+
+<a href="https://codeburst.io/javascript-inheritance-25fe61ab9f85" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/javascript-inheritance-25fe61ab9f85"><strong>JavaScript — Inheritance, delegation patterns and Object linking</strong><br />
+<em>Learn about inheritance in JavaScript (prototypal inheritance), behavior/object delegation pattern and objects linked…</em>codeburst.io</a><a href="https://codeburst.io/javascript-inheritance-25fe61ab9f85" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.knoldus.com/object-oriented-javascript-polymorphism-with-examples/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.knoldus.com/object-oriented-javascript-polymorphism-with-examples/"><strong>Object Oriented JavaScript: Polymorphism with examples</strong><br />
+<em>Again this is not the advance topic of JavaScript but it relies under Object Oriented JavaScript &amp; polymorphism is one…</em>blog.knoldus.com</a><a href="https://blog.knoldus.com/object-oriented-javascript-polymorphism-with-examples/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2"><strong>Program Like Proteus — A beginner’s guide to polymorphism in Javascript</strong><br />
+medium.com</a><a href="https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/"><strong>Object-oriented JavaScript: A Deep Dive into ES6 Classes - SitePoint</strong><br />
+<em>Often we need to represent an idea or concept in our programs - maybe a car engine, a computer file, a router, or a…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://addyosmani.com/resources/essentialjsdesignpatterns/book/"><strong>Learning JavaScript Design Patterns</strong><br />
+<em>An open-source book on JavaScript Design Patterns</em>addyosmani.com</a><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know"><strong>JavaScript Design Patterns | DigitalOcean</strong><br />
+<em>There are many times when one part of the application changes, other parts needs to be updated. In AngularJS, if the…</em>scotch.io</a><a href="https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/javascript-design-patterns-25f0faaaa15" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/javascript-design-patterns-25f0faaaa15"><strong>JavaScript Design Patterns</strong><br />
+<em>The ultimate guide to the most useful design patterns</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/javascript-design-patterns-25f0faaaa15" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81"><strong>JavaScript Design Patterns</strong><br />
+<em>Constructor Pattern</em>medium.com</a><a href="https://medium.com/front-end-weekly/javascript-design-patterns-ed9d4c144c81" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://seesparkbox.com/foundry/javascript_design_patterns" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://seesparkbox.com/foundry/javascript_design_patterns"><strong>Javascript Design Patterns: What They Are &amp; How To Use Them</strong><br />
+<em>Developers often encounter coding problems in JavaScript that can be solved by using well-established design patterns…</em>seesparkbox.com</a><a href="https://seesparkbox.com/foundry/javascript_design_patterns" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd"><strong>Understanding Design Patterns in JavaScript</strong><br />
+<em>Learn About Various Design Patterns in JavaScript</em>blog.bitsrc.io</a><a href="https://blog.bitsrc.io/understanding-design-patterns-in-javascript-13345223f2dd" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/fbeline/Design-Patterns-JS" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/fbeline/Design-Patterns-JS"><strong>fbeline/design-patterns-JS</strong><br />
+<em>Here you will find the 23 (GoF) design patterns implemented in JavaScript using both prototype and ES6 classes. You can…</em>github.com</a><a href="https://github.com/fbeline/Design-Patterns-JS" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8"><strong>The Power of the Module Pattern in JavaScript</strong><br />
+<em>Embellish your app with the module pattern</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/the-power-of-the-module-pattern-in-javascript-3c73f7cd10e8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/omensah/design-patterns-for-developers-using-javascript----part-one--b3e" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/omensah/design-patterns-for-developers-using-javascript----part-one--b3e"><strong>Design Patterns for Developers using JavaScript - Part One</strong><br />
+<em>Most developers using JavaScript strives to write code that is readable, maintainable, and reusable because writing…</em>dev.to</a><a href="https://dev.to/omensah/design-patterns-for-developers-using-javascript----part-one--b3e" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/omensah/design-patterns-for-developers-using-javascript---part-two--3p39" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/omensah/design-patterns-for-developers-using-javascript---part-two--3p39"><strong>Design Patterns for Developers using JavaScript - Part Two</strong><br />
+<em>In the previous article, we had a look at design patterns, its definition, history, and the incorporation into software…</em>dev.to</a><a href="https://dev.to/omensah/design-patterns-for-developers-using-javascript---part-two--3p39" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca"><strong>Design patterns in modern JavaScript development</strong><br />
+<em>Thoughts on effective communication in the design of software projects</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/design-patterns-in-modern-javascript-development-ec84d8be06ca" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/carlillo/understanding-design-patterns-iterator-using-dev-to-and-medium-social-networks-3bdd" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/carlillo/understanding-design-patterns-iterator-using-dev-to-and-medium-social-networks-3bdd"><strong>Understanding Design Patterns: Iterator using Dev.to and Medium social networks!</strong><br />
+<em>There are 23 classic design patterns, which are described in the original book, Design Patterns: Elements of Reusable…</em>dev.to</a><a href="https://dev.to/carlillo/understanding-design-patterns-iterator-using-dev-to-and-medium-social-networks-3bdd" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/kristijanfistrek/javascript-design-patterns-factory-pattern-562p" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/kristijanfistrek/javascript-design-patterns-factory-pattern-562p"><strong>JavaScript Design Patterns - Factory Pattern</strong><br />
+<em>Welcome to my new development series where I try my best to explain design patterns by using JavaScript! In software…</em>dev.to</a><a href="https://dev.to/kristijanfistrek/javascript-design-patterns-factory-pattern-562p" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.plainenglish.io/javascript-design-pattern-module-pattern-555737eccecd" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.plainenglish.io/javascript-design-pattern-module-pattern-555737eccecd"><strong>JavaScript Design Pattern — Module Pattern</strong><br />
+<em>One of the most common patterns in JavaScript</em>javascript.plainenglish.io</a><a href="https://javascript.plainenglish.io/javascript-design-pattern-module-pattern-555737eccecd" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://betterprogramming.pub/design-patterns-null-object-5ee839e37892" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://betterprogramming.pub/design-patterns-null-object-5ee839e37892"><strong>Design Patterns: Null Object</strong><br />
+<em>Avoid conditional complexity using this pattern</em>betterprogramming.pub</a><a href="https://betterprogramming.pub/design-patterns-null-object-5ee839e37892" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/francescoxx/strategy-pattern-5oh" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/francescoxx/strategy-pattern-5oh"><strong>Strategy Pattern</strong><br />
+<em>GitHub Link: https://github.com/FrancescoXX/Design-Patterns-Strategy-Javascript The Strategy pattern, also called…</em>dev.to</a><a href="https://dev.to/francescoxx/strategy-pattern-5oh" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/francescoxx/adapter-pattern-5bjk" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/francescoxx/adapter-pattern-5bjk"><strong>Adapter Pattern</strong><br />
+<em>Github link: https://github.com/FrancescoXX/Design-Pattern-Adapter-Javascript The Adapter pattern is used to allow a…</em>dev.to</a><a href="https://dev.to/francescoxx/adapter-pattern-5bjk" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/jsmanifest/the-power-of-composite-pattern-in-javascript-2732" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/jsmanifest/the-power-of-composite-pattern-in-javascript-2732"><strong>The Power of Composite Pattern in JavaScript</strong><br />
+<em>Find me on medium In this post, we will be going over the Composite Design Pattern in JavaScript. In... Tagged with…</em>dev.to</a><a href="https://dev.to/jsmanifest/the-power-of-composite-pattern-in-javascript-2732" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/bytebodger/in-defense-of-defensive-programming-k45" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bytebodger/in-defense-of-defensive-programming-k45"><strong>In Defense of Defensive Programming</strong><br />
+<em>NOTE: In this article I reference a validation library that I wrote called allow. It's now in an NPM package that can…</em>dev.to</a><a href="https://dev.to/bytebodger/in-defense-of-defensive-programming-k45" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.udacity.com/course/javascript-design-patterns--ud989" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.udacity.com/course/javascript-design-patterns--ud989"><strong>JavaScript Design Patterns | Udacity Free Courses</strong><br />
+<em>Free Course Organizing Code in a Disorganized World Start Free Course About this Course This course covers methods for…</em>www.udacity.com</a><a href="https://www.udacity.com/course/javascript-design-patterns--ud989" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md"><strong>getify/Functional-Light-JS</strong><br />
+<em>Chapter 2 explored the core nature of JS functions, and laid the foundation for what makes a function an FP function…</em>github.com</a><a href="https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj"><strong>Use function composition in JavaScript | Codementor</strong><br />
+<em>Prerequisite: I use currying in this post, so if you don't know about that, I encourage you to read my previous post…</em>www.codementor.io</a><a href="https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.benestudio.co/currying-in-javascript-es6-540d2ad09400" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.benestudio.co/currying-in-javascript-es6-540d2ad09400"><strong>Currying in JavaScript ES6</strong><br />
+<em>Currying can give you a deeper understanding to JavaScript. Let’s see how it can be done with arrow functions!</em>blog.benestudio.co</a><a href="https://blog.benestudio.co/currying-in-javascript-es6-540d2ad09400" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@pragyan88/writing-middleware-composition-and-currying-elegance-in-javascript-8b15c98a541b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@pragyan88/writing-middleware-composition-and-currying-elegance-in-javascript-8b15c98a541b"><strong>Writing Middleware —Composition and Currying Elegance in JavaScript</strong><br />
+<em>Javascript is an elegant and beautiful language which allows the developers to have the flexibility to move between the…</em>medium.com</a><a href="https://medium.com/@pragyan88/writing-middleware-composition-and-currying-elegance-in-javascript-8b15c98a541b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/hackernoon/javascript-functional-composition-for-every-day-use-22421ef65a10" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/hackernoon/javascript-functional-composition-for-every-day-use-22421ef65a10"><strong>Functional JavaScript: Function Composition For Every Day Use.</strong><br />
+<em>Function composition has got to be my favorite part of functional programming. I hope to provide you with a good real…</em>medium.com</a><a href="https://medium.com/hackernoon/javascript-functional-composition-for-every-day-use-22421ef65a10" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/@acparas/what-i-learned-today-july-2-2017-ab9a46dbf85f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@acparas/what-i-learned-today-july-2-2017-ab9a46dbf85f"><strong>What I Learned Today 💡 July 2, 2017</strong><br />
+<em>Functional Composition: compose() and pipe()</em>medium.com</a><a href="https://medium.com/@acparas/what-i-learned-today-july-2-2017-ab9a46dbf85f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://busypeoples.github.io/post/functional-composing-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://busypeoples.github.io/post/functional-composing-javascript/"><strong>Why The Hipsters Compose Everything: Functional Composing In JavaScript</strong><br />
+<em>Lodash and Underscore are everywhere and still there is this one supper efficient method that actually only those…</em>busypeoples.github.io</a><a href="http://busypeoples.github.io/post/functional-composing-javascript/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/"><strong>A Gentle Introduction to Functional JavaScript: Part 3</strong><br />
+<em>This is part three of a four-part series introducing 'functional' programming in JavaScript. In the last article we saw…</em>jrsinclair.com</a><a href="https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://jsleao.wordpress.com/2015/02/22/curry-and-compose-why-you-should-be-using-something-like-ramda-in-your-code/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://jsleao.wordpress.com/2015/02/22/curry-and-compose-why-you-should-be-using-something-like-ramda-in-your-code/"><strong>Curry And Compose (why you should be using something like ramda in your code)</strong><br />
+<em>When it comes to functional programming, the main cornerstone is composability, the ability to create new functions…</em>jsleao.wordpress.com</a><a href="https://jsleao.wordpress.com/2015/02/22/curry-and-compose-why-you-should-be-using-something-like-ramda-in-your-code/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://vanslaars.io/post/create-pipe-function/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://vanslaars.io/post/create-pipe-function/"><strong>Function Composition in JavaScript with Pipe</strong><br />
+<em>December 13, 2016 This post uses ES6 syntax. The same things can be accomplished with ES5, but it would require more…</em>vanslaars.io</a><a href="https://vanslaars.io/post/create-pipe-function/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.telerik.com/featured/practical-functional-javascript-ramda/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.telerik.com/featured/practical-functional-javascript-ramda/"><strong>Practical Functional Javascript with Ramda - Telerik Blogs</strong><br />
+<em>Article co-authored by: Andrew D'Amelio and Yuri Takhteyev At rangle.io we've been fans of the functional programming…</em>developer.telerik.com</a><a href="https://developer.telerik.com/featured/practical-functional-javascript-ramda/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/the-beauty-in-partial-application-currying-and-function-composition-d885bdf0d574" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/the-beauty-in-partial-application-currying-and-function-composition-d885bdf0d574"><strong>The beauty in Partial Application, Currying, and Function Composition.</strong><br />
+<em>Story Time</em>hackernoon.com</a><a href="https://hackernoon.com/the-beauty-in-partial-application-currying-and-function-composition-d885bdf0d574" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8"><strong>Curry or Partial Application?</strong><br />
+<em>The Difference Between<br />
+Partial Application and Curry</em>medium.com</a><a href="https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://benalman.com/news/2012/09/partial-application-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://benalman.com/news/2012/09/partial-application-in-javascript/"><strong>Partial Application in JavaScript</strong><br />
+<em>Unless you've used another functional programming language such as ML or Haskell, concepts such as partial application…</em>benalman.com</a><a href="http://benalman.com/news/2012/09/partial-application-in-javascript/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://hackernoon.com/partial-application-of-functions-dbe7d9b80760" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://hackernoon.com/partial-application-of-functions-dbe7d9b80760"><strong>Partial Application of Functions</strong><br />
+<em>Providing function with fewer arguments than it expects is called Partial Application of functions.</em>hackernoon.com</a><a href="https://hackernoon.com/partial-application-of-functions-dbe7d9b80760" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://towardsdatascience.com/javascript-currying-vs-partial-application-4db5b2442be8" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://towardsdatascience.com/javascript-currying-vs-partial-application-4db5b2442be8"><strong>Javascript- Currying VS Partial Application</strong><br />
+<em>A lot of people get confused in between currying and partial application and many of us do not know what, where and…</em>towardsdatascience.com</a><a href="https://towardsdatascience.com/javascript-currying-vs-partial-application-4db5b2442be8" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="http://raganwald.com/2015/04/01/partial-application.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="http://raganwald.com/2015/04/01/partial-application.html"><strong>Partial Application in ECMAScript 2015</strong><br />
+<em>Some of this material originally appeared in What's the difference between Currying and Partial Application? Here it is…</em>raganwald.com</a><a href="http://raganwald.com/2015/04/01/partial-application.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://joecortopassi.com/articles/functional-composition-in-javascript/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://joecortopassi.com/articles/functional-composition-in-javascript/"><strong>Functional Composition in Javascript</strong><br />
+<em>Functional composition is when you take two or more functions, and make one a single function out of them. When you…</em>joecortopassi.com</a><a href="https://joecortopassi.com/articles/functional-composition-in-javascript/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536"><strong>So You Want to be a Functional Programmer (Part 1)</strong><br />
+<em>Taking that first step to understanding Functional Programming concepts is the most important and sometimes the most…</em>cscalfani.medium.com</a><a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a"><strong>So You Want to be a Functional Programmer (Part 2)</strong><br />
+<em>Taking that first step to understanding Functional Programming concepts is the most important and sometimes the most…</em>cscalfani.medium.com</a><a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-3-1b0fd14eb1a7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-3-1b0fd14eb1a7"><strong>So You Want to be a Functional Programmer (Part 3)</strong><br />
+<em>Taking that first step to understanding Functional Programming concepts is the most important and sometimes the most…</em>cscalfani.medium.com</a><a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-3-1b0fd14eb1a7" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49"><strong>So You Want to be a Functional Programmer (Part 4)</strong><br />
+<em>Taking that first step to understanding Functional Programming concepts is the most important and sometimes the most…</em>cscalfani.medium.com</a><a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-5-c70adc9cf56a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-5-c70adc9cf56a"><strong>So You Want to be a Functional Programmer (Part 5)</strong><br />
+<em>Taking that first step to understanding Functional Programming concepts is the most important and sometimes the most…</em>cscalfani.medium.com</a><a href="https://cscalfani.medium.com/so-you-want-to-be-a-functional-programmer-part-5-c70adc9cf56a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84"><strong>An Introduction to the basic principles of Functional Programming</strong><br />
+<em>After a long time learning and working with object-oriented programming, I took a step back to think about system…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa"><strong>Concepts of Functional Programming in Javascript</strong><br />
+<em>After a long time learning and working with object-oriented programming, I took a step back to think about system…</em>medium.com</a><a href="https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/an-introduction-to-functional-programming-style-in-javascript-71fcc050f064" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/an-introduction-to-functional-programming-style-in-javascript-71fcc050f064"><strong>An Introduction to Functional Programming Style in JavaScript</strong><br />
+<em>In recent years there has been a tectonic shift happening between traditional programming and Functional Programming…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/an-introduction-to-functional-programming-style-in-javascript-71fcc050f064" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.freecodecamp.org/a-practical-guide-to-writing-more-functional-javascript-db49409f71" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.freecodecamp.org/a-practical-guide-to-writing-more-functional-javascript-db49409f71"><strong>A practical guide to writing more functional JavaScript</strong><br />
+<em>Functional programming is great. With the introduction of React, more and more JavaScript front-end code is being…</em>medium.freecodecamp.org</a><a href="https://medium.freecodecamp.org/a-practical-guide-to-writing-more-functional-javascript-db49409f71" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/benlesh/a-simple-explanation-of-functional-pipe-in-javascript-2hbj" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/benlesh/a-simple-explanation-of-functional-pipe-in-javascript-2hbj"><strong>A simple explanation of functional pipe in JavaScript</strong><br />
+<em>Sometimes I'm asked why we don't have "dot-chaining" in RxJS anymore, or why RxJS made the switch to use pipe. There…</em>dev.to</a><a href="https://dev.to/benlesh/a-simple-explanation-of-functional-pipe-in-javascript-2hbj" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/ryanmcdermott/clean-code-javascript" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/ryanmcdermott/clean-code-javascript"><strong>ryanmcdermott/clean-code-javascript</strong><br />
+<em>Software engineering principles, from Robert C. Martin's book , adapted for JavaScript. This is not a style guide. It's…</em>github.com</a><a href="https://github.com/ryanmcdermott/clean-code-javascript" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/"><strong>JavaScript Clean Coding Best Practices | @RisingStack</strong><br />
+<em>Writing clean code is what you must know and do in order to call yourself a professional developer. There is no…</em>blog.risingstack.com</a><a href="https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://kevin-peters.medium.com/function-parameters-in-javascript-clean-code-4caac109159b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://kevin-peters.medium.com/function-parameters-in-javascript-clean-code-4caac109159b"><strong>Function parameters in JavaScript — Clean Code</strong><br />
+<em>In my time as a web developer I have to deal a lot with JavaScript Code. I love JavaScript, no question asked. But…</em>kevin-peters.medium.com</a><a href="https://kevin-peters.medium.com/function-parameters-in-javascript-clean-code-4caac109159b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://codeburst.io/keeping-your-code-clean-d30bcffd1a10" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://codeburst.io/keeping-your-code-clean-d30bcffd1a10"><strong>Keeping your code clean</strong><br />
+<em>I settled down in my sit, cranking the solution with my team members. “We must win this” I said, burying myself deep…</em>codeburst.io</a><a href="https://codeburst.io/keeping-your-code-clean-d30bcffd1a10" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://www.sitepoint.com/modern-javascript-best-practices/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://www.sitepoint.com/modern-javascript-best-practices/"><strong>Best Practices for Using Modern JavaScript Syntax - SitePoint</strong><br />
+<em>This article is featured in our book, Modern JavaScript is evolving quickly to meet the changing needs of new…</em>www.sitepoint.com</a><a href="https://www.sitepoint.com/modern-javascript-best-practices/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://github.com/cross-js/cross-js" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/cross-js/cross-js"><strong>cross-js/cross-js</strong><br />
+<em>Adopting CrossJS style means your javascript can work in any environment without being dependent on any core…</em>github.com</a><a href="https://github.com/cross-js/cross-js" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/ganderzz/on-writing-clean-code-57cm" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/ganderzz/on-writing-clean-code-57cm"><strong>Writing Clean Code</strong><br />
+<em>We can all agree that writing clean code is important. It makes it easier to work in a team, and even if we're a single…</em>dev.to</a><a href="https://dev.to/ganderzz/on-writing-clean-code-57cm" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/nityeshaga/writing-clean-code-and-the-practice-of-programming-actionable-advice-for-beginners-5f0k" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/nityeshaga/writing-clean-code-and-the-practice-of-programming-actionable-advice-for-beginners-5f0k"><strong>Writing Clean Code and The Practice of Programming: Actionable advice for beginners</strong><br />
+<em>"The purpose of style is to make the code easy to read for yourself and others, and good style is crucial to good…</em>dev.to</a><a href="https://dev.to/nityeshaga/writing-clean-code-and-the-practice-of-programming-actionable-advice-for-beginners-5f0k" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/d_ir/clean-code-dirty-code-human-code-6nm" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/d_ir/clean-code-dirty-code-human-code-6nm"><strong>Clean code, dirty code, human code</strong><br />
+<em>Last week, Dan Abramov posted a very personal and humbling blog post entitled Goodbye, Clean Code. I saw a tweet about…</em>dev.to</a><a href="https://dev.to/d_ir/clean-code-dirty-code-human-code-6nm" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://dev.to/taillogs/practical-ways-to-write-better-javascript-26d4" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/taillogs/practical-ways-to-write-better-javascript-26d4"><strong>Practical Ways to Write Better JavaScript</strong><br />
+<em>Solid methods of improving your JS. Tagged with javascript, webdev, beginners, react.</em>dev.to</a><a href="https://dev.to/taillogs/practical-ways-to-write-better-javascript-26d4" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+≡
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [July 3, 2021](https://medium.com/p/633549469528).
+
+<a href="https://medium.com/@bryanguner/absolutely-everything-you-could-need-to-know-about-how-javascript-works-633549469528" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Adding CSS To Your HTML
+=======================
+
+For beginners … very picture heavy since CSS is such a visual discipline!
+
+------------------------------------------------------------------------
+
+### Adding CSS To Your HTML
+
+#### For beginners … very picture heavy since CSS is such a visual discipline!
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*3hnCIyXstRSHgYO5-z-51g.png" class="graf-image" /></figure>### Getting CSS Into Your HTML
+
+    <!-- example.html -->
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"
+        />
+        <link rel="stylesheet" href="/styles/site.css" />
+      </head>
+      <body></body>
+    </html>
+
+-   <span id="36f1">*To connect your CSS sheet to your HTML page, use the link tag like so.*</span>
+-   <span id="f743">Many developers use External pre-written CSS stylesheets for consistent design.</span>
+-   <span id="af3f">You can connect multiple stylesheets.</span>
+
+### CSS Selectors
+
+-   <span id="2d5b">`CSS Selector` : Applies styles to a specific DOM element(s), there are various types:</span>
+-   <span id="29cd">`Type Selectors` : Matches by node name.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*GOzh0U_yFtsOo9Hq" class="graf-image" /></figure>-   <span id="e624">`Class Selectors` : Matches by class name.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*WMQXdyBA2MeUYoVvY0Kjew.png" class="graf-image" /></figure>-   <span id="8c31">`ID Selectors` : Matches by ID name.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*uyRa6tM8Jlg648Rl" class="graf-image" /></figure>-   <span id="d011">`Universal Selectors` : Selects all HTML elements on a page.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*LfKazZMelOZrcOsp.jpg" class="graf-image" /></figure>-   <span id="e143">`Attribute Selectors` : Matches elements based on the prescence or value of a given attribute. (i.e. a\[title\] will match all a elements with a title attribute)</span>
+
+<!-- -->
+
+    /* Type selector */
+    div {
+      background-color: #000000;
+    }
+
+    /* Class selector */
+    .active {
+      color: #ffffff;
+    }
+
+    /* ID selector */
+    #list-1 {
+      border: 1px solid gray;
+    }
+
+    /* Universal selector */
+    * {
+      padding: 10px;
+    }
+
+    /* Attribute selector */
+    a[title] {
+      font-size: 2em;
+    }
+
+#### **Class Selectors**
+
+-   <span id="45c5">Used to select all elements of a certain class denoted with a `.[class name]`</span>
+-   <span id="f9e4">You can assign multiple classes to a DOM element by separating them with a space.</span>
+
+#### **Compound Class Selectors**
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*iIOiP-ML_k6g0yTxZQyQ4A.png" class="graf-image" /></figure>-   <span id="bcf1">To get around accidentally selecting elements with multiple classes beyond what we want to grab we can chain dots.</span>
+-   <span id="a54c">TO use a compound class selector just append the classes together when referencing them in the CSS.</span>
+
+<!-- -->
+
+    <div class="box yellow"></div>
+    <div class="box orange"></div>
+    <div class="circle orange"></div>
+
+-   <span id="e8ca">i.e. .box.yellow will select only the first element.</span>
+-   <span id="34a4">**KEEP IN MIND** that if you do include a space it will make the selector into a *descendant selector*.</span>
+
+<!-- -->
+
+    h1#heading,
+    h2.subheading {
+      font-style: italic;
+    }
+
+-   <span id="b382">When we want to target all `h1` tags with the id of `heading`.</span>
+
+#### **CSS Combinators**
+
+-   <span id="383a">CSS Combinators are used to combine other selectors into more complex or targeted selectors — they are very powerful!</span>
+-   <span id="2805">Be careful not to use too many of them as they will make your CSS far too complex.</span>
+
+#### `Descendant Selectors`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*YPkGcUc4gf2WtJYdf6Yvmg.png" class="graf-image" /></figure>-   <span id="5e1b">Separated by a space.</span>
+-   <span id="5d0b">Selects all descendants of a parent container.</span>
+
+#### `Direct Child Selectors`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*SByLFbio2RGGnFHj.jpg" class="graf-image" /></figure>-   <span id="47ef">Indicated with a `>`.</span>
+-   <span id="eff3">Different from descendants because it only affects the direct children of an element.</span>
+
+#### CSS:
+
+    .menu > .is-active { background-color: #ffe0b2; }
+
+#### HTML:
+
+    <body> <div class=”menu”> <div class=”is-active”>Belka</div> <div> <div class=”is-active”>Strelka</div> </div> </div> </body> <div class=”is-active”> Laika </div> </body>
+
+-   <span id="b452">Belka would be the only element selected.</span>
+
+#### `Adjacent Sibling Selectors`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*m0yPz3xJPeP3br2C.png" class="graf-image" /></figure>-   <span id="5dca">Uses the `+` symbol.</span>
+-   <span id="9063">Used for elements that directly follow one another and who both have the same parent.</span>
+
+<!-- -->
+
+    h1 + h2 { font-style: italic;   }  
+
+    //HTML:
+
+    <h1>Big header</h1> <h2>This one is styled because it is directly adjacent to the H1</h2> <h2>This one is NOT styled because there is no H1 right before it</h2>
+
+    h1 + h2 { font-style: italic;   }  
+
+    <h1>Big header</h1> <h2>This one is styled because it is directly adjacent to the H1</h2> <h2>This one is NOT styled because there is no H1 right before it</h2>
+
+#### **Pseudo-Classes**
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*XfxhRpW1_nd02miTi4s_PA.png" alt="courtesy of Pseudo-classes — CSS: Cascading Style Sheets | MDN (mozilla.org)" class="graf-image" /><figcaption>courtesy of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" class="markup--anchor markup--figure-anchor">Pseudo-classes — CSS: Cascading Style Sheets | MDN (mozilla.org)</a></figcaption></figure>-   <span id="0b5c">`Pseudo-Class` : Specifies a special state of the seleted element(s) and does not refer to any elements or attributes contained in the DOM.</span>
+-   <span id="1c1d">Format is a `Selector:Pseudo-Class Name` or `A:B`</span>
+
+<!-- -->
+
+    a:hover { 
+    font-family: "Roboto Condensed", sans-serif; 
+    color: #4fc3f7;
+    text-decoration: none; 
+    border-bottom: 2px solid #4fc3f7;
+    }
+
+> Some common pseudo-classes that are frequently used are:
+
+-   <span id="1aac">`active` : 'push down', when elements are activated.</span>
+-   <span id="587a">`checked` : applies to things like radio buttons or checkbox inputs.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*wg0YeoQ2mZKHWXaa.gif" class="graf-image" /></figure>-   <span id="cf58">`disabled` : any disabled element.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*KmzLwGMr_FsbHF4u.gif" class="graf-image" /></figure>-   <span id="1b81">`first-child` : first element in a group of children/siblings.</span>
+-   <span id="eefb">`focus` : elements that have current focus.</span>
+-   <span id="c1da">`hover` : elements that have cursor hovering over it.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*X7-ym7Relt83npDe.gif" class="graf-image" /></figure>-   <span id="128b">`invalid` : any form elements in an invalid state from client-side form validation.</span>
+-   <span id="8fe0">`last-child` : last element in a group of children/siblings.</span>
+-   <span id="fac8">`not(selector)` : elements that do not match the provided selector.</span>
+-   <span id="037a">`required` : form elements that are required.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Cs9Jf4O0FHQB7Okc.gif" class="graf-image" /></figure>-   <span id="2d63">`valid` : form elements in a valid state.</span>
+-   <span id="7eaf">`visited` : anchor tags of which the user has already visited the URL that the href points to.</span>
+
+#### `Pseudo-Selectors`
+
+-   <span id="571c">Used to create pseudo-elements as children of the elements to which the property applies.</span>
+-   <span id="8995">`::after`</span>
+-   <span id="9e9b">`::before`</span>
+
+<!-- -->
+
+    <style>
+      p::before {
+        background-color: lightblue;
+        border-right: 4px solid violet;
+        content: ":-) ";
+        margin-right: 4px;
+        padding-left: 4px;
+      }
+    </style>
+    <p>This is the first paragraph</p>
+    <p>This is the second paragraph</p>
+    <p>This is the third paragraph</p>
+
+-   <span id="22c4">Will add some blue smiley faces before the p tag elements.</span>
+
+#### **CSS Rules**
+
+-   <span id="66b6">`CSS Rule` : Collection of single or compound selectors, a curly brace, zero or more properties</span>
+-   <span id="9ec3">`CSS Rule Specificity` : Sometimes CSS rules will contain multiple elements and may have overlapping properties rules for those same elements - there is an algorithm in CSS that calculates which rule takes precedence.</span>
+-   <span id="bc57">`The Four Number Calculation`** : listed in increasing order of importance.**</span>
+
+1.  <span id="c45f">Who has the most IDs? If no one, continue.</span>
+2.  <span id="3aff">Who has the most classes? If no one, continue.</span>
+3.  <span id="b70b">Who has the most tags? If no one, continue.</span>
+4.  <span id="59f0">Last Read in the browser wins.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Z0iSQ0bhAiK5gYhk.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*RpC3i4EQM_HDRyUS.png" class="graf-image" /></figure><style>
+      .box {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+      }
+      .orange {
+        background-color: orange;
+      }
+      .yellow {
+        background-color: yellow;
+        border: 1px solid purple;
+      }
+    </style>
+    <div class="box yellow"></div>
+    <div class="box orange"></div>
+
+-   <span id="2b20">Coming back to our example where all the CSS Rules have tied, the last step 4 wins out so our element will have a `purple border`.</span>
+
+### CSS: Type, Properties, and Imports
+
+#### **Typography**
+
+-   <span id="af08">`font-family` : change the font.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*8298p-Vlu15C-pdw.png" class="graf-image" /></figure>-   <span id="9771">Remember that not all computers have the same fonts on them.</span>
+-   <span id="d248">You can import web fonts via an api by using</span>
+-   <span id="8578">`@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');` and pasting it st the top of your CSS file.</span>
+-   <span id="82b1">And then reference it in your font-family.</span>
+-   <span id="c651">`font-size` : Changes the size of your font.</span>
+-   <span id="a7dc">Keep in mind the two kind of units CSS uses:</span>
+-   <span id="c034">`Absolute` : `Pixels`, Points, Inches, Centimeters.</span>
+-   <span id="7221">`Relative` : Em, Rem.</span>
+-   <span id="80e1">Em: Calculating the size relative to the previous div (bubbles down)</span>
+-   <span id="6c9e">Rem: Calculates relative to the parent element always.</span>
+-   <span id="0f35">`font-style` : Used to set a font to italics.</span>
+-   <span id="20a3">`font-weight` : Used to make a font bold.</span>
+-   <span id="ba17">`text-align` : Used to align your text to the left, center, or right.</span>
+-   <span id="e694">`text-decoration` : Use to put lines above, through, or under text. Lines can be solid, dashed, or wavy!</span>
+-   <span id="0777">`text-transform` : Used to set text to all lowercase, uppercase, or capitalize all words.</span>
+
+#### **Background-Images**
+
+-   <span id="a7cc">You can use the background-image property to set a background image for an element.</span>
+
+### CSS: Colors, Borders, and Shadows
+
+#### **Colors**
+
+-   <span id="6887">You can set colors in CSS in three popular ways: by name, by hexadecimal RGB value, and by their decimal RGB value.</span>
+-   <span id="1d78">rgba() is used to make an rbg value more transparent, the `a` is used to specify the `alpha channel`.</span>
+-   <span id="a422">**Color** : Property used to change the color of text.</span>
+-   <span id="6bcb">**Background-Color** : Property to change the backgrounf color of an element.</span>
+
+#### **Borders**
+
+-   <span id="cce0">Borders take three values: The width of the border, the style (i.e. solid, dotted, dashed), color of the border.</span>
+
+#### **Shadows**
+
+-   <span id="6391">There are two kinds of shadows in CSS: `box shadows` and `text shadows`.</span>
+-   <span id="7fc1">Box refers to HTML elements.</span>
+-   <span id="8c59">Text refers to text.</span>
+-   <span id="266d">Shadows take values such as, the horizontal & vertical offsets of the shadow, the blur radius of the shadow, the spread radius, and of course the colors.</span>
+
+### My Blog:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>my resource sharing and blog site ... centered mostly on web development and just a bit of audio production / generally…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Grid Cheat Sheet:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*8cBZz0yj-ND3af2uh7J-dw.png" class="graf-image" /></figure>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [August 22, 2021](https://medium.com/p/3a17ba25ba82).
+
+<a href="https://medium.com/@bryanguner/adding-css-to-your-html-3a17ba25ba82" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+All The Things You Can Embed In A Medium Article
+================================================
+
+I have this innate desire to make everything available all in one place and it’s usually an unnecessary waste of time… but here I will…
+
+------------------------------------------------------------------------
+
+### All The Things You Can Embed In A Medium Article
+
+#### I have this innate desire to make everything available all in one place and it’s usually an unnecessary waste of time… but here I will conduct and ‘experiment’ where I intentionally indulge that tendency.
+
+Here you can see in just the first frame of my blog site 5 different embedded widgets that I inject onto nearly every page of the site using javascript to append my widgets to various anchor points in the html.
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*8Td2sElycsUj67bbm5m_0w.png" class="graf-image" /></figure>
+
+### Update :
+
+### Table with Airtable:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### Math With <a href="https://math.embed.fun/" class="markup--anchor markup--h3-anchor">https://math.embed.fun/</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 1.) CodePen:
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*ub0xEha5Nrq60qU1FspjAQ.png" class="graf-image" /></figure><a href="https://codepen.io/bgoonz/pen/poPOqEO" class="markup--anchor markup--pullquote-anchor">For this next inclusion I will kill two birds with one stone… I will embed a CodePen…who’s contents are an embedded version of my twitter feed…</a>
+
+#### If you wanna get really meta about it you can also embed your medium articles within a medium article…
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 2.) Upscribe Form:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 3.) Play.ht Medium Article To Voice-Audio Transcription:
+
+-   <span id="66fb">→ <a href="https://play.ht/" class="markup--anchor markup--li-anchor">Link</a></span>
+
+#### Play.ht offers the following services:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*GSZM_XmBIe4sgMtYN3e57A.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 4.) : Repl.it:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 5.) :You can also embed a JSFiddle like a code-sandbox.
+
+<a href="https://codesandbox.io/s/bigo-forked-dhpjq" class="markup--anchor markup--p-anchor">bigO (forked) — CodeSandbox</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>#### 6.) :GIF :
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*S0kSybjoWZP08__p.gif" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 7.) Dribble:
+
+<a href="https://dribbble.com/shots/15796789-Mihir-Beg-Muisc?utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share&amp;utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dribbble.com/shots/15796789-Mihir-Beg-Muisc?utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share&amp;utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share"><strong>Mihir Beg Muisc</strong><br />
+<em>Mihir Beg Muisc designed by Bryan Guner. Connect with them on Dribbble; the global community for designers and creative…</em>dribbble.com</a><a href="https://dribbble.com/shots/15796789-Mihir-Beg-Muisc?utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share&amp;utm_source=Clipboard_Shot&amp;utm_campaign=bgoonz4242&amp;utm_content=Mihir%20Beg%20Muisc&amp;utm_medium=Social_Share" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 8.) SlideShare:
+
+-   <span id="cd54"><a href="https://www.slideshare.net/" class="markup--anchor markup--li-anchor">link</a></span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 9.)Google Forms/Quizzes :
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 10.) YouTube Videos:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 11.) 360 Degree Photos from Kuula.com:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*zost4Lf7pDfZdMf7b_hH4w.png" class="graf-image" /></figure>### 13.) A tweet:
+
+> [](https://twitter.com/bgooonz/status/1423402910843604996?s=20)
+
+### 14.) A Spotify Playlist.
+
+#### And for good measure a SoundCloud track:
+
+### 15.) Infographics:
+
+### TBC…..
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [August 6, 2021](https://medium.com/p/b03a85c65d86).
+
+<a href="https://medium.com/@bryanguner/all-the-things-you-can-embed-in-a-medium-article-b03a85c65d86" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+An Introduction to Markdown (Bonus Markdown Templates Included)
+===============================================================
+
+Basic Syntax Guide
+
+------------------------------------------------------------------------
+
+### An Introduction to Markdown (Bonus Markdown Templates Included)
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*oy6szzmI0FdRUiTd.png" class="graf-image" /></figure><a href="https://github.com/bgoonz/Markdown-Templates.git" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/Markdown-Templates.git"><strong>bgoonz/Markdown-Templates</strong><br />
+<em>One Paragraph of project description goes here These instructions will get you a copy of the project up and running on…</em>github.com</a><a href="https://github.com/bgoonz/Markdown-Templates.git" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Basic Syntax Guide
+
+This topic is meant to give you a very basic overview of how Markdown works, showing only some of the most common operations you use most frequently. Keep in mind that you can also use the Edit menus to inject markdown using the toolbar, which serves as a great way to see how Markdown works. However, Markdown’s greatest strength lies in its simplicity and keyboard friendly approach that lets you focus on writing your text and staying on the keyboard.
+
+### What is Markdown
+
+Markdown is very easy to learn and get comfortable with due it’s relatively small set of markup ‘commands’. It uses already familiar syntax to represent common formatting operations. Markdown understands basic line breaks so you can generally just type text.
+
+Markdown also allows for raw HTML inside of a markdown document, so if you want to embed something more fancy than what Markdowns syntax can do you can always fall back to HTML. However to keep documents readable that’s generally not recommended.
+
+### Basic Markdown Syntax
+
+The following are a few examples of the most common things you are likely to do with Markdown while building typical documentation.
+
+### Bold and Italic
+
+    markdown
+
+    This text **is bold**. 
+    This text *is italic*.
+
+This text is bold.  
+This text *is italic*.
+
+### Header Text
+
+    markdown
+
+    # Header 1
+    ## Header 2
+    ### Header 3
+    #### Header 4
+    ##### Header 5
+    ###### Header 6
+
+### Header 1
+
+### Header 2
+
+### Header 3
+
+#### Header 4
+
+Header 5Header 6
+
+### Line Continuation
+
+By default Markdown adds paragraphs at double line breaks. Single line breaks by themselves are simply wrapped together into a single line. If you want to have soft returns that break a single line, add two spaces at the end of the line.
+
+    markdown
+
+    This line has a paragraph break at the end (empty line after).
+
+    Theses two lines should display as a single
+    line because there's no double space at the end.
+
+    The following line has a soft break at the end (two spaces at end)  
+    This line should be following on the very next line.
+
+This line has a paragraph break at the end (empty line after).
+
+Theses two lines should display as a single line because there’s no double space at the end.
+
+The following line has a soft break at the end (two spaces at end)  
+This line should be following on the very next line.
+
+### Links
+
+    markdown
+
+    [Help Builder Web Site](http://helpbuilder.west-wind.com/)
+
+<a href="http://helpbuilder.west-wind.com/" class="markup--anchor markup--p-anchor">Help Builder Web Site</a>
+
+If you need additional image tags like targets or title attributes you can also embed HTML directly:
+
+    markdown
+
+    Go the Help Builder sitest Wind site: <a href="http://west-wind.com/" target="_blank">Help Builder Site</a>.
+
+### Images
+
+    markdown
+
+    ![Help Builder Web Site](https://helpbuilder.west-wind.com/images/HelpBuilder_600.png)
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*ibU0D-Zr0qDT5h3z.png" class="graf-image" /></figure>### Block Quotes
+
+Block quotes are callouts that are great for adding notes or warnings into documentation.
+
+    markdown
+
+    > ###  Headers break on their own
+    > Note that headers don't need line continuation characters 
+    as they are block elements and automatically break. Only text
+    lines require the double spaces for single line breaks.
+
+> *Headers break on their own*
+
+> *Note that headers don’t need line continuation characters as they are block elements and automatically break. Only text lines require the double spaces for single line breaks.*
+
+### Fontawesome Icons
+
+Help Builder includes a custom syntax for <a href="http://fortawesome.github.io/Font-Awesome/icons/" class="markup--anchor markup--p-anchor">FontAwesome</a> icons in its templates. You can embed a `@ icon-` followed by a font-awesome icon name to automatically embed that icon without full HTML syntax.
+
+    markdown
+
+    Gear:  Configuration
+
+Configuration
+
+### HTML Markup
+
+You can also embed plain HTML markup into the page if you like. For example, if you want full control over fontawesome icons you can use this:
+
+    markdown
+
+    This text can be **embedded** into Markdown:  
+    <i class="fa fa-refresh fa-spin fa-lg"></i> Refresh Page
+
+This text can be embedded into Markdown:  
+ Refresh Page
+
+### Unordered Lists
+
+    markdown
+
+    * Item 1
+    * Item 2
+    * Item 3
+    This text is part of the third item. Use two spaces at end of the the list item to break the line.
+
+    A double line break, breaks out of the list.
+
+-   <span id="7904">Item 1</span>
+-   <span id="1cf1">Item 2</span>
+-   <span id="ded6">Item 3  
+    This text is part of the third item. Use two spaces at end of the the list item to break the line.</span>
+
+A double line break, breaks out of the list.
+
+### Ordered Lists
+
+    markdown
+
+    1. **Item 1**  
+    Item 1 is really something
+    2. **Item 2**  
+    Item two is really something else
+
+    If you want lines to break using soft returns use two spaces at the end of a line.
+
+1.  <span id="01d6">Item 1 Item 1 is really something</span>
+2.  <span id="51ea">Item 2  
+    Item two is really something else</span>
+
+If you want to lines to break using soft returns use to spaces at the end of a line.
+
+### Inline Code
+
+If you want to embed code in the middle of a paragraph of text to highlight a coding syntax or class/member name you can use inline code syntax:
+
+    markdown
+
+    Structured statements like `for x =1 to 10` loop structures 
+    can be codified using single back ticks.
+
+Structured statements like `for x =1 to 10` loop structures can be codified using single back ticks.
+
+### Code Blocks with Syntax Highlighting
+
+Markdown supports code blocks syntax in a variety of ways:
+
+    markdown
+
+    The following code demonstrates:
+
+        // This is code by way of four leading spaces
+        // or a leading tab
+
+    More text here
+
+The following code demonstrates:
+
+    pgsql
+
+    // This is code by way of four leading spaces
+    // or a leading tab
+
+More text here
+
+### Code Blocks
+
+You can also use triple back ticks plus an optional coding language to support for syntax highlighting (space injected before last \` to avoid markdown parsing):
+
+    markdown
+
+    `` `csharp
+    // this code will be syntax highlighted
+    for(var i=0; i++; i < 10)
+    {
+        Console.WriteLine(i);
+    }
+    `` `
+
+    csharp
+
+    // this code will be syntax highlighted
+    for(var i=0; i++; i < 10)
+    {
+        Console.WriteLine(i);
+    }
+
+Many languages are supported: html, xml, javascript, css, csharp, foxpro, vbnet, sql, python, ruby, php and many more. Use the Code drop down list to get a list of available languages.
+
+You can also leave out the language to get no syntax coloring but the code box:
+
+    markdown
+
+    `` `dos
+    robocopy c:\temp\test d:\temp\test
+    `` `
+
+    dos
+
+    robocopy c:\temp\test d:\temp\test
+
+To create a formatted block but without formatting use the `txt` format:
+
+    markdown
+
+    `` `txt
+    This is some text that will not be syntax highlighted
+    but shows up in a code box.
+    `` `
+
+which gives you:
+
+    text
+
+    This is some text that will not be syntax highlighted
+    but shows up in a code box.
+
+#### If you found this guide helpful feel free to checkout my github/gists where I host similar content:
+
+<a href="https://gist.github.com/bgoonz" class="markup--anchor markup--p-anchor">bgoonz’s gists · GitHub</a>
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz — Overview</strong><br />
+<em>Web Developer, Electrical Engineer JavaScript | CSS | Bootstrap | Python | React | Node.js | Express | Sequelize…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+Or Checkout my personal Resource Site:
+
+<a href="https://goofy-euclid-1cd736.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://goofy-euclid-1cd736.netlify.app/"><strong>a/A-Student-Resources</strong><br />
+<em>Edit description</em>goofy-euclid-1cd736.netlify.app</a><a href="https://goofy-euclid-1cd736.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [March 8, 2021](https://medium.com/p/3497ce56de3).
+
+<a href="https://medium.com/@bryanguner/an-introduction-to-markdown-bonus-markdown-templates-included-3497ce56de3" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Array Callback Methods Implemented With For Loops
+=================================================
+
+How to implement array callback methods in JavaScript
+
+------------------------------------------------------------------------
+
+### Array Callback Methods Implemented With For Loops
+
+#### How to implement array callback methods in JavaScript
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*WpKqOdTsTPhvapuW" class="graf-image" /></figure>#### Functions are called “First Class Objects” in JavaScript because:
+
+-   <span id="1df8">A function is an instance of the Object type</span>
+-   <span id="6e67">A function can have properties and has a link back to its constructor method</span>
+-   <span id="c7cf">You can store the function in a variable</span>
+-   <span id="b709">You can pass the function as a parameter to another function</span>
+-   <span id="2c3c">You can return the function from a function</span>
+
+What do you think will be printed in the following:
+
+#### Anonymous callback, a named callback
+
+    function foo(callback) {
+        console.log('grape');
+        callback();
+    }
+
+    function bar() {
+        console.log('banana');
+    }
+
+    const fruitBasket = function() {
+        console.log('apple');
+        bar();
+        foo(bar);
+        foo(function() {
+            console.log('orange');
+        });
+        console.log('pear');
+    };
+
+    fruitBasket();
+
+#### Function that takes in a value and two callbacks. The function should return the result of the callback who’s invocation results in a larger value.
+
+    function greaterValue(value, cb1, cb2) {
+        // compare cb1 invoked with value to cb2 invoked with value
+        // return the greater result
+
+        let res1 = cb1(value);
+        let res2 = cb2(value);
+        if (res1 > res2) {
+            // if this is false, we move out of if statement
+            return res1;
+        }
+        return res2;
+    }
+
+    let negate = function(num) {
+        return num * -1;
+    };
+
+    let addOne = function(num) {
+        return num + 1;
+    };
+
+    console.log(greaterValue(3, negate, addOne));
+    console.log(greaterValue(-2, negate, addOne));
+
+*Note: we do not invoke* `negate` *or* `addOne` *(by using* `()` *to call them), we are passing the function itself.*
+
+#### Write a function, myMap, that takes in an array and a callback as arguments. The function should mimic the behavior of Array.prototype.map.
+
+    function myMap(arr, callback) {
+        // iterate through the array, perform the cb on each element
+        // return a new array with those new values
+        let mapped = [];
+
+        for (let i = 0; i < arr.length; i++) {
+            // remember that map passes three args with each element.
+            let val = callback(arr[i], i, arr);
+            mapped.push(val);
+        }
+
+        return mapped;
+    }
+
+    let double = function(num) {
+        return num * 2;
+    };
+    console.log(myMap([1, 2, 3], double));
+
+#### Write a function, myFilter, that takes in an array and a callback as arguments. The function should mimic the behavior of Array.prototype.filter.
+
+    function myFilter(arr, callback) {
+        let filtered = [];
+
+        for (let i = 0; i < arr.length; i++) {
+            let element = arr[i];
+
+            if (callback(element, i, arr)) {
+                filtered.push(element);
+            }
+        }
+
+        return filtered;
+    }
+
+#### Write a function, myEvery, that takes in an array and a callback as arguments. The function should mimic the behavior of Array.prototype.every.
+
+    function myEvery(arr, callback) {
+        for (let i = 0; i < arr.length; i++) {
+            let element = arr[i];
+
+            if (callback(element, i, arr) === false) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+### Further Examples of the above concepts
+
+    const createMeowValue = () => {
+      console.log(this.name);
+      let meow = function () {
+        console.log(this);
+        console.log(this.name + ' meows');
+      }
+      meow = meow.bind(this);
+      return meow;
+    };
+
+    const name = 'Fluffy';
+
+    const cat = {
+      name: name,
+      age: 12,
+      createMeow: function () {
+        console.log(this.name);
+        let meow = () => {
+          const hello = 'hello';
+          console.log(this.name + ' meows');
+        };
+        let world = '';
+        if (true) {
+          world = 'world';
+        }
+        console.log(world);
+        // meow = meow.bind(this);
+        return meow;
+      }
+    };
+
+    cat.newKey = function () {
+      const outermostContext = this;
+      const innerFunc = () => {
+        secondContext = this;
+        console.log(secondContext === outermostContext)
+        return function () {
+          innermostContext = this;
+        }
+      };
+      return innerFunc.bind(outermostContext);
+    };
+
+    const meow = cat.createMeow(); // method-style invocation
+    meow(); // function-style invocation
+
+    console.log('-------')
+
+    const createMeow = cat.createMeow;
+    const globalMeow = createMeow(); // function-style
+    globalMeow(); // function-style
+
+    function createSmoothie(ingredient) {
+      const ingredients = [ingredient];
+      return ingredients;
+    }
+
+    // console.log(createSmoothie('banana'));
+    // console.log(createSmoothie('apple'));
+
+    // one parameter only
+    // first argument is a string
+    // return an array
+    // DO NOT USE forEach
+
+References:
+
+<a href="https://open.appacademy.io/learn" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://open.appacademy.io/learn"><strong>App Academy Open</strong><br />
+<em>App Academy Open is the first free, online web development course that's meant to get you hired as a developer. Get…</em>open.appacademy.io</a><a href="https://open.appacademy.io/learn" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://developer.mozilla.org/en-US/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.mozilla.org/en-US/"><strong>MDN Web Docs</strong><br />
+<em>Read more at hacks.mozilla.org Roughly a year ago at Mozilla we started an effort to improve Firefox stability on…</em>developer.mozilla.org</a><a href="https://developer.mozilla.org/en-US/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://javascript.info/callbacks" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://javascript.info/callbacks"><strong>Introduction: callbacks</strong><br />
+<em>To demonstrate the use of callbacks, promises and other abstract concepts, we'll be using some browser methods…</em>javascript.info</a><a href="https://javascript.info/callbacks" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+*More content at* <a href="http://plainenglish.io" class="markup--anchor markup--p-anchor"><strong><em>plainenglish.io</em></strong></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [May 27, 2021](https://medium.com/p/d08875df6777).
+
+<a href="https://medium.com/@bryanguner/array-callback-methods-implemented-with-for-loops-d08875df6777" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Awesome List Of Github Repositories
+===================================
+
+Platforms
+
+------------------------------------------------------------------------
+
+### Awesome List Of Github Repositories
+
+<a href="https://github.com/bgoonz/awesome-4-new-developers" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/awesome-4-new-developers"><strong>GitHub - bgoonz/awesome-4-new-developers: Top repos for new developers all in one place</strong><br />
+<em>Top repos for new developers all in one place. Contribute to bgoonz/awesome-4-new-developers development by creating an…</em>github.com</a><a href="https://github.com/bgoonz/awesome-4-new-developers" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*PcwyXaMACrHUVng8" class="graf-image" /></figure>### Platforms
+
+-   <span id="3a70"><a href="https://github.com/sindresorhus/awesome-nodejs#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sindresorhus/awesome-nodejs#readme">Node.js</a> — Async non-blocking event-driven JavaScript runtime built on Chrome’s V8 JavaScript engine.</span>
+-   <span id="598d"><a href="https://github.com/bcoe/awesome-cross-platform-nodejs#readme" class="markup--anchor markup--li-anchor" title="https://github.com/bcoe/awesome-cross-platform-nodejs#readme">Cross-Platform</a> — Writing cross-platform code on Node.js.</span>
+-   <span id="2c69"><a href="https://github.com/dypsilon/frontend-dev-bookmarks#readme" class="markup--anchor markup--li-anchor" title="https://github.com/dypsilon/frontend-dev-bookmarks#readme">Frontend Development</a></span>
+-   <span id="8cf1"><a href="https://github.com/vsouza/awesome-ios#readme" class="markup--anchor markup--li-anchor" title="https://github.com/vsouza/awesome-ios#readme">iOS</a> — Mobile operating system for Apple phones and tablets.</span>
+-   <span id="8995"><a href="https://github.com/JStumpp/awesome-android#readme" class="markup--anchor markup--li-anchor" title="https://github.com/JStumpp/awesome-android#readme">Android</a> — Mobile operating system developed by Google.</span>
+-   <span id="90e2"><a href="https://github.com/weblancaster/awesome-IoT-hybrid#readme" class="markup--anchor markup--li-anchor" title="https://github.com/weblancaster/awesome-IoT-hybrid#readme">IoT &amp; Hybrid Apps</a></span>
+-   <span id="5e1d"><a href="https://github.com/sindresorhus/awesome-electron#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sindresorhus/awesome-electron#readme">Electron</a> — Cross-platform native desktop apps using JavaScript/HTML/CSS.</span>
+-   <span id="ddf1"><a href="https://github.com/busterc/awesome-cordova#readme" class="markup--anchor markup--li-anchor" title="https://github.com/busterc/awesome-cordova#readme">Cordova</a> — JavaScript API for hybrid apps.</span>
+-   <span id="721a"><a href="https://github.com/jondot/awesome-react-native#readme" class="markup--anchor markup--li-anchor" title="https://github.com/jondot/awesome-react-native#readme">React Native</a> — JavaScript framework for writing natively rendering mobile apps for iOS and Android.</span>
+-   <span id="6fe2"><a href="https://github.com/XamSome/awesome-xamarin#readme" class="markup--anchor markup--li-anchor" title="https://github.com/XamSome/awesome-xamarin#readme">Xamarin</a> — Mobile app development IDE, testing, and distribution.</span>
+-   <span id="de7c"><a href="https://github.com/inputsh/awesome-linux#readme" class="markup--anchor markup--li-anchor" title="https://github.com/inputsh/awesome-linux#readme">Linux</a></span>
+-   <span id="5845"><a href="https://github.com/Friz-zy/awesome-linux-containers#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Friz-zy/awesome-linux-containers#readme">Containers</a></span>
+-   <span id="8f04"><a href="https://github.com/zoidbergwill/awesome-ebpf#readme" class="markup--anchor markup--li-anchor" title="https://github.com/zoidbergwill/awesome-ebpf#readme">eBPF</a> — Virtual machine that allows you to write more efficient and powerful tracing and monitoring for Linux systems.</span>
+-   <span id="07e4"><a href="https://github.com/PandaFoss/Awesome-Arch#readme" class="markup--anchor markup--li-anchor" title="https://github.com/PandaFoss/Awesome-Arch#readme">Arch-based Projects</a> — Linux distributions and projects based on Arch Linux.</span>
+-   <span id="360a"><a href="https://github.com/iCHAIT/awesome-macOS#readme" class="markup--anchor markup--li-anchor" title="https://github.com/iCHAIT/awesome-macOS#readme">macOS</a> — Operating system for Apple’s Mac computers.</span>
+-   <span id="4017"><a href="https://github.com/herrbischoff/awesome-macos-command-line#readme" class="markup--anchor markup--li-anchor" title="https://github.com/herrbischoff/awesome-macos-command-line#readme">Command-Line</a></span>
+-   <span id="aeef"><a href="https://github.com/agarrharr/awesome-macos-screensavers#readme" class="markup--anchor markup--li-anchor" title="https://github.com/agarrharr/awesome-macos-screensavers#readme">Screensavers</a></span>
+-   <span id="8513"><a href="https://github.com/jaywcjlove/awesome-mac#readme" class="markup--anchor markup--li-anchor" title="https://github.com/jaywcjlove/awesome-mac#readme">Apps</a></span>
+-   <span id="8e27"><a href="https://github.com/serhii-londar/open-source-mac-os-apps#readme" class="markup--anchor markup--li-anchor" title="https://github.com/serhii-londar/open-source-mac-os-apps#readme">Open Source Apps</a></span>
+-   <span id="d9ed"><a href="https://github.com/yenchenlin/awesome-watchos#readme" class="markup--anchor markup--li-anchor" title="https://github.com/yenchenlin/awesome-watchos#readme">watchOS</a> — Operating system for the Apple Watch.</span>
+-   <span id="c161"><a href="https://github.com/deephacks/awesome-jvm#readme" class="markup--anchor markup--li-anchor" title="https://github.com/deephacks/awesome-jvm#readme">JVM</a></span>
+-   <span id="08f2"><a href="https://github.com/mailtoharshit/awesome-salesforce#readme" class="markup--anchor markup--li-anchor" title="https://github.com/mailtoharshit/awesome-salesforce#readme">Salesforce</a></span>
+-   <span id="6dd7"><a href="https://github.com/donnemartin/awesome-aws#readme" class="markup--anchor markup--li-anchor" title="https://github.com/donnemartin/awesome-aws#readme">Amazon Web Services</a></span>
+-   <span id="1cb7"><a href="https://github.com/Awesome-Windows/Awesome#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Awesome-Windows/Awesome#readme">Windows</a></span>
+-   <span id="b7a9"><a href="https://github.com/ipfs/awesome-ipfs#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ipfs/awesome-ipfs#readme">IPFS</a> — P2P hypermedia protocol.</span>
+-   <span id="cee6"><a href="https://github.com/fuse-compound/awesome-fuse#readme" class="markup--anchor markup--li-anchor" title="https://github.com/fuse-compound/awesome-fuse#readme">Fuse</a> — Mobile development tools.</span>
+-   <span id="b042"><a href="https://github.com/ianstormtaylor/awesome-heroku#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ianstormtaylor/awesome-heroku#readme">Heroku</a> — Cloud platform as a service.</span>
+-   <span id="ac17"><a href="https://github.com/thibmaek/awesome-raspberry-pi#readme" class="markup--anchor markup--li-anchor" title="https://github.com/thibmaek/awesome-raspberry-pi#readme">Raspberry Pi</a> — Credit card-sized computer aimed at teaching kids programming, but capable of a lot more.</span>
+-   <span id="856f"><a href="https://github.com/JesseTG/awesome-qt#readme" class="markup--anchor markup--li-anchor" title="https://github.com/JesseTG/awesome-qt#readme">Qt</a> — Cross-platform GUI app framework.</span>
+-   <span id="9407"><a href="https://github.com/fregante/Awesome-WebExtensions#readme" class="markup--anchor markup--li-anchor" title="https://github.com/fregante/Awesome-WebExtensions#readme">WebExtensions</a> — Cross-browser extension system.</span>
+-   <span id="9e3f"><a href="https://github.com/motion-open-source/awesome-rubymotion#readme" class="markup--anchor markup--li-anchor" title="https://github.com/motion-open-source/awesome-rubymotion#readme">RubyMotion</a> — Write cross-platform native apps for iOS, Android, macOS, tvOS, and watchOS in Ruby.</span>
+-   <span id="08be"><a href="https://github.com/vitalets/awesome-smart-tv#readme" class="markup--anchor markup--li-anchor" title="https://github.com/vitalets/awesome-smart-tv#readme">Smart TV</a> — Create apps for different TV platforms.</span>
+-   <span id="1986"><a href="https://github.com/Kazhnuz/awesome-gnome#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Kazhnuz/awesome-gnome#readme">GNOME</a> — Simple and distraction-free desktop environment for Linux.</span>
+-   <span id="2069"><a href="https://github.com/francoism90/awesome-kde#readme" class="markup--anchor markup--li-anchor" title="https://github.com/francoism90/awesome-kde#readme">KDE</a> — A free software community dedicated to creating an open and user-friendly computing experience.</span>
+-   <span id="b388"><a href="https://github.com/quozd/awesome-dotnet#readme" class="markup--anchor markup--li-anchor" title="https://github.com/quozd/awesome-dotnet#readme">.NET</a></span>
+-   <span id="2688"><a href="https://github.com/thangchung/awesome-dotnet-core#readme" class="markup--anchor markup--li-anchor" title="https://github.com/thangchung/awesome-dotnet-core#readme">Core</a></span>
+-   <span id="735d"><a href="https://github.com/ironcev/awesome-roslyn#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ironcev/awesome-roslyn#readme">Roslyn</a> — Open-source compilers and code analysis APIs for C\# and <a href="http://VB.NET" class="markup--anchor markup--li-anchor" title="http://VB.NET">VB.NET</a> languages.</span>
+-   <span id="d9d6"><a href="https://github.com/miguelmota/awesome-amazon-alexa#readme" class="markup--anchor markup--li-anchor" title="https://github.com/miguelmota/awesome-amazon-alexa#readme">Amazon Alexa</a> — Virtual home assistant.</span>
+-   <span id="e5f1"><a href="https://github.com/jonleibowitz/awesome-digitalocean#readme" class="markup--anchor markup--li-anchor" title="https://github.com/jonleibowitz/awesome-digitalocean#readme">DigitalOcean</a> — Cloud computing platform designed for developers.</span>
+-   <span id="b080"><a href="https://github.com/Solido/awesome-flutter#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Solido/awesome-flutter#readme">Flutter</a> — Google’s mobile SDK for building native iOS and Android apps from a single codebase written in Dart.</span>
+-   <span id="e962"><a href="https://github.com/frenck/awesome-home-assistant#readme" class="markup--anchor markup--li-anchor" title="https://github.com/frenck/awesome-home-assistant#readme">Home Assistant</a> — Open source home automation that puts local control and privacy first.</span>
+-   <span id="c8f1"><a href="https://github.com/victorshinya/awesome-ibmcloud#readme" class="markup--anchor markup--li-anchor" title="https://github.com/victorshinya/awesome-ibmcloud#readme">IBM Cloud</a> — Cloud platform for developers and companies.</span>
+-   <span id="2bef"><a href="https://github.com/jthegedus/awesome-firebase#readme" class="markup--anchor markup--li-anchor" title="https://github.com/jthegedus/awesome-firebase#readme">Firebase</a> — App development platform built on Google Cloud Platform.</span>
+-   <span id="50aa"><a href="https://github.com/fkromer/awesome-ros2#readme" class="markup--anchor markup--li-anchor" title="https://github.com/fkromer/awesome-ros2#readme">Robot Operating System 2.0</a> — Set of software libraries and tools that help you build robot apps.</span>
+-   <span id="7de4"><a href="https://github.com/adafruit/awesome-adafruitio#readme" class="markup--anchor markup--li-anchor" title="https://github.com/adafruit/awesome-adafruitio#readme">Adafruit IO</a> — Visualize and store data from any device.</span>
+-   <span id="15d4"><a href="https://github.com/irazasyed/awesome-cloudflare#readme" class="markup--anchor markup--li-anchor" title="https://github.com/irazasyed/awesome-cloudflare#readme">Cloudflare</a> — CDN, DNS, DDoS protection, and security for your site.</span>
+-   <span id="27c6"><a href="https://github.com/ravirupareliya/awesome-actions-on-google#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ravirupareliya/awesome-actions-on-google#readme">Actions on Google</a> — Developer platform for Google Assistant.</span>
+-   <span id="07d6"><a href="https://github.com/agucova/awesome-esp#readme" class="markup--anchor markup--li-anchor" title="https://github.com/agucova/awesome-esp#readme">ESP</a> — Low-cost microcontrollers with WiFi and broad IoT applications.</span>
+-   <span id="3240"><a href="https://github.com/denolib/awesome-deno#readme" class="markup--anchor markup--li-anchor" title="https://github.com/denolib/awesome-deno#readme">Deno</a> — A secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.</span>
+-   <span id="d566"><a href="https://github.com/balintkissdev/awesome-dos#readme" class="markup--anchor markup--li-anchor" title="https://github.com/balintkissdev/awesome-dos#readme">DOS</a> — Operating system for x86-based personal computers that was popular during the 1980s and early 1990s.</span>
+-   <span id="04ee"><a href="https://github.com/nix-community/awesome-nix#readme" class="markup--anchor markup--li-anchor" title="https://github.com/nix-community/awesome-nix#readme">Nix</a> — Package manager for Linux and other Unix systems that makes package management reliable and reproducible.</span>
+
+### Programming Languages
+
+-   <span id="bb06"><a href="https://github.com/sorrycc/awesome-javascript#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sorrycc/awesome-javascript#readme">JavaScript</a></span>
+-   <span id="a6e2"><a href="https://github.com/wbinnssmith/awesome-promises#readme" class="markup--anchor markup--li-anchor" title="https://github.com/wbinnssmith/awesome-promises#readme">Promises</a></span>
+-   <span id="0e6d"><a href="https://github.com/standard/awesome-standard#readme" class="markup--anchor markup--li-anchor" title="https://github.com/standard/awesome-standard#readme">Standard Style</a> — Style guide and linter.</span>
+-   <span id="b4b6"><a href="https://github.com/bolshchikov/js-must-watch#readme" class="markup--anchor markup--li-anchor" title="https://github.com/bolshchikov/js-must-watch#readme">Must Watch Talks</a></span>
+-   <span id="cd70"><a href="https://github.com/loverajoel/jstips#readme" class="markup--anchor markup--li-anchor" title="https://github.com/loverajoel/jstips#readme">Tips</a></span>
+-   <span id="70a7"><a href="https://github.com/Kikobeats/awesome-network-js#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Kikobeats/awesome-network-js#readme">Network Layer</a></span>
+-   <span id="beb9"><a href="https://github.com/parro-it/awesome-micro-npm-packages#readme" class="markup--anchor markup--li-anchor" title="https://github.com/parro-it/awesome-micro-npm-packages#readme">Micro npm Packages</a></span>
+-   <span id="8421"><a href="https://github.com/feross/awesome-mad-science#readme" class="markup--anchor markup--li-anchor" title="https://github.com/feross/awesome-mad-science#readme">Mad Science npm Packages</a> — Impossible sounding projects that exist.</span>
+-   <span id="624f"><a href="https://github.com/maxogden/maintenance-modules#readme" class="markup--anchor markup--li-anchor" title="https://github.com/maxogden/maintenance-modules#readme">Maintenance Modules</a> — For npm packages.</span>
+-   <span id="72c7"><a href="https://github.com/sindresorhus/awesome-npm#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sindresorhus/awesome-npm#readme">npm</a> — Package manager.</span>
+-   <span id="7393"><a href="https://github.com/avajs/awesome-ava#readme" class="markup--anchor markup--li-anchor" title="https://github.com/avajs/awesome-ava#readme">AVA</a> — Test runner.</span>
+-   <span id="452a"><a href="https://github.com/dustinspecker/awesome-eslint#readme" class="markup--anchor markup--li-anchor" title="https://github.com/dustinspecker/awesome-eslint#readme">ESLint</a> — Linter.</span>
+-   <span id="d045"><a href="https://github.com/stoeffel/awesome-fp-js#readme" class="markup--anchor markup--li-anchor" title="https://github.com/stoeffel/awesome-fp-js#readme">Functional Programming</a></span>
+-   <span id="3eba"><a href="https://github.com/sindresorhus/awesome-observables#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sindresorhus/awesome-observables#readme">Observables</a></span>
+-   <span id="48bb"><a href="https://github.com/RyanZim/awesome-npm-scripts#readme" class="markup--anchor markup--li-anchor" title="https://github.com/RyanZim/awesome-npm-scripts#readme">npm scripts</a> — Task runner.</span>
+-   <span id="32ae"><a href="https://github.com/30-seconds/30-seconds-of-code#readme" class="markup--anchor markup--li-anchor" title="https://github.com/30-seconds/30-seconds-of-code#readme">30 Seconds of Code</a> — Code snippets you can understand in 30 seconds.</span>
+-   <span id="df31"><a href="https://github.com/Richienb/awesome-ponyfills#readme" class="markup--anchor markup--li-anchor" title="https://github.com/Richienb/awesome-ponyfills#readme">Ponyfills</a> — Like polyfills but without overriding native APIs.</span>
+-   <span id="b36d"><a href="https://github.com/matteocrippa/awesome-swift#readme" class="markup--anchor markup--li-anchor" title="https://github.com/matteocrippa/awesome-swift#readme">Swift</a> — Apple’s compiled programming language that is secure, modern, programmer-friendly, and fast.</span>
+-   <span id="56b5"><a href="https://github.com/hsavit1/Awesome-Swift-Education#readme" class="markup--anchor markup--li-anchor" title="https://github.com/hsavit1/Awesome-Swift-Education#readme">Education</a></span>
+-   <span id="393c"><a href="https://github.com/uraimo/Awesome-Swift-Playgrounds#readme" class="markup--anchor markup--li-anchor" title="https://github.com/uraimo/Awesome-Swift-Playgrounds#readme">Playgrounds</a></span>
+-   <span id="ff30"><a href="https://github.com/vinta/awesome-python#readme" class="markup--anchor markup--li-anchor" title="https://github.com/vinta/awesome-python#readme">Python</a> — General-purpose programming language designed for readability.</span>
+-   <span id="bbf7"><a href="https://github.com/timofurrer/awesome-asyncio#readme" class="markup--anchor markup--li-anchor" title="https://github.com/timofurrer/awesome-asyncio#readme">Asyncio</a> — Asynchronous I/O in Python 3.</span>
+-   <span id="b46a"><a href="https://github.com/faroit/awesome-python-scientific-audio#readme" class="markup--anchor markup--li-anchor" title="https://github.com/faroit/awesome-python-scientific-audio#readme">Scientific Audio</a> — Scientific research in audio/music.</span>
+-   <span id="8a26"><a href="https://github.com/adafruit/awesome-circuitpython#readme" class="markup--anchor markup--li-anchor" title="https://github.com/adafruit/awesome-circuitpython#readme">CircuitPython</a> — A version of Python for microcontrollers.</span>
+-   <span id="62db"><a href="https://github.com/krzjoa/awesome-python-data-science#readme" class="markup--anchor markup--li-anchor" title="https://github.com/krzjoa/awesome-python-data-science#readme">Data Science</a> — Data analysis and machine learning.</span>
+-   <span id="5028"><a href="https://github.com/typeddjango/awesome-python-typing#readme" class="markup--anchor markup--li-anchor" title="https://github.com/typeddjango/awesome-python-typing#readme">Typing</a> — Optional static typing for Python.</span>
+-   <span id="488f"><a href="https://github.com/mcauser/awesome-micropython#readme" class="markup--anchor markup--li-anchor" title="https://github.com/mcauser/awesome-micropython#readme">MicroPython</a> — A lean and efficient implementation of Python 3 for microcontrollers.</span>
+-   <span id="c563"><a href="https://github.com/rust-unofficial/awesome-rust#readme" class="markup--anchor markup--li-anchor" title="https://github.com/rust-unofficial/awesome-rust#readme">Rust</a></span>
+-   <span id="89d6"><a href="https://github.com/krispo/awesome-haskell#readme" class="markup--anchor markup--li-anchor" title="https://github.com/krispo/awesome-haskell#readme">Haskell</a></span>
+-   <span id="6bc0"><a href="https://github.com/passy/awesome-purescript#readme" class="markup--anchor markup--li-anchor" title="https://github.com/passy/awesome-purescript#readme">PureScript</a></span>
+-   <span id="2c02"><a href="https://github.com/avelino/awesome-go#readme" class="markup--anchor markup--li-anchor" title="https://github.com/avelino/awesome-go#readme">Go</a></span>
+-   <span id="7300"><a href="https://github.com/lauris/awesome-scala#readme" class="markup--anchor markup--li-anchor" title="https://github.com/lauris/awesome-scala#readme">Scala</a></span>
+-   <span id="d22f"><a href="https://github.com/tindzk/awesome-scala-native#readme" class="markup--anchor markup--li-anchor" title="https://github.com/tindzk/awesome-scala-native#readme">Scala Native</a> — Optimizing ahead-of-time compiler for Scala based on LLVM.</span>
+-   <span id="8593"><a href="https://github.com/markets/awesome-ruby#readme" class="markup--anchor markup--li-anchor" title="https://github.com/markets/awesome-ruby#readme">Ruby</a></span>
+-   <span id="eb9b"><a href="https://github.com/razum2um/awesome-clojure#readme" class="markup--anchor markup--li-anchor" title="https://github.com/razum2um/awesome-clojure#readme">Clojure</a></span>
+-   <span id="e12f"><a href="https://github.com/hantuzun/awesome-clojurescript#readme" class="markup--anchor markup--li-anchor" title="https://github.com/hantuzun/awesome-clojurescript#readme">ClojureScript</a></span>
+-   <span id="748c"><a href="https://github.com/h4cc/awesome-elixir#readme" class="markup--anchor markup--li-anchor" title="https://github.com/h4cc/awesome-elixir#readme">Elixir</a></span>
+-   <span id="89b0"><a href="https://github.com/sporto/awesome-elm#readme" class="markup--anchor markup--li-anchor" title="https://github.com/sporto/awesome-elm#readme">Elm</a></span>
+-   <span id="b83d"><a href="https://github.com/drobakowski/awesome-erlang#readme" class="markup--anchor markup--li-anchor" title="https://github.com/drobakowski/awesome-erlang#readme">Erlang</a></span>
+-   <span id="38d3"><a href="https://github.com/svaksha/Julia.jl#readme" class="markup--anchor markup--li-anchor" title="https://github.com/svaksha/Julia.jl#readme">Julia</a> — High-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science.</span>
+-   <span id="b2f4"><a href="https://github.com/LewisJEllis/awesome-lua#readme" class="markup--anchor markup--li-anchor" title="https://github.com/LewisJEllis/awesome-lua#readme">Lua</a></span>
+-   <span id="eb25"><a href="https://github.com/inputsh/awesome-c#readme" class="markup--anchor markup--li-anchor" title="https://github.com/inputsh/awesome-c#readme">C</a></span>
+-   <span id="06f4"><a href="https://github.com/fffaraz/awesome-cpp#readme" class="markup--anchor markup--li-anchor" title="https://github.com/fffaraz/awesome-cpp#readme">C/C++</a> — General-purpose language with a bias toward system programming and embedded, resource-constrained software.</span>
+-   <span id="b13b"><a href="https://github.com/qinwf/awesome-R#readme" class="markup--anchor markup--li-anchor" title="https://github.com/qinwf/awesome-R#readme">R</a> — Functional programming language and environment for statistical computing and graphics.</span>
+-   <span id="8a84"><a href="https://github.com/iamericfletcher/awesome-r-learning-resources#readme" class="markup--anchor markup--li-anchor" title="https://github.com/iamericfletcher/awesome-r-learning-resources#readme">Learning</a></span>
+-   <span id="63ef"><a href="https://github.com/dlang-community/awesome-d#readme" class="markup--anchor markup--li-anchor" title="https://github.com/dlang-community/awesome-d#readme">D</a></span>
+-   <span id="1cbf"><a href="https://github.com/CodyReichert/awesome-cl#readme" class="markup--anchor markup--li-anchor" title="https://github.com/CodyReichert/awesome-cl#readme">Common Lisp</a> — Powerful dynamic multiparadigm language that facilitates iterative and interactive development.</span>
+-   <span id="b926"><a href="https://github.com/GustavBertram/awesome-common-lisp-learning#readme" class="markup--anchor markup--li-anchor" title="https://github.com/GustavBertram/awesome-common-lisp-learning#readme">Learning</a></span>
+-   <span id="5e50"><a href="https://github.com/hachiojipm/awesome-perl#readme" class="markup--anchor markup--li-anchor" title="https://github.com/hachiojipm/awesome-perl#readme">Perl</a></span>
+-   <span id="20ef"><a href="https://github.com/kdabir/awesome-groovy#readme" class="markup--anchor markup--li-anchor" title="https://github.com/kdabir/awesome-groovy#readme">Groovy</a></span>
+-   <span id="75c5"><a href="https://github.com/yissachar/awesome-dart#readme" class="markup--anchor markup--li-anchor" title="https://github.com/yissachar/awesome-dart#readme">Dart</a></span>
+-   <span id="327e"><a href="https://github.com/akullpp/awesome-java#readme" class="markup--anchor markup--li-anchor" title="https://github.com/akullpp/awesome-java#readme">Java</a> — Popular secure object-oriented language designed for flexibility to “write once, run anywhere”.</span>
+-   <span id="aa9a"><a href="https://github.com/eleventigers/awesome-rxjava#readme" class="markup--anchor markup--li-anchor" title="https://github.com/eleventigers/awesome-rxjava#readme">RxJava</a></span>
+-   <span id="44f2"><a href="https://github.com/KotlinBy/awesome-kotlin#readme" class="markup--anchor markup--li-anchor" title="https://github.com/KotlinBy/awesome-kotlin#readme">Kotlin</a></span>
+-   <span id="b8b9"><a href="https://github.com/ocaml-community/awesome-ocaml#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ocaml-community/awesome-ocaml#readme">OCaml</a></span>
+-   <span id="1850"><a href="https://github.com/seancoyne/awesome-coldfusion#readme" class="markup--anchor markup--li-anchor" title="https://github.com/seancoyne/awesome-coldfusion#readme">ColdFusion</a></span>
+-   <span id="8daa"><a href="https://github.com/rabbiabram/awesome-fortran#readme" class="markup--anchor markup--li-anchor" title="https://github.com/rabbiabram/awesome-fortran#readme">Fortran</a></span>
+-   <span id="f283"><a href="https://github.com/ziadoz/awesome-php#readme" class="markup--anchor markup--li-anchor" title="https://github.com/ziadoz/awesome-php#readme">PHP</a> — Server-side scripting language.</span>
+-   <span id="dc45"><a href="https://github.com/jakoch/awesome-composer#readme" class="markup--anchor markup--li-anchor" title="https://github.com/jakoch/awesome-composer#readme">Composer</a> — Package manager.</span>
+-   <span id="cc2b"><a href="https://github.com/Fr0sT-Brutal/awesome-pascal#readme" class="markup--an
