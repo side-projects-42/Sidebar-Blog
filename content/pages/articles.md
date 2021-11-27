@@ -10727,4 +10727,2615 @@ To determine if your Windows computer already has Python 3:
 `python --version`
 
 <figure><img src="https://cdn-images-1.medium.com/max/800/1*59V2ZNbyJfsdGR2N20PM7w.png" class="graf-image" /></figure>1.  <span id="e87f">Running `python --version` may not return a value, or may return an error message stating *'python' is not recognized as an internal or external command, operable program or batch file.* This indicates Python is not installed on your Windows system.</span>
-2.  <span
+2.  <span id="7c04">If you see the word `Python` with a set of numbers separated by `.` characters, some version of Python is installed.</span>
+
+#### i.e.
+
+> `Python 3.8.0`
+
+**As long as the first number is** `3`, you have Python 3 installed.
+
+> Download Page: <a href="https://www.python.org/downloads/release/python-395/" class="markup--anchor markup--blockquote-anchor">https://www.python.org/downloads/release/python-395/</a>
+
+> Download Link: <a href="https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe" class="markup--anchor markup--blockquote-anchor">https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe</a>
+
+------------------------------------------------------------------------
+
+### Python
+
+-   <span id="c462">Python is an interpreted, high-level and general-purpose, dynamically typed programming language</span>
+-   <span id="74e1">It is also Object oriented, modular oriented and a scripting language.</span>
+-   <span id="6e0e">In Python, everything is considered as an Object.</span>
+-   <span id="490d">A python file has an extension of .py</span>
+-   <span id="2bd5">Python follows Indentation to separate code blocks instead of flower brackets({}).</span>
+-   <span id="6434">We can run a python file by the following command in cmd(Windows) or shell(mac/linux).</span>
+-   <span id="b76b">`python <filename.py>`</span>
+
+#### By default, the python doesn’t require any imports to run a python file.
+
+### Create and execute a program
+
+1.  <span id="d7b7">Open up a terminal/cmd</span>
+2.  <span id="a7a7">Create the program: nano/cat &gt; <a href="http://nameprogram.py/" class="markup--anchor markup--li-anchor">nameProgram.py</a></span>
+3.  <span id="aace">Write the program and save it</span>
+4.  <span id="b439">python <a href="http://nameprogram.py/" class="markup--anchor markup--li-anchor">nameProgram.py</a></span>
+
+### Basic Datatypes
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*LDLNGnpgmyeWojLU_mKKJw.png" class="graf-image" /></figure>### Keywords
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*rMzTksSg1jUZm2ECvvzO_g.png" class="graf-image" /></figure>### Operators
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*3ud99ZpJ20AhhApKhjvlqQ.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/1*_Chk6-fWKs-i52q2Zx0ZTw.png" class="graf-image" /></figure>### Basic Data Structures
+
+### List
+
+-   <span id="a311">List is a collection which is ordered and changeable. Allows duplicate members.</span>
+-   <span id="cd75">Lists are created using square brackets:</span>
+
+<!-- -->
+
+    thislist = ["apple", "banana", "cherry"]
+
+-   <span id="8afd">List items are ordered, changeable, and allow duplicate values.</span>
+-   <span id="668d">List items are indexed, the first item has index `[0]`, the second item has index `[1]` etc.</span>
+-   <span id="b8c7">The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.</span>
+-   <span id="b5f4">To determine how many items a list has, use the `len()` function.</span>
+-   <span id="7dff">A list can contain different data types:</span>
+
+<!-- -->
+
+    list1 = ["abc", 34, True, 40, "male"]
+
+-   <span id="9e81">It is also possible to use the list() constructor when creating a new list</span>
+
+<!-- -->
+
+    thislist = list(("apple", "banana", "cherry"))  # note the double round-brackets
+
+### Tuple
+
+-   <span id="50ea">Tuple is a collection which is ordered and unchangeable. Allows duplicate members.</span>
+-   <span id="14ac">A tuple is a collection which is ordered and unchangeable.</span>
+-   <span id="8cde">Tuples are written with round brackets.</span>
+
+<!-- -->
+
+    thistuple = ("apple", "banana", "cherry")
+
+-   <span id="3e58">Tuple items are ordered, unchangeable, and allow duplicate values.</span>
+-   <span id="2f5a">Tuple items are indexed, the first item has index `[0]`, the second item has index `[1]` etc.</span>
+-   <span id="6f87">When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.</span>
+-   <span id="709a">Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.</span>
+-   <span id="134b">Since tuple are indexed, tuples can have items with the same value:</span>
+-   <span id="2720">Tuples allow duplicate values:</span>
+
+<!-- -->
+
+    thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+
+-   <span id="ddae">To determine how many items a tuple has, use the `len()`function:</span>
+
+<!-- -->
+
+    thistuple = ("apple", "banana", "cherry")
+    print(len(thistuple))
+
+-   <span id="2723">To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.</span>
+
+<!-- -->
+
+    thistuple = ("apple",)
+    print(type(thistuple))
+
+    #NOT a tuple
+    thistuple = ("apple")
+    print(type(thistuple))
+
+-   <span id="4556">It is also possible to use the tuple() constructor to make a tuple.</span>
+
+<!-- -->
+
+    thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+    print(thistuple)
+
+### Set
+
+-   <span id="1991">Set is a collection which is unordered and unindexed. No duplicate members.</span>
+-   <span id="d108">A set is a collection which is both unordered and unindexed.</span>
+
+<!-- -->
+
+    thisset = {"apple", "banana", "cherry"}
+
+-   <span id="4098">Set items are unordered, unchangeable, and do not allow duplicate values.</span>
+-   <span id="b4d0">Unordered means that the items in a set do not have a defined order.</span>
+-   <span id="d081">Set items can appear in a different order every time you use them, and cannot be referred to by index or key.</span>
+-   <span id="4f53">Sets are unchangeable, meaning that we cannot change the items after the set has been created.</span>
+-   <span id="812b">Duplicate values will be ignored.</span>
+-   <span id="3ac9">To determine how many items a set has, use the `len()` method.</span>
+
+<!-- -->
+
+    thisset = {"apple", "banana", "cherry"}
+
+    print(len(thisset))
+
+-   <span id="b34e">Set items can be of any data type:</span>
+
+<!-- -->
+
+    set1 = {"apple", "banana", "cherry"}
+    set2 = {1, 5, 7, 9, 3}
+    set3 = {True, False, False}
+    set4 = {"abc", 34, True, 40, "male"}
+
+-   <span id="2a23">It is also possible to use the `set()` constructor to make a set.</span>
+
+<!-- -->
+
+    thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+
+### Dictionary
+
+-   <span id="3c14">Dictionary is a collection which is unordered and changeable. No duplicate members.</span>
+-   <span id="cf8a">Dictionaries are used to store data values in key:value pairs.</span>
+-   <span id="bbb2">Dictionaries are written with curly brackets, and have keys and values:</span>
+
+<!-- -->
+
+    thisdict = {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964
+    }
+
+-   <span id="7f11">Dictionary items are presented in key:value pairs, and can be referred to by using the key name.</span>
+
+<!-- -->
+
+    thisdict = {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964
+    }
+    print(thisdict["brand"])
+
+-   <span id="8700">Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.</span>
+-   <span id="ea7e">Dictionaries cannot have two items with the same key.</span>
+-   <span id="1ad4">Duplicate values will overwrite existing values.</span>
+-   <span id="7582">To determine how many items a dictionary has, use the `len()` function.</span>
+
+<!-- -->
+
+    print(len(thisdict))
+
+-   <span id="305d">The values in dictionary items can be of any data type</span>
+
+<!-- -->
+
+    thisdict = {
+      "brand": "Ford",
+      "electric": False,
+      "year": 1964,
+      "colors": ["red", "white", "blue"]
+    }
+
+### Conditional branching
+
+    if condition:
+            pass
+        elif condition2:
+            pass
+        else:
+            pass
+
+### Loops
+
+Python has two primitive loop commands:
+
+1.  <span id="cd2b">while loops</span>
+2.  <span id="f858">for loops</span>
+
+#### While loop
+
+-   <span id="e9e1">With the `while` loop we can execute a set of statements as long as a condition is true.</span>
+-   <span id="ef71">Example: Print i as long as i is less than 6</span>
+
+<!-- -->
+
+    i = 1
+    while i < 6:
+      print(i)
+      i += 1
+
+-   <span id="5f4a">The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.</span>
+-   <span id="2dce">With the `break` statement we can stop the loop even if the while condition is true</span>
+-   <span id="371e">With the continue statement we can stop the current iteration, and continue with the next.</span>
+-   <span id="3dcf">With the else statement we can run a block of code once when the condition no longer is true.</span>
+
+#### For loop
+
+-   <span id="0fa5">A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).</span>
+-   <span id="871e">This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.</span>
+-   <span id="ca9c">With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</span>
+
+<!-- -->
+
+    fruits = ["apple", "banana", "cherry"]
+    for x in fruits:
+      print(x)
+
+-   <span id="19c1">The for loop does not require an indexing variable to set beforehand.</span>
+-   <span id="fb47">To loop through a set of code a specified number of times, we can use the range() function.</span>
+-   <span id="f32d">The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.</span>
+-   <span id="b8d4">The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3).</span>
+-   <span id="cca5">The else keyword in a for loop specifies a block of code to be executed when the loop is finished.  
+    A nested loop is a loop inside a loop.</span>
+-   <span id="acbb">The “inner loop” will be executed one time for each iteration of the “outer loop”:</span>
+
+<!-- -->
+
+    adj = ["red", "big", "tasty"]
+    fruits = ["apple", "banana", "cherry"]
+
+    for x in adj:
+      for y in fruits:
+        print(x, y)
+
+-   <span id="1bdd">for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.</span>
+
+<!-- -->
+
+    for x in [0, 1, 2]:
+      pass
+
+### Function definition
+
+    def function_name():
+        return
+
+### Function call
+
+    function_name()
+
+-   <span id="a1ca">We need not to specify the return type of the function.</span>
+-   <span id="89e4">Functions by default return `None`</span>
+-   <span id="7041">We can return any datatype.</span>
+
+------------------------------------------------------------------------
+
+### Python Syntax
+
+Python syntax was made for readability, and easy editing. For example, the python language uses a `:` and indented code, while javascript and others generally use `{}` and indented code.
+
+### First Program
+
+Lets create a <a href="https://repl.it/languages/python3" class="markup--anchor markup--p-anchor">python 3</a> repl, and call it *Hello World*. Now you have a blank file called *main.py*. Now let us write our first line of code:
+
+    print('Hello world!')
+
+> *Brian Kernighan actually wrote the first “Hello, World!” program as part of the documentation for the BCPL programming language developed by Martin Richards.*
+
+Now, press the run button, which obviously runs the code. If you are not using replit, this will not work. You should research how to run a file with your text editor.
+
+### Command Line
+
+If you look to your left at the console where hello world was just printed, you can see a `>`, `>>>`, or `$` depending on what you are using. After the prompt, try typing a line of code.
+
+    Python 3.6.1 (default, Jun 21 2017, 18:48:35)
+    [GCC 4.9.2] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    > print('Testing command line')
+    Testing command line
+    > print('Are you sure this works?')
+    Are you sure this works?
+    >
+
+The command line allows you to execute single lines of code at a time. It is often used when trying out a new function or method in the language.
+
+### New: Comments!
+
+Another cool thing that you can generally do with all languages, are comments. In python, a comment starts with a `#`. The computer ignores all text starting after the `#`.
+
+`# Write some comments!`
+
+If you have a huge comment, do **not** comment all the 350 lines, just put `'''` before it, and `'''` at the end. Technically, this is not a comment but a string, but the computer still ignores it, so we will use it.
+
+### New: Variables!
+
+Unlike many other languages, there is no `var`, `let`, or `const` to declare a variable in python. You simply go `name = 'value'`.
+
+Remember, there is a difference between integers and strings. *Remember: String =* `""`*.* To convert between these two, you can put an int in a `str()` function, and a string in a `int()` function. There is also a less used one, called a float. Mainly, these are integers with decimals. Change them using the `float()` command.
+
+<a href="https://repl.it/@bgoonz/second-scr?lite=true&amp;amp;referrer=https%3A%2F%2Fbryanguner.medium.com" class="markup--anchor markup--p-anchor">https://repl.it/@bgoonz/second-scr?lite=true&amp;amp;referrer=https%3A%2F%2Fbryanguner.medium.com</a>
+
+    x = 5
+    x = str(x)
+    b = '5'
+    b = int(b)
+    print('x = ', x, '; b = ', str(b), ';') # => x = 5; b = 5;
+
+Instead of using the `,` in the print function, you can put a `+` to combine the variables and string.
+
+### Operators
+
+There are many operators in python:
+
+-   <span id="d553">`+`</span>
+-   <span id="a1b3">`-`</span>
+-   <span id="f09c">`/`</span>
+-   <span id="cd1e">`*`  
+    These operators are the same in most languages, and allow for addition, subtraction, division, and multiplicaiton.  
+    Now, we can look at a few more complicated ones:</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*oVIDxWdgJXoIt7CI.jpg" class="graf-image" /></figure>*simpleops.py*
+
+    x = 4
+    a = x + 1
+    a = x - 1
+    a = x * 2
+    a = x / 2
+
+You should already know everything shown above, as it is similar to other languages. If you continue down, you will see more complicated ones.
+
+*complexop.py*
+
+    a += 1
+    a -= 1
+    a *= 2
+    a /= 2
+
+The ones above are to edit the current value of the variable.  
+Sorry to JS users, as there is no `i++;` or anything.
+
+### Fun Fact: The python language was named after Monty Python.
+
+If you really want to know about the others, view <a href="https://www.tutorialspoint.com/python/python_basic_operators.htm" class="markup--anchor markup--p-anchor">Py Operators</a>
+
+### More Things With Strings
+
+Like the title?  
+Anyways, a `'` and a `"` both indicate a string, but **do not combine them!**
+
+*quotes.py*
+
+    x = 'hello' # Good
+    x = "hello" # Good
+    x = "hello' # ERRORRR!!!
+
+*slicing.py*
+
+### String Slicing
+
+You can look at only certain parts of the string by slicing it, using `[num:num]`.  
+The first number stands for how far in you go from the front, and the second stands for how far in you go from the back.
+
+    x = 'Hello everybody!'
+    x[1] # 'e'
+    x[-1] # '!'
+    x[5] # ' '
+    x[1:] # 'ello everybody!'
+    x[:-1] # 'Hello everybod'
+    x[2:-3] # 'llo everyb'
+
+### Methods and Functions
+
+Here is a list of functions/methods we will go over:
+
+-   <span id="aaaa">`.strip()`</span>
+-   <span id="b3ee">`len()`</span>
+-   <span id="c5cc">`.lower()`</span>
+-   <span id="3466">`.upper()`</span>
+-   <span id="a06d">`.replace()`</span>
+-   <span id="57b6">`.split()`</span>
+
+<a href="https://trinket.io/python3/2b693977e7" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://trinket.io/python3/2b693977e7"><strong>Put Python Anywhere on the Web</strong><br />
+<em>Python in the browser. No installation required.</em>trinket.io</a><a href="https://trinket.io/python3/2b693977e7" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+### New: Input()
+
+Input is a function that gathers input entered from the user in the command line. It takes one optional parameter, which is the users prompt.
+
+*inp.py*
+
+    print('Type something: ')
+    x = input()
+    print('Here is what you said: ', x)
+
+If you wanted to make it smaller, and look neater to the user, you could do…
+
+*inp2.py*
+
+    print('Here is what you said: ', input('Type something: '))
+
+Running:  
+*inp.py*
+
+    Type something:
+    Hello World
+    Here is what you said: Hello World
+
+*inp2.py*
+
+    Type something: Hello World
+    Here is what you said: Hello World
+
+### New: Importing Modules
+
+Python has created a lot of functions that are located in other .py files. You need to import these **modules** to gain access to the,, You may wonder why python did this. The purpose of separate modules is to make python faster. Instead of storing millions and millions of functions, , it only needs a few basic ones. To import a module, you must write `input <modulename>`. Do not add the .py extension to the file name. In this example , we will be using a python created module named random.
+
+*module.py*
+
+    import random
+
+Now, I have access to all functions in the random.py file. To access a specific function in the module, you would do `<module>.<function>`. For example:
+
+*module2.py*
+
+    import random
+    print(random.randint(3,5)) # Prints a random number between 3 and 5
+
+> *Pro Tip:  
+> Do* `from random import randint` *to not have to do* `random.randint()`*, just* `randint()`*  
+> To import all functions from a module, you could do* `from random import *`
+
+### New: Loops!
+
+Loops allow you to repeat code over and over again. This is useful if you want to print Hi with a delay of one second 100 times.
+
+#### `for` Loop
+
+The for loop goes through a list of variables, making a seperate variable equal one of the list every time.  
+Let’s say we wanted to create the example above.
+
+*loop.py*
+
+    from time import sleep
+    for i in range(100):
+         print('Hello')
+         sleep(.3)
+
+This will print Hello with a .3 second delay 100 times. This is just one way to use it, but it is usually used like this:
+
+*loop2.py*
+
+    import time
+    for number in range(100):
+         print(number)
+         time.sleep(.1)
+
+<a href="https://storage.googleapis.com/replit/images/1539649280875_37d22e6d49e8e8fbc453631def345387.pn" class="markup--anchor markup--p-anchor">https://storage.googleapis.com/replit/images/1539649280875_37d22e6d49e8e8fbc453631def345387.pn</a>
+
+#### `while` Loop
+
+The while loop runs the code while something stays true. You would put `while <expression>`. Every time the loop runs, it evaluates if the expression is True. It it is, it runs the code, if not it continues outside of the loop. For example:
+
+*while.py*
+
+    while True: # Runs forever
+         print('Hello World!')
+
+Or you could do:
+
+*while2.py*
+
+    import random
+    position = '<placeholder>'
+    while position != 1: # will run at least once
+        position = random.randint(1, 10)
+        print(position)
+
+### New: `if` Statement
+
+The if statement allows you to check if something is True. If so, it runs the code, if not, it continues on. It is kind of like a while loop, but it executes **only once**. An if statement is written:
+
+*if.py*
+
+    import random
+    num = random.randint(1, 10)
+    if num == 3:
+         print('num is 3. Hooray!!!')
+    if num > 5:
+         print('Num is greater than 5')
+    if num == 12:
+         print('Num is 12, which means that there is a problem with the python language, see if you can figure it out. Extra credit if you can figure it out!')
+
+Now, you may think that it would be better if you could make it print only one message. Not as many that are True. You can do that with an `elif` statement:
+
+*elif.py*
+
+    import random
+    num = random.randint(1, 10)
+    if num == 3:
+        print('Num is three, this is the only msg you will see.')
+    elif num > 2:
+        print('Num is not three, but is greater than 1')
+
+Now, you may wonder how to run code if none work. Well, there is a simple statement called `else:`
+
+*else.py*
+
+    import random
+    num = random.randint(1, 10)
+    if num == 3:
+        print('Num is three, this is the only msg you will see.')
+    elif num > 2:
+        print('Num is not three, but is greater than 1')
+    else:
+        print('No category')
+
+### New: Functions (`def`)
+
+So far, you have only seen how to use functions other people have made. Let use the example that you want to print the a random number between 1 and 9, and print different text every time.  
+It is quite tiring to type:
+
+Characters: 389
+
+*nofunc.py*
+
+    import random
+    print(random.randint(1, 9))
+    print('Wow that was interesting.')
+    print(random.randint(1, 9))
+    print('Look at the number above ^')
+    print(random.randint(1, 9))
+    print('All of these have been interesting numbers.')
+    print(random.randint(1, 9))
+    print("these random.randint's are getting annoying to type")
+    print(random.randint(1, 9))
+    print('Hi')
+    print(random.randint(1, 9))
+    print('j')
+
+Now with functions, you can seriously lower the amount of characters:
+
+Characters: 254
+
+*functions.py*
+
+    import random
+    def r(t):
+         print(random.randint(1, 9))
+         print(t)
+    r('Wow that was interesting.')
+    r('Look at the number above ^')
+    r('All of these have been interesting numbers.')
+    r("these random.randint's are getting annoying to type")
+    r('Hi')
+    r('j')
+
+------------------------------------------------------------------------
+
+### Project Based Learning:
+
+The following is a modified version of a tutorial posted By: <a href="https://replit.com/@InvisibleOne" class="markup--anchor markup--p-anchor">InvisibleOne</a>
+
+I would cite the original tutorial it’s self but at the time of this writing I can no longer find it on his repl.it profile and so the only reference I have are my own notes from following the tutorial when I first found it.
+
+### 1. Adventure Story
+
+The first thing you need with an adventure story is a great storyline, something that is exciting and fun. The idea is, that at each pivotal point in the story, you give the player the opportunity to make a choice.  
+First things first, let’s import the stuff that we need, like this:
+
+    import os   #very useful for clearing the screen
+    import random
+
+Now, we need some variables to hold some of the player data.
+
+    name = input(“Name Please:  “) #We’ll use this to get the name from the user
+    nickname = input(“Nickname: “)
+
+Ok, now we have the player’s name and nickname, let’s welcome them to the game
+
+    print(“Hello and welcome “ + name)
+
+Now for the story. The most important part of all stories is the introduction, so let’s print our introduction
+
+    print(“Long ago, there was a magical meal known as Summuh and Spich Atip”) #We can drop a line by making a new print statement, or we can use the escape code \n
+    print(“It was said that this meal had the power to save lives, restore peace, and stop evil\nBecuase it was so powerful, it was hidden away on a mountain that could not be climbed\nBut it’s power brought unwanted attention, and a great war broke out.\nFinally, the leaders of the good side chose a single hero to go and find the Summah and Spich Atip, that hero was “ + name + “\n so ” + nickname + ‘ headed out to find this great power, and stop the war…’)
+
+Now, we’ll give the player their first choice
+
+    print(“After hiking through the wastelands for a long time, you come to a massive ravine, there is only a single way across\nA rickety old bridge, taking that could be very dangerous, but… maybe you could jump across?”)
+    choice1 = input(“[1]  Take the bridge     [2] Try and jump over”)
+    #Now we check to see what the player chose
+    If choice1 == ‘1’:
+      print(“You slowly walk across the bride, it creakes ominously, then suddenly breaks! You flail through the air before hitting the ground a thousand feet below. Judging by the fact that you hit the ground with the equivalent force of being hit by a cement truck moving at 125 miles an hour, you are dead…”)
+      #The player lost, so now we’ll boot them out of the program with the exit command
+      exit()
+    #Then we check to see if they made the other choice, we can do with with else if, written as elif
+    elif choice1 == ‘2’:
+      print(“You make the jump! You see a feather hit the bridge, the weight breakes it and sends it to the bottom of the ravine\nGood thing you didn’t use that bridge.”)
+    #Now we can continue the story
+    print(“A few more hours of travel and you come to the unclimbable mountain.”)
+    choice2 == input(“[1]   Give up    [2]    Try and climb the mountain”)
+    if choice2 == ‘1’:
+      print(“You gave up and lost…”)
+      #now we exit them again
+      exit()
+    elif choice2 == ‘1’:
+      print(“you continue up the mountain. Climbing is hard, but finally you reach the top.\nTo your surprise there is a man standing at the top of the mountain, he is very old.”)
+      print(“Old Man: Hey “ + nickname)
+      print(“You: How do you know my name!?!”)
+      print(“Old Man: Because you have a name tag on…”)
+      print(“You: Oh, well, were is the Summuh and Spich Atip?”)
+      print(“Old Man: Summuh and Spich Atip? You must mean the Pita Chips and Hummus”)
+      print(“You: Pita…chips…humus, what power do those have?”)
+      print(“Old Man: Pretty simple kid, their organic…”)
+      #Now let’s clear the screen
+      os.system(‘clear’)
+      print(“YOU WON!!!”)
+
+There you have it, a pretty simple choose your own ending story. You can make it as complex or uncomplex as you like.
+
+### 2. TEXT ENCODER
+
+Ever make secret messages as a kid? I used to. Anyways, here’s the way you can make a program to encode messages! It’s pretty simple. First things first, let’s get the message the user wants to encode, we’ll use input() for that:
+
+    message = input(“Message you would like encoded: “)
+
+Now we need to split that string into a list of characters, this part is a bit more complicated.
+
+    #We’ll make a function, so we can use it later
+    def split(x):
+      return (char for char in x)
+    #now we’ll call this function with our text
+    L_message = message.lower() #This way we can lower any of their input
+    encode = split(l_message)
+
+Now we need to convert the characters into code, well do this with a for loop:
+
+    out = []
+    for x in encode:
+      if x == ‘a’:
+        out.append(‘1’)
+      elif x == ‘b’:
+        out.append(‘2’)
+    #And we’ll continue on though this with each letter of the alphabet
+
+Once we’ve encoded the text, we’ll print it back for the user
+
+    x = ‘ ‘.join(out)
+    #this will turn out into a string that we can print
+    print(x)
+
+And if you want to decode something, it is this same process but in reverse!
+
+### 3. Guess my Number
+
+Number guessing games are fun and pretty simple, all you need are a few loops. To start, we need to import random.
+
+    import random
+
+That is pretty simple. Now we’ll make a list with the numbers were want available for the game
+
+    num_list = [1,2,3,4,5,6,7,8,9,10]
+
+Next, we get a random number from the list
+
+    num = random.choice(num_list)
+
+Now, we need to ask the user for input, we’ll to this with a while loop
+
+    while True:
+      # We could use guess = input(“What do you think my number is?   “), but that would produce a string, and numbers are integers, so we’ll convert the input into an integer
+      guess = int(input(“What do you think my number is?   “))
+      #Next, we’ll check if that number is equal to the number we picked
+      if guess == num:
+        break   #this will remove us from the loop, so we can display the win message
+      else:
+        print(“Nope, that isn’t it”)
+    #outside our loop, we’ll have the win message that is displayed if the player gets the correct number. 
+    print(“You won!”)
+
+Have fun with this!
+
+### 4. Notes
+
+Here is a more advanced project, but still pretty easy. This will be using a txt file to save some notes. The first thing we need to do is to create a txt file in your repl, name it ‘notes.txt’  
+Now, to open a file in python we use open(‘filename’, type) The type can be ‘r’ for read, or ‘w’ for write. There is another option, but we won’t be using that here. Now, the first thing we are going to do is get what the user would like to save:
+
+    message = input(“What would you like to save?”)
+
+Now we’ll open our file and save that text
+
+    o = open(‘notes.txt’, ‘w’)
+    o.write(message)
+    #this next part is very important, you need to always remember to close your file or what you wrote to it won’t be saved
+    o.close()
+
+There we go, now the information is in the file. Next, we’ll retrieve it
+
+    read = open(‘notes.txt’, ‘r’)
+    out = read.read()
+    # now we need to close the file
+    read.close()
+    # and now print what we read
+    print(out)
+
+There we go, that’s how you can open files and close files with python
+
+### 5. Random Dare Generator
+
+Who doesn’t love a good dare? Here is a program that can generate random dares. The first thing we’ll need to do is as always, import random. Then we’ll make some lists of dares
+
+    import random
+    list1 = [‘jump on’, ‘sit on’, ‘rick roll on’, ‘stop on’, ‘swing on’]
+    list2 = [‘your cat’, ‘your neighbor’, ‘a dog’, ‘a tree’, ‘a house’]
+    list3 = [‘your mom’, ‘your best friend’, ‘your dad’, ‘your teacher’]
+    #now we’ll generate a dare
+    while True:
+      if input() == ‘’: #this will trigger if they hit enter
+        print(“I dare you to “ + random.choice(list1) + ‘ ‘ + random.choice(list2) + ‘ in front of ‘  + random.choice(list3)
+
+### Discover More:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [June 4, 2021](https://medium.com/p/e5a59b5bb64d).
+
+<a href="https://medium.com/@bryanguner/beginners-guide-to-python-e5a59b5bb64d" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.
+========================================================================
+
+“JavaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with surfaces when you…
+
+------------------------------------------------------------------------
+
+### Breaking Down Scope, Context, And Closure In JavaScript In Simple Terms.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*5M3vbTjiEYMUWvLu" alt="Photo by Florian Olivo on Unsplash" class="graf-image" /><figcaption>Photo by <a href="https://unsplash.com/@florianolv?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor">Florian Olivo</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor">Unsplash</a></figcaption></figure><span class="graf-dropCap"><span class="graf-dropCapQuote">“</span>J</span>avaScript’s global scope is like a public toilet. You can’t avoid going in there, but try to limit your contact with surfaces when you do.”  
+― **Dmitry Baranowski**
+
+Here’s another (much) more simple article I wrote on the subject:
+
+<a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://dev.to/bgoonz/closures-in-javascript-1moc"><strong>Closures In Javascript</strong><br />
+<em>Answer A closure is a function defined inside another function and has access to its lexical scope even when it is…</em>dev.to</a><a href="https://dev.to/bgoonz/closures-in-javascript-1moc" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+I made this website in support of the article… it links to a navigation page as well as the repo where more examples are kept…
+
+<a href="https://scopeclosurecontext.netlify.app/" class="markup--anchor markup--p-anchor">https://scopeclosurecontext.netlify.app/</a>
+
+### Prerequisites
+
+-   <span id="dcbf">creating and initializing a variable</span>
+-   <span id="80e3">creating a function</span>
+-   <span id="3d43">invoking a function</span>
+-   <span id="1291">logging to the console</span>
+
+### further prerequisites:
+
+Quiz yourself with this website I made:
+
+<a href="https://web-dev-interview-prep-quiz-website.netlify.app/index.html" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://web-dev-interview-prep-quiz-website.netlify.app/index.html"><strong>WebDevQuizzes</strong><br />
+<em>Resource-sharing-hub</em>web-dev-interview-prep-quiz-website.netlify.app</a><a href="https://web-dev-interview-prep-quiz-website.netlify.app/index.html" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+### Vocab (most of these will be detailed many times over in this article!)
+
+-   <span id="4f93">**Scope:** “Scope is the set of rules that determines where and how a variable (identifier) can be looked-up.” — Kyle Simpson, You Don’t Know JS: Scope & Closure</span>
+-   <span id="ceff">**Function Scope:** Every variable defined in a function, is available for the entirety of that function.</span>
+-   <span id="b34e">**Global Scope:** “The scope that is visible in all other scopes.” — MDN</span>
+-   <span id="df88">**Global Variable:** A variable defined at the Global Scope.</span>
+-   <span id="ae7a">**IIFE:** Imediatly-Invoked Function Expression — a function wrapped in `()` to create an expression, and immediatly followed by a pair of `()` to invoke that function imediatly.</span>
+-   <span id="42a6">**Closure:** “Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure ‘remembers’ the environment in which it was created.” — MDN</span>
+-   <span id="023f">**Variable Shadowing:** “occurs when a variable declared within a certain scope … has the same name as a variable declared in an outer scope.” — Wikipedia</span>
+-   <span id="7ba5">**for statement:** “The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement or a set of statements executed in the loop.” — MDN</span>
+-   <span id="6f95">**initialization:** “An expression (including assignment expressions) or variable declaration. Typically used to initialize a counter variable. This expression may optionally declare new variables with the var keyword. These variables are not local to the loop, i.e. they are in the same scope the for loop is in. The result of this expression is discarded.” — MDN</span>
+-   <span id="c763">**condition:** “An expression to be evaluated before each loop iteration. If this expression evaluates to true, statement is executed. This conditional test is optional. If omitted, the condition always evaluates to true. If the expression evaluates to false, execution skips to the first expression following the for construct.” — MDN</span>
+-   <span id="0954">**final-expression:** “An expression to be evaluated at the end of each loop iteration. This occurs before the next evaluation of condition. Generally used to update or increment the counter variable.” — MDN</span>
+-   <span id="76ee">**statement:** “A statement that is executed as long as the condition evaluates to true. To execute multiple statements within the loop, use a block statement ({ … }) to group those statements.” — MDN</span>
+-   <span id="31bf">**Arrays:** “JavaScript arrays are used to store multiple values in a single variable.” — W3Schools</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/2560/1*A1vTM5TdeUhUIfWxemwUEw.png" class="graf-image" /></figure>
+
+#### I am going to try something new this article… it’s called **spaced repetition.**
+
+> <a href="https://en.wikipedia.org/wiki/Spaced_repetition" class="markup--anchor markup--blockquote-anchor"><strong>“Spaced repetition</strong></a> is an <a href="https://en.wikipedia.org/wiki/Evidence-based_learning" class="markup--anchor markup--blockquote-anchor">evidence-based learning</a> technique that is usually performed with <a href="https://en.wikipedia.org/wiki/Flashcard" class="markup--anchor markup--blockquote-anchor" title="Flashcard">flashcards</a>. Newly introduced and more difficult flashcards are shown more frequently, while older and less difficult flashcards are shown less frequently in order to exploit the psychological <a href="https://en.wikipedia.org/wiki/Spacing_effect" class="markup--anchor markup--blockquote-anchor" title="Spacing effect">spacing effect</a>. The use of spaced repetition has been proven to increase rate of learning.”
+
+<a href="https://en.wikipedia.org/wiki/Spaced_repetition" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://en.wikipedia.org/wiki/Spaced_repetition"><strong>Spaced repetition — Wikipedia</strong><br />
+<em>Spaced repetition is an evidence-based learning technique that is usually performed with flashcards. Newly introduced…</em>en.wikipedia.org</a><a href="https://en.wikipedia.org/wiki/Spaced_repetition" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+------------------------------------------------------------------------
+
+### CodePen For You To Practice With:
+
+Open it in another tab… it will only display the html file that existed when I pasted it into this article… for access to the JavaScript file and the most up to date html page you need to Open the sandbox… feel free to create a fork of it if you like!
+
+------------------------------------------------------------------------
+
+### SCOPE:
+
+-   <span id="8522">The `scope` of a program in JS is the set of variables that are available for use within the program.</span>
+-   <span id="dc76">Scope in JavaScript defines which variables and functions you have access to, depending on where you are (a *physical position*) within your code.</span>
+-   <span id="1243">The current context of execution. The context in which <a href="https://developer.mozilla.org/en-US/docs/Glossary/Value" class="markup--anchor markup--li-anchor">values</a> and **expressions** are “visible” or can be referenced. If a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Variable" class="markup--anchor markup--li-anchor"><strong>variable</strong></a> or other expression is not “in the current scope,” then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*RaM-5KbhUOZ_HoP5j-kNWQ.png" class="graf-image" /></figure>-   <span id="def6">A <a href="https://developer.mozilla.org/en-US/docs/Glossary/Function" class="markup--anchor markup--li-anchor"><strong>function</strong></a> serves as a **closure** in <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" class="markup--anchor markup--li-anchor">JavaScript</a>, and thus creates a scope, so that (for example) a variable defined exclusively within the function cannot be accessed from outside the function or within other functions:<a href="https://developer.mozilla.org/en-US/docs/Glossary/Scope" class="markup--anchor markup--li-anchor">https://developer.mozilla.org/en-US/docs/Glossary/Scope</a></span>
+-   <span id="16a2">In <a href="https://en.wikipedia.org/wiki/Computer_programming" class="markup--anchor markup--li-anchor" title="Computer programming">computer programming</a>, the **scope** of a <a href="https://en.wikipedia.org/wiki/Name_binding" class="markup--anchor markup--li-anchor">name binding</a> — an association of a name to an entity, such as a <a href="https://en.wikipedia.org/wiki/Variable_%28programming%29" class="markup--anchor markup--li-anchor" title="Variable (programming)">variable</a> — is the part of a <a href="https://en.wikipedia.org/wiki/Computer_program" class="markup--anchor markup--li-anchor" title="Computer program">program</a> where the name binding is valid, that is where the name can be used to refer to the entity. In other parts of the program the name may refer to a different entity (it may have a different binding), or to nothing at all (it may be unbound). The scope of a name binding is also known as the **visibility** of an entity, particularly in older or more technical literature — this is from the perspective of the referenced entity, not the referencing name:<a href="https://en.wikipedia.org/wiki/Scope_%28computer_science%29" class="markup--anchor markup--li-anchor">https://en.wikipedia.org/wiki/Scope_(computer_science)</a></span>
+
+**Advantages of utilizing scope**
+
+-   <span id="857d">`Security` : Adds security by ensuring variables can only be access by pre-defined parts of our program.</span>
+-   <span id="a55d">`Reduced Variable Name Collisions` : Restricts re-using variable names; helps prevent overwriting variable names.</span>
+
+### Lexical Scope
+
+Lexical scope is the ability of the inner function to access the outer scope in which it is defined.
+
+-   <span id="62b5">`Lexing Time` : When you run a piece of JS code that is parsed before it is run.</span>
+-   <span id="9320">*Lexical environment* is a place where variables and functions live during the program execution.</span>
+
+### Different Variables in JavaScript
+
+-   <span id="25bd">*A variable always evaluates to the value it contains no matter how you declare it.*</span>
+
+**The different ways to declare variables**
+
+-   <span id="1cff">`let` : can be re-assigned; block-scoped.</span>
+-   <span id="a2e4">`const` : no re-assignment; block scoped.</span>
+-   <span id="c933">`var` : May or may not be re-assigned; scoped to a function.</span>
+
+**Hoisting and Scoping with Variables**
+
+`Hoisting` is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+
+------------------------------------------------------------------------
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*Tb-9wd4RBvBCwIR2.jpeg" alt="I am afraid … sometimes… one simply does… at least analogous-ley" class="graf-image" /><figcaption>I am afraid … sometimes… one simply does… at least analogous-ley</figcaption></figure>### !!!Only function declarations are hoisted in JavaScript, function expressions are not hoisted!!!
+
+### &&
+
+### !!! Only variables declared with var are hoisted!!!!
+
+------------------------------------------------------------------------
+
+### Slightly modified excerpt from:
+
+#### <a href="https://ui.dev/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="markup--anchor markup--h4-anchor">source</a> : https://ui.dev/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/
+
+The first *Execution Context* ( a word that we don’t have to worry about the exact meaning of yet) that gets created when the JavaScript engine runs your code is called the “Global Execution Context”.
+
+Initially this Execution Context will consist of two things —
+
+-   <span id="ba1b">**a global object**</span>
+
+> ***and***
+
+-   <span id="bdfe">***a* variable called** `this`.</span>
+
+> By default the`this` keyword will act as a reference to global object which will be `window` if you’re running JavaScript in the browser or `global` if you’re running it in a Node environment.
+
+### REMEMBER:
+
+> Node: `this` references a global object called ***window*** (like the window that comprises the content of a tab in chrome)
+
+> Browsers:`this` references a global object called ***global***
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*NMGRtcYlwffqSUSH.png" class="graf-image" /></figure>Above we can see that even without any code, the Global Execution Context will still consist of two things — `window` and `this`. This is the Global Execution Context in its most basic form.
+
+Let’s step things up and see what happens when we start actually adding code to our program. Let’s start with adding a few variables.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*P8DG5hIKJO7thsnz.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*J9juq03-KlcKReSF.png" class="graf-image" /></figure>The key take away is that each Execution Context has two separate phases, a `Creation` phase and an `Execution` phase and each phase has its own unique responsibilities.
+
+------------------------------------------------------------------------
+
+### Exaction Context:
+
+#### Execution Context ≠(NOT EQUAL)≠≠≠Scope
+
+1.  <span id="0fcc">The **global execution context** is created ***before*** any code is executed.</span>
+2.  <span id="de32">Whenever a function is *executed* invoked (this means the function is told to run… i.e. after the doSomething function has been declared … calling ‘doSomething()’, a **new execution context** gets created.</span>
+3.  <span id="20c3">**Every** execution context provides `this` keyword, which points to an **object** to which the current code that’s being executed belongs.</span>
+
+For more info read about <a href="https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd" class="markup--anchor markup--p-anchor">Event Queue and Call Stack</a>
+
+------------------------------------------------------------------------
+
+#### More formal definition from: <a href="https://codeburst.io/js-demystified-04-execution-context-97dea52c8ac6" class="markup--anchor markup--h4-anchor">Misa Ogura’s article on the subject</a>
+
+In JavaScript, **execution context** is an abstract concept that holds *information about the environment* within which the current code is being executed.
+
+**Remember**: the JavaScript engine creates the global execution context before it starts to execute any code. From that point on, a new execution context gets created *every time* a function is executed, as the engine parses through your code. In fact, the global execution context is nothing special. It’s just like any other execution context, except that it gets created by default.
+
+------------------------------------------------------------------------
+
+In the Global `Creation` phase, the JavaScript engine will
+
+1.  <span id="0634">Create a global object.</span>
+2.  <span id="ed12">Create an object called “this”.</span>
+3.  <span id="b1a7">Set up memory space for variables and functions.</span>
+4.  <span id="7656">Assign variable declarations a default value of “undefined” while placing any function declarations in memory.</span>
+
+**It’s not until the** `Execution` **phase where the JavaScript engine starts running your code line by line and executing it.**
+
+We can see this flow from `Creation` **phase to** `Execution` **phase** in the GIF **below.** 🠗🠗🠗🠗🠗🠗
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*QHJcijvusr0_rqAH.gif" class="graf-image" /></figure>During the `Creation` phase:
+
+**The JavaScript engine said ‘let there be** `window` **and** `this`‘
+
+> and there was `window` and `this`… and it was good
+
+Once the `window` and `this` are created;
+
+Variable declarations are assigned a default value of `undefined`
+
+Any function declarations (`getUser`) are placed entirely into memory.
+
+**Exaction Phase:**
+
+Then once we enter the `Execution` phase, the JavaScript engine starts executing the code line by line and assigns the real values to the variables already living in memory.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+### **Function-Scoped Variables**
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*blt2vI9_uDtV7_pM9Cclkg.png" class="graf-image" /></figure>Function scope means that parameters and variables defined in a function are visible everywhere within the function, but are not visible outside of the function.
+
+Consider the next function that auto-executes, called IIFE.
+
+    (function autoexecute() {
+        let x = 1;
+    })();
+
+    console.log(x);
+    //Uncaught ReferenceError: x is not defined
+
+IIFE stands for Immediately Invoked Function Expression and is a function that runs immediately after its definition.
+
+Variables declared with `var` have only function scope. Even more, variables declared with `var` are hoisted to the top of their scope. This way they can be accessed before being declared. Take a look at the code below:
+
+    function doSomething(){
+      console.log(x);
+      var x = 1;
+    }
+
+    doSomething(); //undefined
+
+This does not happen for `let`. A variable declared with `let` can be accessed only after its definition.
+
+    function doSomething(){
+      console.log(x);
+      let x = 1;
+    }
+
+    doSomething();
+    //Uncaught ReferenceError: x is not defined
+
+A variable declared with `var` can be re-declared multiple times in the same scope. The following code is just fine:
+
+    function doSomething(){
+      var x = 1
+      var x = 2;
+      console.log(x);
+    }
+
+    doSomething();
+
+Variables declared with `let` or `const` cannot be re-declared in the same scope:
+
+    function doSomething(){
+      let x = 1
+      let x = 2;
+    }
+    //Uncaught SyntaxError: Identifier 'x' has already been declared
+
+Maybe we don’t even have to care about this, as `var` has started to become obsolete.
+
+-   <span id="504b">Only the var keyword creates function-scoped variables (however a var declared variable may be globally scoped if it is declared outside of a nested function in the global scope), this means our declared var keyword variable will be confined to the scope of our current function.</span>
+
+Why you shouldn’t use var:
+
+1.  <span id="491f">No error is thrown if you declare the same variable twice using var (conversely, both let and const will throw an error if a variable is declared twice)</span>
+2.  <span id="b04e">Variables declared with var are not block scoped (although they are function scoped), while with let and const they are. This is important because what’s the point of block scoping if you’re not going to use it. So using var in this context would require a situation in which a variable declared inside a function would need to be used in the global scope. I’m not able to think of any situations where that would be absolutely necessary, but perhaps they exist.</span>
+
+### REMEMBER:
+
+### Var===🗑🚮👎🏽🤮
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*wseqGvDH8TpNBGq9" alt="My response to anyone who might comment in defense of using var" class="graf-image" /><figcaption><strong>My response to anyone who might comment in defense of using var</strong></figcaption></figure>Also on a more serious note… if you have var in your projects in 2021 …hiring managers who peek at your projects to see your code quality will assume it was copy pasted from someone else’s legacy code circa 2014.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*KRoeNth4AXswt_9s.jpg" class="graf-image" /></figure>**Hoisting with function-scoped variables**
+
+    function test() {
+      // var hoistedVar;
+      console.log(hoistedVar); // =>  undefined
+      var hoistedVar = 10;
+    }
+
+-   <span id="b52d">Even though we initially declared & initialized our variable underneath the console.log var variables are “hoisted” to the top, but only in declaration (default value undefined until the exaction arrives at the line on which it was initialized.</span>
+
+### Scope Spaced Repetition:
+
+Scope is defined as which variables we currently have access to and where. So far in this course, we have mostly been working in `global` scope, in that we can access any variable we have created, anywhere in our code. There are a couple different levels of scope: `block` level scope is used in `if` statements and `for` loops. In `block` level scope, a variable declared using either `let` or `const` is only available within the statement or loop (like `i` in a `for` loop). Similarly, there is function scope, where `temperature` exists inside the function, but not elsewhere in your code file.
+
+### More on hoisting:
+
+#### source: <a href="https://blog.bitsrc.io/hoisting-in-modern-javascript-let-const-and-var-b290405adfda" class="markup--anchor markup--h4-anchor"><em>Hoisting in Modern JavaScript — let, const, and var</em></a>
+
+    helloWorld();  // prints 'Hello World!' to the consolefunction helloWorld(){
+      console.log('Hello World!');
+    }
+
+Function declarations are added to the memory during the compile stage, so we are able to access it in our code before the actual function declaration
+
+When the JavaScript engine encounters a call to `helloWorld()`, it will look into the lexical environment, finds the function and will be able to execute it.
+
+### Hoisting Function Expressions
+
+Only function declarations are hoisted in JavaScript, function expressions are not hoisted. For example: this code won’t work.
+
+    helloWorld();  // TypeError: helloWorld is not a functionvar helloWorld = function(){
+      console.log('Hello World!');
+    }
+
+As JavaScript only hoist declarations, not initializations (assignments), so the `helloWorld `will be treated as a variable, not as a function. Because `helloWorld` is a `var` variable, so the engine will assign is the `undefined` value during hoisting.
+
+So this code will work.
+
+    var helloWorld = function(){
+      console.log('Hello World!');  prints 'Hello World!'
+    }helloWorld();
+
+### Hoisting var variables:
+
+Let’s look at some examples to understand hoisting in case of `var` variables.
+
+    console.log(a); // outputs 'undefined'
+    var a = 3;
+
+We expected `3` but instead got `undefined`. Why?
+
+Remember JavaScript only hoist declarations, not initializations*.* That is, during compile time, JavaScript only stores function and variable declarations in the memory, not their assignments (value).
+
+**But why** `undefined`**?**
+
+When JavaScript engine finds a `var` variable declaration during the compile phase, it will add that variable to the lexical environment and initialize it with `undefined` and later during the execution when it reaches the line where the actual assignment is done in the code, it will assign that value to the variable.
+
+<a href="https://codeburst.io/js-demystified-03-scope-f841ecad5c23" class="markup--anchor markup--p-anchor">https://codeburst.io/js-demystified-03-scope-f841ecad5c23</a> is a really great article… skip down to Hoisting and Scope to pursue this topic further!
+
+------------------------------------------------------------------------
+
+### **Block-Scoped Variables**
+
+Things that create block-scopes:
+
+-   <span id="66e4">If Statements</span>
+-   <span id="9a99">While Loops</span>
+-   <span id="dc88">Switch Statements</span>
+-   <span id="c5fb">For Loops</span>
+-   <span id="089b">Curly Boiz **‘{}’ ….. anything between cury brackets is scoped to within those brackets.**</span>
+
+#### **Properties of Const declared variables:**
+
+-   <span id="2c52">**They are block-scoped like let.**</span>
+-   <span id="3d0c">JS will enforce constants by raising an error if you try to change them.</span>
+-   <span id="67b6">Constants that are assigned to <a href="https://bryanguner.medium.com/fundamental-javascript-concepts-you-should-understand-81c4d839b827" class="markup--anchor markup--li-anchor">Reference Types</a> are <a href="https://doesitmutate.xyz/" class="markup--anchor markup--li-anchor"><strong>mutable</strong></a></span>
+
+**Hoisting with block-scoped variables**
+
+-   <span id="329c">Unlike vars in function scopes,</span>
+-   <span id="f15b">let and const in their block scopes **do not get their declarations hoisted.**</span>
+-   <span id="a2f6">Instead they are not initialized until their definitions are evaluated instead of undefined we will get an error.</span>
+-   <span id="f0c6">`Temporal Dead Zone`** : The time before a let or const variable is declared.**</span>
+
+**Function Scope vs Block Scope**
+
+-   <span id="1764">The downside of the flexibility of var is that it can easily overwrite previously declared variables.</span>
+-   <span id="456f">The block-scope limitations of let and const were introduced to easily avoid accidentally overwriting variable values.</span>
+
+### **Global Variables**
+
+-   <span id="f3a2">Any variables declared without a declaration term will be considered `global scope`.</span>
+-   <span id="fc02">Every time a variable is declared on the global scope, the change of collision increases.</span>
+-   <span id="5c6a">Use the proper declarations to manage your code: Avoid being a sloppy programmer!</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*hpZDzz--eVsA-3o7.png" class="graf-image" /></figure>Variables defined outside any function, block, or module scope have global scope. Variables in global scope can be accessed from everywhere in the application.
+
+When a module system is enabled it’s harder to make global variables, but one can still do it. By defining a variable in HTML, outside any function, a global variable can be created:
+
+When there is no module system in place, it is a lot easier to create global variables. A variable declared outside any function, in any file, is a global variable.
+
+Global variables are available for the lifetime of the application.
+
+Another way for creating a global variable is to use the `window` global object anywhere in the application:
+
+    window.GLOBAL_DATA = { value: 1 };
+
+At this point, the `GLOBAL_DATA` variable is visible everywhere.
+
+    console.log(GLOBAL_DATA)
+
+As you can imagine these practices are bad practices.
+
+#### \*Module scope
+
+Before modules, a variable declared outside any function was a global variable. In modules, a variable declared outside any function is hidden and not available to other modules unless it is explicitly exported.
+
+Exporting makes a function or object available to other modules. In the next example, I export a function from the `sequence.js` module file:
+
+    // in sequence.js
+    export { sequence, toList, take };
+
+Importing makes a function or object, from other modules, available to the current module.
+
+    import { sequence, toList, toList } from "./sequence";
+
+In a way, we can imagine a module as a self-executing function that takes the import data as inputs and returns the export data.
+
+### Closures
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*r5JXVTIjV1nztgKN.jpg" class="graf-image" /></figure><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" class="markup--anchor markup--p-anchor"><strong><em>Calculating Closures</em></strong></a>
+
+-   <span id="46b0">**Closure** : The combination of a function and the lexical environment within which that function is declared.</span>
+-   <span id="0323">**Use** : A closure is when an inner function uses, or changes, variables in an outer function.</span>
+-   <span id="05be">Very important for creativity, flexibility, and security of your code.</span>
+-   <span id="d71c">`Lexical Environment` : Consists of any variables available within the scope in which a closure was declared (local inner, outer, and global).</span>
+
+### **Closures and Scope** Basic Closure Rules:
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/0*iyFQ5y0LysnsrvOc.png" class="graf-image" /></figure>-   <span id="cb9d">Closures have access to all variables in it’s lexical environment.</span>
+-   <span id="f579">A closure will keep reference to all the variables when it was defined **even if the outer function has returned**.</span>
+
+**Applications of Closures**
+
+-   <span id="12de">**Private State**</span>
+-   <span id="f3e5">JS does not have a way of declaring a function as exclusively private, however we can use closures to make a private state.</span>
+-   <span id="dbf8">**Passing Arguments Implicitly**</span>
+-   <span id="f07b">We can use closures to pass down arguments to helper functions.</span>
+
+### OVERVIEW
+
+Let’s look at the Window/Console in a browser/node environment. Type `window` to your chrome console. JavaScript is executed in this context, also known as the `global scope`.
+
+There are two types of scope in javascript, `Global Vs. Local` and that this is important to understand in terms of a computer program written in JavaScript.
+
+When a function is declared and created, a new `scope` is also created. Any variables declared within that function's scope will be `enclosed` in a lexical/private scope that belongs to that function. Also, it is important to remember that functions look `outward` for context. If some variable isn't defined in a function's scope, the function will look outside the scope chain and search for a variable being referenced in the outer scope. This is what closure is all about.
+
+In it’s most simplest of forms this is a closure:
+
+    const foo = 'bar';
+    function returnFoo () {
+      return foo;
+    }
+    returnFoo();
+    // -> reaches outside its scope to find foo because it doesn't exist inside of return Foo's scope when foo is referenced.
+
+The function body (code inside returnFoo) has access to the outside scope (code outside of returnFoo) and can access that ‘foo’ variable.
+
+Let’s look at another example:
+
+    const lastName = 'Bob';
+    function greet() {
+      const firstName = 'Jim';
+      alert(`The name's ${lastName}, ${firstName} ${lastName}`);
+    }
+    console.log(lastName);
+
+Not much different than the idea presented above, but the thought remains the same. When ‘greet’ is called, it has no context in its local scope of finding `lastName` so, it looks outside its scope to find it and use the `lastName` that is found there.
+
+Let’s take this a step further. In the given examples, we’ve seen that we have created two environments for our code. The first would be the global environment where `lastName` and `greet` exist. The second would be the local environment where the alert function is called. Let's represent those two environments like this:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*fpIwHvwpDYxatfE9.png" class="graf-image" /></figure>### What is a closure?
+
+A closure is an inner function that has access to the outer (enclosing) function’s variables — scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function’s variables, and it has access to the global variables.
+
+The inner function has access not only to the outer function’s variables, but also to the outer function’s parameters. Note that the inner function cannot call the outer function’s arguments object, however, even though it can call the outer function’s parameters directly.
+
+You create a closure by adding a function inside another function.
+
+**A Basic Example:**
+
+### Scope chain
+
+Every scope has a link to the parent scope. When a variable is used, JavaScript looks down the scope chain until it either finds the requested variable or until it reaches the global scope, which is the end of the scope chain.
+
+### Context in JavaScript
+
+-   <span id="ac33">`Scope` : Refers to the visibility and availability of variables.</span>
+-   <span id="3117">`Context` : Refers to the value of the `this` keyword when code is executed.</span>
+
+Every function invocation has both a scope and a context. Even though technically functions are objects in JS, you can think of scope as pertaining to functions in which a variable was defined, and context as the object on which some variable or method (function) may exist. Scope describes a function has access to when it is invoked (unique to each invocation). Context is always the value of the `this` keyword which in turn is a reference to the object that a piece of code exists within.
+
+Context is most often determined by how a function is invoked. When a function is called as a method of an object, `this` is set to the object the method is called on:
+
+### `this`** ?**
+
+-   <span id="2c6d">`This` : Keyword that exists in every function and evaluates to the object that is currently invoking that function.</span>
+-   <span id="2b18">**Method-Style Invocation** : syntax goes like `object.method(arg)`. (i.e. array.push, str.toUpperCase()</span>
+-   <span id="17bb">`Context` refers to the value of this within a function and `this` refers to where a function is invoked.</span>
+
+**Issues with Scope and Context**
+
+-   <span id="dd07">If `this` is called using normal function style invocation, our output will be the contents of the global object.</span>
+
+**When Methods have an Unexpected Context**
+
+-   <span id="bf17">In the above example we get undefined when we assign our this function to a variable bc there is no obj to reference except the global one!</span>
+
+**Strictly Protecting the Global Object**
+
+We can run JS in strict mode by tagging `use strict` at the top of our program.
+
+-   <span id="3c6e">If we try to invoke this on our global function in strict mode we will no longer be able to access it and instead just get undefined.</span>
+
+**Changing Context using Bind**
+
+“The simplest use of `bind()` is to make a function that, no matter how it is called, is called with a particular this value".
+
+**Binding with Arguments**
+
+-   <span id="208d">We can also use bind() to bind arguments to a function.</span>
+
+### Arrow Functions (Fat Arrows)
+
+side note … if you don’t know what this means ignore it… but if you write an arrow function that utilizes an implicit return… that’s roughly equivalent to what is referred to as a lambda function in other languages.
+
+-   <span id="4190">`=>` : A more concise way of declaring a function and also considers the behavior of `this` and context.</span>
+
+**Arrow Functions Solving Problems**
+
+As you can see the arrow function is shorter and easier to read.
+
+**Anatomy of an Arrow Function**
+
+-   <span id="a35b">If there is only a single parameter there is no need to add parenthesis before the arrow function.</span>
+-   <span id="e68f">However if there are zero parameters then you must add an empty set of parentheses.</span>
+
+**Single Expression Arrow Functions**
+
+-   <span id="635b">Arrow functions, *unlike* normal functions, carry over context, binding `this` lexically.</span>
+-   <span id="b4db">Value of `this` inside an arrow function is not dependent on how it is invoked.</span>
+-   <span id="4b3f">Because arrow functions already have a *bound context*, you can’t reassign `this`.</span>
+
+------------------------------------------------------------------------
+
+#### Phewh… that’s a lot… let’s go over some of that again!
+
+### Block Scope Review:
+
+Block scope is defined with curly braces. It is separated by `{` and `}`.
+
+Variables declared with `let` and `const` can have block scope. They can only be accessed in the block in which they are defined.
+
+Consider the next code that emphasizes `let` block scope:
+
+    let x = 1;
+    { 
+      let x = 2;
+    }
+    console.log(x); //1
+
+In contrast, the `var` declaration has no block scope:
+
+    var x = 1;
+    { 
+      var x = 2;
+    }
+    console.log(x); //2
+
+------------------------------------------------------------------------
+
+### Closures Spaced Repetition
+
+**1. Closures have access to the outer function’s variable even after the outer function returns:**
+
+One of the most important features with closures is that the inner function still has access to the outer function’s variables even after the outer function has returned.
+
+**When functions in JavaScript execute, they use the same scope chain that was in effect when they were created.**
+
+This means that even after the outer function has returned, the inner function still has access to the outer function’s variables. Therefore, you can call the inner function later in your program.
+
+See here:
+
+**2. Closures store references to the outer function’s variables:**
+
+> They do not store the actual value.
+
+Closures get more interesting when the value of the outer function’s variable changes before the closure is called.
+
+And this powerful feature can be harnessed in creative ways…namely private variables.
+
+**3. Closures Gone Bad**
+
+Because closures have access to the updated values of the outer function’s variables, they can also lead to bugs when the outer function’s variable changes with a for loop.
+
+For example:
+
+<span class="graf-dropCap">C</span>closure is a word we use to refer to the context of a given function. Normally our function starts from scratch every time we run it.
+
+However, if we were to return a function from `addOne()` that referenced `counter`, counter would become part of the context of that new function, even after `addOne()` finishes executing. This is easier to see in code than to explain in words:
+
+This works! we only instantiate counter when `createAdder()` is called, but it's value gets updated whenever the function it returns is called.
+
+> We say that this inner function is closed around the variable `counter`
+
+> Definition*: (According to MDN) A closure is the combination of a function and the lexical environment within which that function was declared.*
+
+------------------------------------------------------------------------
+
+### Global Scope Spaced Repetition:
+
+Scope in JavaScript works like it does in most languages. If something is defined at the root level, that’s global scope — we can *access (and modify)* that variable from anywhere. If it’s a function we defined, we can *call* it from anywhere.
+
+### The Problem with Global Scope
+
+So it seems we should declare all of our variables at the global scope.
+
+> Why could this be a problem?
+
+It seems reasonable to want `counter` to *only* be accessed/modified through our `addOne()` function, but if our variable is defined within the global scope, it's simply not so.
+
+This may not seem like a major concern — we can just make sure we don’t access it directly.
+
+We need some form of encapsulation — i.e. the data our function relies on is *completely* contained within the logic of that function
+
+### Inner Scope
+
+OK, this seems to work as expected, however
+
+> What about inside of our `addOne()` function?
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*hCP3tX_zDtTQLRQT.png" class="graf-image" /></figure>Every function creates it’s own local scope.
+
+Compared to it’s context (i.e. *where* our function is defined), we call this the inner scope
+
+Our function can access/modify anything outside of it’s scope, so the body of our function, `{ counter++; }`, has an effect that persists in the outside scope.
+
+> What about the other way around…Can global scope modify inner scope?
+
+Because `counter` is *defined* within our function's scope, it doesn't exist within the global scope, so referencing it there doesn't make sense.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*K-GktN0XO2Gw6BPK.png" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+### Context vs. Scope
+
+The first important thing to clear up is that context and scope are not the same. I have noticed many developers over the years often confuse the two terms (myself included), incorrectly describing one for the other.
+
+Every function invocation has both a scope and a context associated with it.
+
+To condense it down to a single concept, scope is function-based while context is object-based.
+
+#### In other words, scope pertains to the variable access of a function when it is invoked and is unique to each invocation. Context is always the value of the `this` keyword which is a reference to the object that "owns" the currently executing code.
+
+### Variable Scope
+
+A variable can be defined in either local or global scope, which establishes the variables’ accessibility from different scopes during runtime.
+
+Local variables exist only within the function body of which they are defined and will have a different scope for every call of that function. There it is subject for value assignment, retrieval, and manipulation only within that call and is not accessible outside of that scope.
+
+ECMAScript 6 (ES6/ES2015) introduced the `let` and `const` keywords that support the declaration of block scope local variables.
+
+This means the variable will be confined to the scope of a block that it is defined in, such as an `if` statement or `for` loop and will not be accessible outside of the opening and closing curly braces of the block.
+
+This is contrary to `var` declarations which are accessible outside blocks they are defined in.
+
+The difference between `let` and `const` is that a `const` declaration is, as the name implies, constant - a read-only reference to a value.
+
+#### This does not mean the value is immutable, just that the variable identifier cannot be reassigned.
+
+### Closure Spaced Repetition:
+
+#### recall:
+
+<span class="graf-dropCap">L</span><a href="https://www.educative.io/edpresso/lexical-scope-in-javascript" class="markup--anchor markup--p-anchor"><strong>exical scope</strong></a> is the ability for a function scope to access variables from the parent scope. We call the child function to be lexically bound by that of the parent function.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*5RWAkuw8fkbTV6MRabyfhQ.png" class="graf-image" /></figure>### AND
+
+A *lexical environment* is an abstraction that holds **identifier-variable mapping**. I**dentifier** refers to the name of variables/functions, and **the variable** is the reference to actual object \[including function object\] or primitive value.
+
+This is similar to an object with a method on it…
+
+In the picture below… sayHi (and name) are identifiers and the function and (string “bryan”) are variable values.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*ewwHx4vO170sT3tneB--2A.png" class="graf-image" /></figure>#### Accessing variables outside of the immediate lexical scope creates a closure.
+
+A closure is to put it simply, when a nested function is defined inside of another function gains access to the outer functions variables.
+
+Returning the nested function from the ‘parent function’ that enclosed the nested function definition, allows you to maintain access to the local variables, (arguments, and potentially even more inner function declarations) of its outer function… without exposing the variables or arguments of outer function…. to any of the other functions that were not declared inside of it.
+
+### What is “this” Context
+
+Context is most often determined by how a function is invoked.
+
+When a function is called as a method of an object, `this` is set to the object the method is called on:
+
+The same principle applies when invoking a function with the `new` operator to create an instance of an object.
+
+When invoked in this manner, the value of `this` within the scope of the function will be set to the newly created instance:
+
+When called as an unbound function, `this` will default to the global context or window object in the browser. However, if the function is executed in *strict mode*, the context will default to undefined.
+
+### Execution Context Spaced Repetition:
+
+JavaScript is a single threaded language, meaning only one task can be executed at a time. When the JavaScript interpreter initially executes code, it first enters into a global execution context by default. Each invocation of a function from this point on will result in the creation of a new execution context.
+
+This is where confusion often sets in, the term **“execution context” is actually for all intents and purposes referring more to scope and not context.**
+
+It is an unfortunate naming convention, however it is the terminology as defined by the ECMAScript specification, so we’re kind of stuck with it.
+
+Each time a new execution context is created it is appended to the top of the *execution stack (call stack).*
+
+The browser will always execute the current execution context that is atop the execution stack. Once completed, it will be removed from the top of the stack and control will return to the execution context below.
+
+An execution context can be divided into a creation and execution phase. In the creation phase, the interpreter will first create a *variable object* that is composed of all the variables, function declarations, and arguments defined inside the execution context.
+
+From there the *scope chain* is initialized next, and the value of `this` is determined last. Then in the execution phase, code is interpreted and executed.
+
+-   <span id="af9a"><a href="https://javascript.info/closure" class="markup--anchor markup--li-anchor">source</a></span>
+
+<a href="https://replit.com/@bgoonz/scope-closure-context" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://replit.com/@bgoonz/scope-closure-context"><strong>scope-closure-context</strong><br />
+<em>To accompany my medium article on the subject</em>replit.com</a><a href="https://replit.com/@bgoonz/scope-closure-context" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Resources
+
+<a href="https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures" class="markup--anchor markup--p-anchor">YDKJS</a>
+
+<a href="http://dmitrysoshnikov.com/ecmascript/javascript-the-core/#variable-object" class="markup--anchor markup--p-anchor">Dmitry Soshnikov, Javascript:Core</a>
+
+<a href="http://dmitrysoshnikov.com/ecmascript/chapter-2-variable-object/" class="markup--anchor markup--p-anchor">ECMA 262.3</a>
+
+<a href="https://stackoverflow.com/questions/111102/how-do-javascript-closures-work" class="markup--anchor markup--p-anchor">StackOverflow</a>
+
+<a href="https://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691" class="markup--anchor markup--p-anchor">Nick Zakas</a>
+
+### Conclusion
+
+Variables defined in global scope are available everywhere in the application.
+
+In a module, a variable declared outside any function is hidden and not available to other modules unless it is explicitly exported.
+
+Function scope means that parameters and variables defined in a function are visible everywhere within the function
+
+Variables declared with `let` and `const` have block scope. `var` doesn’t have block scope.
+
+### CITAIONS:
+
+#### 1.) JavaScript <a href="https://medium.com/@marjanrab/javascript-scope-context-and-this-under-the-hood-43c32033c9f9" class="markup--anchor markup--h4-anchor">Scope Context and ‘this’ under the hood</a>
+
+#### 2.) MDN <a href="https://github.com/mdn/content" class="markup--anchor markup--h4-anchor">Content Repo:</a>
+
+#### 3.) The Ultimate <a href="https://ui.dev/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/" class="markup--anchor markup--h4-anchor">Guide to Hoisting, Scopes, and Closures in JavaScript</a>
+
+#### 4.) Deep <a href="https://www.freecodecamp.org/news/deep-dive-into-scope-chains-and-closures-21ee18b71dd9/" class="markup--anchor markup--h4-anchor">dive into Scope Chains and Closures</a>
+
+#### 5.) A <a href="https://dmitripavlutin.com/simple-explanation-of-javascript-closures/" class="markup--anchor markup--h4-anchor">Simple Explanation of JavaScript Closures</a>
+
+#### 6.) <a href="https://blog.bitsrc.io/hoisting-in-modern-javascript-let-const-and-var-b290405adfda" class="markup--anchor markup--h4-anchor">JavaScript.info Hoisting</a>
+
+#### 7.) <a href="https://www.freecodecamp.org/news/an-introduction-to-scope-in-javascript-cbd957022652/" class="markup--anchor markup--h4-anchor">An introduction to scope in JavaScript</a>
+
+#### 8.) <a href="https://dev.to/johnwolfe820/should-you-never-truly-use-var-bdi" class="markup--anchor markup--h4-anchor">Should You Truly Never Use Var?</a>
+
+#### 9.) <a href="https://stackoverflow.com/questions/111102/how-do-javascript-closures-work" class="markup--anchor markup--h4-anchor">How do JavaScript closures work?</a>
+
+### Check out my blog!
+
+<a href="https://best-celery-b2d7c.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://best-celery-b2d7c.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>preview of the Web-Dev-Hub</em>best-celery-b2d7c.netlify.app</a><a href="https://best-celery-b2d7c.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Ask Me Anything:
+
+<a href="https://github.com/bgoonz/ask-me-anything" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/ask-me-anything"><strong>bgoonz/ask-me-anything</strong><br />
+<em>I get questions by email, occasionally. This way anyone can read the answer! Anything means anything. Personal…</em>github.com</a><a href="https://github.com/bgoonz/ask-me-anything" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [May 30, 2021](https://medium.com/p/f126f1523104).
+
+<a href="https://medium.com/@bryanguner/scope-closures-context-in-javascript-f126f1523104" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+CSS Interview Prep Quiz
+=======================
+
+Plus Css Cheat Sheet (82 questions total)
+
+------------------------------------------------------------------------
+
+### CSS Interview Prep Quiz
+
+#### Plus Css Cheat Sheet (82 questions total)
+
+> Scroll Down To skip to quiz:
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*3qTmnYskDL2PrW06.jpg" class="graf-image" /></figure>### Source:
+
+#### <a href="https://websitesetup.org/css3-cheat-sheet/" class="markup--anchor markup--h4-anchor">Complete CSS Cheat Sheet</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*aahUgWrL4_5GILfw.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*2PQgJNqe_nP6lWnz.png" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/800/0*lOzM74JQovP54m_v.png" class="graf-image" /></figure>#### Q1. In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
+
+    ul li a
+    a
+    .example a
+    div a
+
+-   <span id="8dcb">\[x\] `.example a`</span>
+-   <span id="37da">\[ \] `div a`</span>
+-   <span id="09ae">\[ \] `a`</span>
+-   <span id="a2d4">\[ \] `ul li a`</span>
+
+#### Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
+
+-   <span id="558d">\[x\] a\[title\]{…}</span>
+-   <span id="768a">\[ \] a &gt; title {…}</span>
+-   <span id="395f">\[ \] a.title {…}</span>
+-   <span id="d6fa">\[ \] a=title {…}</span>
+
+#### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or it you need to support older browser version. What are two valid techniques used to clear floats?
+
+-   <span id="2ea7">\[ \] Use the “clearfix hack” on the floated element and add a float to the parent element.</span>
+-   <span id="53b9">\[ \] Use the overflow property on the floated element or the “clearfix hack” on either the floated or parent element.</span>
+-   <span id="0f0b">\[ \] Use the “clearfix hack” on the floated element or the overflow property on the parent element.</span>
+-   <span id="3558">\[x\] Use the “clearfix hack” on the parent element or use the overflow property with a value other than “visible.”</span>
+
+#### Q4. What element(s) do the following selectors match to?
+
+`1) .nav {...}` `2) nav {...}` `3) #nav {...}`
+
+-   <span id="59b9">\[ \]</span>
+
+<!-- -->
+
+    1. An element with an ID of "nav"
+    2. A nav element
+    3. An element with a class of "nav"
+
+-   <span id="2ddd">\[ \]</span>
+
+<!-- -->
+
+    They all target the same nav element.
+
+-   <span id="1b5d">\[x\]</span>
+
+<!-- -->
+
+    1. An element with an class of "nav"
+    2. A nav element
+    3. An element with a id of "nav"
+
+-   <span id="7558">\[ \]</span>
+
+<!-- -->
+
+    1. An element with an class of "nav"
+    2. A nav element
+    3. An div with a id of "nav"
+
+#### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
+
+-   <span id="1ed9">\[ \] Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.</span>
+-   <span id="f371">\[ \] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.</span>
+-   <span id="bb37">\[x\] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.</span>
+-   <span id="4dcd">\[ \] Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.</span>
+
+#### Q6. What is true of block and inline elements? (Alternative: Which statement about block and inline elements is true?)
+
+-   <span id="c7aa">\[ \] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.</span>
+-   <span id="a457">\[x\] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.</span>
+-   <span id="4df6">\[ \] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.</span>
+-   <span id="15e8">\[ \] A `<span>` is an example of a block element. `<div>` is an example of an inline element.</span>
+
+#### Q7. CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+
+    .grid {
+      display: grid;
+      width: 500px;
+      grid-template-columns: 50px 1fr 2fr;
+    }
+
+-   <span id="517b">\[ \] The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.</span>
+-   <span id="c350">\[x\] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.</span>
+-   <span id="5495">\[ \] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.</span>
+-   <span id="58be">\[ \] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.</span>
+
+#### Q8. What is the line-height property primarily used for?
+
+-   <span id="f5fb">\[x\] to control the height of the space between two lines of content</span>
+-   <span id="03a3">\[ \] to control the height of the space between heading elements</span>
+-   <span id="67d7">\[ \] to control the height of the character size</span>
+-   <span id="7238">\[ \] to control the width of the space between characters</span>
+
+#### Q9. Three of these choices are true about class selectors. Which is NOT true?
+
+-   <span id="20d4">\[ \] Multiple classes can be used within the same element.</span>
+-   <span id="c4b6">\[ \] The same class can be used multiple times per page.</span>
+-   <span id="b46b">\[ \] Class selectors with a leading period</span>
+-   <span id="b01a">\[x\] Classes can be used multiple times per page but not within the same element.</span>
+
+#### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
+
+-   <span id="f95e">\[x\] position</span>
+-   <span id="6b6c">\[ \] flexbox</span>
+-   <span id="f283">\[ \] grid</span>
+-   <span id="e4ae">\[ \] float</span>
+
+#### Q11. In the shorthand example below, which individual background properties are represented?
+
+`background: blue url(image.jpg) no-repeat scroll 0px 0px;`
+
+-   <span id="ad35">\[x\]</span>
+
+<!-- -->
+
+    background-color: blue;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px 0px;
+
+-   <span id="b674">\[ \]</span>
+
+<!-- -->
+
+    background-color: blue;
+    background-img: url(image.jpg);
+    background-position: no-repeat;
+    background-scroll: scroll;
+    background-size: 0px 0px;
+
+-   <span id="da6f">\[ \]</span>
+
+<!-- -->
+
+    background-color: blue;
+    background-src: url(image.jpg);
+    background-repeat: no-repeat;
+    background-wrap: scroll;
+    background-position: 0px 0px;
+
+-   <span id="e005">\[ \]</span>
+
+<!-- -->
+
+    background-color: blue;
+    background-src: url(image.jpg);
+    background-repeat: no-repeat;
+    background-scroll: scroll;
+    background-position: 0px 0px;
+
+#### Q12. In the following example, according to cascading and specificity rules, what color will the link be?
+
+    .example {
+      color: yellow;
+    }
+    ul li a {
+      color: blue;
+    }
+    ul a {
+      color: green;
+    }
+    a {
+      color: red;
+    }
+
+    <ul>
+      <li><a href="#" class="example">link</a></li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+
+-   <span id="afd9">\[ \] green</span>
+-   <span id="f3bd">\[x\] yellow</span>
+-   <span id="85a8">\[ \] blue</span>
+-   <span id="d453">\[ \] red</span>
+
+#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?
+
+-   <span id="9371">\[x\] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.</span>
+-   <span id="48a2">\[ \] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.</span>
+-   <span id="8328">\[ \] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.</span>
+-   <span id="6f2e">\[ \] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.</span>
+
+#### Q14. What is the difference between the following line-height settings?
+
+    line-height: 20px
+    line-height: 2
+
+-   <span id="96d7">\[x\] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.</span>
+-   <span id="ed5a">\[ \] The value of 20px will set the line-height to 20px. The value of 2 is not valid.</span>
+-   <span id="ed9d">\[ \] The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.</span>
+-   <span id="8591">\[ \] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to 20% of the corresponding font-size value.</span>
+
+#### Q15. In the following example, what color will paragraph one and paragraph two be? (Alternative: In this example, what color will paragraphs one and two be?)
+
+    <section>
+      <p>paragraph one</p>
+    </section>
+
+    <p>paragraph two</p>
+
+    section p {
+      color: red;
+    }
+    section + p {
+      color: blue;
+    }
+
+-   <span id="dd2a">\[ \] Paragraph one will be blue, paragraph two will be red.</span>
+-   <span id="3a7c">\[ \] Both paragraphs will be blue.</span>
+-   <span id="b3cf">\[x\] Paragraphs one will be red, paragraph two will be blue.</span>
+-   <span id="c825">\[ \] Both paragraphs will be red.</span>
+
+#### Q16.What are three valid ways of adding CSS to an HTML page?
+
+-   <span id="4246">\[ \]</span>
+
+<!-- -->
+
+    1. External; CSS is written in a separate file.
+    2. Inline; CSS is added to the <head> of the HTML page.
+    3. Internal; CSS is included within the HTML tags.
+
+-   <span id="94e5">\[ \]</span>
+
+<!-- -->
+
+    1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
+    2. Inline; CSS is added to the HTML tag.
+    3. Internal; CSS is included within the <header> element of the HTML file.
+
+-   <span id="e8e5">\[ \]</span>
+
+<!-- -->
+
+    1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+    2. Internal; CSS is included within the <header> element of the HTML file.
+    3. Inline; CSS is added to the HTML tag.
+
+-   <span id="4992">\[x\]</span>
+
+<!-- -->
+
+    1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
+    2. Inline; CSS is added to the HTML tag.
+    3. Internal; CSS is included within the <head> element of the HTML file.
+
+#### Q17. Which of the following is true of the SVG image format? (Alternative: Which statement about the SVG image format is true?)
+
+-   <span id="12ae">\[ \] CSS can be applied to SVGs but JavaScript cannot be.</span>
+-   <span id="c2ab">\[ \] SVGs work best for creating 3D graphics.</span>
+-   <span id="9ba2">\[x\] SVGs can be created as a vector graphic or coded using SVG specific elements such as &lt;svg&gt;, &lt;line&gt;, and &lt;ellipse&gt;.</span>
+-   <span id="c02b">\[ \] SVGs are a HAML-based markup language for creating vector graphics.</span>
+
+#### Q18. In the example below, when will the color pink be applied to the anchor element?
+
+    a:active {
+      color: pink;
+    }
+
+-   <span id="528b">\[ \] The color of the link will display as pink after its been clicked or if the mouse is hovering over the link.</span>
+-   <span id="43b3">\[ \] The color of the link will display as pink on mouse hover.</span>
+-   <span id="0448">\[x\] The color of the link will display as pink while the link is being clicked but before the mouse click is released.</span>
+-   <span id="45db">\[ \] The color of the link will display as pink before it has been clicked.</span>
+
+#### Q19. To change the color of an SVG using CSS, which property is used?
+
+-   <span id="9f10">\[ \] Use background-fill to set the color inside the object and stroke or border to set the color of the border.</span>
+-   <span id="4955">\[ \] The color cannot be changed with CSS.</span>
+-   <span id="f7c0">\[ \] Use fill or background to set the color inside the object and stroke to set the color of the border.</span>
+-   <span id="724e">\[x\] Use fill to set the color inside the object and stroke to set the color of the border.</span>
+
+#### Q20. When using position: fixed, what will the element always be positioned relative to?
+
+-   <span id="fe9c">\[ \] the closest element with position: relative</span>
+-   <span id="61e5">\[x\] the viewport</span>
+-   <span id="6260">\[ \] the parent element</span>
+-   <span id="50f0">\[ \] the wrapper element</span>
+
+#### Q21. By default, a background image will repeat `\_\_\_`
+
+-   <span id="ff58">\[ \] only if the background-repeat property is set to repeat</span>
+-   <span id="e1f3">\[x\] indefinitely, vertically, and horizontally</span>
+-   <span id="c6c7">\[ \] indefinitely on the horizontal axis only</span>
+-   <span id="129a">\[ \] once, on the x and y axis</span>
+
+#### Q22. When using media queries, media types are used to target a device category. Which choice lists current valid media types?
+
+-   <span id="8014">\[ \] print, screen, aural</span>
+-   <span id="3487">\[ \] print, screen, television</span>
+-   <span id="64a8">\[x\] print, screen, speech</span>
+-   <span id="73f7">\[ \] print, speech, device</span>
+
+#### Q23. How would you make the first letter of every paragraph on the page red?
+
+-   <span id="7012">\[x\] p::first-letter { color: red; }</span>
+-   <span id="1b1b">\[ \] p:first-letter { color: red; }</span>
+-   <span id="c339">\[ \] first-letter::p { color: red; }</span>
+-   <span id="e2f8">\[ \] first-letter:p { color: red; }</span>
+
+#### Q24. In this example, what is the selector, property, and value?
+
+    p {
+      color: #000000;
+    }
+
+-   <span id="2d3c">\[ \]</span>
+
+<!-- -->
+
+    "p" is the selector
+    "#000000" is the property
+    "color" is the value
+
+-   <span id="eacd">\[x\]</span>
+
+<!-- -->
+
+    "p" is the selector
+    "color" is the property
+    "#000000" is the value
+
+-   <span id="b7d2">\[ \]</span>
+
+<!-- -->
+
+    "color" is the selector
+    "#000000" is the property
+    "#p" is the value
+
+-   <span id="d45e">\[ \]</span>
+
+<!-- -->
+
+    "color" is the selector
+    "p" is the property
+    "#000000" is the value
+
+#### Q25. What is the rem unit based on?
+
+-   <span id="a6f1">\[ \] The rem unit is relative to the font-size of the p element.</span>
+-   <span id="ef56">\[ \] You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }</span>
+-   <span id="0f15">\[ \] The rem unit is relative to the font-size of the containing (parent) element.</span>
+-   <span id="932b">\[x\] The rem unit is relative to the font-size of the root element of the page.</span>
+
+#### Q26.Which of these would give a block element rounded corners?
+
+-   <span id="6abe">\[ \] corner-curve: 10px</span>
+-   <span id="30ca">\[ \] border-corner: 10px</span>
+-   <span id="942b">\[x\] border-radius: 10px</span>
+-   <span id="f0c6">\[ \] corner-radius: 10px</span>
+
+#### Q27. In the following media query example, what conditions are being targeted?
+
+    @media (min-width: 1024px), screen and (orientation: landscape) { … }
+
+-   <span id="1c01">\[x\] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.</span>
+-   <span id="4328">\[ \] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.</span>
+-   <span id="09e2">\[ \] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.</span>
+-   <span id="0a5b">\[ \] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.</span>
+
+#### Q28. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element’s transformation origin. By default, what is the location of the origin?
+
+-   <span id="436c">\[x\] the top left corner of the element</span>
+-   <span id="2269">\[ \] the center of the element</span>
+-   <span id="15a2">\[ \] the top right corner of the element</span>
+-   <span id="c037">\[ \] the bottom left of the element</span>
+
+#### Q29. Which of the following is not a valid color value?
+
+-   <span id="1101">\[ \] color: \#000</span>
+-   <span id="3038">\[ \] color: rgb(0,0,0)</span>
+-   <span id="f7d6">\[ \] color: \#000000</span>
+-   <span id="5eff">\[x\] color: 000000</span>
+
+#### Q30. What is the vertical gap between the two elements below?
+
+    <div style="margin-bottom: 2rem;">Div 1</div>
+    <div style="margin-top: 2rem;">Div 2</div>
+
+-   <span id="05d8">\[x\] 2rem</span>
+-   <span id="1af6">\[ \] 32px</span>
+-   <span id="df6e">\[ \] 64px</span>
+-   <span id="5ba6">\[ \] 4rem</span>
+
+#### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
+
+-   <span id="8f2e">\[x\] flex-flow: column; or flex-direction: column</span>
+-   <span id="788e">\[ \] flex-flow: column;</span>
+-   <span id="6fbe">\[ \] flex-column: auto;</span>
+-   <span id="3a1a">\[ \] flex-direction: column;</span>
+
+#### Q32. Which type of declaration will take precedence?
+
+-   <span id="c09f">\[ \] any declarations in user-agent stylesheets</span>
+-   <span id="ccd0">\[x\] important declarations in user stylesheets</span>
+-   <span id="4014">\[ \] normal declarations in author stylesheets</span>
+-   <span id="f49d">\[ \] important declarations in author stylesheets</span>
+
+#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
+
+-   <span id="b727">\[x\] Example 1: `flex-direction: row;` Example 2: `flex-direction: row-reverse;` Example 3: `flex-direction: column;` Example 4: `flex-direction: column-reverse;`</span>
+-   <span id="078d">\[ \] Example 1: `flex-direction: row-reverse;` Example 2: `flex-direction: row;` Example 3: `flex-direction: column-reverse;` Example 4: `flex-direction: column;`</span>
+-   <span id="e098">\[ \] Example 1: `flex-direction: row;` Example 2: `flex-direction: row-reverse;` Example 3: `flex-direction: column;` Example 4: `flex-direction: reverse-column;`</span>
+-   <span id="483c">\[ \] Example 1: `flex-direction: column;` Example 2: `flex-direction: column-reverse;` Example 3: `flex-direction: row;` Example 4: `flex-direction: row-reverse;`</span>
+
+#### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
+
+    h2 ~ p {
+      color: blue;
+    }
+    h2 + p {
+      background: beige;
+    }
+
+    <section>
+      <p>paragraph 1</p>
+      <h2>Heading</h2>
+      <p>paragraph 2</p>
+      <p>paragraph 3</p>
+    </section>
+
+-   <span id="f0c8">\[ \] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.</span>
+-   <span id="133d">\[x\] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.</span>
+-   <span id="0eb4">\[x\] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.</span>
+-   <span id="e353">\[ \] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.</span>
+
+#### Q35. When using flexbox, the “justify-content” property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+
+-   <span id="cd2a">\[x\] justify-content: space-around;</span>
+-   <span id="bd21">\[ \] justify-content: center;</span>
+-   <span id="e2ab">\[ \] justify-content: auto;</span>
+-   <span id="9336">\[ \] justify-content: space-between;</span>
+
+#### Q36. There are many advantages to using icon fonts. What is one of those advantages?
+
+-   <span id="b199">\[ \] Icon fonts increase accessibility.</span>
+-   <span id="d2bb">\[ \] Icon fonts can be used to replace custom fonts.</span>
+-   <span id="f602">\[x\] Icon fonts can be styled with typography related properties such as font-size and color.</span>
+-   <span id="06c5">\[ \] Icon fonts are also web safe fonts.</span>
+
+#### Q37. What is the difference between `display:none` and `visibility:hidden`?
+
+-   <span id="07a0">\[ \] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support</span>
+-   <span id="6e5c">\[ \] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document</span>
+-   <span id="9b7b">\[x\] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.</span>
+-   <span id="b618">\[ \] There is no difference; both will hide the element on the page</span>
+
+#### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
+
+-   <span id="6075">\[ \] element:hover {scale: 0.5;}</span>
+-   <span id="b4b8">\[x\] element:hover {transform: scale(0.5);}</span>
+-   <span id="766f">\[ \] element:hover {scale: 50%;}</span>
+-   <span id="1631">\[ \] element:hover {transform: scale(50%);}</span>
+
+#### Q39. Which statement regarding icon fonts is true?
+
+-   <span id="e052">\[ \] Icon fonts can be inserted only using JavaScript.</span>
+-   <span id="3a2f">\[ \] Icon fonts are inserted as inline images.</span>
+-   <span id="7abf">\[ \] Icon fonts require browser extensions.</span>
+-   <span id="3e84">\[x\] Icon fonts can be styled with typography-related properties such as font-size and color.</span>
+
+#### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
+
+`font-weight: 400; font-weight: 700;`
+
+-   <span id="93d9">\[ \] bold; normal</span>
+-   <span id="e81b">\[x\] normal; bold</span>
+-   <span id="6844">\[ \] light; normal</span>
+-   <span id="a658">\[ \] normal; bolder</span>
+
+#### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
+
+`.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
+
+-   <span id="6c18">\[x\] 50px, 150px, 300px</span>
+-   <span id="feee">\[ \] 50px, 200px, 300px</span>
+-   <span id="be1e">\[ \] 50px, 100px, 200px</span>
+-   <span id="2d94">\[ \] 50px, 50px, 100px</span>
+
+#### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+
+-   <span id="d0e6">\[ \]</span>
+
+<!-- -->
+
+    li:nth-child(3 + 2n) {
+      margin: 0 5 px;
+    }
+
+-   <span id="92af">\[x\]</span>
+
+<!-- -->
+
+    li:nth-child(3n + 2) {
+      margin: 0 5 px;
+    }
+
+-   <span id="d2fe">\[ \]</span>
+
+<!-- -->
+
+    li:nth-child(2),
+    li:nth-child(5),
+    li:nth-child(8) {
+      margin: 0 5 px;
+    }
+
+-   <span id="7dcb">\[ \]</span>
+
+<!-- -->
+
+    li:nth-child(2n + 3) {
+      margin: 0 5 px;
+    }
+
+#### Q43. Which selector would select only internal links within the current page?
+
+-   <span id="c0b6">\[ \] `a[href="#"] {...}`</span>
+-   <span id="e4b5">\[ \] `a[href~="#"]`</span>
+-   <span id="3783">\[ \] `a[href^="#"]`</span>
+-   <span id="7a55">\[x\] `a[href="#"]`</span>
+
+#### Q44. What is not true about class selectors?
+
+-   <span id="3964">\[x\] Only one class value can be assigned to an element.</span>
+-   <span id="9dbc">\[ \] An element can have multiple class value.</span>
+-   <span id="d787">\[ \] Class selectors are marked with a leading period.</span>
+-   <span id="8b13">\[ \] More than one element can have the same class value.</span>
+
+#### Q45. What is the difference between the margin and padding properties?
+
+-   <span id="8ea3">\[ \] Margin adds space around and inside of an element; padding adds space only inside of an element.</span>
+-   <span id="6617">\[x\] Margin adds space around an element; padding adds apace inside of an element.</span>
+-   <span id="5b08">\[ \] Margin adds a line around an element, padding adds space inside of an element.</span>
+-   <span id="e1d0">\[ \] Margin adds space inside of an element, padding adds space around an element.</span>
+
+#### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+
+-   <span id="ccfb">\[x\] padding: 10px 10px 0px 0px;</span>
+-   <span id="17cc">\[ \] padding: 10px 0px;</span>
+-   <span id="cff2">\[ \] padding: 10px 0;</span>
+-   <span id="cedb">\[ \] padding: 10px 0px 10px 0px;</span>
+
+#### Q47. Is there an error in this code? If so, find the best description of the problem
+
+    @font-face {
+      font-family: 'Avenir', sans-serif;
+      src: url('avenir.woff2') format('woff2'), url('avenir.woff') format('woff');
+    }
+
+-   <span id="a817">\[ \] The font file formats are not supported in modern browsers.</span>
+-   <span id="81cd">\[ \] The src attribute requires a comma between the URL and format values.</span>
+-   <span id="4578">\[ \] There are no errors in the example.</span>
+-   <span id="8d73">\[x\] The sans-serif inclusion is problematic.</span>
+
+#### Q48. Which style places an element at a fixed location within its container?
+
+-   <span id="0209">\[x\] position: absolute;</span>
+-   <span id="2fe7">\[ \] display: flex;</span>
+-   <span id="b051">\[ \] display: block;</span>
+-   <span id="f3d5">\[ \] float: left;</span>
+
+#### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
+
+    .example {
+      margin-left: calc(5% + 5px);
+    }
+
+-   <span id="e7bf">\[x\] The left margin value is equal to 5% of its parents element’s width plus 5px</span>
+-   <span id="d573">\[ \] The left margin value is equal to 5% of the viewport width plus 5px</span>
+-   <span id="9e5c">\[ \] The left margin value is equal to 5% of the closest positioned element’s width plus 5px</span>
+-   <span id="e324">\[ \] The left margin value is equal to 5% of the selected element’s width (.example) plus 5px</span>
+
+#### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
+
+-   <span id="1fdd">\[x\] `a[title]`</span>
+-   <span id="bbf2">\[ \] `a > title`</span>
+-   <span id="3017">\[ \] `a=title`</span>
+-   <span id="149c">\[ \] `a.title`</span>
+
+#### Q51. Which code would you use to absolutely position an element of the logo class?
+
+-   <span id="1d15">\[x\] `.logo { position: absolute; left: 100px; top: 150px; }`</span>
+-   <span id="ba83">\[ \] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`</span>
+-   <span id="69d7">\[ \] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`</span>
+-   <span id="fbc0">\[ \] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`</span>
+
+#### Q52. In this example, what color will Paragraph 1 be?
+
+    p:first-of-type {
+      color: red;
+    }
+    p {
+      color: blue;
+    }
+    .container {
+      color: yellow;
+    }
+    p:first-child {
+      color: green;
+    }
+
+    <div class="container">
+      <h1>Heading</h1>
+      <p>Paragraph1</p>
+      <p>Paragraph2</p>
+    </div>
+
+-   <span id="6161">\[ \] blue</span>
+-   <span id="81b0">\[ \] green</span>
+-   <span id="458d">\[x\] red</span>
+-   <span id="031c">\[ \] yellow</span>
+
+#### Q53. What is the `::placeholder pseudo-element` used for?
+
+-   <span id="3400">\[x\] It is used to format the appearance of placeholder text within a form control.</span>
+-   <span id="31df">\[ \] It specifies the default input text for a form control.</span>
+-   <span id="a147">\[ \] It writes text content into a hyperlink tooltip.</span>
+-   <span id="6d1f">\[ \] It writes text content into any page element.</span>
+
+#### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
+
+-   <span id="7dfa">\[ \] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.</span>
+-   <span id="33aa">\[ \] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (`:`).</span>
+-   <span id="e90e">\[ \] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.</span>
+-   <span id="4412">\[x\] In CSS3, the double colon notation (`::`) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support both formats. Older browsers such as IE8 and below do not.</span>
+
+#### Q55. Which choice is not valid value for the font-style property?
+
+-   <span id="c8dd">\[ \] normal</span>
+-   <span id="7126">\[ \] italic</span>
+-   <span id="7333">\[x\] none</span>
+-   <span id="ff26">\[ \] oblique</span>
+
+#### Q56. When would you use the @font-face method?
+
+-   <span id="5fb7">\[ \] to set the font size of the text</span>
+-   <span id="ed7c">\[x\] to load custom fonts into stylesheet</span>
+-   <span id="32cc">\[ \] to change the name of the font declared in the font-family</span>
+-   <span id="3ff4">\[ \] to set the color of the text</span>
+
+#### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
+
+-   <span id="e4c9">\[x\]</span>
+
+<!-- -->
+
+    1. Larger z-index values appear on top elements with a lower z-index value.
+    2. Negative and positive number can be used.
+    3. z-index can be used only on positioned elements.
+
+-   <span id="ce8c">\[ \]</span>
+
+<!-- -->
+
+    1. Smaller z-index values appear on top of elements with a larger z-index value.
+    2. Negative and positive numbers can be used.
+    3. z-index can be used with or without positioned elements.
+
+-   <span id="c21f">\[ \]</span>
+
+<!-- -->
+
+    1. Smaller z-index values appear on top of elements with a larger z-index value.
+    2. Negative and positive number can be used.
+    3. z-index must also be used with positioned elements.
+
+-   <span id="6fe9">\[ \]</span>
+
+<!-- -->
+
+    1. Larger z-index values appear on top of elements with a lower z-index value.
+    2. Only positive number can be used.
+    3. z-index must also be used with positioned elements.
+
+#### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+
+-   <span id="f6fc">\[ \] 2000 x 1400 pixels</span>
+-   <span id="ffc8">\[ \] 200 x 100 pixels</span>
+-   <span id="c3a5">\[x\] 800 x 400 pixels</span>
+-   <span id="4122">\[ \] 400 x 200 pixels</span>
+
+#### Q59. In Chrome’s Developer Tools view, where are the default styles listed?
+
+-   <span id="51e1">\[x\] under the User Agent Stylesheet section on the right</span>
+-   <span id="3df4">\[ \] in the third panel under the Layout tab</span>
+-   <span id="8f87">\[ \] under the HTML view on the left</span>
+-   <span id="2191">\[ \] in the middle panel</span>
+
+#### Q60. While HTML controls document structure, CSS controls \_.
+
+-   <span id="b489">\[ \] semantic meaning</span>
+-   <span id="d30f">\[ \] content meaning</span>
+-   <span id="9e01">\[ \] document structure</span>
+-   <span id="5a6d">\[x\] content appearance</span>
+
+#### Q61. What is the recommended name you should give the folder that holds your project’s images?
+
+-   <span id="fb5f">\[x\] images</span>
+-   <span id="f81e">\[ \] \#images</span>
+-   <span id="a031">\[ \] Images</span>
+-   <span id="724a">\[ \] my images</span>
+
+#### Q62. What is an advantage of using inline CSS?
+
+-   <span id="f8c2">\[ \] It is easier to manage.</span>
+-   <span id="abc9">\[x\] It is easier to add multiple styles through it.</span>
+-   <span id="eebd">\[ \] It can be used to quickly test local CSS overrides.</span>
+-   <span id="e6e7">\[ \] It reduces conflict with other CSS definition methods.</span>
+
+#### Q63.Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+
+-   <span id="7310">\[ \] Proposed Recommendation</span>
+-   <span id="8aaa">\[ \] Working Draft</span>
+-   <span id="b7b0">\[x\] Recommendation</span>
+-   <span id="745f">\[ \] Candidate Recommendation</span>
+
+#### Q64. Are any of the following declarations invalid?
+
+    color: red; /* declaration A */
+    font-size: 1em; /* declaration B */
+    padding: 10px 0; /* declaration C */
+
+-   <span id="abfe">\[ \] Declaration A is invalid.</span>
+-   <span id="ecfe">\[ \] Declaration B is invalid.</span>
+-   <span id="1e37">\[ \] Declaration C is invalid.</span>
+-   <span id="321a">\[x\] All declarations are valid.</span>
+
+#### Q65. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+
+-   <span id="6a34">\[x\]</span>
+
+<!-- -->
+
+    a:link {
+      background: #0000ff;
+    }
+    a:hover {
+      background: rgba(0, 0, 255, 0.5);
+    }
+
+-   <span id="48e0">\[ \]</span>
+
+<!-- -->
+
+    a {
+      color: blue;
+    }
+    a:hover {
+      background: white;
+    }
+
+-   <span id="10b4">\[ \]</span>
+
+<!-- -->
+
+    a:link {
+      background: blue;
+    }
+    a:hover {
+      color: rgba(0, 0, 255, 0.5);
+    }
+
+-   <span id="6558">\[ \]</span>
+
+<!-- -->
+
+    a:hover {
+      background: rgba(blue, 50%);
+    }
+    a:link {
+      background: rgba(blue);
+    }
+
+#### Q66. Which CSS rule takes precedence over the others listed?
+
+-   <span id="2597">\[ \] `div.sidebar {}`</span>
+-   <span id="0013">\[ \] `* {}`</span>
+-   <span id="0436">\[x\] `div#sidebar2 p {}`</span>
+-   <span id="9751">\[ \] `.sidebar p {}`</span>
+
+#### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
+
+    body {
+      background: #ffffff; /* white */
+    }
+    section {
+      background: #0000ff; /* blue */
+      height: 200px;
+    }
+
+-   <span id="88c7">\[x\] blue sections on a white background</span>
+-   <span id="048b">\[ \] Yellow sections on a blue background</span>
+-   <span id="7762">\[ \] Green sections on a white background</span>
+-   <span id="c8f5">\[ \] blue sections on a red background</span>
+
+#### Q68. Which CSS keyword can you use to override standard source order and specificity rules?
+
+-   <span id="7986">\[ \] `!elevate!`</span>
+-   <span id="49cf">\[ \] `*prime`</span>
+-   <span id="24b6">\[ \] `override`</span>
+-   <span id="796c">\[x\] `!important`</span>
+
+#### Q69. You can use the \_ pseudo-class to set a different color on a link if it was clicked on.
+
+-   <span id="a5ed">\[x\] `a:visited`</span>
+-   <span id="ca48">\[ \] `a:hover`</span>
+-   <span id="f0d9">\[ \] `a:link`</span>
+-   <span id="a568">\[ \] `a:focus`</span>
+
+#### Q70. Which color will look the brightest on your screen, assuming the background is white?
+
+-   <span id="8dc5">\[ \] `background-color: #aaa;`</span>
+-   <span id="a3ff">\[ \] `background-color: #999999;`</span>
+-   <span id="c586">\[ \] `background-color: rgba(170,170,170,0.5);`</span>
+-   <span id="a7ff">\[x\] `background-color: rgba(170,170,170,0.2);`</span>
+
+#### Q71. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+
+-   <span id="f0f4">\[ \] `."header clear" {}`</span>
+-   <span id="85c7">\[ \] `header#clear {}`</span>
+-   <span id="e453">\[x\] `.header.clear {}`</span>
+-   <span id="8711">\[ \] `.header clear {}`</span>
+
+#### Q72. A universal selector is specified using a(n) \_.
+
+-   <span id="052b">\[ \] “h1” string</span>
+-   <span id="34cd">\[ \] “a” character</span>
+-   <span id="5064">\[ \] “p” character</span>
+-   <span id="7a51">\[x\] “\*” character</span>
+
+#### Q73. In the following CSS code, `'h1'` is the \_, while `'color'` is the \_.
+
+    h1 {
+      color: red;
+    }
+
+-   <span id="ecb8">\[ \] property; declaration</span>
+-   <span id="4ebb">\[ \] declaration; rule</span>
+-   <span id="cbea">\[ \] “p” character</span>
+-   <span id="d058">\[x\] selector; property</span>
+
+#### Q74. What is an alternate way to define the following CSS rule?
+
+    font-weight: bold;
+
+-   <span id="caf3">\[ \] font-weight: 400;</span>
+-   <span id="92b1">\[ \] font-weight: medium;</span>
+-   <span id="8d5d">\[x\] font-weight: 700;</span>
+-   <span id="6381">\[ \] font-weight: Black;</span>
+
+#### Q75. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+
+-   <span id="62c8">\[ \] It should be the first one on the list.</span>
+-   <span id="d367">\[ \] Generic fonts are discouraged from this list.</span>
+-   <span id="7b55">\[x\] It should be the last one on the list.</span>
+-   <span id="2ce2">\[ \] It should be the second one on the list.</span>
+
+#### Q76. What is one disadvantage of using a web font service?
+
+-   <span id="e9b4">\[ \] It requires you to host font files on your own server.</span>
+-   <span id="5b98">\[ \] It uses more of your site’s bandwidth.</span>
+-   <span id="5943">\[ \] It offers a narrow selection of custom fonts.</span>
+-   <span id="5bf8">\[x\] It is not always a free service.</span>
+
+#### Q77. How do you add Google fonts to your project?
+
+-   <span id="9e31">\[x\] by using an HTML link element referring to a Google-provided CSS</span>
+-   <span id="b503">\[ \] by embedding the font file directly into the project’s master JavaScript</span>
+-   <span id="cbc6">\[ \] by using a Google-specific CSS syntax that directly links to the desired font file</span>
+-   <span id="32c6">\[ \] by using a standard font-face CSS definition sourcing a font file on Google’s servers</span>
+
+#### Q78. which choice is not a valid color?
+
+-   <span id="ba0a">\[ \] color: `#000`;</span>
+-   <span id="26fe">\[ \] color: `rgb(0,0,0)`;</span>
+-   <span id="b9d1">\[ \] color: `#000000`;</span>
+-   <span id="c407">\[x\] color: `000000`;</span>
+
+#### Q79. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
+
+    html {font-size: 10px}
+    body {font-size: 2rem;}
+    .rem {font-size: 1.5rem;}
+    .em {font-size: 2em;}
+
+    <body>
+      <p class="rem"></p>
+      <p class="em"></p>
+    </body>
+
+-   <span id="998d">\[ \] The .rem will be equivalent to 25px; the .em value will be 20px.</span>
+-   <span id="ac5f">\[ \] The .rem will be equivalent to 15px; the .em value will be 20px.</span>
+-   <span id="725e">\[ \] The .rem will be equivalent to 15px; the .em value will be 40px.</span>
+-   <span id="4ecf">\[ \] The .rem will be equivalent to 20px; the .em value will be 40px.</span>
+
+#### Q80. In this example, according to cascading and specificity rules, what color will the link be?
+
+    .example {color: yellow;}
+    ul li a {color: blue;}
+    ul a {color: green;}
+    a {color: red;}
+
+    <ul>
+      <li><a href="#" class="example">link</a></li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+
+-   <span id="fc0e">\[ \] blue</span>
+-   <span id="24c3">\[ \] red</span>
+-   <span id="2417">\[x\] yellow</span>
+-   <span id="fe20">\[ \] green</span>
+
+#### Q81. What property is used to adjust the space between text characters?
+
+-   <span id="1fb6">\[ \] `font-style`</span>
+-   <span id="5993">\[ \] `text-transform`</span>
+-   <span id="4491">\[ \] `font-variant`</span>
+-   <span id="2834">\[x\] `letter-spacing`</span>
+
+\#\#\#\# Q82. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
+
+-   <span id="2ed7">\[x\] `.element {cursor: pointer;}`</span>
+-   <span id="6bc4">\[ \] `.element {cursor: hand;}`</span>
+-   <span id="a193">\[ \] `.element {cursor: move-hand;}`</span>
+-   <span id="50ed">\[ \] `.element {cursor: pointer-hand;}`</span>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [June 3, 2021](https://medium.com/p/6e3e4de7ca53).
+
+<a href="https://medium.com/@bryanguner/css-interview-prep-quiz-6e3e4de7ca53" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+A Collection of my most useful Gist Entries
+===========================================
+
+This list is in no particular order!
+
+------------------------------------------------------------------------
+
+### A Collection of my most useful Gist Entries
+
+**This list is in no particular order!**
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Ubuntu Setup:
+
+### Markdown Notes Template:
+
+### Jquery Cheat Sheet:
+
+### Useful Bash Commands:
+
+### Python Cheat Sheet:
+
+### Html Cheat Sheet:
+
+### Git Cheat Sheet:
+
+### Deploy React App To Heroku:
+
+### Bash Aliases:
+
+### JS Cheat Sheet:
+
+### CSS Cheat Sheet:
+
+#### If you found this guide helpful feel free to checkout my github/gists where I host similar content:
+
+<a href="https://gist.github.com/bgoonz" class="markup--anchor markup--p-anchor">bgoonz’s gists · GitHub</a>
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz — Overview</strong><br />
+<em>Web Developer, Electrical Engineer JavaScript | CSS | Bootstrap | Python | React | Node.js | Express | Sequelize…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+Or Checkout my personal Resource Site:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--p-anchor">https://bgoonz-blog.netlify.app/</a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [March 6, 2021](https://medium.com/p/f4314f3ba3ab).
+
+<a href="https://medium.com/@bryanguner/a-collection-of-my-most-useful-gist-entries-f4314f3ba3ab" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+A Comprehensive Deep Dive into React
+====================================
+
+An in-depth look into the world of React.
+
+------------------------------------------------------------------------
+
+### React in Depth: A Comprehensive Guide
+
+#### A deep dive into the world of React.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*LnugLVhKbiGfSSHr" alt="Photo by Ferenc Almasi on Unsplash" class="graf-image" /><figcaption>Photo by <a href="https://unsplash.com/@flowforfrank?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor">Ferenc Almasi</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" class="markup--anchor markup--figure-anchor">Unsplash</a></figcaption></figure><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>ALLOFMYOTHERARTICLES</strong><br />
+bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+### Random Things to Remember
+
+-   <span id="1e39">Using `()` implictly returns components.</span>
+-   <span id="a547">Role of `index.js` is to *render* your application.</span>
+-   <span id="c38f">The reference to `root` comes from a div in the body of your public HTML file.</span>
+-   <span id="a364">State of a component is simply a regular JS Object.</span>
+-   <span id="d64b">Class Components require `render()` method to return JSX.</span>
+-   <span id="fa3d">Functional Components directly return JSX.</span>
+-   <span id="4928">`Class` is `className` in React.</span>
+-   <span id="e51a">When parsing for an integer just chain `Number.parseInt("123")`</span>
+-   <span id="2924">Use ternary operator if you want to make a conditional inside a fragment.</span>
+
+<!-- -->
+
+    { x === y ? <div>Naisu</div> : <div>Not Naisu</div>; }
+
+-   <span id="ccda">Purpose of `React.Fragment` is to allow you to create groups of children without adding an extra dom element.</span>
+
+------------------------------------------------------------------------
+
+### Front-End History
+
+-   <span id="904c">React makes it easier for you to make front-end elements. A front-end timeline</span>
+-   <span id="646a">Some noteworthy front end libraries that have been used in the past few years:</span>
+-   <span id="febf">2005: Script.aculo.us</span>
+-   <span id="d5ae">2005: Dojo</span>
+-   <span id="0657">2006: YUI</span>
+-   <span id="c1f9">2010: Knockout</span>
+-   <span id="e742">2011: AngularJS</span>
+-   <span id="ed7b">2012: Elm</span>
+-   <span id="06e4">2013: React (Considered the standard front-end library)</span>
+-   <span id="4ff0">React manages the creation and updating of DOM nodes in your Web page.</span>
+-   <span id="53cd">All it does is dynamically render stuff into your DOM.</span>
+-   <span id="c393">What it doesn’t do:</span>
+-   <span id="3088">Ajax</span>
+-   <span id="54ee">Services</span>
+-   <span id="5e4a">Local Storage</span>
+-   <span id="a437">Provide a CSS framework</span>
+-   <span id="06e5">React is unopinionated</span>
+-   <span id="721c">Just contains a few rules for developers to follow, and it just works.</span>
+-   <span id="e2c0">JSX : Javascript Extension is a language invented to help write React Applications (looks like a mixture of JS and HTML)</span>
+-   <span id="916b">Here is an overview of the difference between rendering out vanilla JS to create elements, and JSX:</span>
+
+<!-- -->
+
+    fetch("https://example.com/api/people")
+      .then((response) => response.json())
+      .then((people) => {
+        const html = "<ul>";
+        for (let person of data.people) {
+          html += `<li>${person.lastName}, ${person.firstName}</li>`;
+        }
+        html += "</ul>";
+        document.querySelector("#people-list").innerHTML = html;
+      });
+
+    function PeopleList(props) {
+      return (
+        <ul>
+          $
+          {props.people.map((person) => (
+            <li>
+              {person.lastName}, {person.firstName}
+            </li>
+          ))}
+        </ul>
+      );
+    }
+    const peopleListElement = document.querySelector("#people-list");
+    fetch("https://example.com/api/people")
+      .then((response) => response.json())
+      .then((people) => {
+        const props = { people };
+        ReactDOM.render(<PeopleList props={props} />, peopleListElement);
+      });
+
+-   <span id="7ea4">This may seem like a lot of code but when you end up building many components, it becomes nice to put each of those functions/classes into their own files to organize your code. Using tools with React</span>
+-   <span id="e220">`React DevTools` : New tool in your browser to see ow React is working in the browser</span>
+-   <span id="9051">`create-react-app` : Extensible command-line tool to help generate standard React applications.</span>
+-   <span id="af96">`Webpack` : In between tool for dealing with the extra build step involved.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*LHVHf7SPZ1t0UVAj" class="graf-image" /></figure>-   <span id="e0ad">HMR : (Hot Module Replacement) When you make changes to your source code the changes are delivered in real-time.</span>
+-   <span id="923a">React Developers created something called `Flux Architecture` to moderate how their web page consumes and modifies data received from back-end API's.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*wR-lbD4zf45-IHoQ" class="graf-image" /></figure>-   <span id="b16e">Choosing React</spa
