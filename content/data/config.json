@@ -2,7 +2,7 @@
     "title": "Stackbit Fresh Theme",
     "path_prefix": "/",
     "layout_style": "overflow",
-    "palette": "orange",
+    "palette": "violet",
     "header": {
         "title": "Web Dev Embeds",
         "tagline": "This is my iframe playground",
