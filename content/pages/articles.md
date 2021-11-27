@@ -8037,3 +8037,2694 @@ Redirect the output to iptables:
       done
     ps aux | grep ping
     echo "tear down"
+    kill $!
+    sleep 2
+
+### Redirecting Outputs
+
+### Stdout, Stderr
+
+Redirect stderr to /dev/null:
+
+    grep -irl faker . 2>/dev/null
+
+Redirect stdout to one file and stderr to another file:
+
+    grep -irl faker . > out 2>error
+
+Redirect stderr to stdout (&1), and then redirect stdout to a file:
+
+    grep -irl faker . >out 2>&1
+
+Redirect both to a file:
+
+    grep -irl faker . &> file.log
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [July 14, 2021](https://medium.com/p/d3077114aea7).
+
+<a href="https://medium.com/@bryanguner/bash-d3077114aea7" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Bash Commands That Save Me Time and Frustration
+===============================================
+
+Here’s a list of bash commands that stand between me and insanity.
+
+------------------------------------------------------------------------
+
+### Bash Commands That Save Me Time and Frustration
+
+#### Here’s a list of bash commands that stand between me and insanity.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*w0J8u6jWTikYVZzW.jpg" class="graf-image" /></figure><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--p-anchor">https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b</a>
+
+> **This article will be accompanied by the following** <a href="https://github.com/bgoonz/bash-commands-walkthrough" class="markup--anchor markup--pullquote-anchor"><strong>github repository</strong></a> **which will contain all the commands listed as well as folders that demonstrate before and after usage!**
+
+<a href="https://github.com/bgoonz/bash-commands-walkthrough" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/bash-commands-walkthrough"><strong>bgoonz/bash-commands-walkthrough</strong><br />
+<em>to accompany the medium article I am writing. Contribute to bgoonz/bash-commands-walkthrough development by creating an…</em>github.com</a><a href="https://github.com/bgoonz/bash-commands-walkthrough" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+> The <a href="https://github.com/bgoonz/bash-commands-walkthrough#readme" class="markup--anchor markup--pullquote-anchor">readme</a> for this git repo will provide a much more condensed list… whereas this article will break up the commands with explanations… images & links!
+
+**I will include the code examples as both github gists (for proper syntax highlighting) and as code snippets adjacent to said gists so that they can easily be copied and pasted… or … if you’re like me for instance; and like to use an extension to grab the markdown content of a page… the code will be included rather than just a link to the gist!**
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*3m_UcQOAyKtIpHQ6j9JzZw.gif" class="graf-image" /></figure>
+
+### Here’s a Cheatsheet:
+
+### Getting Started (Advanced Users Skip Section):
+
+------------------------------------------------------------------------
+
+#### ✔ Check the Current Directory ➡ `pwd`:
+
+On the command line, it’s important to know the directory we are currently working on. For that, we can use `pwd` command.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*dimzLUrmDI4Ufev6.gif" class="graf-image" /></figure>It shows that I’m working on my Desktop directory.
+
+#### ✔ Display List of Files ➡ `ls`:
+
+To see the list of files and directories in the current directory use `ls` command in your CLI.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*HHzVrK2CtTPwTdYT.gif" class="graf-image" /></figure>Shows all of my files and directories of my Desktop directory.
+
+-   <span id="20cb">To show the contents of a directory pass the directory name to the `ls` command i.e. `ls directory_name`.</span>
+-   <span id="5cd8">Some useful `ls` command options:-</span>
+
+OptionDescriptionls -alist all files including hidden file starting with ‘.’ls -llist with the long formatls -lalist long format including hidden files
+
+#### ✔ Create a Directory ➡ `mkdir`:
+
+We can create a new folder using the `mkdir` command. To use it type `mkdir folder_name`.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*m3dDyC9vRJBUZSxR.gif" class="graf-image" /></figure>Use `ls` command to see the directory is created or not.
+
+I created a cli-practice directory in my working directory i.e. Desktop directory.
+
+#### ✔ Move Between Directories ➡ `cd`:
+
+It’s used to change directory or to move other directories. To use it type `cd directory_name`.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*34KGxT2G8oNMDnIc.gif" class="graf-image" /></figure>Can use `pwd` command to confirm your directory name.
+
+Changed my directory to the cli-practice directory. And the rest of the tutorial I’m gonna work within this directory.
+
+#### ✔ Parent Directory ➡ `..`:
+
+We have seen `cd` command to change directory but if we want to move back or want to move to the parent directory we can use a special symbol `..` after `cd` command, like `cd ..`
+
+#### ✔ Create Files ➡ `touch`:
+
+We can create an empty file by typing `touch file_name`. It's going to create a new file in the current directory (the directory you are currently in) with your provided name.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*xu1wtv7gJ2NMvP60.gif" class="graf-image" /></figure>I created a hello.txt file in my current working directory. Again you can use `ls` command to see the file is created or not.
+
+Now open your hello.txt file in your text editor and write *Hello Everyone!* into your hello.txt file and save it.
+
+#### ✔ Display the Content of a File ➡ `cat`:
+
+We can display the content of a file using the `cat` command. To use it type `cat file_name`.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*iKf5w9QFNCeLRv8a.gif" class="graf-image" /></figure>Shows the content of my hello.txt file.
+
+#### ✔ Move Files & Directories ➡ `mv`:
+
+To move a file and directory, we use `mv` command.
+
+By typing `mv file_to_move destination_directory`, you can move a file to the specified directory.
+
+By entering `mv directory_to_move destination_directory`, you can move all the files and directories under that directory.
+
+Before using this command, we are going to create two more directories and another txt file in our cli-practice directory.
+
+`mkdir html css touch bye.txt`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*piaAQz_MQpzo7DPH.gif" class="graf-image" /></figure>Yes, we can use multiple directories & files names one after another to create multiple directories & files in one command.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*5jmj_ZyNz46GuQKz.gif" class="graf-image" /></figure>Moved my bye.txt file into my css directory and then moved my css directory into my html directory.
+
+#### ✔ Rename Files & Directories ➡ `mv`:
+
+`mv` command can also be used to rename a file and a directory.
+
+You can rename a file by typing `mv old_file_name new_file_name` & also rename a directory by typing `mv old_directory_name new_directory_name`.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*WTVu1dd6gr-nmWhD.gif" class="graf-image" /></figure>Renamed my hello.txt file to the hi.txt file and html directory to the folder directory.
+
+#### ✔ Copy Files & Directories ➡ `cp`:
+
+To do this, we use the `cp` command.
+
+-   <span id="62fa">You can copy a file by entering `cp file_to_copy new_file_name`.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*kCLVtKN9oKPbHfRF.gif" class="graf-image" /></figure>Copied my hi.txt file content into hello.txt file. For confirmation open your hello.txt file in your text editor.
+
+-   <span id="9bfc">You can also copy a directory by adding the `-r` option, like `cp -r directory_to_copy new_directory_name`.</span>
+
+*The* `-r` *option for "recursive" means that it will copy all of the files including the files inside of subfolders.*
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*MnmzMiioIYCuK92B.gif" class="graf-image" /></figure>Here I copied all of the files from the folder to folder-copy.
+
+#### ✔ Remove Files & Directories ➡ `rm`:
+
+To do this, we use the `rm` command.
+
+-   <span id="487a">To remove a file, you can use the command like `rm file_to_remove`.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*ohCmdthd92_HA6Ze.gif" class="graf-image" /></figure>Here I removed my hi.txt file.
+
+-   <span id="0e9a">To remove a directory, use the command like `rm -r directory_to_remove`.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*voDbzwSpw24A2RjQ.gif" class="graf-image" /></figure>I removed my folder-copy directory from my cli-practice directory i.e. current working directory.
+
+#### ✔ Clear Screen ➡ `clear`:
+
+Clear command is used to clear the terminal screen.
+
+#### ✔ Home Directory ➡ `~`:
+
+The Home directory is represented by `~`. The Home directory refers to the base directory for the user. If we want to move to the Home directory we can use `cd ~` command. Or we can only use `cd` command.
+
+------------------------------------------------------------------------
+
+### MY COMMANDS:
+
+### 1.) Recursively unzip zip files and then delete the archives when finished:
+
+**here is a** <a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/1-recursive-unzip" class="markup--anchor markup--p-anchor"><strong>folde</strong></a>**r containing the before and after… I had to change folder names slightly due to a limit on the length of file-paths in a github repo.**
+
+    find . -name "*.zip" | while read filename; do unzip -o -d "`dirname "$filename"`" "$filename"; done;    
+
+    find . -name "*.zip" -type f -print -delete
+
+------------------------------------------------------------------------
+
+### 2.) Install node modules recursively:
+
+    npm i -g recursive-install  
+
+    npm-recursive-install
+
+------------------------------------------------------------------------
+
+### 3.) Clean up unnecessary files/folders in git repo:
+
+    find . -empty -type f -print -delete #Remove empty files
+
+    # -------------------------------------------------------
+    find . -empty -type d -print -delete #Remove empty folders
+
+    # -------------------------------------------------------
+
+    # This will remove .git folders...    .gitmodule files as well as .gitattributes and .gitignore files. 
+
+    find . \( -name ".git" -o -name ".gitignore" -o -name ".gitmodules" -o -name ".gitattributes" \) -exec rm -rf -- {} + 
+
+    # -------------------------------------------------------
+
+    # This will remove the filenames you see listed below that just take up space if a repo has been downloaded for use exclusively in your personal file system (in which case the following files just take up space)# Disclaimer... you should not use this command in a repo that you intend to use with your work as it removes files that attribute the work to their original creators!
+
+    find . \( -name "*SECURITY.txt" -o -name "*RELEASE.txt" -o -name "*CHANGELOG.txt" -o -name "*LICENSE.txt" -o -name "*CONTRIBUTING.txt" -name "*HISTORY.md" -o -name "*LICENSE" -o -name "*SECURITY.md" -o -name "*RELEASE.md" -o -name "*CHANGELOG.md" -o -name "*LICENSE.md" -o -name "*CODE_OF_CONDUCT.md" -o -name "\*CONTRIBUTING.md" \) -exec rm -rf -- {} +
+
+#### In Action:
+
+The following output from my bash shell corresponds to the directory:
+
+<a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/3-clean-up-fluf/DS-ALGO-OFFICIAL-master" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/3-clean-up-fluf/DS-ALGO-OFFICIAL-master"><strong>bgoonz/bash-commands-walkthrough</strong><br />
+<em>Deployment github-pages Navigation Big O notation is the language we use for talking about how long an algorithm takes…</em>github.com</a><a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/3-clean-up-fluf/DS-ALGO-OFFICIAL-master" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+#### which was created by running the aforementioned commands in in a perfect copy of this directory:
+
+<a href="https://github.com/bgoonz/DS-ALGO-OFFICIAL" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/DS-ALGO-OFFICIAL"><strong>bgoonz/DS-ALGO-OFFICIAL</strong><br />
+<em>Deployment github-pages Navigation Big O notation is the language we use for talking about how long an algorithm takes…</em>github.com</a><a href="https://github.com/bgoonz/DS-ALGO-OFFICIAL" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+> **…..below is the terminal output for the following commands:**
+
+    pwd
+    /mnt/c/Users/bryan/Downloads/bash-commands/steps/3-clean-up-fluf/DS-ALGO-OFFICIAL-master
+
+> **After printing the working directory for good measure:**
+
+    find . -empty -type f -print -delete
+
+> **The above command deletes empty files recursively starting from the directory in which it was run:**
+
+    ./CONTENT/DS-n-Algos/File-System/file-utilities/node_modules/line-reader/test/data/empty_file.txt
+    ./CONTENT/DS-n-Algos/_Extra-Practice/free-code-camp/nodejs/http-collect.js
+    ./CONTENT/Resources/Comments/node_modules/mime/.npmignore
+    ./markdown/tree2.md
+    ./node_modules/loadashes6/lodash/README.md
+    ./node_modules/loadashes6/lodash/release.md
+    ./node_modules/web-dev-utils/Markdown-Templates/Markdown-Templates-master/filled-out-readme.md
+    |01:33:16|bryan@LAPTOP-9LGJ3JGS:[DS-ALGO-OFFICIAL-master] DS-ALGO-OFFICIAL-master_exitstatus:0[╗___________o>
+
+> **The command seen below deletes empty folders recursively starting from the directory in which it was run:**
+
+    find . -empty -type d -print -delete
+
+> The resulting directories….
+
+    |01:33:16|bryan@LAPTOP-9LGJ3JGS:[DS-ALGO-OFFICIAL-master] DS-ALGO-OFFICIAL-master_exitstatus:0[╗___________o>
+
+    find . -empty -type d -print -delete
+    ./.git/branches
+    ./.git/objects/info
+    ./.git/refs/tags
+    |01:33:31|bryan@LAPTOP-9LGJ3JGS:[DS-ALGO-OFFICIAL-master] DS-ALGO-OFFICIAL-master_exitstatus:0[╗___________o>
+
+> **The command seen below deletes .git folders as well as .gitignore, .gitattributes, .gitmodule files**
+
+    find . \( -name ".git" -o -name ".gitignore" -o -name ".gitmodules" -o -name ".gitattributes" \) -exec rm -rf -- {} +
+
+**The command seen below deletes most SECURITY, RELEASE, CHANGELOG, LICENSE, CONTRIBUTING, & HISTORY files that take up pointless space in repo’s you wish to keep exclusively for your own reference.**
+
+### !!!Use with caution as this command removes the attribution of the work from it’s original authors!!!!!
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*r5dGhtbeZ4VdO54U" alt="!!!Use with caution as this command removes the attribution of the work from it’s original authors!!!!!" class="graf-image" /><figcaption>!!!Use with caution as this command removes the attribution of the work from it’s original authors!!!!!</figcaption></figure>find . \( -name "*SECURITY.txt" -o -name "*RELEASE.txt" -o  -name "*CHANGELOG.txt" -o -name "*LICENSE.txt" -o -name "*CONTRIBUTING.txt" -name "*HISTORY.md" -o -name "*LICENSE" -o -name "*SECURITY.md" -o -name "*RELEASE.md" -o  -name "*CHANGELOG.md" -o -name "*LICENSE.md" -o -name "*CODE_OF_CONDUCT.md" -o -name "*CONTRIBUTING.md" \) -exec rm -rf -- {} +
+
+------------------------------------------------------------------------
+
+### 4.) Generate index.html file that links to all other files in working directory:
+
+    #!/bin/sh
+    # find ./ | grep -i "\.*$" >files
+    find ./ | sed -E -e 's/([^ ]+[ ]+){8}//' | grep -i "\.*$">files
+    listing="files"
+    out=""
+    html="index.html"
+    out="basename $out.html"
+    html="index.html"
+    cmd() {
+      echo '  <!DOCTYPE html>'
+      echo '<html>'
+      echo '<head>'
+      echo '  <meta http-equiv="Content-Type" content="text/html">'
+      echo '  <meta name="Author" content="Bryan Guner">'
+      echo '<link rel="stylesheet" href="./assets/prism.css">'
+      echo ' <link rel="stylesheet" href="./assets/style.css">'
+      echo ' <script async defer src="./assets/prism.js"></script>'
+      echo "  <title> directory </title>"
+      echo ""
+      echo '<style>'
+    echo '    a {'
+    echo '      color: black;'
+    echo '    }'
+    echo ''
+    echo '    li {'
+    echo '      border: 1px solid black !important;'
+    echo '      font-size: 20px;'
+    echo '      letter-spacing: 0px;'
+    echo '      font-weight: 700;'
+    echo '      line-height: 16px;'
+    echo '      text-decoration: none !important;'
+    echo '      text-transform: uppercase;'
+    echo '      background: #194ccdaf !important;'
+    echo '      color: black !important;'
+    echo '      border: none;'
+    echo '      cursor: pointer;'
+    echo '      justify-content: center;'
+    echo '      padding: 30px 60px;'
+    echo '      height: 48px;'
+    echo '      text-align: center;'
+    echo '      white-space: normal;'
+    echo '      border-radius: 10px;'
+    echo '      min-width: 45em;'
+    echo '      padding: 1.2em 1em 0;'
+    echo '      box-shadow: 0 0 5px;'
+    echo '      margin: 1em;'
+    echo '      display: grid;'
+    echo '      -webkit-border-radius: 10px;'
+    echo '      -moz-border-radius: 10px;'
+    echo '      -ms-border-radius: 10px;'
+    echo '      -o-border-radius: 10px;'
+    echo '    }'
+    echo '  </style>'
+      echo '</head>'
+      echo '<body>'
+      echo ""
+      # continue with the HTML stuff
+      echo ""
+      echo ""
+      echo "<ul>"
+      awk '{print "<li><a href=\""$1"\">",$1,"&nbsp;</a></li>"}' $listing
+      # awk '{print "<li>"};
+      #  {print " <a href=\""$1"\">",$1,"</a></li>&nbsp;"}' \ $listing
+      echo ""
+      echo "</ul>"
+      echo "</body>"
+      echo "</html>"
+    }
+    cmd $listing --sort=extension >>$html
+
+#### In Action:
+
+**I will use this copy of my Data Structures Practice Site to demonstrate the result:**
+
+<a href="https://github.com/side-projects-42/DS-Bash-Examples-Deploy" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/side-projects-42/DS-Bash-Examples-Deploy"><strong>side-projects-42/DS-Bash-Examples-Deploy</strong><br />
+<em>Deployment github-pages Navigation Big O notation is the language we use for talking about how long an algorithm takes…</em>github.com</a><a href="https://github.com/side-projects-42/DS-Bash-Examples-Deploy" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*PuuDTUviX5G6mja-5eKUIw.png" class="graf-image" /></figure>#### The result is a index.html file that contains a list of links to each file in the directory:
+
+> here is a link to and photo of the resulting html file:
+
+<a href="https://quirky-meninsky-4181b5.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://quirky-meninsky-4181b5.netlify.app/"><strong>index.html</strong><br />
+<em>CONTENT/DS-n-Algos/</em>quirky-meninsky-4181b5.netlify.app</a><a href="https://quirky-meninsky-4181b5.netlify.app/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*AOYbWvUGN9yJ4ceNzAGGsw.png" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+### 5.) Download all links to a files of a specified extension on a user provided (url) webpage:
+
+    wget -r -A.pdf https://overapi.com/gitwget --wait=2 --level=inf --limit-rate=20K --recursive --page-requisites --user-agent=Mozilla --no-parent --convert-links --adjust-extension --no-clobber -e robots=off
+
+> The result is stored in <a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/5-download-all-pdf" class="markup--anchor markup--blockquote-anchor">this directory:</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*8evVPO_z-_TATzkcDTp15Q.png" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+### 6.)Recursively remove lines of text containing the string badFolder from files in the working directory.
+
+    find . -type f -exec sed -i '/badFolder/d' ./* {} \;
+
+    # OR
+
+    find . -name 'result.md'  -type f -exec sed -i '/badFolder/d' ./* {} \;
+
+**As an example I will run this command on a file containing the text:**
+
+    Hacks Blog
+
+    Read more at hacks.mozilla.org
+
+    badFolder
+
+    badFolder Implementing Private Fields for JavaScript
+
+    When implementing a language feature for JavaScript, an implementer must make decisions about how the language in the specification maps to the implementation. Private fields is an example of where the specification language and implementation reality diverge, at least in SpiderMonkey– the JavaScript engine which powers Firefox. To understand more, I’ll explain what private fields are, a couple of models for thinking about them, and explain why our implementation diverges from the specification language.The post Implementing Private Fields for JavaScript appeared first on Mozilla Hacks - the Web developer blog.
+
+    Posted Tuesday, June 8, 2021 by Matthew Gaudet
+
+    Looking fine with Firefox 89
+
+    Firefox 89 has smartened up and brings with it a slimmed-down, slightly more minimalist interface.badFolder Along with this new look, we get some great styling features including a force-colours feature for media queries and better control over how fonts are displayed. The long-awaited top-level await keyword for JavaScript modules is now enabled, as well as the PerformanceEventTiming interface, which is another addition to the performance suite of APIs: 89 really has been working out!The post Looking fine with Firefox 89 appeared first on Mozilla Hacks - the Web developer blog.
+
+    badFolder
+
+    Posted Tuesday, June 1, 2021 by Chris Mills
+
+    badFolder
+
+    Improving Firefox stability on Linux
+
+    Roughly a year ago at Mozilla we started an effort to improve Firefox stability on Linux. This effort quickly became an example of good synergies between FOSS projects.The post Improving Firefox stability on Linux appeared first on Mozilla Hacks - the Web developer blog.
+
+    Posted Wednesday, May 19, 2021 by Gabriele Svelto badFolder
+
+    Introducing Firefox’s new Site Isolation Security Architecture
+
+    Like any web browser, Firefox loads code from untrusted and potentially hostile websites and runs it on your computer. To protect you against new types of attacks from malicious sites and to meet the security principles of Mozilla, we set out to redesign Firefox on desktop.The post Introducing Firefox’s new Site Isolation Security Architecture appeared first on Mozilla Hacks - the Web developer blog.
+
+    Posted Tuesday, May 18, 2021 by Anny Gakhokidze
+
+    Pyodide Spin Out and 0.17 Release
+
+    We are happy to announce that Pyodide has become an independent and community-driven project. We are also pleased to announce the 0.17 release for Pyodide with many new features and improvements. Pyodide consists of the CPython 3.8 interpreter compiled to WebAssembly which allows Python to run in the browser.The post Pyodide Spin Out and 0.17 Release appeared first on Mozilla Hacks - the Web developer blog. badFolder
+
+    Posted Thursday, April 22, 2021 by Teon Brooks
+
+***I modified the command slightly to apply only to files called ‘result.md’:***
+
+> The result is :
+
+    Hacks Blog
+
+    Read more at hacks.mozilla.org
+
+    When implementing a language feature for JavaScript, an implementer must make decisions about how the language in the specification maps to the implementation. Private fields is an example of where the specification language and implementation reality diverge, at least in SpiderMonkey– the JavaScript engine which powers Firefox. To understand more, I’ll explain what private fields are, a couple of models for thinking about them, and explain why our implementation diverges from the specification language.The post Implementing Private Fields for JavaScript appeared first on Mozilla Hacks - the Web developer blog.
+
+    Posted Tuesday, June 8, 2021 by Matthew Gaudet
+
+    Looking fine with Firefox 89
+
+    Posted Tuesday, June 1, 2021 by Chris Mills
+
+    Improving Firefox stability on Linux
+
+    Roughly a year ago at Mozilla we started an effort to improve Firefox stability on Linux. This effort quickly became an example of good synergies between FOSS projects.The post Improving Firefox stability on Linux appeared first on Mozilla Hacks - the Web developer blog.
+
+    Introducing Firefox’s new Site Isolation Security Architecture
+
+    Like any web browser, Firefox loads code from untrusted and potentially hostile websites and runs it on your computer. To protect you against new types of attacks from malicious sites and to meet the security principles of Mozilla, we set out to redesign Firefox on desktop.The post Introducing Firefox’s new Site Isolation Security Architecture appeared first on Mozilla Hacks - the Web developer blog.
+
+    Posted Tuesday, May 18, 2021 by Anny Gakhokidze
+
+    Pyodide Spin Out and 0.17 Release
+
+    Posted Thursday, April 22, 2021 by Teon Brooks
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*Up5as-MkHcHbvI_qX1AqPw.png" class="graf-image" /></figure>
+
+**the test.txt and result.md files can be found here:**
+
+<a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text"><strong>bgoonz/bash-commands-walkthrough</strong><br />
+<em>to accompany the medium article I am writing. Contribute to bgoonz/bash-commands-walkthrough development by creating an…</em>github.com</a><a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+------------------------------------------------------------------------
+
+### 7.) Execute command recursively:
+
+**Here I have modified the command I wish to run recursively to account for the fact that the ‘find’ command already works recursively, by appending the -maxdepth 1 flag…**
+
+> **I am essentially removing the recursive action of the find command…**
+
+**That way, if the command affects the more deeply nested folders we know the outer RecurseDirs function we are using to run the *find/pandoc* line once in every subfolder of the working directory… is working properly!**
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*5C_uzLnuCSlTiioi2EtnUA.png" class="graf-image" /></figure>**Run in the folder shown to the left… we would expect every .md file to be accompanied by a newly generated html file by the same name.**
+
+**The results of said operation can be found in the** <a href="https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/7-recursive-run" class="markup--anchor markup--p-anchor"><strong>following directory</strong></a>
+
+#### In Action:
+
+🢃 Below 🢃
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*k9c1QRKY07TLJnp9Se89lQ.gif" class="graf-image" /></figure>
+
+#### The final result is:
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*jqrjNeBuRmTrDt3vmQ50LQ.png" class="graf-image" /></figure>
+
+*If you want to run any bash script recursively all you have to do is substitue out line \#9 with the command you want to run once in every sub-folder.*
+
+    function RecurseDirs ()
+    {
+        oldIFS=$IFS
+        IFS=$'\n'
+        for f in "$@"
+        do
+
+    #Replace the line below with your own command!
+
+    #find ./ -iname "*.md" -maxdepth 1 -type f -exec sh -c 'pandoc --standalone "${0}" -o "${0%.md}.html"' {} \;
+
+    #####################################################
+    # YOUR CODE BELOW!
+
+    #####################################################
+
+    if [[ -d "${f}" ]]; then
+                cd "${f}"
+                RecurseDirs $(ls -1 ".")
+                cd ..
+            fi
+        done
+        IFS=$oldIFS
+    }
+    RecurseDirs "./"
+
+------------------------------------------------------------------------
+
+### TBC….
+
+**Here are some of the other commands I will cover in greater detail… at a later time:**
+
+### 9. Copy any text between &lt;script&gt; tags in a file called example.html to be inserted into a new file: out.js
+
+    sed -n -e '/<script>/,/<\/script>/p' example.html >out.js
+
+------------------------------------------------------------------------
+
+### 10. Recursively Delete node\_modules folders
+
+    find . -name 'node_modules' -type d -print -prune -exec rm -rf '{}' +
+
+------------------------------------------------------------------------
+
+### 11. Sanatize file and folder names to remove illegal characters and reserved words.
+
+    sanitize() {
+      shopt -s extglob;
+
+      filename=$(basename "$1")
+      directory=$(dirname "$1")
+
+      filename_clean=$(echo "$filename" | sed -e 's/[\\/:\*\?"<>\|\x01-\x1F\x7F]//g' -e 's/^\(nul\|prn\|con\|lpt[0-9]\|com[0-9]\|aux\)\(\.\|$\)//i' -e 's/^\.*$//' -e 's/^$/NONAME/')
+
+      if (test "$filename" != "$filename_clean")
+      then
+        mv -v "$1" "$directory/$filename_clean"
+      fi
+    }
+
+    export -f sanitize
+
+    sanitize_dir() {
+      find "$1" -depth -exec bash -c 'sanitize "$0"' {} \;
+
+    }
+
+    sanitize_dir '/path/to/somewhere'
+
+------------------------------------------------------------------------
+
+### 12. Start postgresql in terminal
+
+    sudo -u postgres psql
+
+------------------------------------------------------------------------
+
+### 13. Add closing body and script tags to each html file in working directory.
+
+    for f in * ; do
+      mv "$f" "$f.html"
+    doneecho "<form>
+     <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+      </body></html>" | tee -a *.html
+
+------------------------------------------------------------------------
+
+### 14. Batch Download Videos
+
+    #!/bin/bash
+
+    link="#insert url here#"
+    #links were a set of strings with just the index of the video as the variable
+
+    num=3
+    #first video was numbered 3 - weird.
+
+    ext=".mp4"
+
+    while [ $num -le 66 ]
+    do
+          wget $link$num$ext -P ~/Downloads/
+          num=$(($num+1))
+    done
+
+------------------------------------------------------------------------
+
+### 15. Change File Extension from ‘.txt’ to .doc for all files in working directory.
+
+    sudo apt install rename
+
+    rename 's/\.txt$/.doc/' *.txt
+
+### 16. Recursivley change any file with extension .js.download to .js
+
+    find . -name "*.\.js\.download" -exec rename 's/\.js\.download$/.js/' '{}' +
+
+------------------------------------------------------------------------
+
+### 17. Copy folder structure including only files of a specific extension into an ouput Folder
+
+    find . -name '*.md' | cpio -pdm './../outputFolder'
+
+------------------------------------------------------------------------
+
+### Discover More:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Part 2 of this series:
+
+<a href="https://medium.com/@bryanguner/life-saving-bash-scripts-part-2-b40c8ee22682" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/@bryanguner/life-saving-bash-scripts-part-2-b40c8ee22682"><strong>Medium</strong><br />
+<em>Continued!!!medium.com</em></a><a href="https://medium.com/@bryanguner/life-saving-bash-scripts-part-2-b40c8ee22682" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+------------------------------------------------------------------------
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [June 29, 2021](https://medium.com/p/920fb6ab9d0a).
+
+<a href="https://medium.com/@bryanguner/bash-commands-that-save-time-920fb6ab9d0a" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Bash Proficiency In Under 15 Minutes
+====================================
+
+Cheat sheet and in-depth explanations located below main article contents… The UNIX shell program interprets user commands, which are…
+
+------------------------------------------------------------------------
+
+### Bash Proficiency In Under 15 Minutes
+
+#### Cheat sheet and in-depth explanations located below main article contents… The UNIX shell program interprets user commands, which are either directly entered by the user, or which can be read from a file called the shell script or shell program. Shell scripts are interpreted, not compiled. The shell reads commands from the script line per line and searches for those commands on the system while a compiler converts a program into machine readable form, an executable file.
+
+------------------------------------------------------------------------
+
+### LIFE SAVING PROTIP:
+
+### A nice thing to do is to add on the first line
+
+    #!/bin/bash -x
+
+------------------------------------------------------------------------
+
+> I will go deeper into the explanations behind some of these examples at the bottom of this article.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*QkQexW5Lg0NYrtuD" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/600/0*gtmOR8KLGdLcUwPt.gif" class="graf-image" /></figure>
+
+#### Here’s some previous articles I’ve written for more advanced users.
+
+<a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a"><strong>Bash Commands That Save Me Time and Frustration</strong><br />
+<em>Here’s a list of bash commands that stand between me and insanity.</em>medium.com</a><a href="https://medium.com/geekculture/bash-commands-that-save-time-920fb6ab9d0a" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682"><strong>Life Saving Bash Scripts Part 2</strong><br />
+<em>I am not saying they’re in any way special compared with other bash scripts… but when I consider that you can never…</em>medium.com</a><a href="https://medium.com/geekculture/life-saving-bash-scripts-part-2-b40c8ee22682" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb"><strong>What Are Bash Aliases And Why Should You Be Using Them!</strong><br />
+<em>A Bash alias is a method of supplementing or overriding Bash commands with new ones. Bash aliases make it easy for…</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/what-are-bash-aliases-and-why-should-you-be-using-them-30a6cfafdfeb" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+------------------------------------------------------------------------
+
+### What is Bash?
+
+> Apart from passing commands to the kernel, the main task of a shell is providing a user environment through which they can issue the computer commands via a command line instead of the graphical user interfaces most software consumers are familiar with.
+
+------------------------------------------------------------------------
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*7qlctJzV2Jv3F0cr.gif" class="graf-image" /></figure><figure><img src="https://cdn-images-1.medium.com/max/600/0*oQWiki9YceuZc9h_.jpeg" alt="fire meme" class="graf-image" /><figcaption>fire meme</figcaption></figure>
+
+#### Here’s a REPL with some examples for you to practice….
+
+> ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ below motivational monologue ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+***Remember: learning is an effortful activity… it’s not comfortable… practice might be unpleasant but if you don’t you might as well skip reading too because without application… reading articles just provides a false sense of accomplishment….***
+
+> <a href="https://resume.github.io/?bgoonz" class="markup--anchor markup--blockquote-anchor">quote by: … <strong>me</strong> 1 minute ago</a> (inspired by veritasium….)
+
+### Aforementioned Repl:
+
+------------------------------------------------------------------------
+
+### <a href="https://egghead.io/lessons/bash-navigate-the-filesystem-in-bash" class="markup--anchor markup--h3-anchor">Navigate the file system</a>
+
+#### Change bash’s current working directory
+
+    cd <file path here>
+    # to go up a directory from your current directory
+    cd ..
+
+#### List a directory’s contents
+
+    ls
+    # for more details, add -l (long)
+    ls -l
+    # this will output something like this:
+    # -rw-r--r--  1 cameronnokes  staff  1237 Jun  2 22:46 index.js
+    # in order, those columns are:
+    #   permissions for you, your group, all
+    #   number of links (hardlinks & softlinks)
+    #   owner user
+    #   owner group
+    #   file size
+    #   last modified time
+    #   file name
+
+    # to see hidden files/folders (like .git or .npmignore)
+    ls -a
+    # Note, flags can be combined like so
+    ls -la
+
+### <a href="https://egghead.io/lessons/bash-view-files-and-folders-in-bash" class="markup--anchor markup--h3-anchor">View files and folders in bash</a>
+
+#### Output a file to the screen (stdout)
+
+    cat <file name>
+    # shows it with line numbers
+    cat -n <file name>
+
+#### View a file in bash
+
+    # view the file without dumping it all onto your screen
+    less <file name>
+    # Some useful shortcuts in less
+    #   Shift+g   (jump to end)
+    #   g         (go back to top)
+    #   /         (search)
+    #   q         (quit/close)
+
+#### View file/folder in default application associated with it
+
+    open <file/folder name>
+    # view current directory in Finder
+    open .
+    # specify an application to use
+    open <file name> -a TextEdit
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*LKzjKI9gdjBFE851.png" alt="folder structure" class="graf-image" /><figcaption>folder structure</figcaption></figure>### <a href="https://egghead.io/lessons/bash-create-and-delete-files-and-folders-in-bash" class="markup--anchor markup--h3-anchor">Create and delete files and folders</a>
+
+#### Create a file
+
+    touch <file name>
+
+#### Set or append to a file
+
+    # set the file's contents
+    echo 'hi' > file.txt
+    # append to file's contents
+    echo 'hi' >> file.txt
+    # note that if you pass a file name that doesn't exist, it'll get created on the fly
+
+#### Create a directory
+
+    mkdir <folder name>
+    # make intermediary directories as needed
+    mkdir -p parent/child/grandchild
+
+#### Remove a file
+
+    # Note, this permanently deletes a file
+    rm <file name>
+    # Remove a folder and it's contents, recursively
+    rm -rf <folder name>
+
+### <a href="https://egghead.io/lessons/bash-move-and-copy-files-and-folders-with-bash" class="markup--anchor markup--h3-anchor">Move and Copy Files and Folders with bash</a>
+
+#### Move a file
+
+    mv <target> <destination>
+    # for example, to rename a file
+    mv a.js b.js
+    # move all files in a folder to another folder
+    mv lib/* src
+
+#### Copy a file
+
+    cp <target> <destination>
+    # copy everything recursively from one folder to another
+    cp -R src/* lib
+
+### <a href="https://egghead.io/lessons/bash-find-files-and-folders-with-find-in-bash" class="markup--anchor markup--h3-anchor">Find Files and Folders with</a> `find` <a href="https://egghead.io/lessons/bash-find-files-and-folders-with-find-in-bash" class="markup--anchor markup--h3-anchor">in bash</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*3hXVYnYPTLCQHe0f.jpg" alt="find" class="graf-image" /><figcaption>find</figcaption></figure># find all the PNGs in a folder
+    find <path> -name "*.png"
+    # find all the JPGs (case insensitive) in a folder
+    find <path> -iname "*.jpg"
+    # find only directories
+    find <path> -type d
+    # delete all matching files
+    find <path> -name "*.built.js" -delete
+    # execute an arbitrary action on each match
+    # remember `{}` will be replaced with the file name
+    find <path> -name "*.png" -exec pngquant {} \;
+
+### <a href="https://egghead.io/lessons/grep-search-for-text-with-grep" class="markup--anchor markup--h3-anchor">Search for text with </a>`grep`
+
+    # Basic usage
+    grep <pattern> <target file or glob>
+    # Useful flags
+    # --color     (colorizes matches)
+    # -n          (show line numbers)
+    # -C <number> (show N lines above/below match for context)
+    # -e          (regex search)
+
+### <a href="https://egghead.io/lessons/http-make-http-requests-in-bash-with-curl" class="markup--anchor markup--h3-anchor">Make HTTP requests in bash with </a>`curl`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*YmLsGKSXYDZ_vzMp.png" alt="http" class="graf-image" /><figcaption>http</figcaption></figure>The test server is available in the `curl-practice-server` directory. Run `npm install && npm start` to run it.
+
+    curl <url>
+    # Useful flags
+    # -i    (show response headers only)
+    # -L    (follow redirects)
+    # -H    (header flag)
+    # -X    (set HTTP method)
+    # -d    (request body)
+    # -o    (output to a file)
+
+    # to POST JSON
+    # (technically you don't need -X POST because -d will make it POST automatically, but I like to be explicit)
+    curl -X POST -H "Content-Type: application/json" -d '{ "title": "Curling" }' http://localhost:3000/api/posts
+
+    # POST a url encoded form
+    curl -X POST --data-urlencode title="Curling again" http://localhost:3000/api/posts
+
+    # multiline curl (applies to any bash command)
+    curl -i -X PUT \
+    -d '{ "title": "Changed title" }' \
+    -H "Content-Type: application/json" \
+    http://localhost:3000/api/posts
+
+    # pretty print JSON with jsome
+    curl https://swapi.co/api/people/1/ | jsome
+
+Here’s the <a href="https://www.npmjs.com/package/jsome" class="markup--anchor markup--p-anchor">jsome</a> package that pretty prints JSON
+
+### <a href="https://egghead.io/lessons/bash-create-and-run-bash-scripts" class="markup--anchor markup--h3-anchor">Create and run bash scripts</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*AC9okBRPVFBSHpwv.png" alt="bash scripting" class="graf-image" /><figcaption>bash scripting</figcaption></figure>echo 'echo Hello World' > script.sh
+    chmod u+x script.sh
+    ./script.sh
+
+The `init-js.sh` script for scaffolding a JS project
+
+    echo "Initializing JS project at $(pwd)"
+    git init
+    npm init -y # create package.json with all the defaults
+    mkdir src
+    touch index.js
+    code .
+
+One way to add that script to your `$PATH`:
+
+    cp init-js.sh /usr/local/bin/init-js
+
+### <a href="https://egghead.io/lessons/bash-store-and-use-values-with-bash-variables" class="markup--anchor markup--h3-anchor">Store and Use Values with bash Variables</a>
+
+    # no spaces between name, =, and value
+    var=123
+    echo $var
+    # to make it accessible to all child processes of current shell, export it
+    export var
+    # this deletes the variable
+    unset var
+
+To see all environment variables
+
+    env
+
+`clone-to-temp.sh` script:
+
+    temp=$(mktemp -d)
+    git clone --branch $1 $PWD $temp
+    echo "branch $1 cloned to $temp"
+    # run some tasks, tests, etc here
+
+### <a href="https://egghead.io/lessons/bash-understand-and-use-functions-in-bash" class="markup--anchor markup--h3-anchor">Understand and use functions in bash</a>
+
+    greet() {
+      echo "$1 world"
+    }
+
+    greeting=$(greet "howdy")
+
+    echo "the greeting is $greeting"
+
+    global=123
+
+    test() {
+      echo "global = $global"
+      local local_var="i'm a local"
+      echo "local_var = $local_var"
+    }
+
+    test
+
+    echo "global = $global"
+    echo "local_var = $local_var" # will be empty because it's out of scope
+
+### <a href="https://egghead.io/lessons/bash-understand-exit-statuses-in-bash" class="markup--anchor markup--h3-anchor">Understand exit statuses in bash</a>
+
+Get the last run command’s exit status
+
+    ls
+    # will be 0 if it ran successfully, 1 - 255 for an error
+    echo $?
+
+Exit statuses and functions. `script.sh`
+
+    ok() {
+      return 0
+    }
+
+    fail() {
+      return 1
+    }
+
+    fail
+    ok
+
+    ./script.sh
+    echo $? # exit status is same as the last run function/command
+
+### <a href="https://egghead.io/lessons/bash-use-conditional-statements-in-bash" class="markup--anchor markup--h3-anchor">Use Conditional Statements in bash</a>
+
+Basic form
+
+    # Some conditional primaries that can be used in the if expression:
+    #   =, !=      string (in)equality
+    #   -eq, -ne   numeric (in)equality
+    #   -lt, -gt   less/greater than
+    #   -z         check variable is not set
+    #   -e         check file/folder exists
+
+    if [[ $USER = 'cameronnokes' ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
+
+Conditionals can be used inline in a more ternary-like format
+
+    [[ $USER = 'cameronnokes' ]] && echo "yes" || echo "no"
+
+`check-status.sh` for checking a URL is responding with a 200
+
+    check_status() {
+      local status=$(curl -ILs $1 | head -n 1 | cut -d ' ' -f 2)
+      if [[ $status -lt 200 ]] || [[ $status -gt 299 ]]; then
+        echo "$1 failed with a $status"
+        return 1
+      else
+        echo "$1 succeeded with a $status"
+      fi
+    }
+
+    check_status https://example.org
+    check_status https://example.org/404
+
+### <a href="https://egghead.io/lessons/bash-chain-commands-with-pipes-and-redirect-output-in-bash" class="markup--anchor markup--h3-anchor">Chain Commands with Pipes and Redirect Output in bash</a>
+
+Pipes
+
+    # ps ax will list all running processes
+    ps ax | grep Chrome | less
+    # get the file size after uglify + gzip
+    uglifyjs -c -m -- index.js | gzip -9 | wc -c
+
+Redirection
+
+    # redirect stdout to a file
+    ls > ls.txt
+    # append stdout to a file
+    echo "hi" >> ls.txt
+
+------------------------------------------------------------------------
+
+### Update(Utility Commands):
+
+***Find files that have been modified on your system in the past 60 minutes***
+
+    find / -mmin 60 -type f
+
+***Find all files larger than 20M***
+
+    find / -type f -size +20M
+
+***Find duplicate files (based on MD5 hash)***
+
+    find -type f -exec md5sum '{}' ';' | sort | uniq --all-repeated=separate -w 33
+
+***Change permission only for files***
+
+    cd /var/www/site && find . -type f -exec chmod 766 {} \;
+    cd /var/www/site && find . -type f -exec chmod 664 {} +
+
+***Change permission only for directories***
+
+    cd /var/www/site && find . -type d -exec chmod g+x {} \;
+    cd /var/www/site && find . -type d -exec chmod g+rwx {} +
+
+***Find files and directories for specific user/group***
+
+    # User:
+    find . -user <username> -print
+    find /etc -type f -user <username> -name "*.conf"
+
+    # Group:
+    find /opt -group <group>
+    find /etc -type f -group <group> -iname "*.conf"
+
+***Find files and directories for all without specific user/group***
+
+    # User:
+    find . \! -user <username> -print
+
+    # Group:
+    find . \! -group <group>
+
+***Looking for files/directories that only have certain permission***
+
+    # User
+    find . -user <username> -perm -u+rw # -rw-r--r--
+    find /home -user $(whoami) -perm 777 # -rwxrwxrwx
+
+    # Group:
+    find /home -type d -group <group> -perm 755 # -rwxr-xr-x
+
+***Delete older files than 60 days***
+
+    find . -type f -mtime +60 -delete
+
+***Recursively remove all empty sub-directories from a directory***
+
+    find . -depth  -type d  -empty -exec rmdir {} \;
+
+***How to find all hard links to a file***
+
+    find </path/to/dir> -xdev -samefile filename
+
+***Recursively find the latest modified files***
+
+    find . -type f -exec stat --format '%Y :%y %n' "{}" \; | sort -nr | cut -d: -f2- | head
+
+***Recursively find/replace of a string with sed***
+
+    find . -not -path '*/\.git*' -type f -print0 | xargs -0 sed -i 's/foo/bar/g'
+
+***Recursively find/replace of a string in directories and file names***
+
+    find . -depth -name '*test*' -execdir bash -c 'mv -v "$1" "${1//foo/bar}"' _ {} \;
+
+***Recursively find suid executables***
+
+    find / \( -perm -4000 -o -perm -2000 \) -type f -exec ls -la {} \;
+
+------------------------------------------------------------------------
+
+### Additional learning resources
+
+-   <span id="8e12">You can view a command’s documentation right in bash with `man <command name>`.</span>
+-   <span id="9b41"><a href="https://www.gnu.org/software/bash/manual/bash.html" class="markup--anchor markup--li-anchor">Official bash manual</a></span>
+-   <span id="40a7"><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html" class="markup--anchor markup--li-anchor">TLDP bash programming intro, basic</a></span>
+-   <span id="6515"><a href="http://www.tldp.org/LDP/abs/html/" class="markup--anchor markup--li-anchor">TLDP bash programming intro, advanced</a></span>
+
+------------------------------------------------------------------------
+
+### Here’s My Github & Website … feel free to reach out!
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz - Overview</strong><br />
+<em>Web Developer, Electrical Engineer https://bryanguner.medium.com/ https://bg-portfolio.netlify.app/ - bgoonz</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Explanations:
+
+### Pipes
+
+Pipes let you use the output of a program as the input of another one
+
+### simple pipe with sed
+
+This is very simple way to use pipes.
+
+    ls -l | sed -e "s/[aeio]/u/g"
+
+Here, the following happens: first the command ls -l is executed, and it’s output, instead of being printed, is sent (piped) to the sed program, which in turn, prints what it has to.
+
+### an alternative to ls -l \*.txt
+
+Probably, this is a more difficult way to do ls -l \*.txt, but this is for educational purposes.
+
+    ls -l | grep "\.txt$"
+
+> Here, the output of the program ls -l is sent to the grep program, which, in turn, will print lines which match the regex “\\.txt$”.
+
+### Variables
+
+You can use variables as in any programming languages. There are no data types. A variable in bash can contain a number, a character, a string of characters.
+
+You have no need to declare a variable, just assigning a value to its reference will create it.
+
+### Hello World! using variables
+
+    #!/bin/bash          
+                STR="Hello World!"
+                echo $STR
+
+Line 2 creates a variable called STR and assigns the string “Hello World!” to it. Then the VALUE of this variable is retrieved by putting the ‘$’ in at the beginning. Please notice (try it!) that if you don’t use the ‘$’ sign, the output of the program will be different, and probably not what you want it to be.
+
+### A very simple backup script (little bit better)
+
+    #!/bin/bash          
+               OF=/var/my-backup-$(date +%Y%m%d).tgz
+               tar -cZf $OF /home/me/
+
+> This script introduces another thing. First of all, you should be familiarized with the variable creation and assignation on line 2. Notice the expression ‘$(date +%Y%m%d)’. If you run the script you’ll notice that it runs the command inside the parenthesis, capturing its output.
+
+> Notice that in this script, the output filename will be different every day, due to the format switch to the date command(+%Y%m%d). You can change this by specifying a different format.
+
+**examples**:
+
+*echo ls*
+
+*echo $(ls)*
+
+### Local variables
+
+Local variables can be created by using the keyword *local*.
+
+    #!/bin/bash
+                    HELLO=Hello 
+                    function hello {
+                            local HELLO=World
+                            echo $HELLO
+                    }
+                    echo $HELLO
+                    hello
+                    echo $HELLO
+
+### Basic conditional example if .. then
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*V2XDOXCJO2I8qYBK.jpg" class="graf-image" /></figure>#!/bin/bash
+                if [ "foo" = "foo" ]; then
+                   echo expression evaluated as true
+                fi
+
+*The code to be executed if the expression within braces is true can be found after the ‘then’ word and before ‘fi’ which indicates the end of the conditionally executed code.*
+
+### Basic conditional example if .. then … else
+
+    #!/bin/bash
+                if [ "foo" = "foo" ]; then
+                   echo expression evaluated as true
+                else
+                   echo expression evaluated as false
+                fi
+
+### Conditionals with variables
+
+    #!/bin/bash
+                T1="foo"
+                T2="bar"
+                if [ "$T1" = "$T2" ]; then
+                    echo expression evaluated as true
+                else
+                    echo expression evaluated as false
+                fi
+
+### Loops
+
+-   <span id="15f6">***for***</span>
+-   <span id="4000">***while***</span>
+
+> (there’s another loop called until but I don’t use it so you can look it up if you’d like)
+
+> ***The until loop is almost equal to the while loop, except that the code is executed while the*** <a href="https://www.cs.fsu.edu/~myers/c++/notes/control1.html" class="markup--anchor markup--blockquote-anchor"><strong><em>control expression</em></strong></a> ***evaluates to false.***
+
+The **for** loop is a little bit different from other programming languages. Basically, it let’s you iterate over a series of ‘words’ within a string.
+
+The **while** executes a piece of code if the control expression is true, and only stops when it is false …or a explicit break is found within the executed code.
+
+### For
+
+    #!/bin/bash
+            for i in $( ls ); do
+                echo item: $i
+            done
+
+> On the second line, we declare i to be the variable that will take the different values contained in $( ls ).
+
+> The third line could be longer if needed, or there could be more lines before the done (4).
+
+> ‘done’ (4) indicates that the code that used the value of $i has finished and $i can take a new value.
+
+> A more useful way to use the for loop would be to use it to match only certain files on the previous example
+
+### While
+
+    #!/bin/bash 
+             COUNTER=0
+             while [  $COUNTER -lt 10 ]; do
+                 echo The counter is $COUNTER
+                 let COUNTER=COUNTER+1 
+             done
+
+### Functions
+
+As in almost any programming language, you can use functions to group pieces of code in a more logical way or practice the divine art of recursion.
+
+Declaring a function is just a matter of writing function my\_func { my\_code }.
+
+Calling a function is just like calling another program, you just write its name.
+
+### Functions ex.)
+
+    #!/bin/bash 
+               function quit {
+                   exit
+               }
+               function hello {
+                   echo Hello!
+               }
+               hello
+               quit
+               echo foo
+
+> Lines 2–4 contain the ‘quit’ function. Lines 5–7 contain the ‘hello’ function If you are not absolutely sure about what this script does, please try it!.
+
+> Notice that a functions don’t need to be declared in any specific order.
+
+> When running the script you’ll notice that first: the function ‘hello’ is called, second the ‘quit’ function, and the program never reaches line 10.
+
+### Functions with parameters
+
+    #!/bin/bash 
+                    function quit {
+                       exit
+                    }  
+                    function e {
+                        echo $1 
+                    }  
+                    e Hello
+                    e World
+                    quit
+                    echo foo
+
+### Backup Directory Script:
+
+    #!/bin/bash          
+                SRCD="/home/"
+                TGTD="/var/backups/"
+                OF=home-$(date +%Y%m%d).tgz
+                tar -cZf $TGTD$OF $SRCD
+
+### File Renamer:
+
+### Bonus Commands:
+
+#### Included in a gist below (so you can see them syntax highlighted..) I am also including them in text so that they might turn up as a result of google searches … I have a hunch that google’s SEO rankings don’t put much emphasis on the content of github gists.
+
+### Example
+
+    #!/usr/bin/env bash
+
+    NAME="John"
+    echo "Hello $NAME!"
+
+### Variables
+
+    NAME="John"
+    echo $NAME
+    echo "$NAME"
+    echo "${NAME}!"
+
+### String quotes
+
+    NAME="John"
+    echo "Hi $NAME"  #=> Hi John
+    echo 'Hi $NAME'  #=> Hi $NAME
+
+### Shell execution
+
+    echo "I'm in $(pwd)"
+    echo "I'm in `pwd`"
+    # Same
+
+See <a href="http://wiki.bash-hackers.org/syntax/expansion/cmdsubst" class="markup--anchor markup--p-anchor">Command substitution</a>
+
+### Conditional execution
+
+    git commit && git push
+    git commit || echo "Commit failed"
+
+### Functions
+
+{: id=’functions-example’}
+
+    get_name() {
+      echo "John"
+    }
+
+    echo "You are $(get_name)"
+
+See: <a href="https://bryanguner.medium.com/media/2ab9392fe0f579fca234dcdc71259b1c#functions" class="markup--anchor markup--p-anchor">Functions</a>
+
+### Conditionals
+
+{: id=’conditionals-example’}
+
+    if [[ -z "$string" ]]; then
+      echo "String is empty"
+    elif [[ -n "$string" ]]; then
+      echo "String is not empty"
+    fi
+
+See: <a href="https://bryanguner.medium.com/media/2ab9392fe0f579fca234dcdc71259b1c#conditionals" class="markup--anchor markup--p-anchor">Conditionals</a>
+
+### Strict mode
+
+    set -euo pipefail
+    IFS=$'\n\t'
+
+See: <a href="http://redsymbol.net/articles/unofficial-bash-strict-mode/" class="markup--anchor markup--p-anchor">Unofficial bash strict mode</a>
+
+### Brace expansion
+
+    echo {A,B}.js
+
+ExpressionDescription`{A,B}`Same as `A B{A,B}.js`Same as `A.js B.js{1..5}`Same as `1 2 3 4 5`
+
+See: <a href="http://wiki.bash-hackers.org/syntax/expansion/brace" class="markup--anchor markup--p-anchor">Brace expansion</a>
+
+### Parameter expansions
+
+{: .-three-column}
+
+### Basics
+
+    name="John"
+    echo ${name}
+    echo ${name/J/j}    #=> "john" (substitution)
+    echo ${name:0:2}    #=> "Jo" (slicing)
+    echo ${name::2}     #=> "Jo" (slicing)
+    echo ${name::-1}    #=> "Joh" (slicing)
+    echo ${name:(-1)}   #=> "n" (slicing from right)
+    echo ${name:(-2):1} #=> "h" (slicing from right)
+    echo ${food:-Cake}  #=> $food or "Cake"
+
+    length=2
+    echo ${name:0:length}  #=> "Jo"
+
+See: <a href="http://wiki.bash-hackers.org/syntax/pe" class="markup--anchor markup--p-anchor">Parameter expansion</a>
+
+    STR="/path/to/foo.cpp"
+    echo ${STR%.cpp}    # /path/to/foo
+    echo ${STR%.cpp}.o  # /path/to/foo.o
+    echo ${STR%/*}      # /path/to
+
+    echo ${STR##*.}     # cpp (extension)
+    echo ${STR##*/}     # foo.cpp (basepath)
+
+    echo ${STR#*/}      # path/to/foo.cpp
+    echo ${STR##*/}     # foo.cpp
+
+    echo ${STR/foo/bar} # /path/to/bar.cpp
+
+    STR="Hello world"
+    echo ${STR:6:5}   # "world"
+    echo ${STR: -5:5}  # "world"
+
+    SRC="/path/to/foo.cpp"
+    BASE=${SRC##*/}   #=> "foo.cpp" (basepath)
+    DIR=${SRC%$BASE}  #=> "/path/to/" (dirpath)
+
+### Substitution
+
+CodeDescription`${FOO%suffix}`Remove suffix`${FOO#prefix}`Remove prefix------`${FOO%%suffix}`Remove long suffix`${FOO##prefix}`Remove long prefix------`${FOO/from/to}`Replace first match`${FOO//from/to}`Replace all------`${FOO/%from/to}`Replace suffix`${FOO/#from/to}`Replace prefix
+
+### Comments
+
+    # Single line comment
+
+    : '
+    This is a
+    multi line
+    comment
+    '
+
+### Substrings
+
+ExpressionDescription`${FOO:0:3}`Substring *(position, length)*`${FOO:(-3):3}`Substring from the right
+
+### Length
+
+ExpressionDescription`${#FOO}`Length of `$FOO`
+
+### Manipulation
+
+    STR="HELLO WORLD!"
+    echo ${STR,}   #=> "hELLO WORLD!" (lowercase 1st letter)
+    echo ${STR,,}  #=> "hello world!" (all lowercase)
+
+    STR="hello world!"
+    echo ${STR^}   #=> "Hello world!" (uppercase 1st letter)
+    echo ${STR^^}  #=> "HELLO WORLD!" (all uppercase)
+
+### Default values
+
+ExpressionDescription`${FOO:-val}$FOO`, or `val` if unset (or null)`${FOO:=val}`Set `$FOO` to `val` if unset (or null)`${FOO:+val}val` if `$FOO` is set (and not null)`${FOO:?message}`Show error message and exit if `$FOO` is unset (or null)
+
+Omitting the `:` removes the (non)nullity checks, e.g. `${FOO-val}` expands to `val` if unset otherwise `$FOO`.
+
+### Loops
+
+{: .-three-column}
+
+### Basic for loop
+
+    for i in /etc/rc.*; do
+      echo $i
+    done
+
+### C-like for loop
+
+    for ((i = 0 ; i < 100 ; i++)); do
+      echo $i
+    done
+
+### Ranges
+
+    for i in {1..5}; do
+        echo "Welcome $i"
+    done
+
+#### With step size
+
+    for i in {5..50..5}; do
+        echo "Welcome $i"
+    done
+
+### Reading lines
+
+    cat file.txt | while read line; do
+      echo $line
+    done
+
+### Forever
+
+    while true; do
+      ···
+    done
+
+### Functions
+
+{: .-three-column}
+
+### Defining functions
+
+    myfunc() {
+        echo "hello $1"
+    }
+
+    # Same as above (alternate syntax)
+    function myfunc() {
+        echo "hello $1"
+    }
+
+    myfunc "John"
+
+### Returning values
+
+    myfunc() {
+        local myresult='some value'
+        echo $myresult
+    }
+
+    result="$(myfunc)"
+
+### Raising errors
+
+    myfunc() {
+      return 1
+    }
+
+    if myfunc; then
+      echo "success"
+    else
+      echo "failure"
+    fi
+
+### Arguments
+
+ExpressionDescription`$#`Number of arguments`$*`All postional arguments (as a single word)`$@`All postitional arguments (as separate strings)`$1`First argument`$_`Last argument of the previous command
+
+**Note**: `$@` and `$*` must be quoted in order to perform as described. Otherwise, they do exactly the same thing (arguments as separate strings).
+
+See <a href="http://wiki.bash-hackers.org/syntax/shellvars#special_parameters_and_shell_variables" class="markup--anchor markup--p-anchor">Special parameters</a>.
+
+### Conditionals
+
+{: .-three-column}
+
+### Conditions
+
+Note that `[[` is actually a command/program that returns either `0` (true) or `1` (false). Any program that obeys the same logic (like all base utils, such as `grep(1)` or `ping(1)`) can be used as condition, see examples.
+
+ConditionDescription`[[ -z STRING ]]`Empty string`[[ -n STRING ]]`Not empty string`[[ STRING == STRING ]]`Equal`[[ STRING != STRING ]]`Not Equal------`[[ NUM -eq NUM ]]`Equal`[[ NUM -ne NUM ]]`Not equal`[[ NUM -lt NUM ]]`Less than`[[ NUM -le NUM ]]`Less than or equal`[[ NUM -gt NUM ]]`Greater than`[[ NUM -ge NUM ]]`Greater than or equal------`[[ STRING =~ STRING ]]`Regexp------`(( NUM < NUM ))`Numeric conditions
+
+#### More conditions
+
+ConditionDescription`[[ -o noclobber ]]`If OPTIONNAME is enabled------`[[ ! EXPR ]]`Not`[[ X && Y ]]`And\`\[\[ X
+
+### File conditions
+
+ConditionDescription`[[ -e FILE ]]`Exists`[[ -r FILE ]]`Readable`[[ -h FILE ]]`Symlink`[[ -d FILE ]]`Directory`[[ -w FILE ]]`Writable`[[ -s FILE ]]`Size is &gt; 0 bytes`[[ -f FILE ]]`File`[[ -x FILE ]]`Executable------`[[ FILE1 -nt FILE2 ]]`1 is more recent than 2`[[ FILE1 -ot FILE2 ]]`2 is more recent than 1`[[ FILE1 -ef FILE2 ]]`Same files
+
+### Example
+
+    # String
+    if [[ -z "$string" ]]; then
+      echo "String is empty"
+    elif [[ -n "$string" ]]; then
+      echo "String is not empty"
+    else
+      echo "This never happens"
+    fi
+
+    # Combinations
+    if [[ X && Y ]]; then
+      ...
+    fi
+
+    # Equal
+    if [[ "$A" == "$B" ]]
+
+    # Regex
+    if [[ "A" =~ . ]]
+
+    if (( $a < $b )); then
+       echo "$a is smaller than $b"
+    fi
+
+    if [[ -e "file.txt" ]]; then
+      echo "file exists"
+    fi
+
+### Arrays
+
+### Defining arrays
+
+    Fruits=('Apple' 'Banana' 'Orange')
+
+    Fruits[0]="Apple"
+    Fruits[1]="Banana"
+    Fruits[2]="Orange"
+
+### Working with arrays
+
+    echo ${Fruits[0]}           # Element #0
+    echo ${Fruits[-1]}          # Last element
+    echo ${Fruits[@]}           # All elements, space-separated
+    echo ${#Fruits[@]}          # Number of elements
+    echo ${#Fruits}             # String length of the 1st element
+    echo ${#Fruits[3]}          # String length of the Nth element
+    echo ${Fruits[@]:3:2}       # Range (from position 3, length 2)
+    echo ${!Fruits[@]}          # Keys of all elements, space-separated
+
+### Operations
+
+    Fruits=("${Fruits[@]}" "Watermelon")    # Push
+    Fruits+=('Watermelon')                  # Also Push
+    Fruits=( ${Fruits[@]/Ap*/} )            # Remove by regex match
+    unset Fruits[2]                         # Remove one item
+    Fruits=("${Fruits[@]}")                 # Duplicate
+    Fruits=("${Fruits[@]}" "${Veggies[@]}") # Concatenate
+    lines=(`cat "logfile"`)                 # Read from file
+
+### Iteration
+
+    for i in "${arrayName[@]}"; do
+      echo $i
+    done
+
+### Dictionaries
+
+{: .-three-column}
+
+### Defining
+
+    declare -A sounds
+
+    sounds[dog]="bark"
+    sounds[cow]="moo"
+    sounds[bird]="tweet"
+    sounds[wolf]="howl"
+
+Declares `sound` as a Dictionary object (aka associative array).
+
+### Working with dictionaries
+
+    echo ${sounds[dog]} # Dog's sound
+    echo ${sounds[@]}   # All values
+    echo ${!sounds[@]}  # All keys
+    echo ${#sounds[@]}  # Number of elements
+    unset sounds[dog]   # Delete dog
+
+### Iteration
+
+#### Iterate over values
+
+    for val in "${sounds[@]}"; do
+      echo $val
+    done
+
+#### Iterate over keys
+
+    for key in "${!sounds[@]}"; do
+      echo $key
+    done
+
+### Options
+
+### Options
+
+    set -o noclobber  # Avoid overlay files (echo "hi" > foo)
+    set -o errexit    # Used to exit upon error, avoiding cascading errors
+    set -o pipefail   # Unveils hidden failures
+    set -o nounset    # Exposes unset variables
+
+### Glob options
+
+    shopt -s nullglob    # Non-matching globs are removed  ('*.foo' => '')
+    shopt -s failglob    # Non-matching globs throw errors
+    shopt -s nocaseglob  # Case insensitive globs
+    shopt -s dotglob     # Wildcards match dotfiles ("*.sh" => ".foo.sh")
+    shopt -s globstar    # Allow ** for recursive matches ('lib/**/*.rb' => 'lib/a/b/c.rb')
+
+Set `GLOBIGNORE` as a colon-separated list of patterns to be removed from glob matches.
+
+### History
+
+### Commands
+
+CommandDescription`history`Show history`shopt -s histverify`Don't execute expanded result immediately
+
+### Expansions
+
+ExpressionDescription`!$`Expand last parameter of most recent command`!*`Expand all parameters of most recent command`!-n`Expand `n`th most recent command`!n`Expand `n`th command in history`!<command>`Expand most recent invocation of command `<command>`
+
+### Operations
+
+CodeDescription`!!`Execute last command again`!!:s/<FROM>/<TO>/`Replace first occurrence of `<FROM>` to `<TO>` in most recent command`!!:gs/<FROM>/<TO>/`Replace all occurrences of `<FROM>` to `<TO>` in most recent command`!$:t`Expand only basename from last parameter of most recent command`!$:h`Expand only directory from last parameter of most recent command
+
+`!!` and `!$` can be replaced with any valid expansion.
+
+### Slices
+
+CodeDescription`!!:n`Expand only `n`th token from most recent command (command is `0`; first argument is `1`)`!^`Expand first argument from most recent command`!$`Expand last token from most recent command`!!:n-m`Expand range of tokens from most recent command`!!:n-$`Expand `n`th token to last from most recent command
+
+`!!` can be replaced with any valid expansion i.e. `!cat`, `!-2`, `!42`, etc.
+
+### Miscellaneous
+
+### Numeric calculations
+
+    $((a + 200))      # Add 200 to $a
+
+    $(($RANDOM%200))  # Random number 0..199
+
+### Subshells
+
+    (cd somedir; echo "I'm now in $PWD")
+    pwd # still in first directory
+
+### Redirection
+
+    python hello.py > output.txt   # stdout to (file)
+    python hello.py >> output.txt  # stdout to (file), append
+    python hello.py 2> error.log   # stderr to (file)
+    python hello.py 2>&1           # stderr to stdout
+    python hello.py 2>/dev/null    # stderr to (null)
+    python hello.py &>/dev/null    # stdout and stderr to (null)
+
+    python hello.py < foo.txt      # feed foo.txt to stdin for python
+
+### Inspecting commands
+
+    command -V cd
+    #=> "cd is a function/alias/whatever"
+
+### Trap errors
+
+    trap 'echo Error at about $LINENO' ERR
+
+or
+
+    traperr() {
+      echo "ERROR: ${BASH_SOURCE[1]} at about ${BASH_LINENO[0]}"
+    }
+
+    set -o errtrace
+    trap traperr ERR
+
+### Case/switch
+
+    case "$1" in
+      start | up)
+        vagrant up
+        ;;
+
+      *)
+        echo "Usage: $0 {start|stop|ssh}"
+        ;;
+    esac
+
+### Source relative
+
+    source "${0%/*}/../share/foo.sh"
+
+### printf
+
+    printf "Hello %s, I'm %s" Sven Olga
+    #=> "Hello Sven, I'm Olga
+
+    printf "1 + 1 = %d" 2
+    #=> "1 + 1 = 2"
+
+    printf "This is how you print a float: %f" 2
+    #=> "This is how you print a float: 2.000000"
+
+### Directory of script
+
+    DIR="${0%/*}"
+
+### Getting options
+
+    while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+      -V | --version )
+        echo $version
+        exit
+        ;;
+      -s | --string )
+        shift; string=$1
+        ;;
+      -f | --flag )
+        flag=1
+        ;;
+    esac; shift; done
+    if [[ "$1" == '--' ]]; then shift; fi
+
+### Heredoc
+
+    cat <<END
+    hello world
+    END
+
+### Reading input
+
+    echo -n "Proceed? [y/n]: "
+    read ans
+    echo $ans
+
+    read -n 1 ans    # Just one character
+
+### Special variables
+
+ExpressionDescription`$?`Exit status of last task`$!`PID of last background task`$$`PID of shell`$0`Filename of the shell script
+
+See <a href="http://wiki.bash-hackers.org/syntax/shellvars#special_parameters_and_shell_variables" class="markup--anchor markup--p-anchor">Special parameters</a>.
+
+### Go to previous directory
+
+    pwd # /home/user/foo
+    cd bar/
+    pwd # /home/user/foo/bar
+    cd -
+    pwd # /home/user/foo
+
+### Check for command’s result
+
+    if ping -c 1 google.com; then
+      echo "It appears you have a working internet connection"
+    fi
+
+### Grep check
+
+    if grep -q 'foo' ~/.bash_history; then
+      echo "You appear to have typed 'foo' in the past"
+    fi
+
+### Also see
+
+{: .-one-column}
+
+-   <span id="4581"><a href="http://wiki.bash-hackers.org/" class="markup--anchor markup--li-anchor">Bash-hackers wiki</a> *(bash-hackers.org)*</span>
+-   <span id="b6a2"><a href="http://wiki.bash-hackers.org/syntax/shellvars" class="markup--anchor markup--li-anchor">Shell vars</a> *(bash-hackers.org)*</span>
+-   <span id="a5d4"><a href="https://learnxinyminutes.com/docs/bash/" class="markup--anchor markup--li-anchor">Learn bash in y minutes</a> *(learnxinyminutes.com)*</span>
+-   <span id="007b"><a href="http://mywiki.wooledge.org/BashGuide" class="markup--anchor markup--li-anchor">Bash Guide</a> *(mywiki.wooledge.org)*</span>
+-   <span id="f2db"><a href="https://www.shellcheck.net/" class="markup--anchor markup--li-anchor">ShellCheck</a> *(shellcheck.net)*</span>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [August 9, 2021](https://medium.com/p/3ec9d4e2e65).
+
+<a href="https://medium.com/@bryanguner/bash-proficiency-in-under-15-minutes-3ec9d4e2e65" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Basic React Tutorial
+====================
+
+Random Things to Remember
+
+------------------------------------------------------------------------
+
+### Basic React Tutorial
+
+#### Random Things to Remember
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+<br />
+<em>You should probably skip this one… seriously it’s just for internal use!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock"></a>
+
+#### Using `()` implicitly returns components.Role of `index.js` is to *render* your application.The reference to `root` comes from a div in the body of your public html file.State of a component is simply a regular JS Object.Class Components require `render()` method to return JSX.Functional Components directly return JSX.`Class` is `className` in React.When parsing for an integer just chain `Number.parseInt("123")`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*16IltJu5wXjzgXyU.gif" class="graf-image" /></figure>\- <span id="3b86">\*\*Use ternary operator if you want to make a conditional inside a fragment.\*\*</span>
+
+    { x === y ? <div>Naisu</div> : <div>Not Naisu</div>; }
+
+    Purpose of React.Fragment is to allow you to create groups of children without adding an extra dom element.
+
+-   <span id="5cbe">**React** manages the creation and updating of DOM nodes in your Web page.</span>
+
+-   <span id="d253">All it does is dynamically render stuff into your DOM.</span>
+
+-   <span id="093c">What it doesn’t do:</span>
+
+-   <span id="bd7d">Ajax</span>
+
+-   <span id="7f06">Services</span>
+
+-   <span id="b1b9">Local Storage</span>
+
+-   <span id="47a9">Provide a CSS framework</span>
+
+-   <span id="57d1">**React** is unopinionated</span>
+
+-   <span id="b277">Just contains a few rules for developers to follow, and it just works.</span>
+
+-   <span id="dafd">**JSX** : Javascript Extension is a language invented to help write React Applications (looks like a mixture of JS and HTML)</span>
+
+-   <span id="fc46">Here is an overview of the difference between rendering out vanilla JS to create elements, and JSX:</span>
+
+-   <span id="eec2">This may seem like a lot of code but when you end up building many components, it becomes nice to put each of those functions/classes into their own files to organize your code.  
+    **Using tools with React**</span>
+
+-   <span id="6c32">`React DevTools` : New tool in your browser to see ow React is working in the browser</span>
+
+-   <span id="3f86">`create-react-app` : Extensible command-line tool to help generate standard React applications.</span>
+
+-   <span id="da3c">`Webpack` : In between tool for dealing with the extra build step involved.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*4O0NPGEa-1NcDOIA.png" class="graf-image" /></figure>\- <span id="9d53">\*\*HMR\*\* : (Hot Module Replacement) When you make changes to your source code the changes are delivered in real-time.</span> - <span id="8d5b">React Developers created something called \`Flux Architecture\` to moderate how their web page consumes and modifies data received from back-end API's.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*hXODC_ZsM-egMFI4.png" class="graf-image" /></figure>\- <span id="97a3">\*\*Choosing React\*\*</span> - <span id="1589">Basically, React is super important to learn and master.</span>
+
+### React Concepts and Features
+
+There are many benefits to using React over just Vanilla JS.
+
+-   <span id="6bac">`Modularity`</span>
+-   <span id="3fc9">To avoid the mess of many event listeners and template strings, React gives you the benefit of a lot of modularity.</span>
+-   <span id="20d5">`Easy to start`</span>
+-   <span id="8e3e">No specials tools are needed to use Basic React.</span>
+-   <span id="f1a2">You can start working directly with `createElement` method in React.</span>
+-   <span id="2a43">`Declarative Programming`</span>
+-   <span id="c587">React is declarative in nature, utilizing either it’s build in createElement method or the higher-level language known as JSX.</span>
+-   <span id="866d">`Reusability`</span>
+-   <span id="eff3">Create elements that can be re-used over and over.  
+    **One-flow of data**</span>
+-   <span id="5c6e">React apps are built as a combination of parent and child components.</span>
+-   <span id="5a30">Parents can have one or more child components, all children have parents.</span>
+-   <span id="d6c8">Data is never passed from child to the parent.</span>
+-   <span id="dc54">`Virtual DOM` : React provides a Virtual DOM that acts as an agent between the real DOM and the developer to help debug, maintain, and provide general use.</span>
+-   <span id="90bf">Due to this usage, React handles web pages much more intelligently; making it one of the speediest Front End Libraries available.</span>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [July 1, 2021](https://medium.com/p/647ba595e607).
+
+<a href="https://medium.com/@bryanguner/react-tutorial-from-basics-647ba595e607" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Basic Web Development Environment Setup
+=======================================
+
+Windows Subsystem for Linux (WSL) and Ubuntu
+
+------------------------------------------------------------------------
+
+### Basic Web Development Environment Setup
+
+#### Windows Subsystem for Linux (WSL) and Ubuntu
+
+‌
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*aqKP1drNHmNm34zz.jpg" class="graf-image" /></figure>Test if you have Ubuntu installed by typing “Ubuntu” in the search box in the bottom app bar that reads “Type here to search”. If you see a search result that reads **“Ubuntu 20.04 LTS”** with “App” under it, then you have it installed.
+
+‌
+
+1.  <span id="110a">In the application search box in the bottom bar, type “PowerShell” to find the application named “Windows PowerShell”</span>
+2.  <span id="54fd">Right-click on “Windows PowerShell” and choose “Run as administrator” from the popup menu</span>
+3.  <span id="a018">In the blue PowerShell window, type the following: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`</span>
+4.  <span id="6269">Restart your computer</span>
+5.  <span id="6dd9">In the application search box in the bottom bar, type “Store” to find the application named “Microsoft Store”</span>
+6.  <span id="eb4e">Click “Microsoft Store”</span>
+7.  <span id="74c1">Click the “Search” button in the upper-right corner of the window</span>
+8.  <span id="9d35">Type in “Ubuntu”</span>
+9.  <span id="4205">Click “Run Linux on Windows (Get the apps)”</span>
+10. <span id="1799">Click the orange tile labeled **“Ubuntu”** Note that there are 3 versions in the Microsoft Store… you want the one just entitled ‘Ubuntu’</span>
+11. <span id="edec">Click “Install”</span>
+12. <span id="2935">After it downloads, click “Launch”</span>
+13. <span id="a859">If you get the option, pin the application to the task bar. Otherwise, right-click on the orange Ubuntu icon in the task bar and choose “Pin to taskbar”</span>
+14. <span id="669c">When prompted to “Enter new UNIX username”, type your first name with no spaces</span>
+15. <span id="e9c1">When prompted, enter and retype a password for this UNIX user (it can be the same as your Windows password)</span>
+16. <span id="4217">Confirm your installation by typing the command `whoami ‘as in who-am-i'`followed by Enter at the prompt (it should print your first name)</span>
+17. <span id="48fe">You need to update your packages, so type `sudo apt update` (if prompted for your password, enter it)</span>
+18. <span id="d12f">You need to upgrade your packages, so type `sudo apt upgrade` (if prompted for your password, enter it)</span>
+
+### Git
+
+Git comes with Ubuntu, so there’s nothing to install. However, you should configure it using the following instructions.
+
+‌Open an Ubuntu terminal if you don’t have one open already.
+
+1.  <span id="8cfe">You need to configure Git, so type `git config --global user.name "Your Name"` with replacing "Your Name" with your real name.</span>
+2.  <span id="0e0d">You need to configure Git, so type `git config --global user.email your@email.com` with replacing "<a href="mailto:your@email.com" class="markup--anchor markup--li-anchor">your@email.com</a>" with your real email.</span>
+
+**Note: if you want git to remember your login credentials type:**
+
+    $ git config --global credential.helper store
+
+‌
+
+### Google Chrome
+
+Test if you have Chrome installed by typing “Chrome” in the search box in the bottom app bar that reads “Type here to search”. If you see a search result that reads “Chrome” with “App” under it, then you have it installed. Otherwise, follow these instructions to install Google Chrome.
+
+‌
+
+1.  <span id="578c">Open Microsoft Edge, the blue “e” in the task bar, and type in <a href="http://chrome.google.com/" class="markup--anchor markup--li-anchor">http://chrome.google.com</a>. Click the “Download Chrome” button. Click the “Accept and Install” button after reading the terms of service. Click “Save” in the “What do you want to do with ChromeSetup.exe” dialog at the bottom of the window. When you have the option to “Run” it, do so. Answer the questions as you’d like. Set it as the default browser.</span>
+2.  <span id="40db">Right-click on the Chrome icon in the task bar and choose “Pin to taskbar”.</span>
+
+### Node.js
+
+Test if you have Node.js installed by opening an Ubuntu terminal and typing `node --version`. If it reports "Command 'node' not found", then you need to follow these directions.
+
+1.  <span id="9098">In the Ubuntu terminal, type `sudo apt update` and press Enter</span>
+2.  <span id="806b">In the Ubuntu terminal, type `sudo apt install build-essential` and press Enter</span>
+3.  <span id="5f3a">In the Ubuntu terminal, type `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash` and press Enter</span>
+4.  <span id="2abd">In the Ubuntu terminal, type `. ./.bashrc` and press Enter</span>
+5.  <span id="3c16">In the Ubuntu terminal, type `nvm install --lts` and press Enter</span>
+6.  <span id="d567">Confirm that **node** is installed by typing `node --version` and seeing it print something that is not "Command not found"!</span>
+
+### Unzip
+
+You will often have to download a zip file and unzip it. It is easier to do this from the command line. So we need to install a linux unzip utility.
+
+‌In the Ubuntu terminal type: `sudo apt install unzip` and press Enter
+
+‌Mocha.js
+
+Test if you have Mocha.js installed by opening an Ubuntu terminal and typing `which mocha`. If it prints a path, then you're good. Otherwise, if it prints nothing, install Mocha.js by typing `npm install -g mocha`.
+
+‌
+
+### Python 3
+
+Ubuntu does not come with Python 3. Install it using the command `sudo apt install python3`. Test it by typing `python3 --version` and seeing it print a number.
+
+‌
+
+### Note about WSL
+
+‌
+
+As of the time of writing of this document, WSL has an issue renaming or deleting files if Visual Studio Code is open. So before doing any linux commands which manipulate files, make sure you **close** Visual Studio Code before running those commands in the Ubuntu terminal.
+
+‌
+
+### Some other common instillations
+
+    # Installing build essentials
+    sudo apt-get install -y build-essential libssl-dev
+    # Nodejs and NVM
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+    source ~/.profile
+    sudo nvm install 7.10.0
+    sudo nvm use 7.10.0
+    node -v
+    #nodemon
+    sudo npm install -g nodemon
+    sudo npm install -g loopback-cli
+    # Forever to run nodejs scripts forever
+    sudo npm install forever -g
+    # Git - a version control system
+    sudo apt-get update
+    sudo apt-get install -y git xclip
+    # Grunt - an automated task runner
+    sudo npm install -g grunt-cli
+    # Bower - a dependency manager
+    sudo npm install -g bower
+    # Yeoman - for generators
+    sudo npm install -g yo
+    # maven
+    sudo apt-get install maven -y
+    # Gulp - an automated task runner
+    sudo npm install -g gulp-cli
+    # Angular FullStack - My favorite MEAN boilerplate (MEAN = MongoDB, Express, Angularjs, Nodejs)
+    sudo npm install -g generator-angular-fullstack
+    # Vim, Curl, Python - Some random useful stuff
+    sudo apt-get install -y vim curl python-software-properties
+    sudo apt-get install -y python-dev, python-pip
+    sudo apt-get install -y libkrb5-dev
+    # Installing JDK and JRE
+    sudo apt-get install -y default-jre
+    sudo apt-get install -y default-jdk
+    # Archive Extractors
+    sudo apt-get install -y unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
+    # FileZilla - a FTP client
+    sudo apt-get install -y filezilla
+
+#### If you found this guide helpful feel free to checkout my github/gists where I host similar content:
+
+<a href="https://gist.github.com/bgoonz" class="markup--anchor markup--p-anchor">bgoonz’s gists · GitHub</a>
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz - Overview</strong><br />
+<em>Web Developer, Electrical Engineer JavaScript | CSS | Bootstrap | Python | React | Node.js | Express | Sequelize…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+Or Checkout my personal Resource Site:
+
+<a href="https://bgoonz-blog.netlify.app/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bgoonz-blog.netlify.app/"><strong>Web-Dev-Hub</strong><br />
+<em>Memoization, Tabulation, and Sorting Algorithms by Example Why is looking at runtime not a reliable method of…</em>bgoonz-blog.netlify.app</a><a href="https://bgoonz-blog.netlify.app/" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [February 27, 2021](https://medium.com/p/9f36c3f15afe).
+
+<a href="https://medium.com/@bryanguner/basic-web-development-environment-setup-9f36c3f15afe" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Beginner’s Guide To React Part 2
+================================
+
+As I learn to build web applications in React I will blog about it in this series in an attempt to capture the questions that a complete…
+
+------------------------------------------------------------------------
+
+### Beginner’s Guide To React Part 2
+
+As I learn to build web applications in React I will blog about it in this series in an attempt to capture the questions that a complete beginner might encounter that a more seasoned developer would take for granted!
+
+#### For more resources visit:
+
+<a href="https://github.com/bgoonz/React_Notes_V3" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz/React_Notes_V3"><strong>bgoonz/React_Notes_V3</strong><br />
+<em>A JavaScript library for building user interfaces React makes it painless to create interactive UIs. Design simple…</em>github.com</a><a href="https://github.com/bgoonz/React_Notes_V3" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://gist.github.com/bgoonz/e07d9e7917ae9e98807358d1e7cc4a67" class="markup--anchor markup--p-anchor">Use this appendix to get any prerequisite concepts and terminology under your belt:</a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*bZjlAJDEmP6yfpKI.gif" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+<span class="graf-dropCap">H</span>ere I will walk through a demo…. skip down below for more fundamental examples and resources…
+
+### React Demo
+
+-   <span id="91c8">ex1 — A Basic React Component</span>
+-   <span id="78f6">ex2 — A Basic React Class Component</span>
+-   <span id="1e73">ex3 — A Class Component with State</span>
+-   <span id="ba57">ex4 — A Class Component that Updates State</span>
+-   <span id="203a">ex5 — A Class Component that Iterates through State</span>
+-   <span id="8087">ex6 — An Example of Parent and Child Components</span>
+
+With regards to converting an existing HTML, CSS, and JS site into React, first you’ll want to think about how to break up your site into components,
+
+-   <span id="694c">as well as think about what the general hierarchical component structure of your site will look like.</span>
+-   <span id="fdf0">From there, it’s a simple matter of copying the relevant HTML for that component and throwing it into the **render method of your component file.**</span>
+-   <span id="ec78">*Any methods that are needed for that component to function properly can added onto your new component.*</span>
+
+Once you’ve refactored your HTML components into React components, you’ll want to lay them out in the desired hierarchical structure
+
+-   <span id="227c">with children components being rendered by their parents, as well as ensuring that the parent components are passing down the necessary data as props to their children components.</span>
+
+ex.)
+
+    <!-- Hello world -->
+    <div class="awesome" style="border: 1px solid red">
+      <label for="name">Enter your name: </label>
+      <input type="text" id="name" />
+    </div>
+    <p>Enter your HTML here</p>
+
+Is equivalent to:
+
+### A Basic Component
+
+<span class="graf-dropCap">A</span> component is some thing that is being rendered in the browser. It could be a button, a form with a bunch of fields in it…etc.…
+
+React doesn’t place any restrictions on how large or small a component can be.
+
+You *could* have an entire static site encapsulated in a single React component, but that would defeat the purpose of using React.
+
+So the first thing to remember about a component is that a **component must *render* something.**
+
+*If nothing is being rendered from a component, then React will throw an error.*
+
+Inside of `BasicComponent.js` , first import React at the top of the file. Our most basic of components looks like this:
+
+> *This is a component that simply returns a div tag with the words Hello World! inside.*
+
+> *The last line simply exports our component so that it can be imported  
+> by another file.*
+
+Notice that this component looks exactly like an anonymous arrow function that we’ve named `BasicComponent` .
+
+In fact, that is literally what this is.
+
+The arrow function then is simply returning the div tag. When a component is written as a function like this one is, it is called a *functional* component.
+
+### A Basic Class Component
+
+The above component is an example of a functional component, which is appropriate since that component is literally nothing more than a function that returns some HTML.
+
+*Functional components are great when all you want a component to do is to render some stuff.*
+
+*Components can also be written as classes (although this paradigm is becoming outdated and you should strive to write your components functionally!*
+
+For this exercise, we’re going to write a class component that does exactly the same thing as the functional component we just wrote.
+
+We’ll again need to import React at the top of the file, but we’ll also need to add a little something. Our import statement will look like this:
+
+    import React, { Component } from 'react';
+
+**So, in addition to importing React, we’re also importing the base Component class that is included in the React library.**
+
+#### React lets you define components as classes or functions.
+
+Components defined as classes currently provide more features . To define a React component class, you need to extend `React.Component`:
+
+    class Welcome extends React.Component {
+      render() {
+        return <h1>Hello, {this.props.name}</h1>;
+      }
+    }
+
+**The only method you *must* define in a** `React.Component` **subclass is called** `render()`**.**
+
+### `render()`
+
+The `render()` method is the only required method in a class component.
+
+When called, it should examine `this.props` and `this.state` and return one of the following types:
+
+-   <span id="8e4e">**React elements.** Typically created via <a href="https://reactjs.org/docs/introducing-jsx.html" class="markup--anchor markup--li-anchor">JSX</a>. For example, `<div />` and `<MyComponent />` are React elements that instruct React to render a DOM node, or another user-defined component, respectively.</span>
+-   <span id="2c5f">**Arrays and fragments.** Let you return multiple elements from render. See the documentation on <a href="https://reactjs.org/docs/fragments.html" class="markup--anchor markup--li-anchor">fragments</a> for more details.</span>
+-   <span id="2e6f">**Portals**. Let you render children into a different DOM subtree. See the documentation on <a href="https://reactjs.org/docs/portals.html" class="markup--anchor markup--li-anchor">portals</a> for more details.</span>
+-   <span id="83d1">**String and numbers.** These are rendered as text nodes in the DOM.</span>
+-   <span id="5c6a">**Booleans or** `null`. Render nothing. (Mostly exists to support `return test && <Child />` pattern, where `test` is boolean.)</span>
+
+The `render()` function should be pure, meaning that it does not modify component state, it returns the same result each time it’s invoked, and it does not directly interact with the browser.
+
+If you need to interact with the browser, perform your work in `componentDidMount()` or the other lifecycle methods instead. Keeping `render()` pure makes components easier to think about.
+
+> *Note*
+
+> `render()` *will not be invoked if* `shouldComponentUpdate()` *returns false.*
+
+The export statement at the bottom of the file also stays, completely unchanged. Our class component will thus look like this:
+
+**Notice that our** `BasicClassComponent` **inherits from the base** `Component` **class that we imported from the React library, by virtue of the 'extends' keyword.**
+
+*That being said, there's nothing in this minimal component that takes advantage of any of those inherited methods.*
+
+**All we have is a method on our component class called** `render` **that returns the same div tag.**
+
+If we really were deciding between whether to use a functional component versus a class component to render a simple div tag, then the functional style is more appropriate to use.
+
+This is because class components are much better suited for handling component state and triggering events based on the component’s <a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" class="markup--anchor markup--p-anchor">lifecycle.</a>
+
+#### The important takeaways at this point are that there are two types of components, functional and class components, and that functional components are well-suited if you’re just looking to render some HTML.
+
+*Class components, on the other hand, are much better suited for handling components that require more complex functionality, need to exhibit more varied behavior, and/or need to keep track of some state that may change throughout said component’s lifecycle.*
+
+### A Class Component with Some State
+
+**Component state is any dynamic data that we want the component to keep track of.**
+
+> For example, let’s say we have a form component. This form has some input fields that we’d like users to fill out. When a user types characters into an input field, how is that input persisted from the point of view of our form component?
+
+**The answer is by using component state!**
+
+There are a few important concepts regarding component state, such as how to update it, pass it to another component, render it, etc.
+
+**Only class components have the ability to persist state, so if at any time you realize that a component needs to keep track of some state, you know that you’ll automatically need a class component instead of a functional component.**
+
+> It is possible to handle state with functional components but that requires the use of something called the <a href="https://reactjs.org/docs/hooks-state.html" class="markup--anchor markup--blockquote-anchor">useState() hook</a>. Hooks were added in React 16.8; prior to this release, there was no mechanism to add state to functional components.
+
+Here’s what the above component looks like as a functional component:
+
+Our class component with state will look a lot like the basic class component we just wrote, but with some exceptions:
+
+**So far, the only new thing going on here is the constructor block. If you recall how classes in JavaScript work, classes need constructors.**
+
+**Additionally, if a class is extending off of another class and wants access to its parent class’s methods and properties, then the** `super` **function needs to be called inside the class's constructor function.**
+
+#### Point being, the constructor function and the call to the `super` function are *not* associated with React, they are associated with all JavaScript classes.
+
+-   <span id="0d56">Then there is the `this.state` **property inside the constructor function that is set as an empty object**.</span>
+-   <span id="7b29">We're adding a property called `state` to our class and setting it to an empty object.</span>
+
+#### State objects in React are always just plain old objects.
+
+#### **So why is it that the basic class component we wrote in the previous exercise had no constructor function within its body?**
+
+That is because we had no need for them since all our class component was doing was rendering some HTML.
+
+**The constructor is needed here because that is where we need to initialize our state object.**
+
+**The call to** `super` **is needed because we can't reference** `this` **inside of our constructor without a call to** `super` **first.**
+
+Ok, now let’s actually use this state object.
+
+*One very common application of state objects in React components is to render the data being stored inside them within our component’s render function.*
+
+#### Refactoring our component class to do that:
+
+We added a key-value pair to our state object inside our constructor.
+
+-   <span id="83e8">Then we changed the contents of the render function.</span>
+-   <span id="6780">Now, it’s actually rendering the data that we have inside the state object.</span>
+-   <span id="eb34">Notice that inside the div tags we’re using a template string literal so that we can access the value of `this.state.someData` straight inside of our rendered content.</span>
+
+**With Reacts newest version, we can actually now add state to a component without explicitly defining a constructor on the class. We can refactor our class component to look like this:**
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*6sYhFUNpUkt6xN9kkn4pJQ.png" class="graf-image" /></figure>
+
+This new syntax is what is often referred to as ‘syntactic sugar’: under the hood, the React library translates this back into the old constructor code that we first started with, so that the JavaScript remains valid to the JavaScript interpreter.
+
+The clue to this is the fact that when we want to access some data from the state object, we still need to call it with `this.state.someData` ; changing it to just `state.someData` does not work.
+
+### Class Component Updating State
+
+Great, so we can render some state that our component persists for us.
+
+However, we said an important use case of component state is to handle *dynamic* data.
+
+A single static number isn’t very dynamic at all.
+
+So now let’s walk through how to update component state.
+
+Notice that we’ve added two methods to our class: `increment` and `decrement` .
+
+`increment` and `decrement` are methods that *we* are adding to our class component.
+
+Unlike the `render` method, `increment` and `decrement` were not already a part of our class component.
+
+This is why `increment` and `decrement` are written as arrow functions, ***so that they are automatically bound to our class component.***
+
+The alternative is using a declaration syntax function with the bind method to bind the context of our methods to the class component.
+
+The more interesting thing is what is going on within the bodies of these methods.
+
+#### Each calls the `setState` function.
+
+-   <span id="df3c">`setState` in fact *is* provided to us by React.</span>
+
+It is the standard way to update a component's state.
+
+It's the *only* way you should ever update a component's state. It may seem more verbose than necessary, but there are good reasons for why you should be doing it this way.
+
+#### So the way to use `setState` to update a component's state is to pass it an object with each of the state keys you wish to update, along with the updated value.
+
+In our `increment` method we said "I would like to update the `aNumber` property on my component state by adding one to it and then setting the new value as my new `aNumber` ".
+
+The same thing happens in our `decrement` method, only we're subtracting instead of adding.
+
+Then the other new concept we’re running into here is how to actually call these methods we’ve added to our class.
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*k8t5QBcMvHDX521sd4pC4g.png" class="graf-image" /></figure>We added two HTML button tags within our `render` function, then in their respective `onClick` handlers, we specify the method that should be called whenever this button gets clicked. So whenever we click either of the buttons, our state gets updated appropriately and our component will re-render to show the correct value we're expecting.
+
+### Class Component Iterating State
+
+Another common state pattern you’ll see being used in React components is iterating over an array in our state object and rendering each array element in its own tag.
+
+> This is often used in order to render lists.
+
+Additionally, we want to be able to easily update lists and have React re-render our updated list.
+
+We’ll see how both of these are done and how they work together within a single component in order to create the behavior of a dynamic list.
+
+The first change to note is that our state object now has an ‘ingredients’ array, and a ‘newIngredient’ field that has been initialized to an empty string.
+
+The ingredients array contains the elements that we’ll want to render in our list.
+
+The `addIngredient` and `handleIngredientInput` methods we've added to our class receives a parameter called 'event'.
+
+This event object is part of the browser's API.
+
+When we interact with some DOM element, **such as clicking on an HTML button, the *function that is invoked upon that button being clicked* actually receives the event object.**
+
+-   <span id="3ba1">So when we type some input into an input tag, we're able grab each character that was typed into the input field through the event object parameter.</span>
+-   <span id="5de7">The `handleIngredientInput` method is what gets invoked every time the user presses a key to enter text in the input box for adding a new ingredient.</span>
+-   <span id="514e">Every character the user types gets persisted in the `newIngredient` field on the state object.</span>
+
+We're able to grab the text in the input box using `event.target.value`
+
+**Which holds the value of the string text that is currently in the input box**.
+
+> We use that to update our `newIngredient` string field.
+
+Breaking down the `addIngredient` method, we see this `event.preventDefault()` invocation.
+
+This is because this method will be used upon submitting a form, and it turns out that submitting a form triggers some default form behavior that we don't want to trigger when we submit the form (**namely refreshing the entire page**).
+
+> `event.preventDefault()` will prevent this default form behavior, meaning our form will only do what we want it to do when it is submitted.
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*RN_y7Bk4tb-LLG8vNqGHHA.png" class="graf-image" /></figure>Next, we store a reference to `this.state.ingredients` in a variable called `ingredientsList` .
+
+So we now have a copy of the array that is stored in our state object.
+
+**We want to update the copy of the ingredients array first instead of directly updating the actual array itself in state.**
+
+Now we push whatever value is being stored at our `newIngredient` field onto the `ingredientsList` array so that our `ingredientsList` array is now more up-to-date than our `this.state.ingredients` array.
+
+So all we have to do now is call `setState` appropriately in order to update the value in our state object.
+
+Additionally, we also set the `newIngredient` field back to an empty string in order to clear out the input field once we submit a new ingredient.
+
+Now it's ready to accept more user input!
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/1*LXx7WeP_5wFRfYa45snSEA.png" class="graf-image" /></figure>Looking at our render function, first note the `this.state.ingredients.map` call.
+
+This is looping through each ingredient in our `ingredients` array and returning each one within its own div tag.
+
+This is a very common pattern for rendering everything inside an array.
+
+Then we have an HTML form which contains an input field.
+
+The purpose of this form is to allow a user to add new ingredients to the list. Note that we’re passing our `addIngredient` method to the form's `onSubmit` handler.
+
+This means that our `addIngredient` method gets invoked whenever our form is submitted.
+
+Lastly, the input field has an `onChange` handler that invokes our `handleIngredientInput` method whenever there is some sort of change in the input field, namely when a user types into it.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*S7s9FfaPVlKGyaSwFeId_w.png" class="graf-image" /></figure>Notice that the `value` field in our input tag reads off of `this.state.newIngredient` in order to know what value to display.
+
+So when a user enters text into the input field, the `onChange` handler is invoked every time, which updates our `this.state.newIngredient` field, which the input field and then renders.
+
+### Parent and Child Components
+
+A single isolated component isn’t going to do us much good.
+
+> The beauty of React lies in the fact that it allows us to compose modular components together.
+
+> Let’s start off with the component we just saw, but let’s change its name to `ParentComponent` .
+
+The only two other differences in this component are that we’re importing a `ChildComponent` and then using it inside our `this.state.ingredients.map` call.
+
+`ChildComponent` is another React component.
+
+Notice that we're using it just as if it were any other HTML tag.
+
+**This is how we lay out our component hierarchy: the ChildComponent is rendered within the ParentComponent.**
+
+We can see this to be the case if we open up the developer console and inspect these elements.
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*q_XLnJ2h1L5yZjNnSKzj5w.png" alt="child-left: parent-right" class="graf-image" /><figcaption><strong>child-left: parent-right</strong></figcaption></figure>
+
+Note also that we’re passing each ingredient as a ‘thing’ to the ChildComponent component.
+
+This is how a parent component passes data to a child component. It doesn’t need to be called ‘thing’; you can call it whatever you want.
+
+Conceptually though, **every piece of data that a parent component passes down to a child component is called a ‘prop’ in React lingo.**
+
+Let’s take a look now at the Child Component. It serves two purposes:
+
+1.  <span id="4db5">to render the props data that it gets from a parent component,</span>
+2.  <span id="f8e1">to add the ability for a user to click on it and have it toggle a strikethrough, indicating that the item is ‘complete’.</span>
+
+The overall structure of the child component is nothing we haven’t seen. It’s just another class component with its own s**tate object and a method called** `handleClick`** .**
+
+**A component accesses its props via the** `this.props` **object.**
+
+*Any prop a parent component passes down to a child component is accessible inside the child component's* `this.prop` *object.*
+
+So our child component keeps its own state that tracks whether the component has been clicked or not.
+
+Then at the top of the `render` function, it uses a ternary condition to determine whether the div tag that is being rendered should have a strikethrough or not.
+
+The `handleClick` method is then invoked via an `onClick` handler on the div tag; it does the work of toggling the `this.state.clicked` Boolean.
+
+The overall structure of React applications can be represented as a hierarchical tree structure, just like how the DOM itself is structure. There is an overarching root component at the top of the hierarchy that every other component sits underneath. Specifying that a component should be a child of some parent component is as simple as throwing it in the parent component’s render function, just like how we did it in this example
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*aqqfHMjBXT8PWYJC" class="graf-image" /></figure>
+
+------------------------------------------------------------------------
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*j9aPKza7Y4htBeQ-.gif" class="graf-image" /></figure>### **Core Concepts:**
+
+#### 1. What is react?
+
+#### React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It uses components to update and render as your data changes.
+
+> React manages the **creation and continuous updating of DOM nodes in your Web page**.
+
+-   <span id="c9b6">*It does not handle* <a href="https://skillcrush.com/blog/what-is-ajax/" class="markup--anchor markup--li-anchor"><em>AJAX</em></a> *requests, Local Storage or style your website. IT is just a tool to dynamically render content on a webpage as a result of changes in ‘state’. Because it’s function is so limited in scope you may hear it referred to as a library… (not a framework … like Angular for example) and you may also hear it described as unopinionated.*</span>
+
+#### 2. Why use react?
+
+-   <span id="45da">Works for teams and helps UI workflow patterns</span>
+-   <span id="f328">The components can be reusable</span>
+-   <span id="ea48">Componentized UI is the future of web dev</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*pFe_v7Ea--vfdmvR3UcunA.png" class="graf-image" /></figure>### Declarative programming
+
+In the same way that you use HTML to *declare* what the user interface should  
+look like, React provides the same mechanism in its `createElement` method or the higher-level language known as JSX.
+
+<figure><img src="https://cdn-images-1.medium.com/max/600/0*MW-A5Dp_v1T0BB1s.png" alt="React… like HTML is Declarative" class="graf-image" /><figcaption>React… like HTML is Declarative</figcaption></figure><a href="https://en.wikipedia.org/wiki/Declarative_programming" class="markup--anchor markup--p-anchor">Declarative programming</a> is often defined as any style of programming that is not <a href="https://en.wikipedia.org/wiki/Imperative_programming" class="markup--anchor markup--p-anchor" title="Imperative programming">imperative</a>.
+
+A number of other common definitions attempt to define it by simply contrasting it with imperative programming. For example:
+
+-   <span id="97d7">A high-level program that describes what a computation should perform.</span>
+-   <span id="0283">Any programming language that lacks <a href="https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29" class="markup--anchor markup--li-anchor" title="Computation">side effects</a></span>
+-   <span id="4173">A language with a clear correspondence to <a href="https://en.wikipedia.org/wiki/Mathematical_logic" class="markup--anchor markup--li-anchor">mathematical logic</a>.<a href="https://en.wikipedia.org/wiki/Declarative_programming#cite_note-5" class="markup--anchor markup--li-anchor">[5]</a></span>
+
+These definitions overlap substantially.
+
+<span class="graf-dropCap">D</span>**eclarative programming is a non-imperative style of programming in which programs describe their desired results without explicitly listing commands or steps that must be performed.**
+
+<a href="https://en.wikipedia.org/wiki/Functional_programming" class="markup--anchor markup--p-anchor" title="Functional programming">Functional</a> and <a href="https://en.wikipedia.org/wiki/Logical_programming" class="markup--anchor markup--p-anchor" title="Logical programming">logical programming</a> languages are characterized by a declarative programming style.
+
+*In a* <a href="https://en.wikipedia.org/wiki/Pure_functional_language" class="markup--anchor markup--p-anchor" title="Pure functional language"><em>pure functional language</em></a>*, such as* <a href="https://en.wikipedia.org/wiki/Haskell_%28programming_language%29" class="markup--anchor markup--p-anchor"><em>Haskell</em></a>*, all functions are* <a href="https://en.wikipedia.org/wiki/Pure_function" class="markup--anchor markup--p-anchor" title="Pure function"><em>without side effects</em></a>*, and state changes are only represented as functions that transform the state, which is explicitly represented as a* <a href="https://en.wikipedia.org/wiki/First-class_citizen" class="markup--anchor markup--p-anchor" title="Mathematical logic"><em>first-class</em></a> *object in the program.*
+
+— Wikipedia
+
+### What is a React pure component?
+
+<a href="https://blog.logrocket.com/react-pure-components-functional/#whatisareactpurecomponent" class="markup--anchor markup--p-anchor">Based on the concept of purity in functional programming paradigms, a function is said to be pure if:</a>
+
+-   <span id="12b8">Its return value is only determined by its input values</span>
+-   <span id="c2a4">Its return value is always the same for the same input values</span>
+
+A React component is considered pure if it renders the same output for the same state and props. For class components like this, React provides the `PureComponent` base class. Class components that extend the `React.PureComponent` class are treated as pure components.
+
+Pure components have some performance improvements and render optimizations since React implements the `shouldComponentUpdate()` method for them with a shallow comparison for props and state.
+
+### Are React functional components pure?
+
+Functional components are very useful in React, especially when you want to isolate state management from the component. That’s why they are often called stateless components.
+
+However, functional components cannot leverage the performance improvements and render optimizations that come with `React.PureComponent` since they are not classes by definition.
+
+If you want React to treat a functional component as a pure component, you’ll have to convert the functional component to a class component that extends `React.PureComponent`.
+
+### Reusability
+
+React encourages you to think in terms of reusability as you construct the user  
+interface from elements and components that you create. When you  
+make a list or a button, you can then reuse those components to show different data ‘state’ in the same UI structure as you have built for different data previously.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*cBLQ5aBP2qihrT59.jpeg" class="graf-image" /></figure>#### Component-Based
+
+Build encapsulated components that manage their own state, then compose them to make complex UIs.
+
+Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
+
+#### Learn Once, Write Anywhere
+
+We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
+
+React can also render on the server using Node and power mobile apps using <a href="https://reactnative.dev/" class="markup--anchor markup--p-anchor">React Native</a>.
+
+### Speed
+
+Due to the use of a virtual DOM, React handles changes to a Web page more  
+intelligently than just string manipulation. It is constantly monitors the  
+virtual DOM for changes. It very efficiently reconciles changes in the virtual  
+DOM with what it has already produced in the real DOM. This is what  
+makes React one of the speediest front-end libraries available.
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/0*OdOq6pmpXBJhjj7k.png" class="graf-image" /></figure>#### 3. Who uses react?
+
+-   <span id="76d9">Companies such as Facebook app for android and Instagram</span>
+-   <span id="0a90"><a href="https://facebook.github.io/react-native/showcase.html" class="markup--anchor markup--li-anchor">Here</a> is a link to a list of other companies who use react.</span>
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*Cn9JvaSmkxdLwgXIO9Y8iQ.png" alt="Who uses react" class="graf-image" /><figcaption>Who uses react</figcaption></figure>#### 4. Setting up react
+
+-   <span id="6864">React can be set up in CodePen for quick practice development by adding react.js, react-dom and babel.</span>
+-   <span id="4ce5">It can also be set up by downloading a react starter project from GitHub installing node and following these <a href="https://github.com/hjb23/ReduxSimpleStarter" class="markup--anchor markup--li-anchor">instructions</a>.</span>
+-   <span id="ba2e">Alternatively it can be set up through NPM like <a href="https://www.codementor.io/tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr" class="markup--anchor markup--li-anchor">this</a>.</span>
+
+#### 5. Intro to eco system
+
+-   <span id="60f4">Composition, being able to wrap up sections of code into there own containers so they can be re used.</span>
+-   <span id="e3e8">How to make a large application? by combining small components to create a larger complex application.</span>
+
+#### 6. Imperative vs Declarative <a href="https://medium.com/trabe/why-is-react-declarative-a-story-about-function-components-aaae83198f79" class="markup--anchor markup--h4-anchor">(React is Declarative)</a>
+
+-   <span id="d48c">**Imperative, ‘telling to computer HOW to do something’ e.g looping over an array of numbers using a for loop.**</span>
+-   <span id="8f2d">**Declarative, is concerned about WHAT we want to happen. e.g using a reduce method on an array.**</span>
+-   <span id="b625">Benefits of using declarative code:</span>
+-   <span id="1164">Reduce side effects</span>
+-   <span id="0f09">Minimize mutability</span>
+-   <span id="7009">Less Bugs</span>
+
+#### 7. Unidirectional Data Flow
+
+-   <span id="f8de">As the state collects from user interaction, the UI gets updated.</span>
+
+1.  <span id="d6bf">Explicit Mutations</span>
+2.  <span id="2a52">Whenever the state needs to be updated in our application setState has to be called.</span>
+
+<!-- -->
+
+    this.setState({
+      highlight: !this.state.highlight,
+    })
+
+#### 7.1. First component
+
+-   <span id="eb44">Components are the building blocks of React.</span>
+-   <span id="ec58">They are similar to a collection of HTML,CSS, JS and data specific to that component.</span>
+-   <span id="1ee2">They can be defined in pure JavaScript or JSX.</span>
+-   <span id="a2b4">Data is either received from a component’s parent component, or it’s contained in the component itself.</span>
+-   <span id="182f">Applications can be separated into smaller components like this…</span>
+-   <span id="c153">React components can be created using ES6 class like this.</span>
+
+<!-- -->
+
+    import React from 'react';
+
+    class Hello extends React.Component {
+      render () {
+        return <h1>Hello, {this.props.name}!</h1>;
+      }
+    }
+
+    export default Hello;
+
+-   <span id="82a3">At the top with have the code to bring react and react dom libraries in.</span>
+-   <span id="3b52">React library is used for the react syntax.</span>
+-   <span id="281c">React DOM is used to update the DOM.</span>
+-   <span id="8818">We then have the Class section which creates the component.</span>
+-   <span id="aad6">Render() describes the specific UI for the component.</span>
+-   <span id="2165">Return is used to return the JSX</span>
+-   <span id="7757">And Finally ReactDOM.render is used to update the DOM.</span>
+
+#### 8. Data flow with props
+
+Small examples of data flow, see if you can get the code to work.
+
+#### 9. Creating lists with map
+
+The parent component passes down to the child component as props.
+
+Using props to access names and map to loop through each list item. Then passing this by using props.
+
+Checking data to see if Boolean is true then adding detail to the list.
+
+#### 10. Prop types
+
+PropTypes allow you to declare the type (string, number, function, etc) of each prop being passed to a component. Then if a prop passed in isn’t of the declared type you’ll get a warning in the console.
+
+------------------------------------------------------------------------
+
+### Excerpt from the React website:
+
+### React — A JavaScript library for building user interfaces
+
+> *A JavaScript library for building user interfaces*
+
+#### Declarative
+
+React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+
+Declarative views make your code more predictable and easier to debug.
+
+#### A Simple Component
+
+React components implement a `render()` method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by `render()` via `this.props`.
+
+JSX is optional and not required to use React. Try the <a href="https://babeljs.io/repl/#?presets=react&amp;code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA" class="markup--anchor markup--p-anchor">Babel REPL</a> to see the raw JavaScript code produced by the JSX compilation step.
+
+In addition to taking input data (accessed via `this.props`), a component can maintain internal state data (accessed via `this.state`). When a component’s state data changes, the rendered markup will be updated by re-invoking `render()`.
+
+#### An Application
+
+Using `props` and `state`, we can put together a small Todo application. This example uses `state` to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation.
+
+#### A Component Using External Plugins
+
+React allows you to interface with other libraries and frameworks. This example uses remarkable, an external Markdown library, to convert the `<textarea>`’s value in real time.
+
+------------------------------------------------------------------------
+
+### React Cheat Sheet:
+
+React-Tutorial-1:
+
+<a href="https://replit.com/@bgoonz/react-tutorial-1" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://replit.com/@bgoonz/react-tutorial-1"><strong>react-tutorial-1</strong><br />
+<em>A React repl by bgoonz</em>replit.com</a><a href="https://replit.com/@bgoonz/react-tutorial-1" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+React Boilerplate:
+
+<a href="https://replit.com/@bgoonz/Reactjs-Babel-Webpack-Boilerplate#index.js" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://replit.com/@bgoonz/Reactjs-Babel-Webpack-Boilerplate#index.js"><strong>React.js + Babel + Webpack Boilerplate</strong><br />
+<em>Created by @eankeen | The ultimate trifecta - React, Babel, and Webpack - complete with hot module reloading and a…</em>replit.com</a><a href="https://replit.com/@bgoonz/Reactjs-Babel-Webpack-Boilerplate#index.js" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+For more resources visit:
+
+<a href="https://github.com/bgoonz" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://github.com/bgoonz"><strong>bgoonz - Overview</strong><br />
+<em>Web Developer, Electrical Engineer https://bryanguner.medium.com/ https://portfolio42.netlify.app/…</em>github.com</a><a href="https://github.com/bgoonz" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+By <a href="https://medium.com/@bryanguner" class="p-author h-card">Bryan Guner</a> on [May 19, 2021](https://medium.com/p/cda01615a186).
+
+<a href="https://medium.com/@bryanguner/introductory-react-part-2-cda01615a186" class="p-canonical">Canonical link</a>
+
+Exported from [Medium](https://medium.com) on August 31, 2021.
+
+Beginners Guide To Python
+=========================
+
+My favorite language for maintainability is Python. It has simple, clean syntax, object encapsulation, good library support, and optional…
+
+------------------------------------------------------------------------
+
+### Beginners Guide To Python
+
+#### My favorite language for maintainability is Python. It has simple, clean syntax, object encapsulation, good library support, and optional named parameters.
+
+> Bram Cohen
+
+#### Article on basic web development setup… it is geared towards web but VSCode is an incredibly versatile editor and this stack really could suit just about anyone working in the field of computer science.
+
+<a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b"><strong>A list of all of my articles to link to future posts</strong><br />
+<em>You should probably skip this one… seriously it’s just for internal use!</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/a-list-of-all-of-my-articles-to-link-to-future-posts-1f6f88ebdf5b" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://golden-lobe-519.notion.site/PYTHON-cb857bd3fa4b4940928842a94dce856d" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://golden-lobe-519.notion.site/PYTHON-cb857bd3fa4b4940928842a94dce856d"><strong>PYTHON</strong><br />
+<em>Keywords: ***and del for is raise assert elif from lambda return break else global not try class except if or while…</em>golden-lobe-519.notion.site</a><a href="https://golden-lobe-519.notion.site/PYTHON-cb857bd3fa4b4940928842a94dce856d" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<figure><img src="https://cdn-images-1.medium.com/max/1200/1*per3wJrNyChrgJtUBySo1Q.png" class="graf-image" /></figure>
+
+<a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe"><strong>Basic Web Development Environment Setup</strong><br />
+<em>Windows Subsystem for Linux (WSL) and Ubuntu</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/basic-web-development-environment-setup-9f36c3f15afe" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### Related Articles:
+
+<a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f"><strong>Python Problems &amp; Solutions For Beginners</strong><br />
+<em>Introduction to python taught through example problems. Solutions are included in embedded repl.it at the bottom of…</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/beginner-python-problems-solutions-dd631e9c3a9f" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12"><strong>Notes I Wish I Had When I Started Learning Python</strong><br />
+<em>Plus resources for learning data structures and algorithms in python at the bottom of this article!</em>medium.com</a><a href="https://medium.com/webdevhub/notes-i-wish-i-had-when-i-started-learning-python-16ce4244be12" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://bryanguner.medium.com/getting-comfortable-with-python-1371581a4971" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://bryanguner.medium.com/getting-comfortable-with-python-1371581a4971"><strong>Getting Comfortable With Python:</strong><br />
+<em>An introduction by example</em>bryanguner.medium.com</a><a href="https://bryanguner.medium.com/getting-comfortable-with-python-1371581a4971" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+<a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb"><strong>Python Study Guide for a JavaScript Programmer</strong><br />
+<em>A guide to commands in Python from what you know in JavaScript</em>levelup.gitconnected.com</a><a href="https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb" class="js-mixtapeImage mixtapeImage u-ignoreBlock"></a>
+
+### The Repository & Live Site Behind This Article:
+
+### About Python(Taken From Tutorial Page Of Docs):
+
+<a href="https://docs.python.org/3/tutorial/appetite.html" class="markup--anchor markup--p-anchor">Python enables programs to be written compactly and readably. Programs written in Python are typically much shorter than equivalent C, C++, or Java programs, for several reasons:</a>
+
+-   <span id="894d">the high-level data types allow you to express complex operations in a single statement;</span>
+-   <span id="48ef">statement grouping is done by indentation instead of beginning and ending brackets;</span>
+-   <span id="f361">no variable or argument declarations are necessary.</span>
+
+### Installing Python:
+
+### Windows
+
+To determine if your Windows computer already has Python 3:
+
+1.  <span id="4838">Open a command prompt by entering command prompt in the Windows 10 search box and selecting the Command Prompt App in the Best match section of the results.</span>
+2.  <span id="f6bc">Enter the following command and then select the Enter key:</span>
+3.  <span id="24ec">ConsoleCopy</span>
+
+`python --version`
+
+<figure><img src="https://cdn-images-1.medium.com/max/800/1*59V2ZNbyJfsdGR2N20PM7w.png" class="graf-image" /></figure>1.  <span id="e87f">Running `python --version` may not return a value, or may return an error message stating *'python' is not recognized as an internal or external command, operable program or batch file.* This indicates Python is not installed on your Windows system.</span>
+2.  <span
