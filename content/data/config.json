@@ -12,6 +12,15 @@
         "has_nav": true,
         "nav_links": [
             {
+                "label": "Navigation",
+                "url": "/navigation",
+                "style": "button",
+                "icon_class": "dev",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
                 "label": "Home",
                 "url": "/",
                 "style": "link"
@@ -31,15 +40,6 @@
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "link"
-            },
-            {
-                "label": "Navigation",
-                "url": "/navigation",
-                "style": "button",
-                "icon_class": "dev",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
             },
             {
                 "label": "Blog Backups",
